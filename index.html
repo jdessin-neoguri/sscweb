@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>세소찾더보기</title>
+  <meta name="color-scheme" content="light dark">
+  <script src="theme.js"></script>
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css"
@@ -22,10 +24,13 @@
     <div class="site-description-box">
       <p>전 세계의 음악을 찾아볼 수 있는 개인 음악 아카이브입니다.<br>음악 선정에는 개인 취향이 (많이) 반영됩니다. 곡 추천: leecm0070@gmail.com</p>
     </div>
-    <button type="button" id="random-dice-button" title="랜덤 곡 보기" aria-label="랜덤 곡 보기">
-      <span class="dice-emoji">🎲</span>
-      랜덤 곡
-    </button>
+    <div class="header-actions">
+      <button type="button" id="random-dice-button" title="랜덤 곡 보기" aria-label="랜덤 곡 보기">
+        <span class="dice-emoji">🎲</span>
+        랜덤 곡
+      </button>
+      <button type="button" id="theme-toggle-button" title="다크 모드로 전환" aria-label="다크 모드로 전환">🌙</button>
+    </div>
   </header>
 
   <div id="flag-strip"></div>
@@ -37,8 +42,8 @@
       <input
         type="text"
         id="tag-search"
-        aria-label="곡, 아티스트, 작곡·작사자, 언어, 태그, 설명 검색"
-        placeholder="곡, 아티스트, 작곡·작사자, 언어, 태그, 설명 검색"
+        aria-label="곡, 아티스트, 국가, 언어, 태그 등 검색 (예: 독일 군가)"
+        placeholder="곡, 아티스트, 국가, 언어, 태그 등 검색 (예: 독일 군가)"
       />
     </div>
 
@@ -54,10 +59,10 @@
       </button>
       <button
         type="button"
-        class="view-tab active"
+        class="view-tab"
         data-mode="map"
         role="tab"
-        aria-selected="true"
+        aria-selected="false"
       >
         지도
       </button>
@@ -81,10 +86,10 @@
       </button>
       <button
         type="button"
-        class="view-tab"
+        class="view-tab active"
         data-mode="about"
         role="tab"
-        aria-selected="false"
+        aria-selected="true"
       >
         소개
       </button>
@@ -93,7 +98,7 @@
   </div>
 
   <!-- 국가 선택: 목록 -->
-  <div id="country-view">
+  <div id="country-view" style="display: none;">
 
     <div class="country-controls">
       <label for="country-sort">국가 정렬</label>
@@ -125,21 +130,9 @@
 
     <div id="map-legend">
       <span class="map-legend-label">곡 수</span>
-      <span class="map-legend-item">
-        <span class="map-legend-swatch count-tier-1"></span>1
-      </span>
-      <span class="map-legend-item">
-        <span class="map-legend-swatch count-tier-2"></span>2~4
-      </span>
-      <span class="map-legend-item">
-        <span class="map-legend-swatch count-tier-3"></span>5~10
-      </span>
-      <span class="map-legend-item">
-        <span class="map-legend-swatch count-tier-4"></span>11~20
-      </span>
-      <span class="map-legend-item">
-        <span class="map-legend-swatch count-tier-5"></span>21+
-      </span>
+      <span>1</span>
+      <span class="map-legend-bar" role="img" aria-label="곡 수: 1곡(연함)에서 21곡 이상(진함)"></span>
+      <span>21+</span>
     </div>
 
   </div>
@@ -182,7 +175,7 @@
       아이콘(span.about-rule-icon)만 다른 이모지로 바꿔도 됩니다.
     - 곡 수·국가 수 뱃지(#about-stat-badge)는 script.js가 자동으로 채웁니다.
   -->
-  <div id="about-view" style="display: none;">
+  <div id="about-view">
     <div class="about-content">
 
       <div class="about-hero">
@@ -201,31 +194,31 @@
         <div class="about-rule">
           <span class="about-rule-icon">🌐</span>
           <p>
-            곡의 국적은 가수(또는 작곡가를) 기준으로 하며, 일부 속령은 본국과 별개의 지역으로 분류합니다.
+            곡의 국적은 가수(없으면 작곡가를) 기준으로 하며, 몇몇 속령은 본국과 별개의 지역으로 분류합니다.
           </p>
         </div>
         <div class="about-rule">
-          <span class="about-rule-icon">❓</span>
+          <span class="about-rule-icon">©️</span>
           <p>
-            번안곡, 리메이크곡이 원곡보다 유명하거나 그에 준하는 경우 원곡과 별개의 곡으로 등록될 수 있습니다.
+            번안곡, 리메이크곡이 원곡과 별개의 곡으로 등록될 수도 있습니다.
           </p>
         </div>
         <div class="about-rule">
-          <span class="about-rule-icon">🎵</span>
+          <span class="about-rule-icon">🖕</span>
           <p>
-            국내 음악은 군가 등 특수한 것들만 한정적으로 등록합니다. 북한 음악은 국외 음악으로 간주합니다.
+            곡 선정 기준은 제작자 마음대로입니다.
           </p>
         </div>
         <div class="about-rule">
           <span class="about-rule-icon">✍️</span>
           <p>
-            가수가 직접 작곡에 참여한 경우, 작곡가명은 가수의 활동명과 다르게 표기되었을 수 있습니다.
+            작곡가명은 가수 활동명과 다르게 표기되었을 수 있습니다.
           </p>
         </div>
         <div class="about-rule">
           <span class="about-rule-icon">🔤</span>
           <p>
-            제목이 비(非)로마자 언어인 경우에만 독음이나 번역을 표기하되, 일부 클래식 음악은 예외적으로 영어 제목을 표기합니다.
+            제목이 비(非)로마자 언어인 경우에는 독음이나 번역을 표기합니다.
           </p>
         </div>
       </div>

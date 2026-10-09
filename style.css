@@ -15,10 +15,138 @@ select {
     --space-8: 48px;
 }
 
+:root {
+    color-scheme: light;
+
+    --bg: #f6f1ec;
+    --surface: #fffdfb;
+    --surface-2: #f3ece6;
+    --surface-glass: rgba(255, 253, 251, 0.92);
+    --surface-link: #f7efe3;
+    --hover: #ece3db;
+
+    --ink: #26302f;
+    --ink-2: #3b4745;
+    --heading: #2b3c3b;
+    --muted: #6f6a64;
+    --faint: #b6aba1;
+
+    --line: #e3d9d1;
+    --line-strong: #cfc2b8;
+
+    --accent: #374f4e;
+    --on-accent: #fffdfb;
+    --accent-soft: #e6ece9;
+    --accent-soft-2: #d6e1dd;
+    --focus-ring: rgba(209, 128, 30, 0.45);
+    --focus-ring-soft: rgba(209, 128, 30, 0.2);
+
+    --link: #2f6561;
+    --link-2: #8d6a36;
+
+    --ocean: #e8eeec;
+    --land: #dacdc4;
+    --tier-1: #c3d3cd;
+    --tier-2: #96b2aa;
+    --tier-3: #6b8f87;
+    --tier-4: #4a6e68;
+    --tier-5: #2c4443;
+    --map-hover: #d1801e;
+
+    --shadow-sm: rgba(55, 40, 25, 0.08);
+    --shadow-lg: rgba(55, 40, 25, 0.16);
+}
+
+:root[data-theme="dark"] {
+    color-scheme: dark;
+
+    --bg: #161c1c;
+    --surface: #1f2827;
+    --surface-2: #273231;
+    --surface-glass: rgba(31, 40, 39, 0.92);
+    --surface-link: #2a2e29;
+    --hover: #2e3a39;
+
+    --ink: #ece4dc;
+    --ink-2: #d3cac1;
+    --heading: #f0e3d4;
+    --muted: #a49b92;
+    --faint: #5f6a68;
+
+    --line: #313e3d;
+    --line-strong: #455350;
+
+    --accent: #dba56b;
+    --on-accent: #1b2221;
+    --accent-soft: #33403c;
+    --accent-soft-2: #3d4c47;
+    --focus-ring: rgba(219, 165, 107, 0.5);
+    --focus-ring-soft: rgba(219, 165, 107, 0.22);
+
+    --link: #8fc7bf;
+    --link-2: #e0b783;
+
+    --ocean: #1b2524;
+    --land: #2c3736;
+    --tier-1: #3b5a55;
+    --tier-2: #4d7a72;
+    --tier-3: #65a095;
+    --tier-4: #86c3b6;
+    --tier-5: #b4e2d6;
+    --map-hover: #e6a04a;
+
+    --shadow-sm: rgba(0, 0, 0, 0.35);
+    --shadow-lg: rgba(0, 0, 0, 0.55);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        color-scheme: dark;
+
+        --bg: #161c1c;
+        --surface: #1f2827;
+        --surface-2: #273231;
+        --surface-glass: rgba(31, 40, 39, 0.92);
+        --surface-link: #2a2e29;
+        --hover: #2e3a39;
+
+        --ink: #ece4dc;
+        --ink-2: #d3cac1;
+        --heading: #f0e3d4;
+        --muted: #a49b92;
+        --faint: #5f6a68;
+
+        --line: #313e3d;
+        --line-strong: #455350;
+
+        --accent: #dba56b;
+        --on-accent: #1b2221;
+        --accent-soft: #33403c;
+        --accent-soft-2: #3d4c47;
+        --focus-ring: rgba(219, 165, 107, 0.5);
+        --focus-ring-soft: rgba(219, 165, 107, 0.22);
+
+        --link: #8fc7bf;
+        --link-2: #e0b783;
+
+        --ocean: #1b2524;
+        --land: #2c3736;
+        --tier-1: #3b5a55;
+        --tier-2: #4d7a72;
+        --tier-3: #65a095;
+        --tier-4: #86c3b6;
+        --tier-5: #b4e2d6;
+        --map-hover: #e6a04a;
+
+        --shadow-sm: rgba(0, 0, 0, 0.35);
+        --shadow-lg: rgba(0, 0, 0, 0.55);
+    }
+}
+
 body {
     font-family: "Noto Sans", "Noto Sans KR", Arial, sans-serif;
-    background: #f5f7fa;
-    color: #222;
+    background: var(--bg);
+    color: var(--ink);
 
     max-width: 1100px;
     margin: var(--space-7) auto;
@@ -27,7 +155,13 @@ body {
     line-height: 1.6;
 }
 
+/* ========================================
+   헤더 (글꼴: 고운바탕)
+======================================== */
+
 .site-header {
+    font-family: "Gowun Batang", serif;
+
     display: flex;
     align-items: stretch;
 
@@ -40,7 +174,6 @@ body {
     align-items: center;
     justify-content: center;
 
-    background: #f5f7fa;
     border-radius: 14px;
 
     padding: var(--space-4) var(--space-6);
@@ -49,9 +182,8 @@ body {
 .site-title-box h1 {
     margin: 0;
 
-    font-family: "Gowun Batang", serif;
     font-size: 2.4rem;
-    color: #222;
+    color: var(--ink);
 
     white-space: nowrap;
 }
@@ -68,24 +200,27 @@ body {
 .site-description-box p {
     margin: 0;
 
-    background: #f5f7fa;
-    border-radius: 10px;
-
     padding: var(--space-4);
 
-    color: #444;
+    color: var(--ink-2);
     font-size: 0.95rem;
     line-height: 1.5;
 }
 
-#random-dice-button {
+.header-actions {
     flex-shrink: 0;
 
-    appearance: none;
-    border: none;
-    background: #f5f7fa;
+    display: flex;
+    align-items: stretch;
+    gap: var(--space-2);
+}
 
-    padding: 0 var(--space-5);
+#random-dice-button,
+#theme-toggle-button {
+    appearance: none;
+    border: 1px solid var(--line);
+    background: var(--surface);
+
     border-radius: 14px;
 
     display: flex;
@@ -93,23 +228,43 @@ body {
     justify-content: center;
     gap: var(--space-2);
 
-    font-size: 1rem;
     font-weight: 600;
-    color: #444;
+    color: var(--ink-2);
     white-space: nowrap;
 
     cursor: pointer;
 
-    transition: background 0.2s;
+    transition:
+        background 0.2s,
+        border-color 0.2s;
+}
+
+#random-dice-button {
+    padding: 0 var(--space-5);
+    font-size: 1rem;
+}
+
+#theme-toggle-button {
+    padding: 0 var(--space-4);
+    font-size: 1.3rem;
 }
 
 #random-dice-button .dice-emoji {
     font-size: 1.8rem;
 }
 
-#random-dice-button:hover {
-    background: #e2e6ec;
+#random-dice-button:hover,
+#theme-toggle-button:hover {
+    background: var(--hover);
+    border-color: var(--line-strong);
 }
+
+#random-dice-button:focus-visible,
+#theme-toggle-button:focus-visible {
+    outline: 3px solid var(--focus-ring);
+    outline-offset: 2px;
+}
+
 
 /* ========================================
    검색 + 레이아웃 모드 전환
@@ -130,11 +285,11 @@ body {
     gap: var(--space-1);
     padding: var(--space-1);
 
-    background: white;
+    background: var(--surface);
     border-radius: 999px;
 
     box-shadow:
-        0 2px 12px rgba(0, 0, 0, 0.08);
+        0 2px 12px var(--shadow-sm);
 
     width: fit-content;
     flex-shrink: 0;
@@ -153,7 +308,7 @@ body {
 
     font-size: 0.9rem;
     font-weight: 600;
-    color: #667;
+    color: var(--muted);
 
     cursor: pointer;
 
@@ -163,21 +318,13 @@ body {
 }
 
 .view-tab:hover {
-    background: #f0f3f7;
+    background: var(--hover);
 }
 
 .view-tab.active {
-    background: #4f8ef7;
-    color: white;
+    background: var(--accent);
+    color: var(--on-accent);
 }
-
-/* 버블 탭처럼 <a>로 만든, 다른 페이지로 진짜 이동하는 탭 */
-.view-tab-external {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
-}
-
 
 /* ========================================
    국가 선택 화면
@@ -202,12 +349,12 @@ body {
 .continent-heading {
     font-size: 1.05rem;
     font-weight: 700;
-    color: #444;
+    color: var(--ink-2);
 
     margin: 0 0 var(--space-3);
     padding-bottom: var(--space-2);
 
-    border-bottom: 1px solid #e2e6ec;
+    border-bottom: 1px solid var(--line);
 }
 
 .continent-country-list {
@@ -239,7 +386,7 @@ body {
     bottom: 6px;
 
     width: 2px;
-    background: #dbe3ee;
+    background: var(--line);
 }
 
 .timeline-group {
@@ -261,27 +408,27 @@ body {
     height: 12px;
     border-radius: 50%;
 
-    background: #4f8ef7;
-    border: 3px solid white;
+    background: var(--accent);
+    border: 3px solid var(--surface);
 
-    box-shadow: 0 0 0 2px #4f8ef7;
+    box-shadow: 0 0 0 2px var(--accent);
 }
 
 /* "연도 미상" 그룹은 시간축 위 정확한 위치가 없으므로 점 색을 다르게 */
 .timeline-group-unknown::before {
-    background: #b0b8c4;
-    box-shadow: 0 0 0 2px #b0b8c4;
+    background: var(--faint);
+    box-shadow: 0 0 0 2px var(--faint);
 }
 
 .timeline-heading {
     font-size: 1.05rem;
     font-weight: 700;
-    color: #444;
+    color: var(--ink-2);
 
     margin: 0 0 var(--space-3);
     padding-bottom: var(--space-2);
 
-    border-bottom: 1px solid #e2e6ec;
+    border-bottom: 1px solid var(--line);
 }
 
 /* 그룹 안의 곡 목록은 국가/태그 화면과 같은 간략 카드(.song-list-compact) 그리드를 그대로 씀 */
@@ -311,38 +458,34 @@ body {
     margin: 0;
 
     cursor: pointer;
-    color: #3a4a5c;
+    color: var(--ink-2);
 
     transition: color 0.15s;
 }
 
 .tag-chip:hover {
-    color: #4f8ef7;
+    color: var(--accent);
 }
 
 .tag-chip:focus-visible {
-    outline: 2px solid rgba(79, 142, 247, 0.35);
+    outline: 2px solid var(--focus-ring);
     outline-offset: 2px;
     border-radius: 4px;
 }
 
-/* 마우스 올렸을 때 */
-
 .country-card:hover {
-    background: #eef4ff;
-    border-color: #4f8ef7;
+    background: var(--accent-soft);
+    border-color: var(--accent);
 }
 
 
-/* 클릭할 때 */
-
 .country-card:active {
-    background: #e2edff;
+    background: var(--accent-soft-2);
 }
 
 
 .country-card:focus-visible {
-    outline: 3px solid rgba(79, 142, 247, 0.35);
+    outline: 3px solid var(--focus-ring);
     outline-offset: 2px;
 }
 
@@ -387,19 +530,19 @@ body {
 .flag-strip-item:hover {
     transform: scale(1.25);
     box-shadow:
-        0 2px 6px rgba(0, 0, 0, 0.25);
+        0 2px 6px var(--shadow-lg);
 }
 
 .flag-strip-item:focus-visible {
-    outline: 2px solid #4f8ef7;
+    outline: 2px solid var(--accent);
     outline-offset: 2px;
 }
 
 .country-card {
     appearance: none;
 
-    border: 1px solid #e2e6ec;
-    background: white;
+    border: 1px solid var(--line);
+    background: var(--surface);
 
     border-radius: 8px;
 
@@ -428,7 +571,7 @@ body {
     width: 1.33333333em;
     height: 1em;
 
-    background: #e5e7eb;
+    background: var(--line);
     border-radius: 2px;
 
     vertical-align: middle;
@@ -441,7 +584,7 @@ body {
     font-weight: 700;
     line-height: 1;
 
-    color: #8b95a1;
+    color: var(--muted);
 }
 
 .country-list-flag {
@@ -453,12 +596,12 @@ body {
     font-size: 0.95rem;
     font-weight: 600;
 
-    color: #2c3e50;
+    color: var(--heading);
 }
 
 .country-count {
     font-size: 0.82rem;
-    color: #888;
+    color: var(--muted);
 }
 
 
@@ -475,6 +618,11 @@ body {
     margin-bottom: var(--space-5);
 }
 
+/* 곡 상세: 위쪽 제목 없이 돌아가기 버튼만 */
+.songs-view-detail #country-title {
+    display: none;
+}
+
 /* 랜덤 곡: 뒤로가기 버튼/제목 없이 곡 카드가 바로 나옴 */
 .songs-view-no-header .songs-view-header {
     display: none;
@@ -487,8 +635,19 @@ body {
     margin: 0;
 
     font-size: 1.8rem;
-    color: #2c3e50;
+    color: var(--heading);
 }
+
+@media (prefers-reduced-motion: reduce) {
+    .song-artwork.placeholder {
+        animation: none;
+    }
+
+    * {
+        transition: none !important;
+    }
+}
+
 
 .country-title-count {
     display: inline-block;
@@ -502,21 +661,19 @@ body {
 
     font-size: 0.85rem;
     font-weight: 600;
-    color: #4f8ef7;
+    color: var(--accent);
 
-    background: #eef4ff;
+    background: var(--accent-soft);
     border-radius: 999px;
 }
 
-
-/* 국가 목록으로 돌아가기 버튼 */
 
 #back-to-countries {
     grid-column: 1;
     justify-self: start;
 
-    border: 1px solid #d0d7de;
-    background: white;
+    border: 1px solid var(--line-strong);
+    background: var(--surface);
 
     padding:
         var(--space-2)
@@ -527,7 +684,7 @@ body {
     font-size: 14px;
     cursor: pointer;
 
-    color: #444;
+    color: var(--ink-2);
 
     transition:
         background 0.2s,
@@ -535,14 +692,9 @@ body {
 }
 
 #back-to-countries:hover {
-    background: #f0f3f7;
-    border-color: #bbb;
+    background: var(--hover);
+    border-color: var(--line-strong);
 }
-
-
-/* ========================================
-   필터
-======================================== */
 
 
 /* ========================================
@@ -565,10 +717,10 @@ body {
 
     font-size: 16px;
 
-    border: 1px solid #d0d7de;
+    border: 1px solid var(--line-strong);
     border-radius: 12px;
 
-    background: white;
+    background: var(--surface);
 
     transition: all 0.2s;
 }
@@ -576,14 +728,14 @@ body {
 .search-bar input:focus {
     outline: none;
 
-    border-color: #4f8ef7;
+    border-color: var(--accent);
 
     box-shadow:
-        0 0 0 3px rgba(79, 142, 247, 0.15);
+        0 0 0 3px var(--focus-ring-soft);
 }
 
 .search-bar input::placeholder {
-    color: #888;
+    color: var(--muted);
 }
 
 
@@ -592,7 +744,7 @@ body {
 ======================================== */
 
 #song-list > div {
-    background: white;
+    background: var(--surface);
 
     border-radius: 16px;
 
@@ -600,7 +752,7 @@ body {
     margin-bottom: var(--space-5);
 
     box-shadow:
-        0 3px 12px rgba(0, 0, 0, 0.08);
+        0 3px 12px var(--shadow-sm);
 
     transition:
         transform 0.2s,
@@ -608,14 +760,14 @@ body {
 }
 
 #song-list > div.has-links {
-    background-color: #eff7ff;
+    background-color: var(--surface-link);
 }
 
 #song-list > div:hover {
     transform: translateY(-2px);
 
     box-shadow:
-        0 8px 20px rgba(0, 0, 0, 0.12);
+        0 8px 20px var(--shadow-lg);
 }
 
 #song-list h2 {
@@ -624,7 +776,7 @@ body {
         0
         var(--space-4);
 
-    color: #2c3e50;
+    color: var(--heading);
 }
 
 /* ---------- 곡 카드 내부 레이아웃 ---------- */
@@ -663,17 +815,21 @@ body {
 .song-artwork {
     flex-shrink: 0;
 
-    width: 96px;
-    height: 96px;
-
     border-radius: 14px;
     overflow: hidden;
 
-    background: #eef1f5;
+    background: var(--surface-2);
 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.song-header .song-artwork {
+    width: 168px;
+    height: 168px;
+
+    border-radius: 18px;
 }
 
 .song-artwork img {
@@ -696,8 +852,8 @@ body {
 .song-artwork.no-artwork::before {
     content: "♪";
 
-    font-size: 2.2rem;
-    color: #c7cdd6;
+    font-size: 3.2rem;
+    color: var(--faint);
 }
 
 
@@ -712,6 +868,14 @@ body {
 }
 
 .song-card-compact {
+    background: var(--surface);
+    border-radius: 16px;
+    box-shadow: 0 3px 12px var(--shadow-sm);
+
+    transition:
+        transform 0.2s,
+        box-shadow 0.2s;
+
     display: flex;
     flex-direction: column;
 
@@ -721,6 +885,11 @@ body {
     margin-bottom: 0;
 
     cursor: pointer;
+}
+
+.song-card-compact:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px var(--shadow-lg);
 }
 
 .song-artwork-compact {
@@ -749,7 +918,7 @@ body {
 
     font-size: 0.95rem;
     font-weight: 700;
-    color: #2c3e50;
+    color: var(--heading);
 }
 
 .compact-song-artist {
@@ -760,7 +929,7 @@ body {
     margin-top: 2px;
 
     font-size: 0.82rem;
-    color: #888;
+    color: var(--muted);
 }
 
 .song-meta {
@@ -776,17 +945,17 @@ body {
 
     margin-bottom: var(--space-1);
 
-    color: #444;
+    color: var(--ink-2);
 }
 
 .song-songwriters {
     font-size: 0.82rem;
-    color: #888;
+    color: var(--muted);
     line-height: 1.4;
 }
 
 .meta-divider {
-    color: #aaa;
+    color: var(--faint);
 }
 
 .song-countries {
@@ -810,13 +979,15 @@ body {
 .song-country .flag-unclassified {
     font-size: 0.95rem;
 
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--line-strong);
 }
 
 .song-tags {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+
+    margin-top: var(--space-3);
 
     gap: var(--space-1);
 }
@@ -829,13 +1000,13 @@ body {
 
     padding-left: var(--space-5);
 
-    border-left: 1px solid #e5e7eb;
+    border-left: 1px solid var(--line);
 }
 
 .song-memo {
     margin: 0 0 var(--space-4);
 
-    color: #444;
+    color: var(--ink-2);
     line-height: 1.65;
 }
 
@@ -849,7 +1020,30 @@ body {
 }
 
 strong {
-    color: #333;
+    color: var(--ink-2);
+}
+
+
+/* ========================================
+   같은 아티스트의 다른 곡
+======================================== */
+
+.related-songs {
+    margin-top: var(--space-6);
+    padding-top: var(--space-5);
+
+    border-top: 1px solid var(--line);
+}
+
+.related-songs-heading {
+    margin: 0 0 var(--space-4);
+
+    font-size: 1.05rem;
+    color: var(--heading);
+}
+
+#song-list > div > .related-songs .song-card-compact {
+    box-shadow: 0 1px 6px var(--shadow-sm);
 }
 
 
@@ -858,7 +1052,7 @@ strong {
 ======================================== */
 
 a {
-    color: #2563eb;
+    color: var(--link);
 
     text-decoration: none;
 
@@ -870,11 +1064,11 @@ a:hover {
 }
 
 .blog-link {
-    color: #a8725f;
+    color: var(--link-2);
 }
 
 .youtube-link {
-    color: #2563eb;
+    color: var(--link);
 }
 
 
@@ -885,8 +1079,8 @@ a:hover {
 .tag {
     display: inline-block;
 
-    background: #eef4ff;
-    color: #2563eb;
+    background: var(--accent-soft);
+    color: var(--link);
 
     border-radius: 999px;
 
@@ -925,13 +1119,33 @@ a:hover {
         font-size: 0.9rem;
     }
 
-    #random-dice-button {
+    .header-actions {
         width: 100%;
+    }
+
+    #random-dice-button {
+        flex: 1;
         padding: var(--space-3);
     }
 
     #flag-strip {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+
+        margin: var(--space-4) 0;
+        padding-bottom: var(--space-1);
+
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    #flag-strip::-webkit-scrollbar {
         display: none;
+    }
+
+    .flag-strip-item {
+        flex-shrink: 0;
+        padding: var(--space-1);
     }
 
     .controls-row {
@@ -968,11 +1182,11 @@ a:hover {
         padding: var(--space-4);
     }
 
-    .song-artwork {
-        width: 72px;
-        height: 72px;
+    .song-header .song-artwork {
+        width: 116px;
+        height: 116px;
 
-        border-radius: 12px;
+        border-radius: 14px;
     }
 
     .song-artwork.no-artwork::before {
@@ -1037,7 +1251,7 @@ a:hover {
         padding-top: var(--space-4);
 
         border-left: none;
-        border-top: 1px solid #e5e7eb;
+        border-top: 1px solid var(--line);
     }
 
     .view-tab {
@@ -1100,28 +1314,8 @@ a:hover {
         padding:
             var(--space-3);
     }
-
-    #timeline-list {
-        padding-left: 20px;
-    }
-
-    #timeline-list::before {
-        left: 4px;
-    }
-
-    .timeline-group::before {
-        left: -20px;
-        width: 10px;
-        height: 10px;
-    }
 }
 
-
-/* ---------- 구분선 ---------- */
-
-hr {
-    display: none;
-}
 
 .hidden {
     display: none !important;
@@ -1137,13 +1331,13 @@ hr {
     max-width: 720px;
     margin: 0 auto var(--space-7);
 
-    background: white;
+    background: var(--surface);
     border-radius: 16px;
 
     padding: var(--space-6);
 
     box-shadow:
-        0 3px 12px rgba(0, 0, 0, 0.08);
+        0 3px 12px var(--shadow-sm);
 
     line-height: 1.8;
 }
@@ -1160,7 +1354,7 @@ hr {
 
 .about-hero h2 {
     margin: 0 0 var(--space-3);
-    color: #2c3e50;
+    color: var(--heading);
 }
 
 .about-stat-badge {
@@ -1171,12 +1365,12 @@ hr {
         var(--space-1)
         var(--space-4);
 
-    background: #eef4ff;
+    background: var(--accent-soft);
     border-radius: 999px;
 
     font-size: 0.85rem;
     font-weight: 600;
-    color: #4f8ef7;
+    color: var(--accent);
 }
 
 .about-intro {
@@ -1185,22 +1379,22 @@ hr {
         var(--space-4)
         var(--space-5);
 
-    background: #f8f9fb;
-    border-left: 4px solid #4f8ef7;
+    background: var(--surface-2);
+    border-left: 4px solid var(--accent);
     border-radius: 0 12px 12px 0;
 
     font-size: 1.02rem;
     line-height: 1.9;
-    color: #333;
+    color: var(--ink-2);
 }
 
 .about-intro strong {
-    color: #2563eb;
+    color: var(--link);
 }
 
 .about-rules-heading {
     margin: 0 0 var(--space-4);
-    color: #2c3e50;
+    color: var(--heading);
     font-size: 1.1rem;
 }
 
@@ -1219,7 +1413,7 @@ hr {
         var(--space-3)
         var(--space-4);
 
-    background: #f8f9fb;
+    background: var(--surface-2);
     border-radius: 10px;
 }
 
@@ -1231,7 +1425,7 @@ hr {
 
 .about-rule p {
     margin: 0;
-    color: #444;
+    color: var(--ink-2);
     line-height: 1.7;
 }
 
@@ -1247,7 +1441,7 @@ hr {
 
 .country-controls label {
     font-size: 0.9rem;
-    color: #666;
+    color: var(--muted);
 }
 
 .country-controls select {
@@ -1255,10 +1449,10 @@ hr {
         var(--space-2)
         var(--space-3);
 
-    border: 1px solid #ccc;
+    border: 1px solid var(--line-strong);
     border-radius: 10px;
 
-    background: white;
+    background: var(--surface);
 
     font-size: 0.9rem;
     cursor: pointer;
@@ -1272,7 +1466,7 @@ hr {
 #map-container {
     position: relative;
 
-    background: white;
+    background: var(--surface);
     border-radius: 16px;
     overflow: hidden;
 
@@ -1293,73 +1487,73 @@ hr {
 }
 
 .map-ocean {
-    fill: #eaf2fb;
+    fill: var(--ocean);
 }
 
 .map-country {
-    fill: #dfe4ea;
-    stroke: #f5f7fa;
+    fill: var(--land);
+    stroke: var(--bg);
     stroke-width: 0.5;
 }
 
 /* 곡 수가 많을수록 진한 색 (1곡 / 2~4곡 / 5~10곡 / 11~20곡 / 21곡 이상) */
 .map-country.count-tier-1 {
-    fill: #a3c4f3;
+    fill: var(--tier-1);
     transition: fill 0.15s;
 }
 
 .map-country.count-tier-2 {
-    fill: #82a6ec;
+    fill: var(--tier-2);
     transition: fill 0.15s;
 }
 
 .map-country.count-tier-3 {
-    fill: #6089e6;
+    fill: var(--tier-3);
     transition: fill 0.15s;
 }
 
 .map-country.count-tier-4 {
-    fill: #3e6cdf;
+    fill: var(--tier-4);
     transition: fill 0.15s;
 }
 
 .map-country.count-tier-5 {
-    fill: #1d4ed8;
+    fill: var(--tier-5);
     transition: fill 0.15s;
 }
 
 .map-country.has-songs:hover {
-    fill: #1544ab;
+    fill: var(--map-hover);
 }
 
 .map-dot {
-    stroke: white;
+    stroke: var(--surface);
     stroke-width: 1;
     transition: fill 0.15s;
 }
 
 .map-dot.count-tier-1 {
-    fill: #a3c4f3;
+    fill: var(--tier-1);
 }
 
 .map-dot.count-tier-2 {
-    fill: #82a6ec;
+    fill: var(--tier-2);
 }
 
 .map-dot.count-tier-3 {
-    fill: #6089e6;
+    fill: var(--tier-3);
 }
 
 .map-dot.count-tier-4 {
-    fill: #3e6cdf;
+    fill: var(--tier-4);
 }
 
 .map-dot.count-tier-5 {
-    fill: #1d4ed8;
+    fill: var(--tier-5);
 }
 
 .map-dot:hover {
-    fill: #1544ab;
+    fill: var(--map-hover);
 }
 
 #map-legend {
@@ -1367,7 +1561,7 @@ hr {
     flex-wrap: wrap;
     align-items: center;
 
-    gap: var(--space-3);
+    gap: var(--space-2);
 
     margin-top: var(--space-3);
     padding:
@@ -1375,50 +1569,33 @@ hr {
         var(--space-3);
 
     font-size: 0.82rem;
-    color: #666;
+    color: var(--muted);
 }
 
 .map-legend-label {
     font-weight: 600;
-    color: #444;
+    color: var(--ink-2);
 }
 
-.map-legend-item {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-}
+.map-legend-bar {
+    flex: 0 1 220px;
+    min-width: 120px;
+    height: 10px;
 
-.map-legend-swatch {
-    display: inline-block;
+    border-radius: 999px;
 
-    width: 14px;
-    height: 14px;
-    border-radius: 4px;
-}
-
-.map-legend-swatch.count-tier-1 {
-    background: #a3c4f3;
-}
-
-.map-legend-swatch.count-tier-2 {
-    background: #82a6ec;
-}
-
-.map-legend-swatch.count-tier-3 {
-    background: #6089e6;
-}
-
-.map-legend-swatch.count-tier-4 {
-    background: #3e6cdf;
-}
-
-.map-legend-swatch.count-tier-5 {
-    background: #1d4ed8;
+    background: linear-gradient(
+        to right,
+        var(--tier-1),
+        var(--tier-2),
+        var(--tier-3),
+        var(--tier-4),
+        var(--tier-5)
+    );
 }
 
 .map-error-text {
-    fill: #888;
+    fill: var(--muted);
     font-size: 14px;
 }
 
@@ -1429,8 +1606,8 @@ hr {
     top: var(--space-3);
     right: var(--space-3);
 
-    border: 1px solid #d0d7de;
-    background: white;
+    border: 1px solid var(--line-strong);
+    background: var(--surface);
 
     padding:
         var(--space-2)
@@ -1441,10 +1618,10 @@ hr {
     font-size: 13px;
     cursor: pointer;
 
-    color: #444;
+    color: var(--ink-2);
 
     box-shadow:
-        0 2px 8px rgba(0, 0, 0, 0.1);
+        0 2px 8px var(--shadow-sm);
 
     transition:
         background 0.2s,
@@ -1452,8 +1629,8 @@ hr {
 }
 
 #map-reset-zoom:hover {
-    background: #f0f3f7;
-    border-color: #bbb;
+    background: var(--hover);
+    border-color: var(--line-strong);
 }
 
 #map-unclassified-button {
@@ -1463,8 +1640,8 @@ hr {
     bottom: var(--space-3);
     left: var(--space-3);
 
-    border: 1px dashed #aab2bd;
-    background: rgba(255, 255, 255, 0.92);
+    border: 1px dashed var(--line-strong);
+    background: var(--surface-glass);
 
     padding:
         var(--space-2)
@@ -1475,10 +1652,10 @@ hr {
     font-size: 13px;
     cursor: pointer;
 
-    color: #667;
+    color: var(--muted);
 
     box-shadow:
-        0 2px 8px rgba(0, 0, 0, 0.1);
+        0 2px 8px var(--shadow-sm);
 
     transition:
         background 0.2s,
@@ -1486,6 +1663,6 @@ hr {
 }
 
 #map-unclassified-button:hover {
-    background: white;
-    border-color: #888;
+    background: var(--surface);
+    border-color: var(--muted);
 }

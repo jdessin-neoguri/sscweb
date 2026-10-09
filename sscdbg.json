@@ -3089,7 +3089,7 @@
     "year": "-128?",
     "artist": [],
     "songwriters": ["Athenaeus"],
-    "language": ["고대그리스어"],
+    "language": ["코이네그리스어"],
     "countries": ["GR"],
     "tags": ["고대", "종교음악"],
     "memo": "델포이 신전에서 발견된 2개의 아폴론 찬가 중 첫 번째. 5박자 운율",
@@ -4738,20 +4738,6 @@
     "image": "covers/271-국군.jpg"
   },
   {
-    "title": "팔각모 사나이",
-    "year": "1982",
-    "artist": [],
-    "songwriters": ["홍승용", "김강섭"],
-    "language": ["한국어"],
-    "countries": ["KR"],
-    "tags": ["군가"],
-    "memo": "해병대를 상징하는 군가.",
-    "youtube": [
-      {"title": "국방일보", "url": "https://www.youtube.com/watch?v=0fioKUKuDTw"}
-    ],
-    "image": "covers/271-국군.jpg"
-  },
-  {
     "title": "전선을 간다",
     "year": "1981",
     "artist": [],
@@ -4776,20 +4762,6 @@
     "memo": "생각보다 최근에 작곡된 육군 대표 군가 중 하나.",
     "youtube": [
       {"title": "국방일보", "url": "https://www.youtube.com/watch?v=_FHkspxHtHc"}
-    ],
-    "image": "covers/271-국군.jpg"
-  },
-  {
-    "title": "진짜 사나이",
-    "year": "1962",
-    "artist": [],
-    "songwriters": ["유호", "이흥렬"],
-    "language": ["한국어"],
-    "countries": ["KR"],
-    "tags": ["군가"],
-    "memo": "모르면 진짜 간첩인 군가.",
-    "youtube": [
-      {"title": "가사", "url": "https://www.youtube.com/watch?v=grIPlM4-iyM"}
     ],
     "image": "covers/271-국군.jpg"
   },
@@ -6944,18 +6916,18 @@
     "image": "covers/408-ciki-ciki.jpg"
   },
   {
-    "title": "STORM",
-    "year": "2026",
-    "artist": ["Gener8ion","Yung Lean"],
-    "songwriters": ["Benoit Heitz","Canblaster","Jonatan Leandoer"],
-    "language": ["영어"],
-    "countries": ["FR","SE"],
-    "tags": ["인디","일렉트로팝","얼터너티브팝"],
-    "memo": "뮤비 속 군무가 화제를 끈 곡.",
+    "title": "깊은 밤을 날아서",
+    "year": "1987",
+    "artist": ["이문세"],
+    "songwriters": ["이영훈"],
+    "language": ["한국어"],
+    "countries": ["KR"],
+    "tags": ["팝","발라드","포크"],
+    "memo": "궁전으로 갈 수도 있어.",
     "youtube": [
-      {"title": "MV", "url": "https://youtu.be/x6_mbnsh6VU?si=LYgd5c4Br3pzM9Ly"}
+      {"title": "음원", "url": "https://youtu.be/E6dYA7qlXHU?si=3PuryHZNoeRyhpuA"}
     ],
-    "image": "covers/409-gener8ion.jpg"
+    "image": "covers/409-이문세4집.jpg"
   },
   {
     "title": "Gabriel's Oboe",
@@ -7626,7 +7598,7 @@
     "youtube": [
       {"title": "Slim Dusty 버전", "url": "https://youtu.be/FqtttbbYfSM?si=MATUDlUTK9F7po4T"},
       {"title": "합창 버전", "url": "https://www.youtube.com/watch?v=WZ52jOcXlfc"},
-      {"title": "문명 6 호주 BGM (원자 시대)", "url": "https://www.youtube.com/watch?v=oNoy6AJ3-HY"}
+      {"title": "문명 6 호주 원자시대 OST", "url": "https://www.youtube.com/watch?v=oNoy6AJ3-HY"}
     ],
     "image": "covers/455-waltzing-matilda.jpg"
   },
@@ -7783,5 +7755,390 @@
       {"title": "MV", "url": "https://www.youtube.com/watch?v=Pk-fhXPbCt0"}
     ],
     "image": "covers/466-3roos-elneel.jpg"
+  },
+  {
+    "title": "1, 2, 3",
+    "year": "2018",
+    "artist": ["Sofía Reyes","Jason Derulo","De La Ghetto"],
+    "songwriters": ["Sofía Reyes","Jason Derulo","De La Ghetto","Nicole Zignago","Ricardo Montaner","Jon Leone","Charlie Guerrero"],
+    "language": ["스페인어","영어"],
+    "countries": ["MX","US"],
+    "tags": ["레게톤","라틴팝"],
+    "memo": "소피아 레예스의 대표곡.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/p03TIGqEc8o?si=iNhgafkCO6sC7kZd"}
+    ],
+    "image": "covers/467-123.jpg"
+  },
+  {
+    "title": "Warriors",
+    "year": "2014",
+    "artist": ["Imagine Dragons"],
+    "songwriters": ["Alex da Kid","Ben McKee","Josh Mosser","Daniel Platzman","Dan Reynolds","Wayne Sermon"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["록","게임음악","아레나록"],
+    "memo": "LOL 2014 월즈 테마곡.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/fmI_Ndrxy14?si=ilkN3JxFWM3F1M8s"},
+      {"title": "2020 시즌 시네마틱 (ft. 2WEI, Edda Hayes)", "url": "https://www.youtube.com/watch?v=aR-KAldshAE"}
+    ],
+    "image": "covers/468-warriors.jpg"
+  },
+  {
+    "title": "Gyöngyhajú lány",
+    "year": "1970",
+    "artist": ["Omega"],
+    "songwriters": ["Gábor Presser","Anna Adamis"],
+    "language": ["헝가리어"],
+    "countries": ["HU"],
+    "tags": ["록","프로그레시브","아트팝"],
+    "memo": "'진주빛 머리의 소녀', 헝가리를 대표하는 록 중 하나.",
+    "youtube": [
+      {"title": "MV(?)", "url": "https://www.youtube.com/watch?v=CGt-rTDkMcM"}
+    ],
+    "image": "covers/469-10000lepes.jpg"
+  },
+  {
+    "title": "The Sun Will Never Settle",
+    "year": "2026",
+    "artist": ["Kingfishr"],
+    "songwriters": ["Eoin Fitzgibbons","Edmond Keogh","Eogan McGrath"],
+    "language": ["영어"],
+    "countries": ["IR"],
+    "tags": ["포크"],
+    "memo": "관계의 끝과, 그를 통한 성장에 관하여. 아일랜드 포크송",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/qIkN02ZS2K8?si=XxXUk9fk8W6MFJhO"}
+    ],
+    "image": "covers/470-the-sun-will.jpg"
+  },
+  {
+    "title": "I Just Called to Say I Love You",
+    "year": "1984",
+    "artist": ["Stevie Wonder"],
+    "songwriters": ["Stevie Wonder"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["R&B","발라드"],
+    "memo": "사랑하는 사람에게 예상치 못한 전화를.",
+    "youtube": [
+      {"title": "음원", "url": "https://youtu.be/58RgLQ_0Ars?si=6ZWZvyTQ-87V-B14"}
+    ],
+    "image": "covers/471-the-woman-in-red.jpg"
+  },
+  {
+    "title": "Shape of My Heart",
+    "year": "1993",
+    "artist": ["Sting"],
+    "songwriters": ["Sting","Dominic Miller"],
+    "language": ["영어"],
+    "countries": ["GB"],
+    "tags": ["팝","발라드"],
+    "memo": "영화 <레옹> 삽입곡.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/NlwIDxCjL-8?si=UICJh2JAE2R5kZcz"},
+      {"title": "Backstreet Boys 버전", "url": "https://youtu.be/NlwIDxCjL-8?si=UICJh2JAE2R5kZcz"}
+    ],
+    "image": "covers/472-ten-summoners-tales.jpg"
+  },
+  {
+    "title": "今生缘 (금생연)",
+    "year": "2009",
+    "artist": ["Chuan Zi (川子)"],
+    "songwriters": ["川子"],
+    "language": ["중국어"],
+    "countries": ["CN"],
+    "tags": ["만도팝","밈"],
+    "memo": "'이번 생의 인연'.",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=4v5-532xqY8"},
+      {"title": "좀더 유명한, 목을 긁는 버전", "url": "https://www.youtube.com/watch?v=NQLvnin2bxs"}
+    ],
+    "image": "covers/473-今生缘.jpg"
+  },
+  {
+    "title": "逆夢 (Sakayume)",
+    "year": "2023",
+    "artist": ["King Gnu"],
+    "songwriters": ["常田大希"],
+    "language": ["일본어"],
+    "countries": ["JP"],
+    "tags": ["JPOP","얼터너티브록","애니메이션","영화음악"],
+    "memo": "'역몽', 주술회전 극장판 OST",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/M6gcoDN9jBc?si=8D2Q1CiHZMJ8gThW"}
+    ],
+    "image": "covers/474-the-greatest-unknown.jpg"
+  },
+  {
+    "title": "My Grandfather's Clock",
+    "year": "1876",
+    "artist": [],
+    "songwriters": ["Henry Clay Work"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["포크","어린이"],
+    "memo": "할아버지의 시계. 동요로 널리 알려져 있다.",
+    "youtube": [
+      {"title": "Edison Quartet (1905)", "url": "https://www.youtube.com/watch?v=EwR-BIu9MEk"},
+      {"title": "Tom Roush 버전", "url": "https://www.youtube.com/watch?v=su7IECXoKLg"},
+      {"title": "Larry Groce (?) 버전", "url": "https://www.youtube.com/watch?v=ZrJZLs5zUtU"}
+    ],
+    "image": "covers/475-grandfathers-clock.jpg"
+  },
+  {
+    "title": "Games People Play",
+    "year": "1968",
+    "artist": ["Joe South"],
+    "songwriters": ["Joe South"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["포크록","컨트리","사이키델릭록"],
+    "memo": "대인관계와 사회에서의 위선, 편협함, 무책임을 꼬집는 노래.",
+    "youtube": [
+      {"title": "음원 (Remastered 2002)", "url": "https://www.youtube.com/watch?v=vDeVonv3kY0"},
+      {"title": "널리 알려진, 자메이카의 레게 그룹 Inner Circle 버전", "url": "https://www.youtube.com/watch?v=TingYha7t7Y"}
+    ],
+    "image": "covers/476-games-people-play.jpg"
+  },
+  {
+    "title": "Солдат (Soldat)",
+    "year": "2003",
+    "artist": ["5'nizza"],
+    "songwriters": ["5'nizza"],
+    "language": ["러시아어","영어"],
+    "countries": ["UA"],
+    "tags": ["전쟁","포크","레게"],
+    "memo": "군인의 비극적 현실. '나는 군인, 어떤 소설 쪼가리가 나에게 영웅이라 했는지 말해 봐.'",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=pjfn5J7R5lM"}
+    ],
+    "image": "covers/477-soldat-5nizza.jpg"
+  },
+  {
+    "title": "Water",
+    "year": "2023",
+    "artist": ["Tyla"],
+    "songwriters": ["Tyla Seethal","Ariowa Irosogie","Imani Lewis","Corey Marlon Lindsay-Keay","Samuel Awuku","Rayan El-Hussein Goufar","Olmo Zucca","Jackson Paul Lomastro","Tricky Stewart"],
+    "language": ["영어"],
+    "countries": ["ZA"],
+    "tags": ["아마피아노","팝","R&B"],
+    "memo": "세계적으로 히트한 아마피아노 곡.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=XoiOOiuH8iI"}
+    ],
+    "image": "covers/478-water-tyla.jpg"
+  },
+  {
+    "title": "사랑하기 때문에",
+    "year": "1987",
+    "artist": ["유재하"],
+    "songwriters": ["유재하"],
+    "language": ["한국어"],
+    "countries": ["KR"],
+    "tags": ["발라드"],
+    "memo": "나 오직 그대만을 사랑하기 때문에.",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=6O8oM-vPRtY"}
+    ],
+    "image": "covers/479-사랑하기때문에-유재하.jpg"
+  },
+  {
+    "title": "Piano Man",
+    "year": "1973",
+    "artist": ["Billy Joel"],
+    "songwriters": ["Billy Joel"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["소프트록","포크록"],
+    "memo": "빌리 조엘의 자전적인 노래이자, 그의 최고 히트곡. 하모니카 연주가 유명하다.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=gxEPV4kolz0"}
+    ],
+    "image": "covers/480-piano-man.jpg"
+  },
+  {
+    "title": "Halala Siyanibongela",
+    "year": "?",
+    "artist": [],
+    "songwriters": ["Traditional"],
+    "language": ["줄루어"],
+    "countries": ["ZA"],
+    "tags": ["민요"],
+    "memo": "줄루 전통의 축하 노래.",
+    "youtube": [
+      {"title": "UniZulu Choir", "url": "https://www.youtube.com/watch?v=BL79AchaiLY"},
+      {"title": "문명 6 줄루 산업시대 OST. 2분 9초부터", "url": "https://www.youtube.com/watch?v=BL79AchaiLY"}
+    ],
+    "image": "covers/481-zulu.jpg"
+  },
+  {
+    "title": "Banat Iskandaria (يا بنات اسكندرية)",
+    "year": "?",
+    "artist": [],
+    "songwriters": ["Traditional"],
+    "language": ["아랍어"],
+    "countries": ["LB"],
+    "tags": ["민요"],
+    "memo": "'알렉산드리아의 여인들'. 동지중해에 널리 알려진 곡조의 아랍 버전. (튀르키예 민요 Kâtibim과 같은 멜로디)",
+    "youtube": [
+      {"title": "레바논 가수 Mohammed El-Bakkar 버전 (1957)", "url": "https://www.youtube.com/watch?v=P8LwB8cumhI"},
+      {"title": "Oriental Lebanese Band, 보컬 없는 버전", "url": "https://www.youtube.com/watch?v=fuW08fL9Q6U"},
+      {"title": "Abdallah Chahine, 보컬 없는 버전", "url": "https://www.youtube.com/watch?v=-twlZKF2Np0"}
+    ],
+    "image": "covers/482-banat-iskandaria.jpg"
+  },
+  {
+    "title": "Kâtibim (Üsküdar'a Gider İken)",
+    "year": "?",
+    "artist": [],
+    "songwriters": ["Traditional"],
+    "language": ["튀르키예어"],
+    "countries": ["TR"],
+    "tags": ["민요"],
+    "memo": "'내 서기', 또는 '위스퀴다르로 가는 길에'. 아랍 민요 Banat Iskandaria와 멜로디를 같이한다.",
+    "youtube": [
+      {"title": "혼성 보컬 버전", "url": "https://www.youtube.com/watch?v=SymcEAeYGOw"},
+      {"title": "Safiye Ayla 버전", "url": "https://www.youtube.com/watch?v=SFwCw1mZd1g"},
+      {"title": "Ezgi Köker 버전", "url": "https://www.youtube.com/watch?v=CWOrDXnnmOc"}
+    ],
+    "image": "covers/483-katibim.jpg"
+  },
+  {
+    "title": "Τη Υπερμάχω",
+    "year": "5~6c?",
+    "artist": [],
+    "songwriters": ["Traditional"],
+    "language": ["그리스어"],
+    "countries": ["GR"],
+    "tags": ["비잔틴","종교음악","아카펠라"],
+    "memo": "성모 마리아를 찬미하는 비잔틴 시대의 그리스 정교회 성가. 아카티스토스 찬가의 도입부",
+    "youtube": [
+      {"title": "Petros Gaitanos 버전(?)", "url": "https://www.youtube.com/watch?v=c7mMAcQgzg4"},
+      {"title": "Χορός Βατοπαιδινών Πατέρων 버전(?)", "url": "https://www.youtube.com/watch?v=VtJMmMX051w"}
+    ],
+    "image": "covers/484-greek-orthodox.jpg"
+  },
+  {
+    "title": "Tezeta (Nostalgia)",
+    "year": "1969",
+    "artist": ["Mulatu Astatke (ሙላቱ አስታጥቄ)"],
+    "songwriters": ["Mulatu Astatke"],
+    "language": [],
+    "countries": ["ET"],
+    "tags": ["재즈","에티오재즈"],
+    "memo": "에티오재즈의 아버지 Mulatu Astatke의 대표곡 중 하나.",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=Wy-v-FgiUD8"}
+    ],
+    "image": "covers/485-ethiopiques4.jpg"
+  },
+  {
+    "title": "Seikilos Epitaph (Επιτάφιος του Σείκιλου)",
+    "year": "1~2c",
+    "artist": [],
+    "songwriters": ["Seikilos?"],
+    "language": ["코이네그리스어"],
+    "countries": ["GR","TR"],
+    "tags": ["고대",""],
+    "memo": "에페소스 유적 세이킬로스의 비문, 현존하는 가장 오래된 온전한 악보. '살아있는 동안, 빛나라.'",
+    "youtube": [
+      {"title": "SAVAE", "url": "https://www.youtube.com/watch?v=mGfOHoun0OQ"},
+      {"title": "Nektaria Karantzi 버전", "url": "https://www.youtube.com/watch?v=vj6jmKiPoWM"},
+      {"title": "문명 6 그리스 원자시대 OST", "url": "https://www.youtube.com/watch?v=VrPpA6bAIRM"}
+    ],
+    "image": "covers/486-seikilos.jpg"
+  },
+  {
+    "title": "Banaha",
+    "year": "?",
+    "artist": [],
+    "songwriters": ["Traditional"],
+    "language": ["킬루바어"],
+    "countries": ["CD"],
+    "tags": ["민요","어린이"],
+    "memo": "'바나나(?)', 콩고 카탕가 지역 민요를 바탕으로 한 돌림노래.",
+    "youtube": [
+      {"title": "Remember Our Music", "url": "https://www.youtube.com/watch?v=ylsRQrv7oEA"},
+      {"title": "Les Troubadours Du Roi Baudouin 버전", "url": "https://www.youtube.com/watch?v=vpeIv1qJbTg"},
+      {"title": "문명 6 콩고 원자시대 OST", "url": "https://www.youtube.com/watch?v=yMOTf0SP_68"}
+    ],
+    "image": "covers/487-banaha.jpg"
+  },
+  {
+    "title": "Sabry Aalil (صبري قليل)",
+    "year": "2003",
+    "artist": ["Sherine (شيرين)"],
+    "songwriters": ["Mohamed Rahim","Ikram Alassi"],
+    "language": ["아랍어"],
+    "countries": ["EG"],
+    "tags": ["팝","아랍팝"],
+    "memo": "'내 인내심이 바닥나고 있어요'. 이집트 팝",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=8CnpqLtzqQY"}
+    ],
+    "image": "covers/488-sabry-aalil.jpg"
+  },
+  {
+    "title": "Sabry Aalil (صبري قليل)",
+    "year": "2003",
+    "artist": ["Sherine (شيرين)"],
+    "songwriters": ["Mohamed Rahim","Ikram Alassi"],
+    "language": ["아랍어"],
+    "countries": ["EG"],
+    "tags": ["팝","아랍팝"],
+    "memo": "'내 인내심이 바닥나고 있어요'. 이집트 팝",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=8CnpqLtzqQY"}
+    ],
+    "image": "covers/488-sabry-aalil.jpg"
+  },
+  {
+    "title": "Por el Amor de una Mujer",
+    "year": "1974",
+    "artist": ["Danny Daniel"],
+    "songwriters": ["Danny Daniel","Jesús González López"],
+    "language": ["스페인어"],
+    "countries": ["ES"],
+    "tags": ["발라드","라틴팝"],
+    "memo": "'한 여자의 사랑을 위해서', 사랑의 아픔과 극복에 관한 잔잔한 로맨틱 발라드",
+    "youtube": [
+      {"title": "Danny Daniel 원곡", "url": "https://www.youtube.com/watch?v=HXHkDPIOQkA"},
+      {"title": "Julio Iglesias 버전", "url": "https://www.youtube.com/watch?v=j6zLF_BWTOA"},
+      {"title": "Los Panchos 버전", "url": "https://www.youtube.com/watch?v=wy1eSSErVe8"}
+    ],
+    "image": "covers/489-por-el-amor-de-una-mujer.jpg"
+  },
+  {
+    "title": "შაირები (Shairebi)",
+    "year": "?",
+    "artist": [],
+    "songwriters": ["Traditional"],
+    "language": ["조지아어"],
+    "countries": ["GE"],
+    "tags": ["민요"],
+    "memo": "좋아하는 조지아 민요. 멜로디나 가사는 조금씩 다른 듯.",
+    "youtube": [
+      {"title": "Ensemble Mze Shina", "url": "https://www.youtube.com/watch?v=NDOTNrX1YVc"},
+      {"title": "Bards in Exile", "url": "https://www.youtube.com/watch?v=HLus2Wm3MAQ"},
+      {"title": "문명 6 조지아 OST", "url": "https://www.youtube.com/watch?v=XCxGDt1_0dI"}
+    ],
+    "image": "covers/490-shairebi.jpg"
+  },
+  {
+    "title": "जुत्ती मेरी (Jutti Meri)",
+    "year": "?",
+    "artist": [],
+    "songwriters": ["Traditional"],
+    "language": ["펀자브어"],
+    "countries": ["IN","PK"],
+    "tags": ["민요"],
+    "memo": "'나의 신발', 새신부 이야기를 다룬 펀자브 민요. 오렌지캬라멜의 곡 '까탈레나'에 일부가 삽입되었다.",
+    "youtube": [
+      {"title": "음악 (?)", "url": "https://www.youtube.com/watch?v=r8DpbHjWXeY"},
+      {"title": "Neha Bhasin", "url": "https://www.youtube.com/watch?v=XV--2ysknlk"}
+    ],
+    "image": "covers/491-jutti-meri.jpg"
   }
 ]
