@@ -3566,6 +3566,20 @@
     "image": "covers/202-v-maroon-5.jpg"
   },
   {
+    "title": "Maps",
+    "year": "2014",
+    "artist": ["Maroon 5"],
+    "songwriters": ["Adam Levine", "Ammar Malik","Benjamin Levin","Noel Zancanella","Ryan Tedder"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["팝록", "레게"],
+    "memo": "마룬5 5집 리드 싱글.",
+    "youtube": [
+      {"title": "Lyric Video", "url": "https://youtu.be/Y7ix6RITXM0?si=eLH26sfbnqTN2eEv"}
+    ],
+    "image": "covers/202-v-maroon-5.jpg"
+  },
+  {
     "title": "APT.",
     "year": "2024",
     "artist": ["Rosé (로제)", "Bruno Mars"],
@@ -7136,6 +7150,20 @@
     "image": "covers/423-britain.jpg"
   },
   {
+    "title": "Rule, Britannia!",
+    "year": "18c",
+    "artist": [],
+    "songwriters": ["James Thomson","Thomas Arne"],
+    "language": ["영어"],
+    "countries": ["GB"],
+    "tags": ["군가","대영제국"],
+    "memo": "지배하라, 브리타니아여!",
+    "youtube": [
+      {"title": "가사", "url": "https://youtu.be/HPZOOhzql7w?si=LyChyRfQTTa-qpzX"}
+    ],
+    "image": "covers/423-britain.jpg"
+  },
+  {
     "title": "Quizás, Quizás, Quizás",
     "year": "1947",
     "artist": ["Bobby Capó","Osvaldo Farrés"],
@@ -8140,5 +8168,77 @@
       {"title": "Neha Bhasin", "url": "https://www.youtube.com/watch?v=XV--2ysknlk"}
     ],
     "image": "covers/491-jutti-meri.jpg"
+  },
+  {
+    "title": "Where'd All the Time Go?",
+    "year": "2010",
+    "artist": ["Dr.Dog"],
+    "songwriters": ["Scott McMicken","dd Toby Leaman"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["인디","록"],
+    "memo": "시간이 다 어디 갔을까",
+    "youtube": [
+      {"title": "음원", "url": "https://youtu.be/qREjXwZQvHE?si=qo0wcaEINjJIdDXM"}
+    ],
+    "image": "covers/492-drdog.jpg"
+  },
+  {
+    "title": "Havana",
+    "year": "2017",
+    "artist": ["Camila Cabello","Young Thug"],
+    "songwriters": ["Camila Cabello","Jeffery Williams","Brittany Hazzard","Pharrell Williams","Adam Feeney","Brian Lee","Ali Tamposi","Andrew Watt","Louis Bell","Kaan Gunesberk"],
+    "language": ["영어"],
+    "countries": ["CU","MX","US"],
+    "tags": ["팝","라틴팝","아바나"],
+    "memo": "카밀라 카베요의 싱글 히트.",
+    "youtube": [
+      {"title": "음원", "url": "https://youtu.be/HCjNJDNzw8Y?si=CYG0n6YXcxbCQ0_5"},
+      {"title": "MV", "url": "https://youtu.be/BQ0mxQXmLsk?si=Q86QAiPsIimFhPeW"}
+    ],
+    "image": "covers/493-camila.jpg"
+  },
+  {
+    "title": "Аа-шуу-декей-оо (Aa-shuu-dekeyi-oo)",
+    "year": "?",
+    "artist": [],
+    "songwriters": ["Traditional"],
+    "language": ["투바어"],
+    "countries": ["RU"],
+    "tags": ["민요","흐미"],
+    "memo": "아-슈-데케이-오~",
+    "youtube": [
+      {"title": "가사 (영어 번역)", "url": "https://www.youtube.com/watch?v=SJhAqx-VGtc"},
+      {"title": "Huun‐Huur‐Tu", "url": "https://www.youtube.com/watch?v=T57Ixo6RR94"}
+    ],
+    "image": "covers/494-tuva.jpg"
+  },
+  {
+    "title": "We Didn't Start the Fire",
+    "year": "1989",
+    "artist": ["Billy Joel"],
+    "songwriters": ["Billy Joel"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["팝록","전쟁"],
+    "memo": "2차대전 이후 격동의 현대사에 관하여. 우리는 불을 지피지 않았지만, 계속 싸워 왔다네.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/eFTLKWw542g?si=hcufDRomwPo09nUi"}
+    ],
+    "image": "covers/495-we-didnt-start-the-fire.jpg"
+  },
+  {
+    "title": "What I've Done",
+    "year": "2007",
+    "artist": ["Linkin Park"],
+    "songwriters": ["Linkin Park"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["얼터너티브록","하드록"],
+    "memo": "린킨 파크의 히트곡. 영화 <트랜스포머> 엔딩곡으로 사용됨",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/8sgycukafqQ?si=mlPvfpuCvISzZgbI"}
+    ],
+    "image": "covers/496-what-ive-done.jpg"
   }
 ]
