@@ -2087,7 +2087,7 @@
   {
     "title": "Adımız miskindir bizim",
     "year": "1973",
-    "artist": ["Mazhar Ve Fuat"],
+    "artist": ["Mazhar ve Fuat"],
     "songwriters": ["Mazhar Alanson", "Yunus Emre"],
     "language": ["튀르키예어"],
     "countries": ["TR"],
@@ -2100,7 +2100,22 @@
       {"title": "영상(Anatolian Rock Revival Project)", "url": "https://www.youtube.com/watch?v=zbeErgE4quA"},
       {"title": "MFÖ 버전", "url": "https://www.youtube.com/watch?v=u-hCfror6aE"}
     ],
-    "image": "covers/116-adımız-miskindir-bizim-mazhar-ve-fuat.jpg"
+    "image": "covers/116-mazhar-ve-fuat.jpg"
+  },
+  {
+    "title": "Nerde Hani",
+    "year": "1973",
+    "artist": ["Mazhar ve Fuat"],
+    "songwriters": ["Mazhar Alanson"],
+    "language": ["튀르키예어"],
+    "countries": ["TR"],
+    "tags": ["록", "아나톨리안록", "사이키델릭포크","이별"],
+    "memo": "'다 어디로 갔는가', 이별 후의 상실감과 그리움.",
+    "youtube": [
+      {"title": "영상(Anatolian Rock Revival Project)", "url": "https://youtu.be/LhRgDRVWJgI?si=DD6tMzXEVqYgPPlw"},
+      {"title": "영화 <Her Şey Çok Güzel Olacak> OST로 쓰인 Mazhar Alanson 본인의 리메이크 버전 Bu Ne Biçim Hikaye Böyle", "url": "https://www.youtube.com/watch?v=WBip4V1hrVg"}
+    ],
+    "image": "covers/116-mazhar-ve-fuat.jpg"
   },
   {
     "title": "Sodade",
@@ -8240,5 +8255,62 @@
       {"title": "MV", "url": "https://youtu.be/8sgycukafqQ?si=mlPvfpuCvISzZgbI"}
     ],
     "image": "covers/496-what-ive-done.jpg"
+  },
+  {
+    "title": "Ylivoimainen",
+    "year": "2023",
+    "artist": ["KUUMAA"],
+    "songwriters": ["Joonas Luhtavaara","Aarni Soivio","Jonas Olsson","Johannes Brotherus"],
+    "language": ["핀란드어"],
+    "countries": ["FI"],
+    "tags": ["팝","일렉트로팝"],
+    "memo": "'압도적인' 너를 향한 직진.",
+    "youtube": [
+      {"title": "Lyric Video", "url": "https://youtu.be/HWJkEnVlfA4?si=qE4kSTiVuXnPSZTP"}
+    ],
+    "image": "covers/497-ylivoimainen.jpg"
+  },
+  {
+    "title": "I Will Always Love You",
+    "year": "1974",
+    "artist": ["Dolly Parton"],
+    "songwriters": ["Dolly Parton"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["컨트리"],
+    "memo": "휘트니 휴스턴 버전으로 더 유명한, 돌리 파튼의 컨트리 곡.",
+    "youtube": [
+      {"title": "원곡", "url": "https://www.youtube.com/watch?v=lKsQR72HY0s"},
+      {"title": "Whitney Houston", "url": "https://youtu.be/3JWTaaS7LdU?si=dnTA9mv-auHzyJXJ"}
+    ],
+    "image": "covers/498-jolene-dolly-parton.jpg"
+  },
+  {
+    "title": "Last Christmas",
+    "year": "1984",
+    "artist": ["Wham!"],
+    "songwriters": ["George Michael"],
+    "language": ["영어"],
+    "countries": ["GB"],
+    "tags": ["크리스마스","신스팝"],
+    "memo": "조지 마이클이 작곡한 캐롤.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/E8gmARGvPlI?si=U1zJNr7V3Yf_fZVA"}
+    ],
+    "image": "covers/499-last-christmas.jpg"
+  },
+  {
+    "title": "The Nights",
+    "year": "2014",
+    "artist": ["Avicii"],
+    "songwriters": ["Tim Bergling","Nicholas Furlong","Gabriel Benjamin","Jordan Suecof","John Feldmann"],
+    "language": ["영어"],
+    "countries": ["SE"],
+    "tags": ["하우스","일렉트로닉","포크"],
+    "memo": "아버지는 말했지, 이 밤은 영원히 기억에 남을 거라고.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=UtF6Jej8yb4"}
+    ],
+    "image": "covers/500-the-nights-avicii.jpg"
   }
 ]

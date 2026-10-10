@@ -1191,11 +1191,6 @@ function renderSongs(songArray, options = {}) {
 
   songArray.forEach(song => {
     const item = document.createElement("div");
-
-    if (song.links?.length > 0) {
-      item.classList.add("has-links");
-    }
-
     item.innerHTML = songCardMarkup(song);
 
     songList.appendChild(item);

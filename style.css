@@ -18,134 +18,167 @@ select {
 :root {
     color-scheme: light;
 
-    --bg: #f4f2f0;
-    --surface: #fffefd;
-    --surface-2: #f0eeee;
-    --surface-glass: rgba(255, 254, 253, 0.92);
-    --surface-link: #fbf1e4;
-    --hover: #e9ecf0;
+    --bg: #f6ede4;
+    --page-bg: linear-gradient(180deg,#f8eadb 0,#efe6dd 100%);
+    --surface: #fffcf8;
+    --hover: #efe0cf;
 
-    --ink: #232c34;
-    --ink-2: #3a4651;
-    --heading: #263a4a;
-    --muted: #6a7079;
-    --faint: #b3b8bf;
+    --ink: #2a2a27;
+    --ink-2: #444039;
+    --heading: #374F4E;
+    --muted: #756c61;
+    --faint: #bfb2a3;
 
-    --line: #e2e0de;
-    --line-strong: #ccc9c6;
+    --line: #e6d8c8;
+    --line-strong: #d2c0ab;
 
-    --accent: #46718f;
-    --on-accent: #ffffff;
-    --accent-soft: #e4ecf2;
-    --accent-soft-2: #d3e0ea;
-    --focus-ring: rgba(249, 108, 133, 0.4);
-    --focus-ring-soft: rgba(249, 108, 133, 0.18);
+    --accent: #374F4E;
+    --on-accent: #fff7ea;
+    --accent-soft: #e2ebe7;
+    --accent-soft-2: #cfddd7;
+    --focus-ring: rgba(209,128,30,.5);
+    --focus-ring-soft: rgba(209,128,30,.2);
 
-    --link: #0a7c7c;
-    --link-2: #a05b72;
+    --link: #2f6a62;
+    --link-2: #9a6b2c;
 
-    --ocean: #e6eef3;
-    --land: #e0d8d3;
-    --tier-1: #c4e3e1;
-    --tier-2: #8fcdcb;
-    --tier-3: #4fb3b3;
-    --tier-4: #178f93;
-    --tier-5: #0b5f66;
-    --map-hover: #f96c85;
+    --c1: #D1801E;
+    --c2: #EDBD95;
+    --c3: #374F4E;
+    --c4: #AA8552;
+    --c5: #6f9a8d;
+    --c6: #c4623f;
+    --c1-ink: #a8620f;
 
-    --shadow-sm: rgba(35, 50, 70, 0.08);
-    --shadow-lg: rgba(35, 50, 70, 0.16);
+    --header-bg: linear-gradient(110deg,#374F4E 0%,#4f706a 100%);
+    --header-ink: #fbe9d2;
+
+    --ocean: #dde8e4;
+    --land: #e6d8c9;
+    --tier-1: #f7dfc6;
+    --tier-2: #efbd8a;
+    --tier-3: #e0922f;
+    --tier-4: #b86a1c;
+    --tier-5: #7d4510;
+    --map-hover: #374F4E;
+
+    --surface-2: #f4e9dd;
+    --surface-glass: rgba(255,252,248,.92);
+    --shadow-sm: rgba(80,50,20,.10);
+    --shadow-lg: rgba(80,50,20,.2);
 }
 
 :root[data-theme="dark"] {
     color-scheme: dark;
 
-    --bg: #141a20;
-    --surface: #1c242c;
-    --surface-2: #232d36;
-    --surface-glass: rgba(28, 36, 44, 0.92);
-    --surface-link: #2b2824;
-    --hover: #2a3640;
+    --bg: #0e1019;
+    --page-bg: linear-gradient(180deg,#0e1019 0,#1a1033 100%);
+    --surface: #171a2b;
+    --hover: #262b46;
 
-    --ink: #e8e6e3;
-    --ink-2: #cdd0d3;
-    --heading: #f6dfc0;
-    --muted: #98a1aa;
-    --faint: #56626d;
+    --ink: #eceaf7;
+    --ink-2: #cfcde3;
+    --heading: #ffd6e6;
+    --muted: #9aa0bd;
+    --faint: #5a6085;
 
-    --line: #2c3742;
-    --line-strong: #41505e;
+    --line: #2a2f4a;
+    --line-strong: #3d4468;
 
-    --accent: #8fb4d0;
-    --on-accent: #111a21;
-    --accent-soft: #25384a;
-    --accent-soft-2: #2e4559;
-    --focus-ring: rgba(246, 201, 146, 0.5);
-    --focus-ring-soft: rgba(246, 201, 146, 0.22);
+    --accent: #ff6b9d;
+    --on-accent: #1a0f1f;
+    --accent-soft: #3a1f3a;
+    --accent-soft-2: #4d2a4a;
+    --focus-ring: rgba(255,209,102,.55);
+    --focus-ring-soft: rgba(255,209,102,.22);
 
-    --link: #5fd1d1;
-    --link-2: #e3a9b8;
+    --link: #6ee7d0;
+    --link-2: #ffb8d1;
 
-    --ocean: #18222c;
-    --land: #2a343d;
-    --tier-1: #1f4b50;
-    --tier-2: #26727a;
-    --tier-3: #2fa0a3;
-    --tier-4: #5cc8c6;
-    --tier-5: #9ee6e1;
-    --map-hover: #f78aa0;
+    --c1: #ff5d8f;
+    --c2: #ffb454;
+    --c3: #46e0c0;
+    --c4: #7c8cff;
+    --c5: #c77dff;
+    --c6: #4fc3f7;
+    --c1-ink: #ff8fb3;
 
-    --shadow-sm: rgba(0, 0, 0, 0.35);
-    --shadow-lg: rgba(0, 0, 0, 0.55);
+    --header-bg: linear-gradient(110deg,#5b2a86 0%,#e0457b 70%,#ff9966 120%);
+    --header-ink: #fff;
+
+    --ocean: #0b0d18;
+    --land: #232842;
+    --tier-1: #2b2f66;
+    --tier-2: #4a4fb8;
+    --tier-3: #7c6cf0;
+    --tier-4: #c26df0;
+    --tier-5: #ff7ab8;
+    --map-hover: #ffd166;
+
+    --surface-2: #1e2238;
+    --surface-glass: rgba(23,26,43,.92);
+    --shadow-sm: rgba(0,0,0,.4);
+    --shadow-lg: rgba(0,0,0,.6);
 }
 
 @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
         color-scheme: dark;
 
-        --bg: #141a20;
-        --surface: #1c242c;
-        --surface-2: #232d36;
-        --surface-glass: rgba(28, 36, 44, 0.92);
-        --surface-link: #2b2824;
-        --hover: #2a3640;
+        --bg: #0e1019;
+        --page-bg: linear-gradient(180deg,#0e1019 0,#1a1033 100%);
+        --surface: #171a2b;
+        --hover: #262b46;
 
-        --ink: #e8e6e3;
-        --ink-2: #cdd0d3;
-        --heading: #f6dfc0;
-        --muted: #98a1aa;
-        --faint: #56626d;
+        --ink: #eceaf7;
+        --ink-2: #cfcde3;
+        --heading: #ffd6e6;
+        --muted: #9aa0bd;
+        --faint: #5a6085;
 
-        --line: #2c3742;
-        --line-strong: #41505e;
+        --line: #2a2f4a;
+        --line-strong: #3d4468;
 
-        --accent: #8fb4d0;
-        --on-accent: #111a21;
-        --accent-soft: #25384a;
-        --accent-soft-2: #2e4559;
-        --focus-ring: rgba(246, 201, 146, 0.5);
-        --focus-ring-soft: rgba(246, 201, 146, 0.22);
+        --accent: #ff6b9d;
+        --on-accent: #1a0f1f;
+        --accent-soft: #3a1f3a;
+        --accent-soft-2: #4d2a4a;
+        --focus-ring: rgba(255,209,102,.55);
+        --focus-ring-soft: rgba(255,209,102,.22);
 
-        --link: #5fd1d1;
-        --link-2: #e3a9b8;
+        --link: #6ee7d0;
+        --link-2: #ffb8d1;
 
-        --ocean: #18222c;
-        --land: #2a343d;
-        --tier-1: #1f4b50;
-        --tier-2: #26727a;
-        --tier-3: #2fa0a3;
-        --tier-4: #5cc8c6;
-        --tier-5: #9ee6e1;
-        --map-hover: #f78aa0;
+        --c1: #ff5d8f;
+        --c2: #ffb454;
+        --c3: #46e0c0;
+        --c4: #7c8cff;
+        --c5: #c77dff;
+        --c6: #4fc3f7;
+        --c1-ink: #ff8fb3;
 
-        --shadow-sm: rgba(0, 0, 0, 0.35);
-        --shadow-lg: rgba(0, 0, 0, 0.55);
+        --header-bg: linear-gradient(110deg,#5b2a86 0%,#e0457b 70%,#ff9966 120%);
+        --header-ink: #fff;
+
+        --ocean: #0b0d18;
+        --land: #232842;
+        --tier-1: #2b2f66;
+        --tier-2: #4a4fb8;
+        --tier-3: #7c6cf0;
+        --tier-4: #c26df0;
+        --tier-5: #ff7ab8;
+        --map-hover: #ffd166;
+
+        --surface-2: #1e2238;
+        --surface-glass: rgba(23,26,43,.92);
+        --shadow-sm: rgba(0,0,0,.4);
+        --shadow-lg: rgba(0,0,0,.6);
     }
 }
 
 body {
     font-family: "Noto Sans", "Noto Sans KR", Arial, sans-serif;
-    background: var(--bg);
+    background: var(--page-bg) fixed;
     color: var(--ink);
 
     max-width: 1100px;
@@ -166,7 +199,13 @@ body {
     align-items: stretch;
 
     gap: var(--space-4);
-    margin-bottom: var(--space-2);
+    margin-bottom: var(--space-4);
+    padding: var(--space-4) var(--space-5);
+
+    background: var(--header-bg);
+    border-radius: 24px;
+
+    box-shadow: 0 8px 24px var(--shadow-sm);
 }
 
 .site-title-box {
@@ -174,16 +213,14 @@ body {
     align-items: center;
     justify-content: center;
 
-    border-radius: 14px;
-
-    padding: var(--space-4) var(--space-6);
+    padding: 0 var(--space-4) 0 0;
 }
 
 .site-title-box h1 {
     margin: 0;
 
     font-size: 2.4rem;
-    color: var(--ink);
+    color: var(--header-ink);
 
     white-space: nowrap;
 }
@@ -202,7 +239,8 @@ body {
 
     padding: var(--space-4);
 
-    color: var(--ink-2);
+    color: var(--header-ink);
+    opacity: 0.94;
     font-size: 0.95rem;
     line-height: 1.5;
 }
@@ -759,10 +797,6 @@ body {
         box-shadow 0.2s;
 }
 
-#song-list > div.has-links {
-    background-color: var(--surface-link);
-}
-
 #song-list > div:hover {
     transform: translateY(-2px);
 
@@ -1116,6 +1150,7 @@ a:hover {
     }
 
     .site-description-box p {
+        padding: 0;
         font-size: 0.9rem;
     }
 
@@ -1666,3 +1701,190 @@ a:hover {
     background: var(--surface);
     border-color: var(--muted);
 }
+
+/* ========================================
+   컬러 포인트: 여섯 가지 색을 돌아가며 사용 (--c1 ~ --c6)
+======================================== */
+
+.view-tab.active {
+    box-shadow: 0 3px 10px var(--shadow-sm);
+}
+
+.view-mode-tabs,
+.search-bar input {
+    box-shadow: 0 4px 16px var(--shadow-sm);
+}
+
+#timeline-list::before {
+    width: 3px;
+    background: linear-gradient(
+        var(--c1), var(--c2), var(--c3), var(--c4), var(--c5), var(--c6)
+    );
+}
+
+.country-title-count {
+    background: var(--accent-soft);
+}
+
+/* ========================================
+   국가 칩 / 대륙 제목
+======================================== */
+
+.country-card:nth-child(6n+1) { background: color-mix(in srgb, var(--c1) 16%, var(--surface)); border-color: color-mix(in srgb, var(--c1) 55%, var(--line)); border-left: 5px solid var(--c1); }
+.country-card:nth-child(6n+2) { background: color-mix(in srgb, var(--c2) 16%, var(--surface)); border-color: color-mix(in srgb, var(--c2) 55%, var(--line)); border-left: 5px solid var(--c2); }
+.country-card:nth-child(6n+3) { background: color-mix(in srgb, var(--c3) 16%, var(--surface)); border-color: color-mix(in srgb, var(--c3) 55%, var(--line)); border-left: 5px solid var(--c3); }
+.country-card:nth-child(6n+4) { background: color-mix(in srgb, var(--c4) 16%, var(--surface)); border-color: color-mix(in srgb, var(--c4) 55%, var(--line)); border-left: 5px solid var(--c4); }
+.country-card:nth-child(6n+5) { background: color-mix(in srgb, var(--c5) 16%, var(--surface)); border-color: color-mix(in srgb, var(--c5) 55%, var(--line)); border-left: 5px solid var(--c5); }
+.country-card:nth-child(6n+6) { background: color-mix(in srgb, var(--c6) 16%, var(--surface)); border-color: color-mix(in srgb, var(--c6) 55%, var(--line)); border-left: 5px solid var(--c6); }
+.country-card:nth-child(6n+1):hover { background: color-mix(in srgb, var(--c1) 32%, var(--surface)); }
+.country-card:nth-child(6n+2):hover { background: color-mix(in srgb, var(--c2) 32%, var(--surface)); }
+.country-card:nth-child(6n+3):hover { background: color-mix(in srgb, var(--c3) 32%, var(--surface)); }
+.country-card:nth-child(6n+4):hover { background: color-mix(in srgb, var(--c4) 32%, var(--surface)); }
+.country-card:nth-child(6n+5):hover { background: color-mix(in srgb, var(--c5) 32%, var(--surface)); }
+.country-card:nth-child(6n+6):hover { background: color-mix(in srgb, var(--c6) 32%, var(--surface)); }
+
+.continent-group:nth-child(6n+1) .continent-heading { color: color-mix(in srgb, var(--c1) 65%, var(--ink)); border-bottom: 3px solid var(--c1); }
+.continent-group:nth-child(6n+2) .continent-heading { color: color-mix(in srgb, var(--c2) 65%, var(--ink)); border-bottom: 3px solid var(--c2); }
+.continent-group:nth-child(6n+3) .continent-heading { color: color-mix(in srgb, var(--c3) 65%, var(--ink)); border-bottom: 3px solid var(--c3); }
+.continent-group:nth-child(6n+4) .continent-heading { color: color-mix(in srgb, var(--c4) 65%, var(--ink)); border-bottom: 3px solid var(--c4); }
+.continent-group:nth-child(6n+5) .continent-heading { color: color-mix(in srgb, var(--c5) 65%, var(--ink)); border-bottom: 3px solid var(--c5); }
+.continent-group:nth-child(6n+6) .continent-heading { color: color-mix(in srgb, var(--c6) 65%, var(--ink)); border-bottom: 3px solid var(--c6); }
+
+/* ========================================
+   태그 / 태그 구름
+======================================== */
+
+.song-tags .tag:nth-child(6n+1) { background: color-mix(in srgb, var(--c1) 24%, var(--surface)); color: color-mix(in srgb, var(--c1) 50%, var(--ink)); }
+.song-tags .tag:nth-child(6n+2) { background: color-mix(in srgb, var(--c2) 24%, var(--surface)); color: color-mix(in srgb, var(--c2) 50%, var(--ink)); }
+.song-tags .tag:nth-child(6n+3) { background: color-mix(in srgb, var(--c3) 24%, var(--surface)); color: color-mix(in srgb, var(--c3) 50%, var(--ink)); }
+.song-tags .tag:nth-child(6n+4) { background: color-mix(in srgb, var(--c4) 24%, var(--surface)); color: color-mix(in srgb, var(--c4) 50%, var(--ink)); }
+.song-tags .tag:nth-child(6n+5) { background: color-mix(in srgb, var(--c5) 24%, var(--surface)); color: color-mix(in srgb, var(--c5) 50%, var(--ink)); }
+.song-tags .tag:nth-child(6n+6) { background: color-mix(in srgb, var(--c6) 24%, var(--surface)); color: color-mix(in srgb, var(--c6) 50%, var(--ink)); }
+
+.tag-chip:nth-child(6n+1) { color: color-mix(in srgb, var(--c1) 72%, var(--ink)); }
+.tag-chip:nth-child(6n+2) { color: color-mix(in srgb, var(--c2) 72%, var(--ink)); }
+.tag-chip:nth-child(6n+3) { color: color-mix(in srgb, var(--c3) 72%, var(--ink)); }
+.tag-chip:nth-child(6n+4) { color: color-mix(in srgb, var(--c4) 72%, var(--ink)); }
+.tag-chip:nth-child(6n+5) { color: color-mix(in srgb, var(--c5) 72%, var(--ink)); }
+.tag-chip:nth-child(6n+6) { color: color-mix(in srgb, var(--c6) 72%, var(--ink)); }
+
+.tag-chip:nth-child(6n+1):hover { background: color-mix(in srgb, var(--c1) 22%, var(--surface)); border-radius: 8px; }
+.tag-chip:nth-child(6n+2):hover { background: color-mix(in srgb, var(--c2) 22%, var(--surface)); border-radius: 8px; }
+.tag-chip:nth-child(6n+3):hover { background: color-mix(in srgb, var(--c3) 22%, var(--surface)); border-radius: 8px; }
+.tag-chip:nth-child(6n+4):hover { background: color-mix(in srgb, var(--c4) 22%, var(--surface)); border-radius: 8px; }
+.tag-chip:nth-child(6n+5):hover { background: color-mix(in srgb, var(--c5) 22%, var(--surface)); border-radius: 8px; }
+.tag-chip:nth-child(6n+6):hover { background: color-mix(in srgb, var(--c6) 22%, var(--surface)); border-radius: 8px; }
+
+/* ========================================
+   연표
+======================================== */
+
+.timeline-group:nth-child(6n+1)::before { background: var(--c1); box-shadow: 0 0 0 2px var(--c1); }
+.timeline-group:nth-child(6n+2)::before { background: var(--c2); box-shadow: 0 0 0 2px var(--c2); }
+.timeline-group:nth-child(6n+3)::before { background: var(--c3); box-shadow: 0 0 0 2px var(--c3); }
+.timeline-group:nth-child(6n+4)::before { background: var(--c4); box-shadow: 0 0 0 2px var(--c4); }
+.timeline-group:nth-child(6n+5)::before { background: var(--c5); box-shadow: 0 0 0 2px var(--c5); }
+.timeline-group:nth-child(6n+6)::before { background: var(--c6); box-shadow: 0 0 0 2px var(--c6); }
+
+.timeline-group:nth-child(6n+1) .timeline-heading { color: color-mix(in srgb, var(--c1) 65%, var(--ink)); border-bottom-color: color-mix(in srgb, var(--c1) 55%, var(--line)); }
+.timeline-group:nth-child(6n+2) .timeline-heading { color: color-mix(in srgb, var(--c2) 65%, var(--ink)); border-bottom-color: color-mix(in srgb, var(--c2) 55%, var(--line)); }
+.timeline-group:nth-child(6n+3) .timeline-heading { color: color-mix(in srgb, var(--c3) 65%, var(--ink)); border-bottom-color: color-mix(in srgb, var(--c3) 55%, var(--line)); }
+.timeline-group:nth-child(6n+4) .timeline-heading { color: color-mix(in srgb, var(--c4) 65%, var(--ink)); border-bottom-color: color-mix(in srgb, var(--c4) 55%, var(--line)); }
+.timeline-group:nth-child(6n+5) .timeline-heading { color: color-mix(in srgb, var(--c5) 65%, var(--ink)); border-bottom-color: color-mix(in srgb, var(--c5) 55%, var(--line)); }
+.timeline-group:nth-child(6n+6) .timeline-heading { color: color-mix(in srgb, var(--c6) 65%, var(--ink)); border-bottom-color: color-mix(in srgb, var(--c6) 55%, var(--line)); }
+
+/* ========================================
+   간략 카드 (윗선 + 커버 없는 곡의 자리표시 색)
+======================================== */
+
+.song-card-compact {
+    padding-top: calc(var(--space-3) + 6px);
+}
+
+.song-card-compact:nth-child(6n+1) { box-shadow: inset 0 6px 0 var(--c1), 0 3px 12px var(--shadow-sm); }
+.song-card-compact:nth-child(6n+2) { box-shadow: inset 0 6px 0 var(--c2), 0 3px 12px var(--shadow-sm); }
+.song-card-compact:nth-child(6n+3) { box-shadow: inset 0 6px 0 var(--c3), 0 3px 12px var(--shadow-sm); }
+.song-card-compact:nth-child(6n+4) { box-shadow: inset 0 6px 0 var(--c4), 0 3px 12px var(--shadow-sm); }
+.song-card-compact:nth-child(6n+5) { box-shadow: inset 0 6px 0 var(--c5), 0 3px 12px var(--shadow-sm); }
+.song-card-compact:nth-child(6n+6) { box-shadow: inset 0 6px 0 var(--c6), 0 3px 12px var(--shadow-sm); }
+
+.song-card-compact:nth-child(6n+1):hover { box-shadow: inset 0 6px 0 var(--c1), 0 8px 20px var(--shadow-lg); }
+.song-card-compact:nth-child(6n+2):hover { box-shadow: inset 0 6px 0 var(--c2), 0 8px 20px var(--shadow-lg); }
+.song-card-compact:nth-child(6n+3):hover { box-shadow: inset 0 6px 0 var(--c3), 0 8px 20px var(--shadow-lg); }
+.song-card-compact:nth-child(6n+4):hover { box-shadow: inset 0 6px 0 var(--c4), 0 8px 20px var(--shadow-lg); }
+.song-card-compact:nth-child(6n+5):hover { box-shadow: inset 0 6px 0 var(--c5), 0 8px 20px var(--shadow-lg); }
+.song-card-compact:nth-child(6n+6):hover { box-shadow: inset 0 6px 0 var(--c6), 0 8px 20px var(--shadow-lg); }
+
+.song-card-compact:nth-child(6n+1) .song-artwork.no-artwork { background: color-mix(in srgb, var(--c1) 34%, var(--surface)); }
+.song-card-compact:nth-child(6n+2) .song-artwork.no-artwork { background: color-mix(in srgb, var(--c2) 34%, var(--surface)); }
+.song-card-compact:nth-child(6n+3) .song-artwork.no-artwork { background: color-mix(in srgb, var(--c3) 34%, var(--surface)); }
+.song-card-compact:nth-child(6n+4) .song-artwork.no-artwork { background: color-mix(in srgb, var(--c4) 34%, var(--surface)); }
+.song-card-compact:nth-child(6n+5) .song-artwork.no-artwork { background: color-mix(in srgb, var(--c5) 34%, var(--surface)); }
+.song-card-compact:nth-child(6n+6) .song-artwork.no-artwork { background: color-mix(in srgb, var(--c6) 34%, var(--surface)); }
+
+.song-card-compact:nth-child(6n+1) .song-artwork.no-artwork::before { color: color-mix(in srgb, var(--c1) 70%, var(--ink)); }
+.song-card-compact:nth-child(6n+2) .song-artwork.no-artwork::before { color: color-mix(in srgb, var(--c2) 70%, var(--ink)); }
+.song-card-compact:nth-child(6n+3) .song-artwork.no-artwork::before { color: color-mix(in srgb, var(--c3) 70%, var(--ink)); }
+.song-card-compact:nth-child(6n+4) .song-artwork.no-artwork::before { color: color-mix(in srgb, var(--c4) 70%, var(--ink)); }
+.song-card-compact:nth-child(6n+5) .song-artwork.no-artwork::before { color: color-mix(in srgb, var(--c5) 70%, var(--ink)); }
+.song-card-compact:nth-child(6n+6) .song-artwork.no-artwork::before { color: color-mix(in srgb, var(--c6) 70%, var(--ink)); }
+
+/* ========================================
+   곡 상세 카드 (위쪽 색 띠)
+======================================== */
+
+#song-list:not(.song-list-compact) > div {
+    position: relative;
+    overflow: hidden;
+
+    padding-top: calc(var(--space-5) + 7px);
+}
+
+#song-list:not(.song-list-compact) > div::before {
+    content: "";
+
+    position: absolute;
+    inset: 0 0 auto 0;
+
+    height: 7px;
+
+    background: linear-gradient(
+        90deg,
+        var(--c1), var(--c2), var(--c3), var(--c4), var(--c5), var(--c6)
+    );
+}
+
+.related-songs-heading {
+    color: var(--c1-ink);
+}
+
+/* ========================================
+   소개 탭
+======================================== */
+
+.about-hero {
+    padding: var(--space-5) var(--space-4);
+
+    background: linear-gradient(
+        120deg,
+        color-mix(in srgb, var(--c1) 22%, var(--surface)),
+        color-mix(in srgb, var(--c5) 22%, var(--surface))
+    );
+    border-radius: 18px;
+}
+
+.about-stat-badge {
+    background: var(--surface);
+    color: var(--accent);
+}
+
+.about-intro {
+    border-left-color: var(--c1);
+}
+
+.about-rule:nth-child(6n+1) { background: color-mix(in srgb, var(--c1) 14%, var(--surface)); border-left: 5px solid var(--c1); }
+.about-rule:nth-child(6n+2) { background: color-mix(in srgb, var(--c2) 14%, var(--surface)); border-left: 5px solid var(--c2); }
+.about-rule:nth-child(6n+3) { background: color-mix(in srgb, var(--c3) 14%, var(--surface)); border-left: 5px solid var(--c3); }
+.about-rule:nth-child(6n+4) { background: color-mix(in srgb, var(--c4) 14%, var(--surface)); border-left: 5px solid var(--c4); }
+.about-rule:nth-child(6n+5) { background: color-mix(in srgb, var(--c5) 14%, var(--surface)); border-left: 5px solid var(--c5); }
+.about-rule:nth-child(6n+6) { background: color-mix(in srgb, var(--c6) 14%, var(--surface)); border-left: 5px solid var(--c6); }
