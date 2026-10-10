@@ -3156,7 +3156,22 @@
     "youtube": [
       {"title": "The Mariachis", "url": "https://www.youtube.com/watch?v=SHYUkAthMN0"}
     ],
-    "image": "covers/175-la-cucaracha.jpg"
+    "image": "covers/175-mexico.jpg"
+  },
+  {
+    "title": "La Bamba",
+    "year": "17c?",
+    "artist": [],
+    "songwriters": ["Traditional"],
+    "language": ["스페인어"],
+    "countries": ["MX"],
+    "tags": ["민요","로큰롤"],
+    "memo": "멕시코 베라크루즈 주의 민요. 1958년 Ritchie Valens, 1987년 Los Lobos 버전으로 널리 알려졌다.",
+    "youtube": [
+      {"title": "Ritche Valens 버전", "url": "https://www.youtube.com/watch?v=0ymdjg9v8zM"},
+      {"title": "가장 널리 알려진 Los Lobos 버전. Valens의 인생을 담은 영화 <La Bamba>에 삽입", "url": "https://www.youtube.com/watch?v=nLAWPrCUQQ0"}
+    ],
+    "image": "covers/175-mexico.jpg"
   },
   {
     "title": "La Vie en rose",
@@ -7615,19 +7630,18 @@
     "image": "covers/453-kung-fu-fighting.jpg"
   },
   {
-    "title": "La Bamba",
-    "year": "17c?",
-    "artist": [],
-    "songwriters": ["Traditional"],
+    "title": "Mi Bendicion",
+    "year": "",
+    "artist": ["Juan Luis Guerra 4.40"],
+    "songwriters": ["Juan Luis Guerra 4.40"],
     "language": ["스페인어"],
-    "countries": ["MX"],
-    "tags": ["민요","로큰롤"],
-    "memo": "멕시코 베라크루즈 주의 민요. 1958년 Ritchie Valens, 1987년 Los Lobos 버전으로 널리 알려졌다.",
+    "countries": ["DO"],
+    "tags": ["라틴팝","바차타"],
+    "memo": "잔잔한 도미니카 음악. '나의 축복'",
     "youtube": [
-      {"title": "Ritche Valens 버전", "url": "https://www.youtube.com/watch?v=0ymdjg9v8zM"},
-      {"title": "가장 널리 알려진 Los Lobos 버전. Valens의 인생을 담은 영화 <La Bamba>에 삽입", "url": "https://www.youtube.com/watch?v=nLAWPrCUQQ0"}
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=LakJahiBl2Y"}
     ],
-    "image": "covers/454-la-bamba.jpg"
+    "image": "covers/454-mi-bendicion.jpg"
   },
   {
     "title": "Waltzing Matilda",
@@ -8312,5 +8326,134 @@
       {"title": "MV", "url": "https://www.youtube.com/watch?v=UtF6Jej8yb4"}
     ],
     "image": "covers/500-the-nights-avicii.jpg"
+  },
+  {
+    "title": "いーあるふぁんくらぶ (하나둘 팬클럽)",
+    "year": "2012",
+    "artist": ["GUMI","Kagamine Lin (鏡音リン)"],
+    "songwriters": ["Mikito-P"],
+    "language": ["일본어"],
+    "countries": ["JP"],
+    "tags": ["보컬로이드"],
+    "memo": "중국어를 배우는 노래.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=oBgADhsOoog"}
+    ],
+    "image": "covers/501-12fanclub.jpg"
+  },
+  {
+    "title": "Bad Apple!! feat. nomico",
+    "year": "2007",
+    "artist": ["nomico"],
+    "songwriters": ["はるか","簑島正佳"],
+    "language": ["일본어"],
+    "countries": ["JP"],
+    "tags": ["게임음악","일렉트로팝"],
+    "memo": "동방 프로젝트 곡 Bad Apple!! 을 어레인지한 곡. 흑백 PV 영상으로 유명하다.",
+    "youtube": [
+      {"title": "PV", "url": "https://youtu.be/FtutLA63Cp8?si=o0_XOOV1yb4Bz-7G"}
+    ],
+    "image": "covers/502-badapple.jpg"
+  },
+  {
+    "title": "Ripped Pants",
+    "year": "1999",
+    "artist": ["Tom Kenny","Saltpeter"],
+    "songwriters": ["Saltpeter","Paul Tibbitt"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["애니메이션","번안"],
+    "memo": "그런 짓은 하지 말아야 했는데 난 그 사실을 몰랐어~",
+    "youtube": [
+      {"title": "영어 원곡", "url": "https://www.youtube.com/watch?v=L8c0EIvYnmE"},
+      {"title": "한국어 버전 (cv. 김승준)", "url": "https://www.youtube.com/watch?v=tMayAhZw7WI"}
+    ],
+    "image": "covers/503-spongebob.jpg"
+  },
+  {
+    "title": "Southern Cross",
+    "year": "2003",
+    "artist": ["403"],
+    "songwriters": ["403"],
+    "language": ["영어"],
+    "countries": ["JP"],
+    "tags": ["메탈","인디"],
+    "memo": "플래시 애니메이션으로 큰 인기를 얻은 곡. 한국에서는 몬더그린 '썩던콩'으로 유명하다.",
+    "youtube": [
+      {"title": "음원", "url": "https://youtu.be/WKNy3vIcWls?si=KjO7mbKD0D1QDbyF"}
+    ],
+    "image": "covers/504-southern-cross.jpg"
+  },
+  {
+    "title": "비누방울",
+    "year": "1987",
+    "artist": ["오승원","서울오디오 코러스"],
+    "songwriters": ["김혜진","김동성"],
+    "language": ["한국어"],
+    "countries": ["KR"],
+    "tags": ["애니메이션","어린이"],
+    "memo": "애니메이션 <아기공룡 둘리> 삽입곡.",
+    "youtube": [
+      {"title": "영상", "url": "https://youtu.be/jTl0Lbocsxc?si=1qkFy8rTxuEcBW-0"}
+    ],
+    "image": "covers/505-둘리.jpg"
+  },
+  {
+    "title": "いつも何度でも (언제나 몇 번이라도)",
+    "year": "2001",
+    "artist": ["Youmi Kimura (木村弓)"],
+    "songwriters": ["木村弓","覚和歌子"],
+    "language": ["일본어"],
+    "countries": ["JP"],
+    "tags": ["애니메이션","영화음악","JPOP"],
+    "memo": "애니메이션 <센과 치히로의 행방불명> 엔딩곡.",
+    "youtube": [
+      {"title": "음악", "url": "https://www.youtube.com/watch?v=HnixYctruHg"},
+      {"title": "동일본 대지진 자선 라이브", "url": "https://www.youtube.com/watch?v=v6VWTSdWmhk"}
+    ],
+    "image": "covers/506-spirited-away.jpg"
+  },
+  {
+    "title": "よあけのみち (새벽의 길)",
+    "year": "1975",
+    "artist": ["Kumiko Ōsugi (大杉久美子)","Antwerp Children Chorus"],
+    "songwriters": ["岸田衿子","渡辺岳夫"],
+    "language": ["네덜란드어","일본어"],
+    "countries": ["JP","BE"],
+    "tags": ["애니메이션",""],
+    "memo": "애니메이션 <플랜더스의 개> 오프닝.",
+    "youtube": [
+      {"title": "원곡", "url": "https://www.youtube.com/watch?v=Z-ack_NFz_o"},
+      {"title": "한국어 버전", "url": "https://www.youtube.com/watch?v=QIuRjoicafU"}
+    ],
+    "image": "covers/507-flanders.jpg"
+  },
+  {
+    "title": "E Le'o A'u Se Fufulu'ulo",
+    "year": "2019",
+    "artist": ["Mr Cowboy"],
+    "songwriters": ["Sam Ah Chookoon","Olovesi Tupa'i"],
+    "language": ["사모아어"],
+    "countries": ["WS"],
+    "tags": ["컨트리"],
+    "memo": "서사모아의 컨트리 곡. 존중받지 못하는 관계에서의 서러움",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/BpKNXAWc7dg?si=NZbIyGSH0MmUY_q3"}
+    ],
+    "image": "covers/508-eleo.jpg"
+  },
+  {
+    "title": "",
+    "year": "",
+    "artist": [""],
+    "songwriters": [""],
+    "language": [""],
+    "countries": [""],
+    "tags": [""],
+    "memo": "",
+    "youtube": [
+      {"title": "", "url": ""}
+    ],
+    "image": "covers/.jpg"
   }
 ]
