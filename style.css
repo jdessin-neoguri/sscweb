@@ -1531,29 +1531,9 @@ a:hover {
     stroke-width: 0.5;
 }
 
-/* 곡 수가 많을수록 진한 색 (1곡 / 2~4곡 / 5~10곡 / 11~20곡 / 21곡 이상) */
-.map-country.count-tier-1 {
-    fill: var(--tier-1);
-    transition: fill 0.15s;
-}
-
-.map-country.count-tier-2 {
-    fill: var(--tier-2);
-    transition: fill 0.15s;
-}
-
-.map-country.count-tier-3 {
-    fill: var(--tier-3);
-    transition: fill 0.15s;
-}
-
-.map-country.count-tier-4 {
-    fill: var(--tier-4);
-    transition: fill 0.15s;
-}
-
-.map-country.count-tier-5 {
-    fill: var(--tier-5);
+/* 곡 수에 따른 색은 map.js가 --fill 변수로 칠함 (연속 그라데이션) */
+.map-country.has-songs {
+    fill: var(--fill, var(--tier-1));
     transition: fill 0.15s;
 }
 
@@ -1562,29 +1542,10 @@ a:hover {
 }
 
 .map-dot {
+    fill: var(--fill, var(--tier-1));
     stroke: var(--surface);
     stroke-width: 1;
     transition: fill 0.15s;
-}
-
-.map-dot.count-tier-1 {
-    fill: var(--tier-1);
-}
-
-.map-dot.count-tier-2 {
-    fill: var(--tier-2);
-}
-
-.map-dot.count-tier-3 {
-    fill: var(--tier-3);
-}
-
-.map-dot.count-tier-4 {
-    fill: var(--tier-4);
-}
-
-.map-dot.count-tier-5 {
-    fill: var(--tier-5);
 }
 
 .map-dot:hover {

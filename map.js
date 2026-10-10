@@ -32,14 +32,37 @@ function buildNumericToAlpha2() {
   return map;
 }
 
-// 곡 수에 따라 5단계로 색을 진하게 (1곡 / 2~4곡 / 5~10곡 / 11~20곡 / 21곡 이상)
-function countTierClass(count) {
-  if (!count || count <= 0) return "";
-  if (count === 1) return "count-tier-1";
-  if (count <= 4) return "count-tier-2";
-  if (count <= 10) return "count-tier-3";
-  if (count <= 20) return "count-tier-4";
-  return "count-tier-5";
+// 곡 수 -> 색 (연속 그라데이션).
+// 1곡은 --tier-1, 가장 곡이 많은 나라는 --tier-5, 그 사이는 로그 스케일로 보간
+// (곡 수 차이가 커도 적은 쪽 구분이 사라지지 않게 함). 색은 CSS 변수라서 테마에 따라 바뀜.
+let mapMaxCount = 1;
+
+function readTierColors() {
+  const style = getComputedStyle(document.documentElement);
+  return [1, 2, 3, 4, 5].map(i => style.getPropertyValue(`--tier-${i}`).trim());
+}
+
+function countToT(count) {
+  return mapMaxCount > 1 ? Math.log(count) / Math.log(mapMaxCount) : 0;
+}
+
+// 폴리곤/점에 --fill 값을 칠함 (hover 색은 CSS가 우선하도록 inline fill 대신 변수 사용)
+function paintMapColors() {
+  if (!mapInnerGroup) return;
+
+  const scale = d3.scaleLinear()
+    .domain([0, 0.25, 0.5, 0.75, 1])
+    .range(readTierColors())
+    .interpolate(d3.interpolateRgb)
+    .clamp(true);
+
+  const counts = getCountryCounts();
+
+  mapInnerGroup.selectAll("path.map-country.has-songs, circle.map-dot")
+    .style("--fill", function () {
+      const code = this.getAttribute("data-code");
+      return scale(countToT(counts.get(code) || 1));
+    });
 }
 
 async function initMap() {
@@ -101,6 +124,16 @@ async function initMap() {
   const countryCounts = getCountryCounts();
   const numericToAlpha2 = buildNumericToAlpha2();
 
+  mapMaxCount = Math.max(
+    1,
+    ...[...countryCounts.entries()]
+      .filter(([code]) => code !== "XX")
+      .map(([, count]) => count)
+  );
+
+  const legendMax = document.getElementById("map-legend-max");
+  if (legendMax) legendMax.textContent = `${mapMaxCount}곡`;
+
   // 국가 폴리곤
   mapInnerGroup.selectAll("path.map-country")
     .data(worldFeatures)
@@ -112,7 +145,6 @@ async function initMap() {
       return [
         "map-country",
         hasSongs ? "has-songs" : "",
-        hasSongs ? countTierClass(count) : "",
       ].filter(Boolean).join(" ");
     })
     .attr("data-code", feature => numericToAlpha2.get(feature.id) || "")
@@ -179,14 +211,23 @@ async function initMap() {
   mapDotGroup.selectAll("circle.map-dot")
     .data(dotCodes)
     .join("circle")
-    .attr("class", code =>
-      ["map-dot", countTierClass(countryCounts.get(code))].filter(Boolean).join(" ")
-    )
+    .attr("class", "map-dot")
     .attr("data-code", code => code)
     .attr("cx", code => mapProjection(COUNTRY_CENTROIDS[code])[0])
     .attr("cy", code => mapProjection(COUNTRY_CENTROIDS[code])[1])
     .attr("r", 4)
     .style("pointer-events", "none");
+
+  paintMapColors();
+
+  // 테마(라이트/다크) 전환 시 색 다시 계산
+  new MutationObserver(paintMapColors).observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["data-theme"],
+  });
+
+  window.matchMedia("(prefers-color-scheme: dark)")
+    .addEventListener?.("change", paintMapColors);
 
   // 확대/축소
   mapZoomBehavior = d3.zoom()
