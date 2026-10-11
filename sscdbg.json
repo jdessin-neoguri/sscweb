@@ -7862,7 +7862,7 @@
     "artist": ["Kingfishr"],
     "songwriters": ["Eoin Fitzgibbons","Edmond Keogh","Eogan McGrath"],
     "language": ["영어"],
-    "countries": ["IR"],
+    "countries": ["IE"],
     "tags": ["포크"],
     "memo": "관계의 끝과, 그를 통한 성장에 관하여. 아일랜드 포크송",
     "youtube": [
@@ -8583,5 +8583,19 @@
       {"title": "MV", "url": "https://youtu.be/nCkpzqqog4k?si=UUcZLvrAgY5M0U5z"}
     ],
     "image": "covers/518-lonely-hour.jpg"
+  },
+  {
+    "title": "Galop infernal (Can Can)",
+    "year": "",
+    "artist": [],
+    "songwriters": ["Jacques Offenbach"],
+    "language": [],
+    "countries": ["FR","DE"],
+    "tags": ["클래식","오페라"],
+    "memo": "오페레타 <지옥의 오르페> 중 '지옥의 갤럽'. '캉캉'으로 널리 알려져 있는 곡.",
+    "youtube": [
+      {"title": "음악", "url": "https://www.youtube.com/watch?v=4Diu2N8TGKA"}
+    ],
+    "image": "covers/519-offenbach.jpg"
   }
 ]
