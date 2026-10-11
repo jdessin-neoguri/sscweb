@@ -8513,5 +8513,75 @@
       {"title": "MV (가사, 번역)", "url": "https://www.youtube.com/watch?v=h2TLNdaQkL4"}
     ],
     "image": "covers/513-the-greatest-showman.jpg"
+  },
+  {
+    "title": "(They Long to Be) Close to You",
+    "year": "1970",
+    "artist": ["The Carpenters"],
+    "songwriters": ["Burt Bacharach","Hal David"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["팝"],
+    "memo": "Just like me, they long to be close to you.",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=HYnV_pkO-Rw"}
+    ],
+    "image": "covers/514-close-to-you.jpg"
+  },
+  {
+    "title": "Every Breath You Take",
+    "year": "1983",
+    "artist": ["The Police"],
+    "songwriters": ["Sting"],
+    "language": ["영어"],
+    "countries": ["GB"],
+    "tags": ["소프트록","뉴웨이브"],
+    "memo": "옛 연인이 스토킹하는 노래.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/OMOGaugKpzs?si=RjVDRykW0TB09aFV"}
+    ],
+    "image": "covers/515-every-breath.jpg"
+  },
+  {
+    "title": "You've Got a Friend in Me",
+    "year": "1995",
+    "artist": ["Randy Newman"],
+    "songwriters": ["Randy Newman"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["컨트리","팝","애니메이션","영화음악","디즈니"],
+    "memo": "영화 <토이 스토리> 테마곡.",
+    "youtube": [
+      {"title": "영상", "url": "https://youtu.be/1MPZRcyTrcU?si=1wXbpYhJwk7DY1zw"}
+    ],
+    "image": "covers/516-toy-story.jpg"
+  },
+  {
+    "title": "Pi's Lullaby",
+    "year": "2012",
+    "artist": ["Bombay Jayashri"],
+    "songwriters": ["Bombay Jayashri","Mychael Danna"],
+    "language": ["타밀어"],
+    "countries": ["IN"],
+    "tags": ["영화음악"],
+    "memo": "영화 <라이프 오브 파이> 인트로 곡.",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=qDEonBsF6lw"}
+    ],
+    "image": "covers/517-life-of-pi.jpg"
+  },
+  {
+    "title": "I'm Not the Only One",
+    "year": "2014",
+    "artist": ["Sam Smith"],
+    "songwriters": ["Sam Smith","James Napier"],
+    "language": ["영어"],
+    "countries": ["GB"],
+    "tags": ["소울"],
+    "memo": "연인의 불륜을 눈치채고 나서.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/nCkpzqqog4k?si=UUcZLvrAgY5M0U5z"}
+    ],
+    "image": "covers/518-lonely-hour.jpg"
   }
 ]
