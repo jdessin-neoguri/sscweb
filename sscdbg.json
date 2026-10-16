@@ -5,7 +5,7 @@
     "artist": ["Dschinghis Khan"],
     "songwriters": ["Ralph Siegel", "Bernd Meinunger"],
     "language": ["독일어"],
-    "countries": ["DE"],
+    "countries": ["DE","HU","NL","ZA"],
     "tags": ["디스코", "몽골", "칭기즈칸"],
     "memo": "디스코 밴드 징기스 칸의 동명의 대표곡. 몽골의 정복자 칭기즈 칸(징기스 칸)에 관한 노래",
     "youtube": [
@@ -19,7 +19,7 @@
     "artist": ["Dschinghis Khan"],
     "songwriters": ["Ralph Siegel", "Bernd Meinunger"],
     "language": ["독일어"],
-    "countries": ["DE"],
+    "countries": ["DE","HU","NL","ZA"],
     "tags": ["디스코", "러시아", "모스크바", "밈"],
     "memo": "'모스크바', 러시아 곡으로 오해받기도 하는 징기스 칸의 대표곡",
     "youtube": [
@@ -33,7 +33,7 @@
     "artist": ["Dschinghis Khan"],
     "songwriters": ["Ralph Siegel", "Bernd Meinunger"],
     "language": ["독일어"],
-    "countries": ["DE"],
+    "countries": ["DE","HU","NL","ZA"],
     "tags": ["디스코", "남미원주민", "전설"],
     "memo": "징기스 칸의 덜 유명한 곡. 잉카 문명의 몰락에 관한 전설에 관해 노래한다.",
     "links": [
@@ -45,17 +45,75 @@
     "image": "covers/001-machu-picchu-dschinghis-khan.jpg"
   },
   {
+    "title": "행진 (Марш)",
+    "year": "1892",
+    "artist": [],
+    "songwriters": ["Pyotr Tchaikovsky"],
+    "language": [],
+    "countries": ["RU"],
+    "tags": ["클래식","호두까기인형","발레"],
+    "memo": "호두까기 인형(Щелкунчик/The Nutcracker, Op. 71) 중 행진(March). ",
+    "youtube": [
+      {"title": "George Balanchine", "url": "https://www.youtube.com/watch?v=Xph2vDRWbv4"}
+    ],
+    "image": "covers/002-tchaikovsky.jpg"
+  },
+  {
+    "title": "러시아 춤 (Трепак)",
+    "year": "1892",
+    "artist": [],
+    "songwriters": ["Pyotr Tchaikovsky"],
+    "language": [],
+    "countries": ["RU"],
+    "tags": ["클래식", "호두까기인형", "발레","크리스마스"],
+    "memo": "호두까기 인형(Щелкунчик/The Nutcracker, Op. 71) 중 러시아의 춤(Trepak). 러시아 특유의 강렬하고 화려한 곡.",
+    "youtube": [
+      {"title": "볼쇼이 극장 공연", "url": "https://www.youtube.com/watch?v=kZyx1t7-9wk"},
+      {"title": "음악", "url": "https://www.youtube.com/watch?v=z2ISRMSIyX8"}
+    ],
+    "image": "covers/002-tchaikovsky.jpg"
+  },
+  {
     "title": "꽃의 왈츠 (Вальс цветов)",
     "year": "1892",
     "artist": [],
     "songwriters": ["Pyotr Tchaikovsky"],
     "language": [],
     "countries": ["RU"],
-    "tags": ["클래식", "왈츠", "호두까기인형", "발레"],
-    "memo": "발레 '호두까기 인형(Щелкунчик/The Nutcracker, Op. 71)' 중 꽃의 요정의 춤.",
+    "tags": ["클래식","왈츠","호두까기인형","발레","크리스마스"],
+    "memo": "호두까기 인형(Щелкунчик/The Nutcracker, Op. 71) 중 꽃의 왈츠(Waltz of the Flowers). 호두까기 인형에서 가장 유명한 곡",
     "youtube": [
       {"title": "London Festival Orchestra", "url": "https://www.youtube.com/watch?v=QxHkLdQy5f0"},
       {"title": "Concertgebouworkest", "url": "https://www.youtube.com/watch?v=Zp1aDnVySf8"}
+    ],
+    "image": "covers/002-tchaikovsky.jpg"
+  },
+  {
+    "title": "설탕 요정의 춤 (Танец Феи Драже)",
+    "year": "1892",
+    "artist": [],
+    "songwriters": ["Pyotr Tchaikovsky"],
+    "language": [],
+    "countries": ["RU"],
+    "tags": ["클래식","호두까기인형","발레","크리스마스"],
+    "memo": "호두까기 인형(Щелкунчик/The Nutcracker, Op. 71) 중 설탕 요정의 춤. Dance of the Sugar-Plum Fairy",
+    "youtube": [
+      {"title": "London Symphony Orchestra", "url": "https://www.youtube.com/watch?v=4rTjJUcJNAw"},
+      {"title": "The Royal Ballet (발레 영상)", "url": "https://www.youtube.com/watch?v=zV1qLYukTH8"}
+    ],
+    "image": "covers/002-tchaikovsky.jpg"
+  },
+  {
+    "title": "정경(Сцена)",
+    "year": "1892",
+    "artist": [],
+    "songwriters": ["Pyotr Tchaikovsky"],
+    "language": [],
+    "countries": ["RU"],
+    "tags": ["클래식","발레","크리스마스"],
+    "memo": "백조의 호수(Лебединое озеро/Swan Lake, Op.20) 중 정경(Scene). 백조의 호수의 메인 테마",
+    "youtube": [
+      {"title": "음악", "url": "https://www.youtube.com/watch?v=9cNQFB0TDfY"}
     ],
     "image": "covers/002-tchaikovsky.jpg"
   },
@@ -65,7 +123,7 @@
     "artist": ["Dschinghis Khan"],
     "songwriters": ["Ralph Siegel", "Bernd Meinunger"],
     "language": ["독일어"],
-    "countries": ["DE"],
+    "countries": ["DE","HU","NL","ZA"],
     "tags": ["디스코", "멕시코"],
     "memo": "'총잡이', 서부 개척시대의 멕시코를 주제로 한다.",
     "youtube": [
@@ -2386,7 +2444,7 @@
     "artist": ["Boney M."],
     "songwriters": ["Frank Farian", "George Reyam", "Fred Jay"],
     "language": ["영어"],
-    "countries": ["DE"],
+    "countries": ["DE","JM","MS","AW"],
     "tags": ["러시아", "디스코", "밈"],
     "memo": "러시아 제국 말기의 수도승 라스푸틴에 얽힌 이야기.",
     "links": [
@@ -3872,7 +3930,7 @@
     "artist": ["Shakira"],
     "songwriters": ["Sia Furler", "Tor Hermansen", "Mikkel Eriksen"],
     "language": ["영어"],
-    "countries": ["CO", "US"],
+    "countries": ["CO"],
     "tags": ["애니메이션", "영화음악", "팝", "댄스"],
     "memo": "애니메이션 영화 <주토피아> 수록곡. 실패하고 좌절해도, 모든 걸 시도해 보는 거야.",
     "youtube": [
@@ -4357,7 +4415,7 @@
     "songwriters": ["Kurt Cobain", "Dave Grohl", "Krist Novoselic"],
     "language": ["영어"],
     "countries": ["US"],
-    "tags": ["얼터너티브록"],
+    "tags": ["얼터너티브록","그런지"],
     "memo": "너바나의 대표곡. 강렬한 사운드.",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=hTWKbfoikeg"}
@@ -4999,9 +5057,9 @@
   },
   {
     "title": "L'Amour toujours",
-    "year": "2000",
+    "year": "1999",
     "artist": ["Gigi D'Agostino", "Ola Onabule"],
-    "songwriters": ["Luigino Di Agostino", "Carlo Montagner", "Paolo Sandrini", "Diego Leoni"],
+    "songwriters": ["Gigi D'Agostino", "Carlo Montagner", "Paolo Sandrini", "Diego Leoni"],
     "language": ["영어"],
     "countries": ["IT"],
     "tags": ["일렉트로닉", "댄스"],
@@ -5009,7 +5067,21 @@
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=w15oWDh02K4"}
     ],
-    "image": "covers/284-l-amour-toujours-gigi-d-agostino.jpg"
+    "image": "covers/284-lamour-toujours.jpg"
+  },
+  {
+    "title": "Bla Bla Bla",
+    "year": "1999",
+    "artist": ["Gigi D'Agostino"],
+    "songwriters": ["Gigi D'Agostino","Kirby Gregory"],
+    "language": [],
+    "countries": ["IT"],
+    "tags": ["하우스","댄스"],
+    "memo": "지지 다고스티노의 첫 히트곡. 압 압 띵",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/Hrph2EW9VjY?si=8xPZGe9xRHYtIp-S"}
+    ],
+    "image": "covers/284-lamour-toujours.jpg"
   },
   {
     "title": "24K Magic",
@@ -7371,7 +7443,7 @@
   {
     "title": "Пластинки (Plastinki)",
     "year": "2018",
-    "artist": ["Дурной Вкус (Durnoy Vkus)"],
+    "artist": ["Durnoy Vkus (Дурной Вкус)"],
     "songwriters": ["Andrey Degtyarev"],
     "language": ["러시아어"],
     "countries": ["RU"],
@@ -8740,5 +8812,65 @@
       {"title": "무대영상", "url": "https://youtu.be/Qy7z_oiN6nQ?si=yvgLKB-a2HsIjIho"}
     ],
     "image": "covers/529-20-20.jpg"
+  },
+  {
+    "title": "L-O-V-E",
+    "year": "1964",
+    "artist": ["Nat King Cole"],
+    "songwriters": ["Bert Kaempfert","Milt Gabler"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["재즈","스윙","소울"],
+    "memo": "냇 킹 콜의 마지막 곡.",
+    "youtube": [
+      {"title": "Lyric Video", "url": "https://www.youtube.com/watch?v=f_HmF84G7ZY"},
+      {"title": "Nat King Cole의 일본어 버전(?)", "url": "https://www.youtube.com/watch?v=E2YQVWj3rfE"},
+      {"title": "Frank Sinatra 버전", "url": "https://www.youtube.com/watch?v=tmSzRx9RYLk"}
+    ],
+    "image": "covers/530-love.jpg"
+  },
+  {
+    "title": "Lone Digger",
+    "year": "2015",
+    "artist": ["Carvan Place"],
+    "songwriters": ["Arnaud de Bosredon","Charles Delaporte","Hugues Payen","Antoine Toustou","Aurélien Amzallag","Sonia Fernandez Velasco"],
+    "language": ["영어"],
+    "countries": ["FR"],
+    "tags": ["일렉트로닉","디스코","일렉트로스윙"],
+    "memo": "프랑스 일렉트로스윙 곡. 수인끼리 싸우는 조금 잔인한 MV",
+    "youtube": [
+      {"title": "MV (주의)", "url": "https://youtu.be/UbQgXeY_zi4?si=IwctCJoIJs5aKLID"}
+    ],
+    "image": "covers/531-robot.jpg"
+  },
+  {
+    "title": "Love Nwantiti",
+    "year": "2019",
+    "artist": ["Ckay"],
+    "songwriters": ["Chukwuka Ekweani"],
+    "language": ["나이지리아피진영어","이보어"],
+    "countries": ["NG"],
+    "tags": ["아프로비츠"],
+    "memo": "틱톡을 통해 세계적 인기를 얻은 아프로비츠 곡.",
+    "youtube": [
+      {"title": "음원", "url": "https://youtu.be/7l22qaD31iE?si=mMW9KhWDVWoPat0T"},
+      {"title": "Remix MV (ft. Joeboy & Kuami Eugene)", "url": "https://youtu.be/D-YDEyuDxWU?si=P5ambtcHaDVZjRw_"},
+      {"title": "North African Remix MV (ft. ElGrandeToto)", "url": "https://www.youtube.com/watch?v=MxjrsDV8Aeo"}
+    ],
+    "image": "covers/532-love-nwantiti.jpg"
+  },
+  {
+    "title": "Deixa A Gira Girá",
+    "year": "1973",
+    "artist": ["Os Tincoãs"],
+    "songwriters": ["Os Tincoãs"],
+    "language": ["포르투갈어"],
+    "countries": ["BR"],
+    "tags": ["종교음악","삼바","MPB"],
+    "memo": "'의식이 계속되게 하라!', 아프로-브라질(움반다) 종교 찬가를 바탕으로 한 곡.",
+    "youtube": [
+      {"title": "음원", "url": "https://youtu.be/cObXvQ_bIa8?si=Yc_Sj_6ja_DpYqVG"}
+    ],
+    "image": "covers/533-os-tincoas.jpg"
   }
 ]

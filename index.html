@@ -47,11 +47,11 @@
       />
     </div>
 
-    <div class="view-mode-tabs" role="tablist" aria-label="국가 보기 방식">
+    <div class="view-mode-tabs" role="tablist" aria-label="보기 방식">
       <button
         type="button"
         class="view-tab"
-        data-mode="countries"
+        data-mode="list"
         role="tab"
         aria-selected="false"
       >
@@ -69,15 +69,6 @@
       <button
         type="button"
         class="view-tab"
-        data-mode="timeline"
-        role="tab"
-        aria-selected="false"
-      >
-        연표
-      </button>
-      <button
-        type="button"
-        class="view-tab"
         data-mode="tags"
         role="tab"
         aria-selected="false"
@@ -91,7 +82,7 @@
         role="tab"
         aria-selected="false"
       >
-        아티스트
+        사람
       </button>
       <button
         type="button"
@@ -106,25 +97,32 @@
 
   </div>
 
-  <!-- 국가 선택: 목록 -->
-  <div id="country-view" style="display: none;">
+  <!-- 목록: 모든 곡 카드 (정렬 / 국가별·언어별 묶기) -->
+  <div id="list-view" style="display: none;">
 
-    <div class="country-controls">
-      <label for="country-sort">국가 정렬</label>
+    <div class="country-controls list-controls">
+      <label for="list-sort">정렬</label>
+      <select id="list-sort">
+        <option value="registered">등록 순</option>
+        <option value="title-asc">제목순</option>
+        <option value="title-desc">제목 역순</option>
+        <option value="year-asc">오래된 순</option>
+        <option value="year-desc">최신 순</option>
+      </select>
 
-      <select id="country-sort">
-        <option value="name">가나다순</option>
-        <option value="count-desc">곡 많은 순</option>
-        <option value="count-asc">곡 적은 순</option>
-        <option value="continent">대륙별</option>
+      <label for="list-group">묶기</label>
+      <select id="list-group">
+        <option value="none">묶지 않음</option>
+        <option value="country">국가별</option>
+        <option value="language">언어별</option>
       </select>
     </div>
 
-    <div id="country-list"></div>
+    <div id="list-songs"></div>
 
   </div>
 
-  <!-- 국가 선택: 지도 -->
+  <!-- 지도 -->
   <div id="map-view" style="display: none;">
 
     <div id="map-container">
@@ -146,23 +144,7 @@
 
   </div>
 
-  <!-- 연표: 창작년도 기준으로 곡을 탐색 (1960년 이후는 연도별, 이전은 연대/세기별) -->
-  <div id="timeline-view" style="display: none;">
-
-    <div class="country-controls">
-      <label for="timeline-sort">정렬</label>
-
-      <select id="timeline-sort">
-        <option value="asc">오래된순</option>
-        <option value="desc">최신순</option>
-      </select>
-    </div>
-
-    <div id="timeline-list"></div>
-
-  </div>
-
-  <!-- 국가 선택: 태그 (많이 쓰인 순으로 정렬) -->
+  <!-- 태그 (많이 쓰인 순으로 정렬) -->
   <div id="tags-view" style="display: none;">
 
     <div class="country-controls">
@@ -177,22 +159,19 @@
     <div id="tags-list"></div>
   </div>
 
-  <!-- 아티스트: 곡이 등록된 아티스트 목록 (설명은 artists.json에 직접 입력) -->
+  <!-- 사람: artists.json에 등록된 사람만 (설명은 artists.json에 직접 입력) -->
   <div id="artists-view" style="display: none;">
+
+    <p class="artists-note">아티스트는 계속 추가 예정입니다.</p>
 
     <div class="country-controls artist-controls">
       <input
         type="search"
         id="artist-filter"
         class="artist-filter"
-        placeholder="아티스트 이름 찾기"
-        aria-label="아티스트 이름 찾기"
+        placeholder="이름 찾기"
+        aria-label="이름 찾기"
       />
-
-      <label class="artist-multi-label">
-        <input type="checkbox" id="artist-multi-only" />
-        2곡 이상만
-      </label>
 
       <label for="artist-sort">정렬</label>
       <select id="artist-sort">
@@ -217,8 +196,6 @@
     <div class="about-content">
 
       <div class="about-hero">
-        <div class="about-icon">🌍</div>
-        <h2>세소찾 더보기 소개</h2>
         <p class="about-stat-badge" id="about-stat-badge"></p>
       </div>
 

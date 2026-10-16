@@ -1,8 +1,28 @@
 {
-  "Dschinghis Khan": {
+  "징기스칸 (Dschinghis Khan)": {
     "names": [
       "Dschinghis Khan"
     ],
-    "description": "1979년 뮌헨에서 결성된 독일의 디스코 그룹. 다양한 역사적 주제를 사용한 가사가 특징이다."
+    "description": "1979년 뮌헨에서 결성된 독일의 디스코 밴드. Ralph Siegel과 Bernd Meinunger가 프로듀싱했으며, 다양한 역사적 주제를 독일어로 노래하여 세계적 인기를 얻었다. 전성기 멤버들은 6인조로, 그중 독일 태생은 2명뿐인 다국적 그룹이었다. 현재는 2기 멤버들이 활동 중이다."
+  },
+  "차이코프스키 (П. И. Чайковский)": {
+    "names": [
+      "Pyotr Tchaikovsky"
+    ],
+    "description": "표트르 일리치 차이콥스키(차이코프스키), 러시아 최고의 작곡가. 《백조의 호수》,《호두까기 인형》,《1812년 서곡》등의 작품으로 유명하다. 후기 낭만주의를 대표하는 거장으로, 서유럽의 형식에 러시아 정서를 녹여내고자 했다."
+  },
+  "비틀즈 (The Beatles)": {
+    "names": [
+      "The Beatles",
+      "John Lennon","Paul McCartney","George Harrison","Ringo Starr"
+    ],
+    "description": "1960년 리버풀에서 결성된 영국의 록 밴드, 브리티시 인베이전의 주역. 활동 기간이 길지 않았음에도 장르를 넘나들며 수많은 히트곡을 남겼다. 음악을 넘어 20세기 대중문화의 지형을 바꾼 역사적 아이콘."
+  },
+  "다프트 펑크 (Daft Punk)": {
+    "names": [
+      "Daft Punk",
+      "Guy Manuel De Homem-Christo","Thomas Bangalter"
+    ],
+    "description": "1993년 파리에서 결성된 프랑스의 전자 음악 듀오. 로봇 헬멧과 수트를 착용한 채 활동했다. EDM을 메인스트림으로 끌어올린, 가장 유명하고 영향력 있는 일렉트로닉 뮤지션(로봇)."
   }
 }
