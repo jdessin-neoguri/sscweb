@@ -8586,7 +8586,7 @@
   },
   {
     "title": "Galop infernal (Can Can)",
-    "year": "",
+    "year": "1858",
     "artist": [],
     "songwriters": ["Jacques Offenbach"],
     "language": [],
@@ -8597,5 +8597,148 @@
       {"title": "음악", "url": "https://www.youtube.com/watch?v=4Diu2N8TGKA"}
     ],
     "image": "covers/519-offenbach.jpg"
+  },
+  {
+    "title": "Maniac",
+    "year": "2019",
+    "artist": ["Conan Gray"],
+    "songwriters": ["Conan Gray","Dan Nigro"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["팝","인디"],
+    "memo": "뒤늦게 후회하는 옛 연인에게.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=-E-_IRJU5w0"},
+      {"title": "Live", "url": "https://youtu.be/pQILQJE-QIs?si=Q64jCv6LISb2KYNl"}
+    ],
+    "image": "covers/520-kidkrow.jpg"
+  },
+  {
+    "title": "Sign of the Times",
+    "year": "2017",
+    "artist": ["Harry Styles"],
+    "songwriters": ["Harry Styles","Jeff Bhasker","Mitch Rowland","Ryan Nasci","Alex Salibian","Tyler Johnson"],
+    "language": ["영어"],
+    "countries": ["GB"],
+    "tags": ["팝록","소프트록"],
+    "memo": "We gotta get away from here.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/qN4ooNx77u0?si=_ybdJ52TkY0ehHuC"}
+    ],
+    "image": "covers/521-harry-styles.jpg"
+  },
+  {
+    "title": "Rock With You",
+    "year": "1979",
+    "artist": ["Michael Jackson"],
+    "songwriters": ["Rod Temperton"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["디스코","소울","펑크"],
+    "memo": "마잭 초기 곡 중 하나.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/5X-Mrc2l1d0?si=VmpN7XmaOZREMU--"}
+    ],
+    "image": "covers/522-off-the-wall.jpg"
+  },
+  {
+    "title": "Englishman in New York",
+    "year": "1988",
+    "artist": ["Sting"],
+    "songwriters": ["Sting"],
+    "language": ["영어"],
+    "countries": ["GB"],
+    "tags": ["뉴욕","재즈","레게","팝"],
+    "memo": "뉴욕에 온 잉글랜드인의 이야기.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/d27gTrPPAyk?si=kWzKAf4rqXOTYLnk"}
+    ],
+    "image": "covers/523-nothing-like-the-sun.jpg"
+  },
+  {
+    "title": "Starman",
+    "year": "1972",
+    "artist": ["David Bowie"],
+    "songwriters": ["David Bowie"],
+    "language": ["영어"],
+    "countries": ["GB"],
+    "tags": ["록"],
+    "memo": "우주인으로부터의 메시지.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/t365MuktYQs?si=t3tjPxJN2tjreGqp"}
+    ],
+    "image": "covers/524-starman.jpg"
+  },
+  {
+    "title": "Top of the World",
+    "year": "1972",
+    "artist": ["The Carpenters"],
+    "songwriters": ["Richard Carpenter","John Bettis"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["소프트록","팝","컨트리","포크"],
+    "memo": "카펜터즈의 잔잔한 컨트리 팝.",
+    "youtube": [
+      {"title": "Bob Hope Show", "url": "https://www.youtube.com/watch?v=Dyl4x-CtpTY"},
+      {"title": "Lynn Anderson 버전", "url": "https://www.youtube.com/watch?v=_yztFjX6-4A"},
+      {"title": "음원", "url": "https://youtu.be/dTMPTC4Bo5M?si=OEIvLa0HkPahdBof"}
+    ],
+    "image": "covers/525-song-for-you.jpg"
+  },
+  {
+    "title": "Sunday Morning",
+    "year": "2002",
+    "artist": ["Maroon 5"],
+    "songwriters": ["Jesse Carmichael","Adam Levine"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["얼터너티브록","재즈","펑크"],
+    "memo": "마룬5 1집 중.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/S2Cti12XBw4?si=LEiGqyKcxQZgGnrm"}
+    ],
+    "image": "covers/526-songs-about-jane.jpg"
+  },
+  {
+    "title": "Deja Vu",
+    "year": "1999",
+    "artist": ["Dave Rodgers"],
+    "songwriters": ["Giancarlo Pasquini","Fabrizio Rizzolo","Luca Frassetto"],
+    "language": ["영어"],
+    "countries": ["IT"],
+    "tags": ["유로비트","애니메이션"],
+    "memo": "애니메이션 <이니셜D> 삽입곡.",
+    "youtube": [
+      {"title": "음악", "url": "https://youtu.be/dv13gl0a-FA?si=vYFLbc9UUwZf9RZc"}
+    ],
+    "image": "covers/527-deja-vu.jpg"
+  },
+  {
+    "title": "It's My Life",
+    "year": "2000",
+    "artist": ["Bon Jovi"],
+    "songwriters": ["Jon Bon Jovi","Richie Sambora","Max Martin"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["팝록","아레나록","얼터너티브록"],
+    "memo": "본 조비의 히트곡 중 하나.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/vx2u5uUu3DE?si=sHWBlgMWmYVp8Zrj"}
+    ],
+    "image": "covers/528-crush-bon-jovi.jpg"
+  },
+  {
+    "title": "Nothing's Gonna Change My Love for You",
+    "year": "1985",
+    "artist": ["George Benson"],
+    "songwriters": ["Michael Masser","Gerry Goffin"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["R&B","소울"],
+    "memo": "변하지 않는 사랑.",
+    "youtube": [
+      {"title": "무대영상", "url": "https://youtu.be/Qy7z_oiN6nQ?si=yvgLKB-a2HsIjIho"}
+    ],
+    "image": "covers/529-20-20.jpg"
   }
 ]

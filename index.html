@@ -86,6 +86,15 @@
       </button>
       <button
         type="button"
+        class="view-tab"
+        data-mode="artists"
+        role="tab"
+        aria-selected="false"
+      >
+        아티스트
+      </button>
+      <button
+        type="button"
         class="view-tab active"
         data-mode="about"
         role="tab"
@@ -168,6 +177,35 @@
     <div id="tags-list"></div>
   </div>
 
+  <!-- 아티스트: 곡이 등록된 아티스트 목록 (설명은 artists.json에 직접 입력) -->
+  <div id="artists-view" style="display: none;">
+
+    <div class="country-controls artist-controls">
+      <input
+        type="search"
+        id="artist-filter"
+        class="artist-filter"
+        placeholder="아티스트 이름 찾기"
+        aria-label="아티스트 이름 찾기"
+      />
+
+      <label class="artist-multi-label">
+        <input type="checkbox" id="artist-multi-only" />
+        2곡 이상만
+      </label>
+
+      <label for="artist-sort">정렬</label>
+      <select id="artist-sort">
+        <option value="count-desc">곡 많은 순</option>
+        <option value="name">가나다순</option>
+      </select>
+
+      <span id="artist-count" class="artist-count"></span>
+    </div>
+
+    <div id="artists-list"></div>
+  </div>
+
   <!--
     소개 탭 (자유롭게 직접 수정하세요!)
     - 도입 문단(.about-intro)의 문장은 자유롭게 바꿔도 됩니다.
@@ -234,6 +272,7 @@
       </button>
       <h2 id="country-title"></h2>
     </div>
+    <div id="artist-info" class="artist-info" style="display: none;"></div>
     <div id="song-list"></div>
   </div>
 
