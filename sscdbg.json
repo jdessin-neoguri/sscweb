@@ -390,6 +390,20 @@
     "image": "covers/018-группа-крови.jpg"
   },
   {
+    "title": "Спокойная ночь (Spokoynaya nochʹ)",
+    "year": "1986",
+    "artist": ["Kino (Кино)"],
+    "songwriters": ["Victor Tsoi","Yuri Kasparyan"],
+    "language": ["러시아어"],
+    "countries": ["RU"],
+    "tags": ["포스트펑크","얼터너티브록","드림팝","록발라드"],
+    "memo": "'편안한 밤'(밤 인사), 밤의 엄숙함과 신비감, 그리고 인생.",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=-vdfEZwPd3M"}
+    ],
+    "image": "covers/018-группа-крови.jpg"
+  },
+  {
     "title": "Кончится лето (Konchitsya leto)",
     "year": "1990",
     "artist": ["Kino (Кино)"],
@@ -4572,7 +4586,7 @@
     "title": "Walking the Wire",
     "year": "2017",
     "artist": ["Imagine Dragons"],
-    "songwriters": ["Dan Reynolds", "Wayne Sermon", "Ben McKee", "Daniel Platzman","Robin Fredriksson", "Mattias Larsson", "Justin Tranter"],
+    "songwriters": ["Dan Reynolds", "Wayne Sermon", "Ben McKee", "Daniel Platzman", "Robin Fredriksson", "Mattias Larsson", "Justin Tranter"],
     "language": ["영어"],
     "countries": ["US"],
     "tags": ["팝록", "팝"],
@@ -4586,7 +4600,7 @@
     "title": "Whatever It Takes",
     "year": "2017",
     "artist": ["Imagine Dragons"],
-    "songwriters": ["Dan Reynolds", "Wayne Sermon", "Ben McKee", "Daniel Platzman","Joel Little"],
+    "songwriters": ["Dan Reynolds", "Wayne Sermon", "Ben McKee", "Daniel Platzman", "Joel Little"],
     "language": ["영어"],
     "countries": ["US"],
     "tags": ["R&B", "아레나록"],
@@ -8875,7 +8889,7 @@
     "image": "covers/533-os-tincoas.jpg"
   },
   {
-    "title": " 森の小さなレストラン (숲속의 작은 레스토랑)",
+    "title": "森の小さなレストラン (숲속의 작은 레스토랑)",
     "year": "2023",
     "artist": ["Aoi Teshima (手嶌葵)"],
     "songwriters": ["御徒町凧","森山直太朗","兼松衆"],
@@ -8887,5 +8901,47 @@
       {"title": "음원", "url": "https://www.youtube.com/watch?v=EYGGd2NKwtI"}
     ],
     "image": "covers/534-donguri.jpg"
+  },
+  {
+    "title": "Just the Two of Us",
+    "year": "1981",
+    "artist": ["Grover Washington Jr.","Bill Withers"],
+    "songwriters": ["Bill Withers","Ralph MacDonald","William Salter"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["재즈","R&B","소울","밈"],
+    "memo": "색소포니스트 그로버 워싱턴 주니어와 빌 위더스의 싱글.",
+    "youtube": [
+      {"title": "Lyric Video", "url": "https://www.youtube.com/watch?v=v8oqbWrP1QY"}
+    ],
+    "image": "covers/535-just-the-two-of-us.jpg"
+  },
+  {
+    "title": "Хочу перемен (Khochu peremen)",
+    "year": "1986",
+    "artist": ["Kino (Кино)"],
+    "songwriters": ["Victor Tsoi"],
+    "language": ["러시아어"],
+    "countries": ["RU"],
+    "tags": ["포스트펑크","영화음악"],
+    "memo": "'우리는 변화를 원한다', 1987년 영화 <아싸(Асса)>의 엔딩에 삽입되어 소련 말에 일어난 여러 변화의 상징이 된 곡. 다만 반체제적 변화보다는 개인적, 정신적 변화를 의도했다고 함.",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=-vdfEZwPd3M"}
+    ],
+    "image": "covers/536-posledniy-geroy.jpg"
+  },
+  {
+    "title": "Это не любовь (Eto ne lyubov)",
+    "year": "1985",
+    "artist": ["Kino (Кино)"],
+    "songwriters": ["Victor Tsoi","Yuri Kasparyan","Alexander Titov","Georgy Guryanov"],
+    "language": ["러시아어"],
+    "countries": ["RU"],
+    "tags": ["팝록","인디","뉴웨이브"],
+    "memo": "'이건 사랑이 아니야'.",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=2hc0Hb6NWAg"}
+    ],
+    "image": "covers/537-eto-ne-lyubov.jpg"
   }
 ]

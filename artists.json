@@ -24,5 +24,26 @@
       "Guy Manuel De Homem-Christo","Thomas Bangalter"
     ],
     "description": "1993년 파리에서 결성된 프랑스의 전자 음악 듀오. 로봇 헬멧과 수트를 착용한 채 활동했다. EDM을 메인스트림으로 끌어올린, 가장 유명하고 영향력 있는 일렉트로닉 뮤지션(로봇)."
+  },
+  "키노 (Кино)": {
+    "names": [
+      "Kino (Кино)",
+      "Victor Tsoi",
+      "Yuri Kasparyan",
+      "Georgy Guryanov",
+      "Igor Tikhomirov",
+      "Alexander Titov"
+    ],
+    "description": "1980년대 소련을 대표하는 록 밴드. 1981년 레닌그라드(상트페테르부르크)에서 결성되어 주로 포스트펑크 장르의 곡을 만들었다. 한국 혼혈 소련인 빅토르 초이가 보컬 및 리더로 활동했다. 1980년대 소련 대중음악의 아이콘으로 청년들에게 많은 영향을 주었다."
+  },
+  "이매진 드래곤스 (Imagine Dragons)": {
+    "names": [
+      "Imagine Dragons",
+      "Dan Reynolds",
+      "Wayne Sermon",
+      "Ben McKee",
+      "Daniel Platzman"
+    ],
+    "description": "2008년 미국 라스베가스에서 결성된, 국내에서 '상상용'이라고도 불리는 대중적인 밴드. 인생에서의 고난과 그 극복에 관한 곡들을 댄 레이놀즈의 파워풀한 목소리로 소화한다. 일렉트로닉 요소가 가미된 록(팝록/아레나록/얼터너티브록)을 주 장르로 한다."
   }
 }

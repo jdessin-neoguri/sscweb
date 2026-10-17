@@ -436,12 +436,13 @@ function getCountryCounts() {
 // -------------------------------------
 
 // year 필드는 "1975", "1580?", "1950s", "19c?", "1c?", "-2c?"(기원전 2세기), "-500"(기원전 500년), "?" 등
-// 형식이 다양함. 정렬에 쓸 숫자(연도)로 바꿔 줌. 해석할 수 없거나 비어 있으면 -Infinity(연도 미상)
-//   세기: 앞에 -가 붙으면 기원전. "19c" -> 1850, "1c" -> 50, "-2c" -> -150 (그 세기의 중간)
-//   연대: "1950s" -> 1950
-function songYearValue(raw) {
+// 형식이 다양함. 해석할 수 없거나 비어 있으면 null(연도 미상), 아니면
+//   sortValue: 정렬에 쓸 연도 (세기는 그 세기의 중간: "19c" -> 1850, "1c" -> 50, "-2c" -> -150)
+//   groupLabel / groupSortValue: 목록에서 묶는 이름과 순서
+//     1960년 이후는 연도별("1985년"), 그 이전은 연대별("1950년대")·세기별("19세기")로 묶음
+function parseSongYear(raw) {
 
-  if (raw === undefined || raw === null) return -Infinity;
+  if (raw === undefined || raw === null) return null;
 
   const str = String(raw).trim();
 
@@ -449,20 +450,56 @@ function songYearValue(raw) {
   let match = str.match(/^(-?)(\d{1,3})c\??$/i);
   if (match) {
     const century = parseInt(match[2], 10);
-    if (century === 0) return -Infinity;
-    return match[1]
-      ? -century * 100 + 50
-      : (century - 1) * 100 + 50;
+    if (century === 0) return null;
+
+    if (match[1]) {
+      return {
+        sortValue: -century * 100 + 50,
+        groupLabel: `기원전 ${century}세기`,
+        groupSortValue: -century * 100,
+      };
+    }
+
+    return {
+      sortValue: (century - 1) * 100 + 50,
+      groupLabel: `${century}세기`,
+      groupSortValue: (century - 1) * 100,
+    };
   }
 
   // 연도·연대 표기: "1926", "1580?", "-500", "1950s", "1940s?"
-  match = str.match(/^(-?)(\d{1,4})s?\??$/);
-  if (match) {
-    const value = parseInt(match[2], 10);
-    return match[1] ? -value : value;
+  match = str.match(/^(-?)(\d{1,4})(s?)\??$/);
+  if (!match) return null;
+
+  const isBC = !!match[1];
+  const value = parseInt(match[2], 10);
+
+  if (isBC) {
+    const decadeStart = Math.floor(value / 10) * 10;
+    return {
+      sortValue: -value,
+      groupLabel: `기원전 ${decadeStart}년대`,
+      groupSortValue: -decadeStart - 9,
+    };
   }
 
-  return -Infinity;
+  // 1960년 이후의 정확한 연도는 연도 하나하나를 그룹으로 세분화
+  if (!match[3] && value >= 1960) {
+    return { sortValue: value, groupLabel: `${value}년`, groupSortValue: value };
+  }
+
+  const decadeStart = Math.floor(value / 10) * 10;
+  return {
+    sortValue: value,
+    groupLabel: `${decadeStart}년대`,
+    groupSortValue: decadeStart,
+  };
+}
+
+// 정렬용 연도. 연도 미상은 -Infinity
+function songYearValue(raw) {
+  const parsed = parseSongYear(raw);
+  return parsed ? parsed.sortValue : -Infinity;
 }
 
 const isYearUnknown = value => value === -Infinity;
@@ -560,38 +597,57 @@ function groupSongsForList(songArray, groupMode) {
 }
 
 // 곡 목록을 간략 카드 그리드로 붙임.
-// 시간순 정렬일 때는 연도 미상 곡을 따로 떼어, 오래된 순에서는 위쪽에 / 최신 순에서는 아래쪽에 둠
+// 시간순 정렬일 때는 연도별/연대별/세기별로 나누고, 연도 미상 곡은 따로 떼어
+// 오래된 순에서는 맨 위에 / 최신 순에서는 맨 아래에 둠
 function appendSongGrids(container, songArray, sortMode, returnTo, headingTag, headingClass) {
 
-  const byYear = sortMode === "year-asc" || sortMode === "year-desc";
-  const isUnknown = song => isYearUnknown(songYearValue(song.year));
-
-  const unknown = byYear ? songArray.filter(isUnknown) : [];
-  const known = byYear ? songArray.filter(song => !isUnknown(song)) : songArray;
-
-  const blocks = [];
-  if (known.length) blocks.push({ songs: known, label: "연도 있는 곡" });
-  if (unknown.length) {
-    const block = { songs: unknown, label: "연도 미상" };
-    if (sortMode === "year-asc") blocks.unshift(block);
-    else blocks.push(block);
-  }
-
-  blocks.forEach(block => {
-
-    // 연도 미상 곡이 있을 때만 두 덩어리를 구분하는 제목을 붙임
-    if (unknown.length) {
-      const heading = document.createElement(headingTag);
-      heading.className = headingClass;
-      heading.textContent = `${block.label} · ${block.songs.length}곡`;
-      container.appendChild(heading);
-    }
-
+  const appendGrid = (songsInGrid) => {
     const grid = document.createElement("div");
     grid.className = "song-list-compact";
     container.appendChild(grid);
+    renderCompactSongGrid(grid, songsInGrid, { returnTo });
+  };
 
-    renderCompactSongGrid(grid, block.songs, { returnTo });
+  if (sortMode !== "year-asc" && sortMode !== "year-desc") {
+    appendGrid(songArray);
+    return;
+  }
+
+  const periods = new Map();
+  const unknown = [];
+
+  songArray.forEach(song => {
+    const parsed = parseSongYear(song.year);
+    if (!parsed) {
+      unknown.push(song);
+      return;
+    }
+
+    if (!periods.has(parsed.groupLabel)) {
+      periods.set(parsed.groupLabel, { start: parsed.groupSortValue, songs: [] });
+    }
+    periods.get(parsed.groupLabel).songs.push(song);
+  });
+
+  const direction = sortMode === "year-asc" ? 1 : -1;
+
+  const blocks = [...periods.entries()]
+    .sort((a, b) => direction * (a[1].start - b[1].start))
+    .map(([label, period]) => ({ label, songs: period.songs }));
+
+  if (unknown.length) {
+    const unknownBlock = { label: "연도 미상", songs: unknown };
+    if (sortMode === "year-asc") blocks.unshift(unknownBlock);
+    else blocks.push(unknownBlock);
+  }
+
+  blocks.forEach(block => {
+    const heading = document.createElement(headingTag);
+    heading.className = headingClass;
+    heading.textContent = `${block.label} · ${block.songs.length}곡`;
+    container.appendChild(heading);
+
+    appendGrid(block.songs);
   });
 }
 
