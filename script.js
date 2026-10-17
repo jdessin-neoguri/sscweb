@@ -435,69 +435,37 @@ function getCountryCounts() {
 // 창작년도 해석
 // -------------------------------------
 
-// year 필드는 "1975", "1580?", "1950s", "19c?", "?" 등 형식이 다양함.
-// 정렬값과 그룹 라벨을 뽑아냄 (미상은 가장 오래된 곡으로 취급.
-// 1960년 이후는 연도별, 그 이전은 연대/세기별로 묶음)
-function parseSongYear(raw) {
+// year 필드는 "1975", "1580?", "1950s", "19c?", "1c?", "-2c?"(기원전 2세기), "-500"(기원전 500년), "?" 등
+// 형식이 다양함. 정렬에 쓸 숫자(연도)로 바꿔 줌. 해석할 수 없거나 비어 있으면 -Infinity(연도 미상)
+//   세기: 앞에 -가 붙으면 기원전. "19c" -> 1850, "1c" -> 50, "-2c" -> -150 (그 세기의 중간)
+//   연대: "1950s" -> 1950
+function songYearValue(raw) {
 
-  if (raw === undefined || raw === null || raw === "") {
-    return { sortValue: -Infinity, groupLabel: "연도 미상", groupSortValue: -Infinity };
-  }
+  if (raw === undefined || raw === null) return -Infinity;
 
   const str = String(raw).trim();
 
-  if (str === "?") {
-    return { sortValue: -Infinity, groupLabel: "연도 미상", groupSortValue: -Infinity };
-  }
-
-  // 세기 표기: "19c?", "18c?", "20c?"
-  let match = str.match(/^(\d{1,2})c\??$/i);
+  // 세기 표기: "19c?", "18c?", "1c?", "-2c?"
+  let match = str.match(/^(-?)(\d{1,3})c\??$/i);
   if (match) {
-    const century = parseInt(match[1], 10);
-    const startYear = (century - 1) * 100;
-    return {
-      sortValue: startYear + 50,
-      groupLabel: `${century}세기`,
-      groupSortValue: startYear,
-    };
+    const century = parseInt(match[2], 10);
+    if (century === 0) return -Infinity;
+    return match[1]
+      ? -century * 100 + 50
+      : (century - 1) * 100 + 50;
   }
 
-  // 연대 표기: "1950s", "1970s", "1940s?"
-  match = str.match(/^(\d{4})s\??$/);
+  // 연도·연대 표기: "1926", "1580?", "-500", "1950s", "1940s?"
+  match = str.match(/^(-?)(\d{1,4})s?\??$/);
   if (match) {
-    const decadeStart = parseInt(match[1], 10);
-    return {
-      sortValue: decadeStart,
-      groupLabel: `${decadeStart}년대`,
-      groupSortValue: decadeStart,
-    };
+    const value = parseInt(match[2], 10);
+    return match[1] ? -value : value;
   }
 
-  // 정확하거나 대략적인 연도: "1926", "1580?", "2008?"
-  match = str.match(/^(\d{3,4})\??$/);
-  if (match) {
-    const year = parseInt(match[1], 10);
-
-    // 1960년 이후는 연도 하나하나를 그룹으로 세분화
-    if (year >= 1960) {
-      return {
-        sortValue: year,
-        groupLabel: `${year}년`,
-        groupSortValue: year,
-      };
-    }
-
-    const decadeStart = Math.floor(year / 10) * 10;
-    return {
-      sortValue: year,
-      groupLabel: `${decadeStart}년대`,
-      groupSortValue: decadeStart,
-    };
-  }
-
-  // 파싱할 수 없는 형식은 안전하게 미상으로 처리
-  return { sortValue: -Infinity, groupLabel: "연도 미상", groupSortValue: -Infinity };
+  return -Infinity;
 }
+
+const isYearUnknown = value => value === -Infinity;
 
 // -------------------------------------
 // 목록: 모든 곡 카드 (정렬 + 국가별/언어별 묶기)
@@ -548,11 +516,11 @@ function sortSongsForList(songArray, mode) {
   } else if (mode === "year-asc" || mode === "year-desc") {
     const sign = mode === "year-asc" ? 1 : -1;
     sorted.sort((a, b) => {
-      const yearA = parseSongYear(a.year).sortValue;
-      const yearB = parseSongYear(b.year).sortValue;
-      const unknownA = yearA === -Infinity;
-      const unknownB = yearB === -Infinity;
-      if (unknownA || unknownB) return unknownA === unknownB ? 0 : (unknownA ? 1 : -1);
+      const yearA = songYearValue(a.year);
+      const yearB = songYearValue(b.year);
+      if (isYearUnknown(yearA) || isYearUnknown(yearB)) {
+        return isYearUnknown(yearA) === isYearUnknown(yearB) ? 0 : (isYearUnknown(yearA) ? 1 : -1);
+      }
       return sign * (yearA - yearB);
     });
   }
@@ -591,19 +559,53 @@ function groupSongsForList(songArray, groupMode) {
     }));
 }
 
+// 곡 목록을 간략 카드 그리드로 붙임.
+// 시간순 정렬일 때는 연도 미상 곡을 따로 떼어, 오래된 순에서는 위쪽에 / 최신 순에서는 아래쪽에 둠
+function appendSongGrids(container, songArray, sortMode, returnTo, headingTag, headingClass) {
+
+  const byYear = sortMode === "year-asc" || sortMode === "year-desc";
+  const isUnknown = song => isYearUnknown(songYearValue(song.year));
+
+  const unknown = byYear ? songArray.filter(isUnknown) : [];
+  const known = byYear ? songArray.filter(song => !isUnknown(song)) : songArray;
+
+  const blocks = [];
+  if (known.length) blocks.push({ songs: known, label: "연도 있는 곡" });
+  if (unknown.length) {
+    const block = { songs: unknown, label: "연도 미상" };
+    if (sortMode === "year-asc") blocks.unshift(block);
+    else blocks.push(block);
+  }
+
+  blocks.forEach(block => {
+
+    // 연도 미상 곡이 있을 때만 두 덩어리를 구분하는 제목을 붙임
+    if (unknown.length) {
+      const heading = document.createElement(headingTag);
+      heading.className = headingClass;
+      heading.textContent = `${block.label} · ${block.songs.length}곡`;
+      container.appendChild(heading);
+    }
+
+    const grid = document.createElement("div");
+    grid.className = "song-list-compact";
+    container.appendChild(grid);
+
+    renderCompactSongGrid(grid, block.songs, { returnTo });
+  });
+}
+
 function renderSongListView() {
 
   listSongs.innerHTML = "";
 
-  const sorted = sortSongsForList(songs, listSort?.value || "registered");
+  const sortMode = listSort?.value || "registered";
+  const sorted = sortSongsForList(songs, sortMode);
   const groupMode = listGroup?.value || "none";
   const returnTo = { type: "list" };
 
   if (groupMode === "none") {
-    const grid = document.createElement("div");
-    grid.className = "song-list-compact";
-    listSongs.appendChild(grid);
-    renderCompactSongGrid(grid, sorted, { returnTo });
+    appendSongGrids(listSongs, sorted, sortMode, returnTo, "h3", "list-heading");
     return;
   }
 
@@ -621,13 +623,9 @@ function renderSongListView() {
     `;
     section.appendChild(heading);
 
-    const grid = document.createElement("div");
-    grid.className = "song-list-compact";
-    section.appendChild(grid);
-
     listSongs.appendChild(section);
 
-    renderCompactSongGrid(grid, group.songs, { returnTo });
+    appendSongGrids(section, group.songs, sortMode, returnTo, "h4", "list-subheading");
   });
 }
 
@@ -1203,7 +1201,7 @@ function buildArtistIndex(profiles) {
   // 아티스트 화면에서는 연대순 (같은 해는 등록 순서 유지)
   artistIndex.forEach(entry => {
     entry.songs.sort(
-      (a, b) => parseSongYear(a.year).sortValue - parseSongYear(b.year).sortValue
+      (a, b) => songYearValue(a.year) - songYearValue(b.year)
     );
     entry.searchText = normalizeSearchText(entry.aliases.join(" "));
     entry.asWriterOnly = new Set(
@@ -1323,7 +1321,7 @@ function getSongProfile(song) {
       tags: new Set(song.tags),
       languages: new Set(song.language.map(artistKey)),
       countries: new Set(song.countries),
-      year: parseSongYear(song.year).sortValue,
+      year: songYearValue(song.year),
     };
     songProfileCache.set(song, profile);
   }

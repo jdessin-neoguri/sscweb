@@ -104,7 +104,7 @@
     "image": "covers/002-tchaikovsky.jpg"
   },
   {
-    "title": "정경(Сцена)",
+    "title": "정경 (Сцена)",
     "year": "1892",
     "artist": [],
     "songwriters": ["Pyotr Tchaikovsky"],
@@ -233,7 +233,7 @@
     "songwriters": ["Claude François", "Jacques Revaux", "Gilles Thibaut"],
     "language": ["프랑스어"],
     "countries": ["FR"],
-    "tags": ["샹송", "팝", "번안"],
+    "tags": ["샹송", "팝"],
     "memo": "My Way의 원곡. '습관처럼'",
     "youtube": [
       {"title": "Lyric Video", "url": "https://www.youtube.com/watch?v=qjpRSREHX1Y"}
@@ -261,7 +261,7 @@
     "songwriters": ["Traditional", "Gottfried Hartmann Weigle"],
     "language": ["독일어"],
     "countries": ["DE"],
-    "tags": ["민요", "번안", "어린이"],
+    "tags": ["민요", "어린이"],
     "memo": "독일 슈바벤 지방의 민요. 동요 '옹달샘'의 원곡.",
     "links": [
       {"title": "블로그 해설", "url": "https://jdessin.tistory.com/24"}
@@ -298,7 +298,7 @@
     "songwriters": ["Traditional"],
     "language": ["마오리어"],
     "countries": ["NZ"],
-    "tags": ["민요", "번안", "전설"],
+    "tags": ["민요", "전설"],
     "memo": "마오리 전설을 바탕으로 한 사랑 노래. 세계대전을 통해 마오리 전사들에게서 전 세계로 퍼진 곡. '비바람이 치던 바다~'로 시작하는 한국어 번안곡도 유명하다",
     "links": [
       {"title": "블로그 해설", "url": "https://jdessin.tistory.com/103"}
@@ -1737,10 +1737,11 @@
     "songwriters": ["Michael Deighan", "Michael Wilshaw"],
     "language": ["영어"],
     "countries": ["GB"],
-    "tags": ["사이키델릭팝", "팝록", "번안"],
-    "memo": "샹젤리제(Les Champs-Élysées)의 원곡.",
+    "tags": ["사이키델릭팝", "팝록", "런던"],
+    "memo": "생각보다 덜 알려진, 샹젤리제(Les Champs-Élysées)의 원곡.",
     "youtube": [
-      {"title": "음원(?)", "url": "https://www.youtube.com/watch?v=aKYUrxWRLHk"}
+      {"title": "음원(?)", "url": "https://www.youtube.com/watch?v=aKYUrxWRLHk"},
+      {"title": "Majda Sepe의 슬로베니아어 번안곡, 'Šuštarski most'", "url": "https://www.youtube.com/watch?v=qfDJV_1S4K0"}
     ],
     "image": "covers/093-waterloo-road-jason-crest.jpg"
   },
@@ -3071,7 +3072,7 @@
     "songwriters": ["Eugène Pottier", "Pierre De Geyter"],
     "language": ["프랑스어"],
     "countries": ["FR"],
-    "tags": ["민중가요", "사회주의","파리","번안"],
+    "tags": ["민중가요", "사회주의","파리"],
     "memo": "파리 코뮌 때 만들어진(작사된) 사회주의, 국제주의를 상징하는 민중가요. 다양한 언어로 번역되어 불려진다.",
     "youtube": [
       {"title": "프랑스어 원곡 (영어 자막)", "url": "https://www.youtube.com/watch?v=IcS_sjbJNDI"},
@@ -3087,7 +3088,7 @@
     "songwriters": ["Erich Weinert","Wladimir Vogel"],
     "language": ["독일어"],
     "countries": ["DE"],
-    "tags": ["문학","공산주의","사회주의","선전가요","번안"],
+    "tags": ["문학","공산주의","사회주의","선전가요"],
     "memo": "'비밀 행진', 노동자와 농민이 단결해 파시스트들의 소련 공격을 저지하자는 내용. 2차대전 이후에는 'Der Offene Aufmarsch'(공개 행진)으로 개사되어 불려졌고, 다양한 언어로 번안되었다.",
     "youtube": [
       {"title": "1931년 영화 <Niemandsland>의 Ernst Busch 버전", "url": "https://www.youtube.com/watch?v=HYJmGaBMQJ8"},
@@ -3159,7 +3160,7 @@
   },
   {
     "title": "First Delphic Hymn to Apollo (Παιὰν εἰς Ἀπόλλωνα)",
-    "year": "-128?",
+    "year": "-2c?",
     "artist": [],
     "songwriters": ["Athenaeus"],
     "language": ["코이네그리스어"],
@@ -3282,7 +3283,7 @@
     "songwriters": ["Francesco Sartori", "Lucio Quarantotto"],
     "language": ["이탈리아어"],
     "countries": ["IT"],
-    "tags": ["오페라팝", "번안"],
+    "tags": ["오페라팝"],
     "memo": "'그대와 함께 떠나리'. 영어 번안곡인 'Time To Say Goodbye'로 더 유명하다.",
     "youtube": [
       {"title": "Live from Piazza Dei Cavalieri 1997", "url": "https://www.youtube.com/watch?v=TdWEhMOrRpQ"},
@@ -4886,7 +4887,7 @@
     "title": "Here Comes Your Man",
     "year": "1989",
     "artist": ["Pixies"],
-    "songwriters": ["John Lennon", "Paul McCartney"],
+    "songwriters": ["Black Francis"],
     "language": ["영어"],
     "countries": ["US"],
     "tags": ["인디", "얼터너티브록", "팝"],
@@ -5320,7 +5321,7 @@
     "songwriters": ["Sebastián Iradier"],
     "language": ["스페인어"],
     "countries": ["ES"],
-    "tags": ["무곡", "번안"],
+    "tags": ["무곡"],
     "memo": "쿠바풍의 스페인 춤곡. 프랑스어로 번안되어 비제의 오페라 <카르멘>의 아리아 'Habanera'로 사용되었다.",
     "youtube": [
       {"title": "José Ferrero, Bartomeu Jaume", "url": "https://www.youtube.com/watch?v=KekeN8rjFHk"}
@@ -5978,8 +5979,8 @@
     "songwriters": ["Traditional", "Robert Burns"],
     "language": ["스코트어"],
     "countries": ["GB"],
-    "tags": ["스코틀랜드", "이별", "번안"],
-    "memo": "'작별'. 오랫동안 사귀었던-",
+    "tags": ["스코틀랜드", "이별"],
+    "memo": "'작별'. 오랫동안 사귀었던- 으로 시작하는 한국어 번안곡도 잘 알려져 있다.",
     "youtube": [
       {"title": "스코트어 버전", "url": "https://www.youtube.com/watch?v=i4pN0zn16jk"},
       {"title": "...", "url": "https://www.youtube.com/watch?v=to1xT93IlUI"}
@@ -6777,7 +6778,7 @@
     "language": ["독일어"],
     "countries": ["GR"],
     "tags": ["삼바", "포크", "번안", "드라마"],
-    "memo": "'좋은 아침이야, 햇살아!'. 2025년 TV시리즈 <카산드라>에 삽입되어 크게 인기를 끌었다.",
+    "memo": "'좋은 아침이야, 햇살아!'. 2025년 TV시리즈 <카산드라>에 삽입되어 크게 인기를 끌었다. 브라질 곡 'Canta Canta, Minha Gente'에서 번안.",
     "youtube": [
       {"title": "Lyric Video", "url": "https://www.youtube.com/watch?v=XWxRAMHmXBU"},
       {"title": "공연 영상", "url": "https://www.youtube.com/watch?v=Vshg-hNUEjo"}
@@ -7023,7 +7024,7 @@
     "songwriters": ["Jolly"],
     "language": ["헝가리어"],
     "countries": ["HU"],
-    "tags": ["팝","댄스","번안"],
+    "tags": ["팝","댄스"],
     "memo": "'파티 킹', 신나는 댄스곡. 애니메이션 <파티피플 공명> 주제가로 번안되었다.",
     "youtube": [
       {"title": "MV", "url": "https://youtu.be/CRjLbePQg1o?si=HXw1_dO_4z7Njfgy"},
@@ -7703,7 +7704,7 @@
   },
   {
     "title": "Mi Bendicion",
-    "year": "",
+    "year": "2010",
     "artist": ["Juan Luis Guerra 4.40"],
     "songwriters": ["Juan Luis Guerra 4.40"],
     "language": ["스페인어"],
@@ -8135,7 +8136,7 @@
     "image": "covers/483-katibim.jpg"
   },
   {
-    "title": "Τη Υπερμάχω",
+    "title": "Τη Υπερμάχω (Ti Ipermaho)",
     "year": "5~6c?",
     "artist": [],
     "songwriters": ["Traditional"],
@@ -8165,7 +8166,7 @@
   },
   {
     "title": "Seikilos Epitaph (Επιτάφιος του Σείκιλου)",
-    "year": "1~2c",
+    "year": "1c?",
     "artist": [],
     "songwriters": ["Seikilos?"],
     "language": ["코이네그리스어"],
@@ -8434,8 +8435,8 @@
     "songwriters": ["Saltpeter","Paul Tibbitt"],
     "language": ["영어"],
     "countries": ["US"],
-    "tags": ["애니메이션","번안"],
-    "memo": "그런 짓은 하지 말아야 했는데 난 그 사실을 몰랐어~",
+    "tags": ["애니메이션"],
+    "memo": "애니메이션 <네모바지 스폰지밥> 삽입곡. '그런 짓은 하지 말아야 했는데 난 그 사실을 몰랐어~'",
     "youtube": [
       {"title": "영어 원곡", "url": "https://www.youtube.com/watch?v=L8c0EIvYnmE"},
       {"title": "한국어 버전 (cv. 김승준)", "url": "https://www.youtube.com/watch?v=tMayAhZw7WI"}
@@ -8529,7 +8530,7 @@
     "image": "covers/509-cyberpunk.jpg"
   },
   {
-    "title": "おちゃめ機能",
+    "title": "おちゃめ機能 (장난기 기능)",
     "year": "2010",
     "artist": ["Kasane Teto (重音テト)"],
     "songwriters": ["ラマーズP"],
@@ -8872,5 +8873,19 @@
       {"title": "음원", "url": "https://youtu.be/cObXvQ_bIa8?si=Yc_Sj_6ja_DpYqVG"}
     ],
     "image": "covers/533-os-tincoas.jpg"
+  },
+  {
+    "title": " 森の小さなレストラン (숲속의 작은 레스토랑)",
+    "year": "2023",
+    "artist": ["Aoi Teshima (手嶌葵)"],
+    "songwriters": ["御徒町凧","森山直太朗","兼松衆"],
+    "language": ["일본어"],
+    "countries": ["JP"],
+    "tags": ["밈","포크","발라드"],
+    "memo": "동구리오 타도옷테모 츠키마셍",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=EYGGd2NKwtI"}
+    ],
+    "image": "covers/534-donguri.jpg"
   }
 ]

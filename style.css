@@ -403,6 +403,22 @@ body {
     border-bottom: 1px solid var(--line);
 }
 
+#list-songs > .list-heading:not(:first-child) {
+    margin-top: var(--space-6);
+}
+
+.list-subheading {
+    margin: var(--space-4) 0 var(--space-3);
+
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--muted);
+}
+
+.list-subheading:first-of-type {
+    margin-top: 0;
+}
+
 .list-heading-count {
     font-size: 0.85rem;
     font-weight: 500;
