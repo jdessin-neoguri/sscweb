@@ -3991,7 +3991,7 @@
     "language": ["이탈리아어"],
     "countries": ["IT"],
     "tags": ["댄스", "댄스팝", "산레모"],
-    "memo": "리키 에 포베리의 신곡. 널 기다려 줄게,'하지만 평생 동안은 아니야'. 2024 산레모",
+    "memo": "리키 에 포베리의 신곡. 널 기다려 줄게, '하지만 평생 동안은 아니야'. 2024 산레모",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=lhmB3KIXchA"},
       {"title": "산레모 2024", "url": "https://www.youtube.com/watch?v=NnhipXAux3M"}
@@ -9086,5 +9086,34 @@
       {"title": "MV", "url": "https://www.youtube.com/watch?v=0HDdjwpPM3Y"}
     ],
     "image": "covers/548-bang-bang.jpg"
+  },
+  {
+    "title": "ドレミファロンド (도레미파 론도)",
+    "year": "2012",
+    "artist": ["Hatsune Miku (初音ミク)"],
+    "songwriters": ["40mP"],
+    "language": ["JP"],
+    "countries": ["일본어"],
+    "tags": ["보컬로이드"],
+    "memo": "밝은 분위기의 보컬로이드 곡. 딱히 론도는 아니다. '작은 하마 이야기' 노래의 원곡.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/bphS6_wayug?si=nVzU9A9Rz0XgZV2d"}
+    ],
+    "image": "covers/549-doremifa-rondo.jpg"
+  },
+  {
+    "title": "Installation",
+    "year": "2017",
+    "artist": ["유니 (UNI)"],
+    "songwriters": ["상록수"],
+    "language": ["한국어"],
+    "countries": ["KR"],
+    "tags": ["보컬로이드"],
+    "memo": "개인적으로 좋아하는 한국어 보컬로이드 곡.",
+    "youtube": [
+      {"title": "VOCALOID4 원곡", "url": "https://www.youtube.com/watch?v=NuqMAjLOqB0"},
+      {"title": "Synthesizer V", "url": "https://www.youtube.com/watch?v=IxeGbljfGKA"}
+    ],
+    "image": "covers/550-uni.jpg"
   }
 ]

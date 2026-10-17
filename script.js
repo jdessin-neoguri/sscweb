@@ -1064,7 +1064,7 @@ function songCardMarkup(song) {
           <div class="song-artwork placeholder" aria-hidden="true"></div>
 
           <div class="song-header-text">
-            <h2>${song.title}</h2>
+            <h2>${escapeHTML(song.title)}</h2>
 
             <div class="song-meta">
               <div class="song-meta-line">
@@ -1072,10 +1072,10 @@ function songCardMarkup(song) {
                 <span>${personLinksMarkup(song.artist)}</span>
                 <span class="meta-divider">·</span>
 
-                <span>${song.year}</span>
+                <span>${escapeHTML(song.year)}</span>
                 <span class="meta-divider">·</span>
 
-                <span>${song.language.join(", ")}</span>
+                <span>${escapeHTML(song.language.join(", "))}</span>
                 <span class="meta-divider">·</span>
 
                 <span class="song-countries">
@@ -1083,7 +1083,7 @@ function songCardMarkup(song) {
                     .map(code => `
                       <span class="song-country">
                         ${countryFlagHTML(code)}
-                        ${getCountryName(code)}
+                        ${escapeHTML(getCountryName(code))}
                       </span>
                     `)
                     .join("")}
@@ -1128,7 +1128,7 @@ function songCardMarkup(song) {
           song.memo
             ? `
               <p class="song-memo">
-                ${song.memo}
+                ${escapeHTML(song.memo)}
               </p>
             `
             : ""
@@ -1142,11 +1142,11 @@ function songCardMarkup(song) {
                   .map(link => `
                     <a
                       class="blog-link"
-                      href="${link.url}"
+                      href="${escapeHTML(link.url)}"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      ${link.title}
+                      ${escapeHTML(link.title)}
                     </a>
                   `)
                   .join("")
@@ -1159,11 +1159,11 @@ function songCardMarkup(song) {
                   .map(video => `
                     <a
                       class="youtube-link"
-                      href="${video.url}"
+                      href="${escapeHTML(video.url)}"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      ${video.title}
+                      ${escapeHTML(video.title)}
                     </a>
                   `)
                   .join("")
@@ -1533,8 +1533,8 @@ function compactSongCardMarkup(song, caption = "") {
   return `
     <div class="song-artwork song-artwork-compact placeholder"></div>
     <div class="compact-song-info">
-      <div class="compact-song-title">${song.title}</div>
-      <div class="compact-song-artist">${performerText}</div>
+      <div class="compact-song-title">${escapeHTML(song.title)}</div>
+      <div class="compact-song-artist">${escapeHTML(performerText)}</div>
       ${caption ? `<div class="compact-song-reason">${escapeHTML(caption)}</div>` : ""}
     </div>
   `;
