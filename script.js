@@ -12,8 +12,8 @@ let aliasToArtist = new Map(); // 정규화한 이름 -> 아티스트 색인 key
 // 간략 카드 목록에서 곡 상세로 들어갔을 때 돌아갈 곳: { type: "country" | "tag" | "artist" | "list", value?, scrollY? } | null
 let compactListReturnTo = null;
 
-// "about"(소개, 기본) / "list"(목록) / "map"(지도) / "tags"(태그) / "artists"(사람)
-let viewMode = "about";
+// "home"(홈, 기본: 사이트 제목을 누르면 나옴) / "list"(목록) / "map"(지도) / "tags"(태그) / "artists"(사람)
+let viewMode = "home";
 const songList = document.getElementById("song-list");
 const tagSearch = document.getElementById("tag-search");
 
@@ -31,7 +31,8 @@ const artistSort = document.getElementById("artist-sort");
 const artistFilter = document.getElementById("artist-filter");
 const artistCount = document.getElementById("artist-count");
 const artistInfo = document.getElementById("artist-info");
-const aboutView = document.getElementById("about-view");
+const homeView = document.getElementById("home-view");
+const siteHomeLink = document.getElementById("site-home-link");
 const songsView = document.getElementById("songs-view");
 const countryTitle = document.getElementById("country-title");
 const tagSort = document.getElementById("tag-sort");
@@ -52,7 +53,7 @@ function showBrowseUI() {
   mapView.style.display = viewMode === "map" ? "block" : "none";
   tagsView.style.display = viewMode === "tags" ? "block" : "none";
   artistsView.style.display = viewMode === "artists" ? "block" : "none";
-  aboutView.style.display = viewMode === "about" ? "block" : "none";
+  homeView.style.display = viewMode === "home" ? "block" : "none";
   artistInfo.style.display = "none";
 }
 
@@ -61,7 +62,7 @@ function showSongsUI() {
   mapView.style.display = "none";
   tagsView.style.display = "none";
   artistsView.style.display = "none";
-  aboutView.style.display = "none";
+  homeView.style.display = "none";
   artistInfo.style.display = "none";
   songsView.style.display = "block";
   songsView.classList.remove("songs-view-no-header", "songs-view-detail");
@@ -150,6 +151,15 @@ function showRandomSongDetail() {
 
 randomDiceButton?.addEventListener("click", showRandomSongDetail);
 
+// 사이트 제목을 누르면 홈으로 (새 탭으로 열기 같은 보조키 클릭은 브라우저 기본 동작 유지)
+siteHomeLink?.addEventListener("click", event => {
+  if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) {
+    return;
+  }
+  event.preventDefault();
+  goToBrowseView("home");
+});
+
 // -------------------------------------
 // 국가 코드 → 한국어 국가명
 // -------------------------------------
@@ -191,8 +201,8 @@ function updateURLState(addHistoryEntry = false) {
 
   const params = new URLSearchParams();
 
-  // 기본 뷰(소개)는 생략
-  if (viewMode !== "about") {
+  // 기본 뷰(홈)는 생략
+  if (viewMode !== "home") {
     params.set("view", viewMode);
   }
 
@@ -243,11 +253,11 @@ function restoreStateFromURL() {
   const artist = params.get("artist");
   const keyword = params.get("q");
 
-  const validModes = ["list", "map", "tags", "artists", "about"];
-  // 예전 주소(?view=countries, ?view=timeline)는 목록으로
+  const validModes = ["list", "map", "tags", "artists", "home"];
+  // 예전 주소: ?view=countries, ?view=timeline은 목록으로, ?view=about은 홈으로
   viewMode = validModes.includes(view)
     ? view
-    : (view === "countries" || view === "timeline" ? "list" : "about");
+    : (view === "countries" || view === "timeline" ? "list" : "home");
   setActiveViewTab();
 
   selectedCountry = null;
@@ -358,11 +368,11 @@ function renderArchiveStats() {
     )
   ].filter(Boolean);
 
-  renderAboutStats(countries.length);
+  renderHomeStats(countries.length);
 }
 
-function renderAboutStats(countryCount) {
-  const badge = document.getElementById("about-stat-badge");
+function renderHomeStats(countryCount) {
+  const badge = document.getElementById("home-stat-badge");
   if (!badge) return;
 
   badge.textContent =
@@ -1341,7 +1351,7 @@ artistFilter?.addEventListener("input", renderArtistsList);
 // -------------------------------------
 
 // 가중치: 아티스트/작곡가가 같은 곡을 가장 가깝게, 태그(희귀할수록 높게), 언어·국가·시대는 보조
-const RELATED_LIMIT = 5;
+const RELATED_LIMIT = 6;
 const RELATED_MIN_SCORE = 0.5;
 const RELATED_WEIGHTS = {
   artist: 6,

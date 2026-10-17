@@ -2258,7 +2258,7 @@
     "image": "covers/119-the-gereg.jpg"
   },
   {
-    "title": "Clair de Lune",
+    "title": "Clair de Lune (달빛)",
     "year": 1905,
     "artist": [],
     "songwriters": ["Claude Debussy"],
@@ -3036,9 +3036,9 @@
   },
   {
     "title": "Чингис Xааний Mагтаал (Chinggis khaanii Magtaal)",
-    "year": "?",
+    "year": "1994",
     "artist": [],
-    "songwriters": ["Traditional"],
+    "songwriters": ["Munkhbat Jamsranjav","Tserendorj Tseyen"],
     "language": ["몽골어"],
     "countries": ["MN"],
     "tags": ["민요", "칭기즈칸", "몽골"],
@@ -3479,7 +3479,7 @@
     "image": "covers/190-踊り子-무희-vaundy.jpg"
   },
   {
-    "title": "おつかれSUMMER",
+    "title": "おつかれSUMMER (수고했어 여름)",
     "year": "2003",
     "artist": ["HALCALI"],
     "songwriters": ["Tomoyuki Tanaka", "Masayuki Kumahara"],
@@ -3898,13 +3898,13 @@
   },
   {
     "title": "Santa Lucia",
-    "year": "?",
+    "year": "1849",
     "artist": [],
     "songwriters": ["Traditional"],
     "language": ["나폴리어"],
     "countries": ["IT"],
     "tags": ["나폴리", "칸초네"],
-    "memo": "나폴리의 가곡, 이탈리아어 버전이 좀더 유명하다.",
+    "memo": "나폴리 전통 가곡, 1849년 Teodoro Cottrau에 의해 이탈리아어로 번역되어 전해진다.",
     "youtube": [
       {"title": "나폴리어 버전, Roberto Murolo", "url": "https://www.youtube.com/watch?v=q8S-joRy2Uc"},
       {"title": "이탈리아어 버전, Andrea Bocelli", "url": "https://www.youtube.com/watch?v=V4z9b9zVwPE"}
@@ -5988,13 +5988,13 @@
   },
   {
     "title": "Auld Lang Syne",
-    "year": "?",
+    "year": "1788",
     "artist": [],
     "songwriters": ["Traditional", "Robert Burns"],
     "language": ["스코트어"],
     "countries": ["GB"],
-    "tags": ["스코틀랜드", "이별"],
-    "memo": "'작별'. 오랫동안 사귀었던- 으로 시작하는 한국어 번안곡도 잘 알려져 있다.",
+    "tags": ["스코틀랜드", "이별", "문학"],
+    "memo": "'작별', 전통 민요에 Robert Burns의 시를 가사로 붙인 곡. '오랫동안 사귀었던-' 으로 시작하는 한국어 번안곡도 잘 알려져 있다.",
     "youtube": [
       {"title": "스코트어 버전", "url": "https://www.youtube.com/watch?v=i4pN0zn16jk"},
       {"title": "...", "url": "https://www.youtube.com/watch?v=to1xT93IlUI"}
@@ -6725,7 +6725,7 @@
     "image": "covers/386-four-lads.jpg"
   },
   {
-    "title": "Nocturne op.9 No.2",
+    "title": "Nocturne Op.9 No.2",
     "year": "1832",
     "artist": [],
     "songwriters": ["Frédéric Chopin"],
@@ -8151,7 +8151,7 @@
   },
   {
     "title": "Τη Υπερμάχω (Ti Ipermaho)",
-    "year": "5~6c?",
+    "year": "5c?",
     "artist": [],
     "songwriters": ["Traditional"],
     "language": ["그리스어"],
@@ -8209,20 +8209,6 @@
       {"title": "문명 6 콩고 원자시대 OST", "url": "https://www.youtube.com/watch?v=yMOTf0SP_68"}
     ],
     "image": "covers/487-banaha.jpg"
-  },
-  {
-    "title": "Sabry Aalil (صبري قليل)",
-    "year": "2003",
-    "artist": ["Sherine (شيرين)"],
-    "songwriters": ["Mohamed Rahim","Ikram Alassi"],
-    "language": ["아랍어"],
-    "countries": ["EG"],
-    "tags": ["팝","아랍팝"],
-    "memo": "'내 인내심이 바닥나고 있어요'. 이집트 팝",
-    "youtube": [
-      {"title": "MV", "url": "https://www.youtube.com/watch?v=8CnpqLtzqQY"}
-    ],
-    "image": "covers/488-sabry-aalil.jpg"
   },
   {
     "title": "Sabry Aalil (صبري قليل)",
@@ -8943,5 +8929,162 @@
       {"title": "음원", "url": "https://www.youtube.com/watch?v=2hc0Hb6NWAg"}
     ],
     "image": "covers/537-eto-ne-lyubov.jpg"
+  },
+  {
+    "title": "Bezos I",
+    "year": "2021",
+    "artist": ["Bo Burnham"],
+    "songwriters": ["Bo Burnham"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["코미디","일렉트로닉"],
+    "memo": "아마존 CEO 제프리 베이조스(Jeffrey Bezos)에 관한 짧고 코믹한 곡.",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=7_EeCkHs-e0"},
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=vTyeZjo7n_M"}
+    ],
+    "image": "covers/538-bo-burnham.jpg"
+  },
+  {
+    "title": "Vitality",
+    "year": "2018",
+    "artist": [],
+    "songwriters": ["Mittsies"],
+    "language": [],
+    "countries": ["US"],
+    "tags": ["게임음악","일렉트로닉"],
+    "memo": "게임 <헬테이커> OST.",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=EnDXGQmCz3U"}
+    ],
+    "image": "covers/539-helltaker.jpg"
+  },
+  {
+    "title": "Toca Toca",
+    "year": "2013",
+    "artist": ["Fly Project"],
+    "songwriters": ["Tudor Ionescu","Dan Deneș","Tudor Parghel","Tudor Silviu","Adrian Viorel","Filipidescu"],
+    "language": ["영어","스페인어"],
+    "countries": ["RO"],
+    "tags": ["일렉트로닉","하우스","댄스","밈"],
+    "memo": "루마니아 밴드 Fly Project의 라틴 댄스곡. 애니메이션 장면으로 만든 댄스 밈이 유명하다.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=L5GwTfI_PD8"}
+    ],
+    "image": "covers/540-toca-toca.jpg"
+  },
+  {
+    "title": "교향곡 9번 '신세계로부터' 4악장 (Symfonie 'Z nového světa', IV. věta)",
+    "year": "1893",
+    "artist": [],
+    "songwriters": ["Antonín Dvořák"],
+    "language": [],
+    "countries": ["CZ"],
+    "tags": ["클래식"],
+    "memo": "드보르작의 교향곡 9번 'From the New World': IV. Allegro con fuoco. 강렬한 도입부의 가장 유명한 악장",
+    "youtube": [
+      {"title": "Wiener Philharmoniker", "url": "https://www.youtube.com/watch?v=32_O-NwzFM0"},
+      {"title": "Chicago Symphony Orchestra", "url": "https://www.youtube.com/watch?v=89jOPAGJq-M"}
+    ],
+    "image": "covers/541-dvorak.jpg"
+  },
+  {
+    "title": "Lascia ch'io pianga",
+    "year": "1711",
+    "artist": [],
+    "songwriters": ["Georg Friedrich Händel"],
+    "language": ["이탈리아어"],
+    "countries": ["DE","GB"],
+    "tags": ["클래식"],
+    "memo": "'울게 하소서', 헨델의 소프라노 아리아. 원제는 Lascia la spina, cogli la rosa",
+    "youtube": [
+      {"title": "Kirsten Blaise, Voices of Music", "url": "https://www.youtube.com/watch?v=EKo_EmfEPWs"},
+      {"title": "1994년 영화 <파리넬리> 버전 (Ewa Mallas-Godlewska, Derek Lee Ragin)", "url": "https://www.youtube.com/watch?v=gBVvGuTKvf8"}
+    ],
+    "image": "covers/542-handel.jpg"
+  },
+  {
+    "title": "(Qalb Thane)",
+    "year": "2019",
+    "artist": ["Saif Nabeel (سيف نبيل)"],
+    "songwriters": ["Saif Nabeel","Mohamed Al Jabbouri"],
+    "language": ["아랍어"],
+    "countries": ["IQ"],
+    "tags": ["팝","아랍팝"],
+    "memo": "'두 번째 심장', 한 사람을 향한 무조건적인 헌신과 깊은 사랑애 관해.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=Oa1hGuEAFkE"}
+    ],
+    "image": "covers/543-qalb-thane.jpg"
+  },
+  {
+    "title": "Pujaanku",
+    "year": "2023",
+    "artist": ["MASDO","Aisyah Aziz"],
+    "songwriters": ["Ali Sariah","Heidi Moru"],
+    "language": ["마인어"],
+    "countries": ["MY","SG"],
+    "tags": ["록","인디"],
+    "memo": "'나의 사랑(우상)', 영원한 사랑에 관하여. 레트로 록 밴드 MASDO의 대표곡",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/v2ZNF3QK8uw?si=o0PhiyL5PWnGXj2S"}
+    ],
+    "image": "covers/544-pujaanku.jpg"
+  },
+  {
+    "title": "Ayokong Tumanda",
+    "year": "2013",
+    "artist": ["The Itchyworms"],
+    "songwriters": ["The Itchyworms"],
+    "language": ["타갈로그어"],
+    "countries": ["PH"],
+    "tags": ["팝록","인디","록"],
+    "memo": "너와 함께가 아니라면, 난 '늙고 싶지 않아'.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=KvdsFRGNrww"}
+    ],
+    "image": "covers/545-ayokong-tumanda.jpg"
+  },
+  {
+    "title": "Masha'er (مشاعر)",
+    "year": "2013",
+    "artist": ["Sherine (شيرين)"],
+    "songwriters": ["Ahmed Marzouk","Mohamed Rahim"],
+    "language": ["아랍어"],
+    "countries": ["EG"],
+    "tags": ["팝","아랍팝","드라마"],
+    "memo": "'감정들', Sherine의 대표곡이자 드라마 <حكاية حياة>의 OST.",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=vEfW9sm70tg"}
+    ],
+    "image": "covers/546-masha3er.jpg"
+  },
+  {
+    "title": "단발머리",
+    "year": "1980",
+    "artist": ["조용필"],
+    "songwriters": ["박건호","조용필"],
+    "language": ["한국어"],
+    "countries": ["KR"],
+    "tags": ["록","발라드"],
+    "memo": "그 언젠가 나를 위해 꽃다발을 전해주던 그 소녀.",
+    "youtube": [
+      {"title": "음원", "url": "https://youtu.be/fOIak3ZGpAk?si=mgFr66rrFiS6y0Qg"}
+    ],
+    "image": "covers/547-단발머리.jpg"
+  },
+  {
+    "title": "Bang Bang",
+    "year": "2014",
+    "artist": ["Jessie J","Ariana Grande","Nicki Minaj"],
+    "songwriters": ["Max Martin","Savan Kotecha","Rickard Göransson","Onika Maraj"],
+    "language": ["영어"],
+    "countries": ["GB","US","TT"],
+    "tags": ["팝","소울"],
+    "memo": "제시 J, 아리아나 그란데, 니키 미나즈의 합작. 한국에서는 <프로듀스 101>을 통해 유명해졌다.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=0HDdjwpPM3Y"}
+    ],
+    "image": "covers/548-bang-bang.jpg"
   }
 ]
