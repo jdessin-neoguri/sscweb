@@ -74,6 +74,22 @@
     "image": "covers/002-tchaikovsky.jpg"
   },
   {
+    "title": "갈잎피리의 춤 (Танец пастушков)",
+    "year": "1892",
+    "artist": [],
+    "songwriters": ["Pyotr Tchaikovsky"],
+    "language": [],
+    "countries": ["RU"],
+    "tags": ["클래식", "호두까기인형", "발레","크리스마스"],
+    "memo": "호두까기 인형(Щелкунчик/The Nutcracker, Op. 71) 중 갈잎피리의 춤(Dance of the Reed Flutes).",
+    "youtube": [
+      {"title": "Les Ballets de Monte-Carlo", "url": "https://www.youtube.com/watch?v=DUduztWty6A"},
+      {"title": "모스크바 필하모니 교향악단(1980)", "url": "https://www.youtube.com/watch?v=oPuBzsB1nSw"},
+      {"title": "음악(불명)", "url": "https://www.youtube.com/watch?v=h94BdxnheeM"}
+    ],
+    "image": "covers/002-tchaikovsky.jpg"
+  },
+  {
     "title": "꽃의 왈츠 (Вальс цветов)",
     "year": "1892",
     "artist": [],
@@ -662,6 +678,20 @@
     "youtube": [
       {"title": "Deutsche Kammerphilharmonie Bremen", "url": "https://www.youtube.com/watch?v=cep8Ru4TL4k"},
       {"title": "유럽찬가 (독일어, 한국어 자막)", "url": "https://www.youtube.com/watch?v=hM9KE0u_qFw"}
+    ],
+    "image": "covers/033-beethoven.jpg"
+  },
+  {
+    "title": "피아노 소나타 14번 (Quasi una fantasia)",
+    "year": "1802",
+    "artist": [],
+    "songwriters": ["Ludwig van Beethoven"],
+    "language": [],
+    "countries": ["DE"],
+    "tags": ["클래식", "피아노","달"],
+    "memo": "일명 '월광 소나타(Mondscheinsonate/Moonlight Sonata)'.",
+    "youtube": [
+      {"title": "음악", "url": "https://www.youtube.com/watch?v=4Tr0otuiQuU"}
     ],
     "image": "covers/033-beethoven.jpg"
   },
@@ -3247,6 +3277,20 @@
     "image": "covers/175-mexico.jpg"
   },
   {
+    "title": "El Jarabe Tapatío",
+    "year": "19c",
+    "artist": [],
+    "songwriters": ["Jesús González Rubio"],
+    "language": [],
+    "countries": ["MX"],
+    "tags": ["무곡","민요"],
+    "memo": "Mexican Hat Dance로 알려진 jarabe tapatío 춤에 사용되는 곡.",
+    "youtube": [
+      {"title": "Mariachi Vargas de Tecalitlan", "url": "https://www.youtube.com/watch?v=6qdX9jeVC6s"}
+    ],
+    "image": "covers/175-mexico.jpg"
+  },
+  {
     "title": "La Vie en rose",
     "year": "1947",
     "artist": ["Édith Piaf"],
@@ -5343,16 +5387,16 @@
     "image": "covers/299-el-arreglito.jpg"
   },
   {
-    "title": "Couplets du toréador (Votre toast, je peux vous le rendre)",
+    "title": "Prélude (Overture)",
     "year": "1875",
     "artist": [],
-    "songwriters": ["Georges Bizet", "Henri Meilhac", "Ludovic Halévy"],
-    "language": ["프랑스어"],
+    "songwriters": ["Georges Bizet"],
+    "language": [],
     "countries": ["FR"],
     "tags": ["오페라", "클래식"],
-    "memo": "비제의 오페라 <카르멘>의 대표곡. '투우사의 노래'",
+    "memo": "비제의 오페라 <카르멘> 서곡.",
     "youtube": [
-      {"title": "Andrei Kymach, Beethoven Orchester Bonn", "url": "https://www.youtube.com/watch?v=g2ULycjl_g0"}
+      {"title": "Orchestre philharmonique de Strasbourg", "url": "https://www.youtube.com/watch?v=b4C_c7hf0ac"}
     ],
     "image": "covers/300-bizet.jpg"
   },
@@ -5368,6 +5412,20 @@
     "youtube": [
       {"title": "Angela Gheorghiu (프랑스어 자막)", "url": "https://www.youtube.com/watch?v=tSsNFPk2vNA"},
       {"title": "André Rieu & Carmen Monarcha", "url": "https://www.youtube.com/watch?v=icJRTdpS2pU"}
+    ],
+    "image": "covers/300-bizet.jpg"
+  },
+  {
+    "title": "Couplets du toréador (Votre toast, je peux vous le rendre)",
+    "year": "1875",
+    "artist": [],
+    "songwriters": ["Georges Bizet", "Henri Meilhac", "Ludovic Halévy"],
+    "language": ["프랑스어"],
+    "countries": ["FR"],
+    "tags": ["오페라", "클래식"],
+    "memo": "비제의 오페라 <카르멘>의 대표곡. '투우사의 노래'",
+    "youtube": [
+      {"title": "Andrei Kymach, Beethoven Orchester Bonn", "url": "https://www.youtube.com/watch?v=g2ULycjl_g0"}
     ],
     "image": "covers/300-bizet.jpg"
   },
@@ -5944,14 +6002,14 @@
     "image": "covers/340-simarik.jpg"
   },
   {
-    "title": "συρτάκι (Sirtaki)",
+    "title": "συρτάκι (Zorba's Dance)",
     "year": 1964,
     "artist": [],
     "songwriters": ["Mikis Theodorakis"],
     "language": [],
     "countries": ["GR"],
     "tags": ["영화음악", "댄스"],
-    "memo": "영화 <그리스인 조르바> 삽입곡, '조르바의 춤 (Zobra's Dance)'.",
+    "memo": "영화 <그리스인 조르바> 삽입곡 '조르바의 춤'.",
     "youtube": [
       {"title": "MV(?)", "url": "https://www.youtube.com/watch?v=QskFT7AaKH0"},
       {"title": "The Greek Orchestra Emmetron", "url": "https://www.youtube.com/watch?v=kG12C1oX5Eo"}
@@ -6731,10 +6789,24 @@
     "songwriters": ["Frédéric Chopin"],
     "language": [],
     "countries": ["PL"],
-    "tags": ["클래식"],
+    "tags": ["클래식","피아노"],
     "memo": "쇼팽의 녹턴 Op.9 2번, 가장 유명한 녹턴 곡.",
     "youtube": [
       {"title": "음악", "url": "https://www.youtube.com/watch?v=9E6b3swbnWg"}
+    ],
+    "image": "covers/387-chopin.jpg"
+  },
+  {
+    "title": "환상 즉흥곡 (Fantaisie-Impromptu)",
+    "year": "1855",
+    "artist": [],
+    "songwriters": ["Frédéric Chopin"],
+    "language": [],
+    "countries": ["PL"],
+    "tags": ["클래식","피아노"],
+    "memo": "1834년 작곡되었으나 쇼팽 사후에 출판된 곡. 쇼팽의 대표작 중 하나",
+    "youtube": [
+      {"title": "Dmitry Shishkin", "url": "https://www.youtube.com/watch?v=H4v4Ipl_UJI"}
     ],
     "image": "covers/387-chopin.jpg"
   },
@@ -7314,7 +7386,7 @@
     "year": "2015",
     "artist": ["Mon Lafarte"],
     "songwriters": ["Mon Laferte","Anthony López"],
-    "language": ["아이슬란드어"],
+    "language": ["스페인어"],
     "countries": ["CL","MX"],
     "tags": ["팝록","발라드","얼터너티브팝"],
     "memo": "'너의 사랑이 부족해도', 애절한 라틴 발라드.",
@@ -8989,14 +9061,14 @@
     "image": "covers/541-dvorak.jpg"
   },
   {
-    "title": "Lascia ch'io pianga",
+    "title": "Lascia ch'io pianga (울게 하소서)",
     "year": "1711",
     "artist": [],
     "songwriters": ["Georg Friedrich Händel"],
     "language": ["이탈리아어"],
     "countries": ["DE","GB"],
     "tags": ["클래식"],
-    "memo": "'울게 하소서', 헨델의 소프라노 아리아. 원제는 Lascia la spina, cogli la rosa",
+    "memo": "헨델의 소프라노 아리아. 원제는 Lascia la spina, cogli la rosa",
     "youtube": [
       {"title": "Kirsten Blaise, Voices of Music", "url": "https://www.youtube.com/watch?v=EKo_EmfEPWs"},
       {"title": "1994년 영화 <파리넬리> 버전 (Ewa Mallas-Godlewska, Derek Lee Ragin)", "url": "https://www.youtube.com/watch?v=gBVvGuTKvf8"}
@@ -9188,5 +9260,90 @@
       {"title": "음원", "url": "https://www.youtube.com/watch?v=BuYf0taXoNw"}
     ],
     "image": "covers/555-pirates.jpg"
+  },
+  {
+    "title": "I Dovregubbens hall (In the Hall of the Mountain King)",
+    "year": "1875",
+    "artist": [],
+    "songwriters": ["Edvard Grieg"],
+    "language": [],
+    "countries": ["NO"],
+    "tags": ["클래식"],
+    "memo": "헨리크 입센의 운문극 <페르 귄트(Peer Gynt)>를 바탕으로 한 모음곡 중 '산왕의 궁전에서'.",
+    "youtube": [
+      {"title": "음악", "url": "https://www.youtube.com/watch?v=xrIYT-MrVaI"}
+    ],
+    "image": "covers/556-grieg.jpg"
+  },
+  {
+    "title": "The Real Slim Shady",
+    "year": "2000",
+    "artist": ["Eminem"],
+    "songwriters": ["Marshall Mathers","Andre Young","Tommy Coster","Melvin Bradford","Mike Elizondo"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["힙합","코미디"],
+    "memo": "틴 팝을 신랄하게 까는 코미디 힙합. 에미넴의 대표곡 중 하나.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=eJO5HU_7_1w"}
+    ],
+    "image": "covers/557-marshall-mathers.jpg"
+  },
+  {
+    "title": "STAY",
+    "year": "2021",
+    "artist": ["The Kid Laroi","Justin Bieber"],
+    "songwriters": ["Charlton Howard","Justin Bieber","Magnus Høiberg","Charlie Puth","Omer Fedi","Blake Slatkin","Michael Mule","Isaac De Boni","Subhaan Rahmaan"],
+    "language": ["영어"],
+    "countries": ["AU","CA"],
+    "tags": ["팝","일렉트로팝","신스팝","뉴웨이브"],
+    "memo": "내 옆에 남아줘. 키드 라로이와 저스틴 비버의 2021년 최고의 히트곡.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=kTJczUoc26U"}
+    ],
+    "image": "covers/558-stay.jpg"
+  },
+  {
+    "title": "Niggas in Paris",
+    "year": "2011",
+    "artist": ["Kanye West","Jay-Z"],
+    "songwriters": ["Kanye West","Shawn Carter","Chauncey Hollis","Mike Dean","W.A. Donaldson"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["힙합","파리"],
+    "memo": "미친 비트의, 제목 말하기 어려운 노래.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=gG_dA32oH44"}
+    ],
+    "image": "covers/559-watch-the-throne.jpg"
+  },
+  {
+    "title": "ばかみたい (바보 같이)",
+    "year": "2012",
+    "artist": ["Takaya Kuroda (黒く田崇矢)"],
+    "songwriters": ["堀井亮佑","福山光晴"],
+    "language": ["일본어"],
+    "countries": ["JP"],
+    "tags": ["발라드","게임음악","밈"],
+    "memo": "게임 <용과 같이> 시리즈에 등장하는 노래방 곡.",
+    "youtube": [
+      {"title": "키류 카즈마 버전", "url": "https://www.youtube.com/watch?v=g3jCAyPai2Y"},
+      {"title": "인게임 노래방", "url": "https://www.youtube.com/watch?v=MJbE3uWN9vE"}
+    ],
+    "image": "covers/560-bakamitai.jpg"
+  },
+  {
+    "title": "Seven Nation Army",
+    "year": "2003",
+    "artist": ["The White Stripes"],
+    "songwriters": ["Jack White","Meg White"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["록","블루스록","얼터너티브록"],
+    "memo": "기타 리프로 유명한 곡. 스포츠 응원가로도 자주 쓰인다.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/0J2QdDbelmY?si=Ix4zKBElDr0WSlvs"}
+    ],
+    "image": "covers/561-7-nation.jpg"
   }
 ]
