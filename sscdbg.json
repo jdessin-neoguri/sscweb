@@ -9115,5 +9115,78 @@
       {"title": "Synthesizer V", "url": "https://www.youtube.com/watch?v=IxeGbljfGKA"}
     ],
     "image": "covers/550-uni.jpg"
+  },
+  {
+    "title": "O Tannenbaum",
+    "year": "1824",
+    "artist": [],
+    "songwriters": ["Ernst Anschütz","Traditional"],
+    "language": ["독일어"],
+    "countries": ["DE"],
+    "tags": ["크리스마스"],
+    "memo": "'오 전나무여', 독일(슐레지엔) 민요를 멜로디로 한 캐롤 곡.",
+    "youtube": [
+      {"title": "Sing Kinderlieder", "url": "https://www.youtube.com/watch?v=27JleM39TPY"}
+    ],
+    "image": "covers/551-o-tannenbaum.jpg"
+  },
+  {
+    "title": "Ah! Vous dirai-je, maman",
+    "year": "1761",
+    "artist": [],
+    "songwriters": ["?"],
+    "language": ["프랑스어"],
+    "countries": ["FR"],
+    "tags": ["어린이","클래식"],
+    "memo": "'아! 말해드릴게요, 엄마', 프랑스 동요. 모차르트 '작은별'의 원곡.",
+    "youtube": [
+      {"title": "Comptines et chansons", "url": "https://www.youtube.com/watch?v=VMdCHNh7If0"},
+      {"title": "모차르트 - 작은별 (12 Variations 'Ah, vous dirai-je, maman' KV 265)", "url": "https://www.youtube.com/watch?v=NO-ecxHEPqI"}
+    ],
+    "image": "covers/552-ah-vous-dirai-je.jpg"
+  },
+  {
+    "title": "Csikós Post (크시코스의 우편마차)",
+    "year": "1895",
+    "artist": [],
+    "songwriters": ["Hermann Necke"],
+    "language": [],
+    "countries": ["DE"],
+    "tags": ["클래식","피아노"],
+    "memo": "BGM으로 자주 사용되는, 헝가리 집시 전통 멜로디를 차용한 곡. Csikós(치코스)는 헝가리어로 마부라는 뜻",
+    "youtube": [
+      {"title": "Yuki Kondo", "url": "https://www.youtube.com/watch?v=5Fn7atSfW0A"},
+      {"title": "Philharmonica Orchestra", "url": "https://www.youtube.com/watch?v=ISHmByBv_uk"}
+    ],
+    "image": "covers/553-necke.jpg"
+  },
+  {
+    "title": "Gavotte",
+    "year": "1786",
+    "artist": [],
+    "songwriters": ["François-Joseph Gossec"],
+    "language": [],
+    "countries": ["FR"],
+    "tags": ["오페라","클래식"],
+    "memo": "오페라 <Rosine, ou L'épouse abandonnée>에 등장하는 곡. 가보트는 프랑스 전통 춤의 이름",
+    "youtube": [
+      {"title": "Mischa Elman, Joseph Sieger", "url": "https://www.youtube.com/watch?v=QdWQcjyF-cA"},
+      {"title": "Violin Garden", "url": "https://www.youtube.com/watch?v=zEtxQo0VVDY"}
+    ],
+    "image": "covers/554-gossec.jpg"
+  },
+  {
+    "title": "He's a Pirate",
+    "year": "2003",
+    "artist": [],
+    "songwriters": ["Klaus Badelt","Hans Zimmer"],
+    "language": [],
+    "countries": ["DE"],
+    "tags": ["디즈니","영화음악","오케스트럴"],
+    "memo": "영화 <캐리비안의 해적> OST.",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=BuYf0taXoNw"}
+    ],
+    "image": "covers/555-pirates.jpg"
   }
 ]
