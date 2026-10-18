@@ -234,7 +234,7 @@
     "artist": ["Polo&Pan"],
     "songwriters": ["Traditional", "Alexandre Grynszpan", "Paul Armand-Delille"],
     "language": ["아라파호어"],
-    "countries": ["FR", "US"],
+    "countries": ["FR"],
     "tags": ["일렉트로닉", "민요", "하우스", "북미원주민"],
     "memo": "미국 와이오밍/오클라호마 지역 원주민 아라파호족의 멜로디를 차용한 전자음악.",
     "youtube": [
@@ -441,7 +441,7 @@
     "songwriters": ["Nakajin", "Fukase", "Saori"],
     "language": ["일본어"],
     "countries": ["JP"],
-    "tags": ["JPOP", "애니메이션", "영화음악"],
+    "tags": ["JPOP", "애니메이션", "영화음악", "비"],
     "memo": "SEKAI NO OWARI의, 개인적으로 좋아하는 노래.",
     "youtube": [
       {"title": "음원", "url": "https://youtu.be/qKymy-TvdVE?si=ZEhRBxR6e5CBTx_E"},
@@ -1358,7 +1358,7 @@
     "songwriters": ["Pio Dumayas", "Raymond King"],
     "language": ["타갈로그어", "영어"],
     "countries": ["PH"],
-    "tags": ["시티팝", "마닐라", "이별"],
+    "tags": ["시티팝", "마닐라", "이별", "비"],
     "memo": "친구를 타국으로 떠나보내는 마음에 관하여.",
     "youtube": [
       {"title": "Lyric Video", "url": "https://www.youtube.com/watch?v=dglBgJSMr-E"},
@@ -4150,7 +4150,7 @@
     "songwriters": ["YOSHIKI"],
     "language": ["일본어", "영어"],
     "countries": ["JP"],
-    "tags": ["발라드", "록발라드"],
+    "tags": ["발라드", "록발라드", "비"],
     "memo": "한국에서 인기 있는, 엑스재팬의 대표곡 중 하나.",
     "youtube": [
       {"title": "MV", "url": "https://youtu.be/QhOFg_3RV5Q?si=sFvEQbL8H1e2zpzF"},
@@ -4815,7 +4815,7 @@
   {
     "title": "Izaura",
     "year": "1976",
-    "artist": ["Stan Getz", "João Gilberto", "Miucha"],
+    "artist": ["Stan Getz", "João Gilberto", "Miúcha"],
     "songwriters": ["Herivelto Martins", "Roberto Roberti"],
     "language": ["포르투갈어", "영어"],
     "countries": ["BR", "US"],
@@ -6674,7 +6674,7 @@
     "songwriters": ["Ryuichi Sakamoto"],
     "language": [],
     "countries": ["JP"],
-    "tags": ["클래식", "뉴에이지", "영화음악"],
+    "tags": ["클래식", "뉴에이지", "영화음악", "비"],
     "memo": "영화 <마지막 황제> 삽입곡.",
     "youtube": [
       {"title": "음원 (Brussells Philharmonic)", "url": "https://www.youtube.com/watch?v=0Wdblp8g61s"}
@@ -9345,5 +9345,78 @@
       {"title": "MV", "url": "https://youtu.be/0J2QdDbelmY?si=Ix4zKBElDr0WSlvs"}
     ],
     "image": "covers/561-7-nation.jpg"
+  },
+  {
+    "title": "Sebelep",
+    "year": "2022",
+    "artist": ["Jax 02.14"],
+    "songwriters": ["Janatbek Turushbekov"],
+    "language": ["키르기스어"],
+    "countries": ["KG"],
+    "tags": ["팝","이별","비"],
+    "memo": "'부슬부슬' 내리는 빗속에서. 배신당한 사랑에 관하여",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=BmQw1v7Z4Gw"}
+    ],
+    "image": "covers/562-sebelep.jpg"
+  },
+  {
+    "title": "Salom",
+    "year": "2006",
+    "artist": ["Shoxrux","Sarvar"],
+    "songwriters": ["Shoxrux"],
+    "language": ["우즈베크어"],
+    "countries": ["UZ"],
+    "tags": ["힙합"],
+    "memo": "바쁜 도시의 일상 속에서 인사의 의미에 관해.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=wq-aO_FGoB0"}
+    ],
+    "image": "covers/563-salom.jpg"
+  },
+  {
+    "title": "À la volonté du peuple",
+    "year": "1980",
+    "artist": [],
+    "songwriters": ["Claude-Michel Schönberg","Alain Boublil","Jean-Marc Natel"],
+    "language": ["프랑스어"],
+    "countries": ["FR"],
+    "tags": ["뮤지컬","민중가요"],
+    "memo": "'Do You Hear the People Sing?', 혹은 '민중의 노래'로 잘 알려진 뮤지컬 <레미제라블> 삽입곡. 시위 노래로도 많이 사용된다.",
+    "youtube": [
+      {"title": "프랑스어 합창 버전. 가사 + 영상(1978년 영화 <레미제라블>)", "url": "https://www.youtube.com/watch?v=_G95vcrzAGk"},
+      {"title": "Paris, Thèâtre Mogador 1991", "url": "https://www.youtube.com/watch?v=bsnuWOhcVM4"},
+      {"title": "영어 버전, 2012년 뮤지컬 영화 <레미제라블> 중", "url": "https://youtu.be/1q82twrdr0U?si=R77CU-e4DyPYUaL7"}
+    ],
+    "image": "covers/564-les-miserables.jpg"
+  },
+  {
+    "title": "Ceddin Deden",
+    "year": "1917",
+    "artist": [],
+    "songwriters": ["İsmail Hakkı Bey","Traditional"],
+    "language": ["오스만어"],
+    "countries": ["TR"],
+    "tags": ["군가","오스만"],
+    "memo": "'네 선조도 할아버지도', 조상들의 영광을 기억하라는 오스만 군가.",
+    "youtube": [
+      {"title": "Hasan Bitmez Project", "url": "https://www.youtube.com/watch?v=1p0OcpDfFTA"}
+    ],
+    "image": "covers/565-ottoman.jpg"
+  },
+  {
+    "title": "Nas Is Like",
+    "year": "1999",
+    "artist": ["Nas"],
+    "songwriters": ["Nasir Jones","Chris Martin"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["힙합","붐뱁"],
+    "memo": "Nas의 대표곡. 나스는 마치...",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=VC4ORS5n9Hg"},
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=bXMtP5U-29s"}
+    ],
+    "image": "covers/566-i-am-nas.jpg"
   }
 ]
