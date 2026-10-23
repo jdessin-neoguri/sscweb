@@ -9,10 +9,10 @@ let artistIndex = new Map();
 let artistProfiles = new Map();
 let aliasToArtist = new Map(); // 정규화한 이름 -> 아티스트 색인 key (별칭·작곡가명 포함)
 
-// 간략 카드 목록에서 곡 상세로 들어갔을 때 돌아갈 곳: { type: "country" | "tag" | "artist" | "list", value?, scrollY? } | null
+// 간략 카드 목록에서 곡 상세로 들어갔을 때 돌아갈 곳: { type: "country" | "tag" | "artist" | "list" | "likes", value?, scrollY? } | null
 let compactListReturnTo = null;
 
-// "home"(홈, 기본: 사이트 제목을 누르면 나옴) / "list"(목록) / "map"(지도) / "tags"(태그) / "artists"(사람)
+// "home"(홈, 기본: 사이트 제목을 누르면 나옴) / "list"(목록) / "map"(지도) / "tags"(태그) / "artists"(사람) / "likes"(좋아요)
 let viewMode = "home";
 const songList = document.getElementById("song-list");
 const tagSearch = document.getElementById("tag-search");
@@ -31,6 +31,14 @@ const artistSort = document.getElementById("artist-sort");
 const artistFilter = document.getElementById("artist-filter");
 const artistCount = document.getElementById("artist-count");
 const artistInfo = document.getElementById("artist-info");
+const likesView = document.getElementById("likes-view");
+const likesSongs = document.getElementById("likes-songs");
+const likesSort = document.getElementById("likes-sort");
+const likesGroup = document.getElementById("likes-group");
+const likesControls = document.getElementById("likes-controls");
+const likesEmpty = document.getElementById("likes-empty");
+const likesStorageNote = document.getElementById("likes-storage-note");
+const likesTabCount = document.getElementById("likes-tab-count");
 const homeView = document.getElementById("home-view");
 const siteHomeLink = document.getElementById("site-home-link");
 const songsView = document.getElementById("songs-view");
@@ -53,6 +61,7 @@ function showBrowseUI() {
   mapView.style.display = viewMode === "map" ? "block" : "none";
   tagsView.style.display = viewMode === "tags" ? "block" : "none";
   artistsView.style.display = viewMode === "artists" ? "block" : "none";
+  likesView.style.display = viewMode === "likes" ? "block" : "none";
   homeView.style.display = viewMode === "home" ? "block" : "none";
   artistInfo.style.display = "none";
 }
@@ -62,6 +71,7 @@ function showSongsUI() {
   mapView.style.display = "none";
   tagsView.style.display = "none";
   artistsView.style.display = "none";
+  likesView.style.display = "none";
   homeView.style.display = "none";
   artistInfo.style.display = "none";
   songsView.style.display = "block";
@@ -105,6 +115,8 @@ function renderBrowseView() {
     renderTagsList();
   } else if (viewMode === "artists") {
     renderArtistsList();
+  } else if (viewMode === "likes") {
+    renderLikesView();
   }
 }
 
@@ -173,7 +185,13 @@ function getCountryName(code) {
   if (code === "XX") {
     return "미분류";
   }
-  return regionNames.of(code);
+
+  // 국가 코드 자리에 잘못된 값(오타 등)이 들어 있어도 사이트 전체가 멈추지 않게 그 값을 그대로 보여 줌
+  try {
+    return regionNames.of(code);
+  } catch (error) {
+    return String(code);
+  }
 }
 
 // 국가 코드에 맞는 국기 아이콘 마크업.
@@ -253,7 +271,7 @@ function restoreStateFromURL() {
   const artist = params.get("artist");
   const keyword = params.get("q");
 
-  const validModes = ["list", "map", "tags", "artists", "home"];
+  const validModes = ["list", "map", "tags", "artists", "likes", "home"];
   // 예전 주소: ?view=countries, ?view=timeline은 목록으로, ?view=about은 홈으로
   viewMode = validModes.includes(view)
     ? view
@@ -340,6 +358,12 @@ Promise.all([
         : []
     }));
 
+    assignSongIds();
+    loadLikes();
+    updateLikesTabCount();
+
+
+    warnInvalidCountryCodes();
 
     buildArtistIndex(profiles);
 
@@ -360,6 +384,17 @@ Promise.all([
       error
     );
   });
+
+// sscdbg.json의 countries에 국가 코드(JP, KR 등)가 아닌 값이 들어 있으면 개발자 도구 콘솔에 알려 줌
+function warnInvalidCountryCodes() {
+  songs.forEach(song => {
+    song.countries.forEach(code => {
+      if (code !== "XX" && !/^[A-Z]{2}$/.test(code)) {
+        console.warn(`국가 코드가 올바르지 않습니다: "${code}" (곡: ${song.title})`);
+      }
+    });
+  });
+}
 
 function renderArchiveStats() {
   const countries = [
@@ -661,17 +696,16 @@ function appendSongGrids(container, songArray, sortMode, returnTo, headingTag, h
   });
 }
 
-function renderSongListView() {
+// 곡 배열을 정렬·묶기 선택에 맞게 container에 그림 (목록 탭과 좋아요 탭 공용)
+// sortMode가 registered/liked이면 받은 순서 그대로 둠
+function renderSongCollection(container, songArray, sortMode, groupMode, returnTo) {
 
-  listSongs.innerHTML = "";
+  container.innerHTML = "";
 
-  const sortMode = listSort?.value || "registered";
-  const sorted = sortSongsForList(songs, sortMode);
-  const groupMode = listGroup?.value || "none";
-  const returnTo = { type: "list" };
+  const sorted = sortSongsForList(songArray, sortMode);
 
   if (groupMode === "none") {
-    appendSongGrids(listSongs, sorted, sortMode, returnTo, "h3", "list-heading");
+    appendSongGrids(container, sorted, sortMode, returnTo, "h3", "list-heading");
     return;
   }
 
@@ -689,14 +723,175 @@ function renderSongListView() {
     `;
     section.appendChild(heading);
 
-    listSongs.appendChild(section);
+    container.appendChild(section);
 
     appendSongGrids(section, group.songs, sortMode, returnTo, "h4", "list-subheading");
   });
 }
 
+function renderSongListView() {
+  renderSongCollection(
+    listSongs,
+    songs,
+    listSort?.value || "registered",
+    listGroup?.value || "none",
+    { type: "list" }
+  );
+}
+
 listSort?.addEventListener("change", renderSongListView);
 listGroup?.addEventListener("change", renderSongListView);
+
+// -------------------------------------
+// 좋아요 (이 브라우저의 localStorage에만 저장)
+// -------------------------------------
+//
+// 곡 ID는 sscdbg.json에 따로 적지 않고 "제목|가수(없으면 작곡가)"로 자동 생성합니다.
+// 같은 제목·가수 곡이 둘 이상이면 두 번째부터 "#2", "#3"을 붙입니다.
+// 제목이나 가수 표기를 고치면 ID가 달라져 그 곡의 좋아요는 풀립니다.
+
+const LIKES_STORAGE_KEY = "ssc-likes";
+
+let likedIds = [];            // 최근에 누른 것이 앞
+let likesPersistent = true;   // localStorage를 쓸 수 있는지
+
+function normalizeIdPart(value) {
+  return String(value ?? "")
+    .normalize("NFC")
+    .trim()
+    .toLocaleLowerCase()
+    .replace(/\s+/g, " ");
+}
+
+function assignSongIds() {
+  const used = new Map();
+
+  songs.forEach(song => {
+    const people = song.artist.length ? song.artist : song.songwriters;
+    const base = `${normalizeIdPart(song.title)}|${people.map(normalizeIdPart).join(",")}`;
+
+    const n = (used.get(base) || 0) + 1;
+    used.set(base, n);
+
+    song.id = n === 1 ? base : `${base}#${n}`;
+  });
+}
+
+function loadLikes() {
+  try {
+    const raw = localStorage.getItem(LIKES_STORAGE_KEY);
+    const parsed = raw ? JSON.parse(raw) : [];
+    likedIds = Array.isArray(parsed)
+      ? [...new Set(parsed.filter(id => typeof id === "string"))]
+      : [];
+    likesPersistent = true;
+  } catch (error) {
+    // 저장소를 쓸 수 없으면(시크릿 모드 등) 이 페이지를 열어 둔 동안만 기억
+    likesPersistent = false;
+  }
+}
+
+function saveLikes() {
+  try {
+    localStorage.setItem(LIKES_STORAGE_KEY, JSON.stringify(likedIds));
+    likesPersistent = true;
+  } catch (error) {
+    likesPersistent = false;
+  }
+}
+
+const isLiked = song => likedIds.includes(song.id);
+
+function toggleLike(song) {
+  if (isLiked(song)) {
+    likedIds = likedIds.filter(id => id !== song.id);
+  } else {
+    likedIds = [song.id, ...likedIds];
+  }
+  saveLikes();
+  syncLikeUI();
+}
+
+// 좋아요한 곡 배열 (최근 누른 순). 더 이상 없는 ID는 건너뜀
+function getLikedSongs() {
+  const byId = new Map(songs.map(song => [song.id, song]));
+  return likedIds.map(id => byId.get(id)).filter(Boolean);
+}
+
+function likeButtonMarkup(song, extraClass = "") {
+  const liked = isLiked(song);
+  return `
+    <button type="button" class="like-button ${extraClass}" data-song-id="${escapeHTML(song.id)}"
+            aria-pressed="${liked}" aria-label="좋아요" title="${liked ? "좋아요 취소" : "좋아요"}">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.3C.9 8.3 2.8 5 6.1 5c2 0 3.4 1.1 4.2 2.4h3.4C14.5 6.1 15.9 5 17.9 5c3.3 0 5.2 3.3 3.7 6.7C19.5 16.4 12 21 12 21z"/></svg>
+    </button>`;
+}
+
+// 하트 버튼 클릭을 연결 (카드를 눌러 상세로 가는 동작과 겹치지 않게 전파를 막음)
+function wireLikeButtons(root, song) {
+  root.querySelectorAll(".like-button").forEach(button => {
+    button.addEventListener("click", event => {
+      event.stopPropagation();
+      toggleLike(song);
+    });
+  });
+}
+
+// 화면에 보이는 모든 하트와 탭의 숫자를 현재 상태에 맞춤
+function syncLikeUI() {
+  document.querySelectorAll(".like-button").forEach(button => {
+    const liked = likedIds.includes(button.dataset.songId);
+    button.setAttribute("aria-pressed", liked ? "true" : "false");
+    button.title = liked ? "좋아요 취소" : "좋아요";
+  });
+  updateLikesTabCount();
+  updateLikesHeader();
+}
+
+function updateLikesTabCount() {
+  const count = getLikedSongs().length;
+  likesTabCount.textContent = count ? count : "";
+}
+
+function updateLikesHeader() {
+  const count = getLikedSongs().length;
+  likesStorageNote.textContent = likesPersistent
+    ? "좋아요는 지금 사용 중인 이 브라우저에만 저장됩니다. 다른 기기나 브라우저와는 공유되지 않습니다."
+    : "이 브라우저에서는 저장 공간을 쓸 수 없어, 페이지를 닫으면 좋아요가 사라집니다.";
+  likesEmpty.style.display = count ? "none" : "block";
+  likesControls.style.display = count ? "flex" : "none";
+}
+
+function renderLikesView() {
+  const liked = getLikedSongs();
+  updateLikesHeader();
+
+  if (!liked.length) {
+    likesSongs.innerHTML = "";
+    return;
+  }
+
+  renderSongCollection(
+    likesSongs,
+    liked,
+    likesSort?.value || "liked",
+    likesGroup?.value || "none",
+    { type: "likes" }
+  );
+}
+
+likesSort?.addEventListener("change", renderLikesView);
+likesGroup?.addEventListener("change", renderLikesView);
+
+// 다른 탭에서 좋아요를 바꾸면 이 탭에도 반영
+window.addEventListener("storage", event => {
+  if (event.key !== LIKES_STORAGE_KEY) return;
+  loadLikes();
+  syncLikeUI();
+  if (viewMode === "likes" && songsView.style.display === "none") {
+    renderLikesView();
+  }
+});
 
 // -------------------------------------
 // 태그 워드클라우드
@@ -882,8 +1077,8 @@ backButton.addEventListener("click", () => {
       selectTag(returnTo.value);
     } else if (returnTo.type === "artist") {
       selectArtist(returnTo.value);
-    } else if (returnTo.type === "list") {
-      viewMode = "list";
+    } else if (returnTo.type === "list" || returnTo.type === "likes") {
+      viewMode = returnTo.type;
       setActiveViewTab();
       renderBrowseView();
       updateURLState();
@@ -1064,7 +1259,10 @@ function songCardMarkup(song) {
           <div class="song-artwork placeholder" aria-hidden="true"></div>
 
           <div class="song-header-text">
-            <h2>${escapeHTML(song.title)}</h2>
+            <div class="song-title-row">
+              <h2>${escapeHTML(song.title)}</h2>
+              ${likeButtonMarkup(song, "like-button-large")}
+            </div>
 
             <div class="song-meta">
               <div class="song-meta-line">
@@ -1531,6 +1729,7 @@ function compactSongCardMarkup(song, caption = "") {
     : (song.songwriters || []).join(", ");
 
   return `
+    ${likeButtonMarkup(song)}
     <div class="song-artwork song-artwork-compact placeholder"></div>
     <div class="compact-song-info">
       <div class="compact-song-title">${escapeHTML(song.title)}</div>
@@ -1541,7 +1740,9 @@ function compactSongCardMarkup(song, caption = "") {
 }
 
 // 상세 카드 안의 태그/아티스트 버튼을 동작하게 연결
-function wireSongCard(card) {
+function wireSongCard(card, song) {
+  wireLikeButtons(card, song);
+
   card.querySelectorAll(".tag[data-tag]").forEach(button => {
     button.addEventListener("click", () => selectTag(button.dataset.tag));
   });
@@ -1593,7 +1794,7 @@ function renderSongs(songArray, options = {}) {
       loadArtworkInto(item.querySelector(".song-artwork"), song);
     }
 
-    wireSongCard(item);
+    wireSongCard(item, song);
 
     if (songArray.length === 1) {
       renderRelatedSongs(item, song);
@@ -1628,6 +1829,8 @@ function renderCompactSongGrid(container, songArray, { returnTo, captionFor } = 
       compactListReturnTo = returnTo || null;
       showSingleSongDetail(song, { preserveContext: true });
     });
+
+    wireLikeButtons(item, song);
 
     container.appendChild(item);
 

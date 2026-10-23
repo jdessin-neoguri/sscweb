@@ -35,6 +35,7 @@ select {
     --accent: #374F4E;
     --on-accent: #fff7ea;
     --accent-soft: #e2ebe7;
+    --like: #d9435f;
     --accent-soft-2: #cfddd7;
     --focus-ring: rgba(209,128,30,.5);
     --focus-ring-soft: rgba(209,128,30,.2);
@@ -88,6 +89,7 @@ select {
     --accent: #ff6b9d;
     --on-accent: #1a0f1f;
     --accent-soft: #3a1f3a;
+    --like: #ff5fa8;
     --accent-soft-2: #4d2a4a;
     --focus-ring: rgba(255,209,102,.55);
     --focus-ring-soft: rgba(255,209,102,.22);
@@ -142,6 +144,7 @@ select {
         --accent: #ff6b9d;
         --on-accent: #1a0f1f;
         --accent-soft: #3a1f3a;
+        --like: #ff5fa8;
         --accent-soft-2: #4d2a4a;
         --focus-ring: rgba(255,209,102,.55);
         --focus-ring-soft: rgba(255,209,102,.22);
@@ -1899,3 +1902,117 @@ button.tag:focus-visible,
 .home-rule:nth-child(6n+4) { background: color-mix(in srgb, var(--c4) 14%, var(--surface)); border-left: 5px solid var(--c4); }
 .home-rule:nth-child(6n+5) { background: color-mix(in srgb, var(--c5) 14%, var(--surface)); border-left: 5px solid var(--c5); }
 .home-rule:nth-child(6n+6) { background: color-mix(in srgb, var(--c6) 14%, var(--surface)); border-left: 5px solid var(--c6); }
+
+
+/* ========================================
+   좋아요
+======================================== */
+
+.song-card-compact {
+    position: relative;
+}
+
+.like-button {
+    appearance: none;
+    border: none;
+    padding: 0;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+
+    background: var(--surface);
+    color: var(--muted);
+    box-shadow: 0 1px 6px var(--shadow-sm);
+
+    cursor: pointer;
+    flex-shrink: 0;
+
+    transition:
+        transform 0.15s,
+        color 0.15s,
+        background 0.15s;
+}
+
+.like-button svg {
+    width: 18px;
+    height: 18px;
+
+    fill: transparent;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linejoin: round;
+}
+
+.like-button:hover {
+    color: var(--like);
+    transform: scale(1.1);
+}
+
+.like-button[aria-pressed="true"] {
+    color: var(--like);
+}
+
+.like-button[aria-pressed="true"] svg {
+    fill: currentColor;
+}
+
+.like-button:focus-visible {
+    outline: 2px solid var(--like);
+    outline-offset: 2px;
+}
+
+/* 간략 카드: 앨범 아트 오른쪽 위에 겹쳐 둠 */
+.song-card-compact > .like-button {
+    position: absolute;
+    top: calc(var(--space-3) + 6px);
+    right: calc(var(--space-3) + 6px);
+    z-index: 2;
+}
+
+/* 상세 카드: 제목 옆 */
+.song-title-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--space-3);
+}
+
+.song-title-row h2 {
+    min-width: 0;
+}
+
+.like-button-large {
+    width: 40px;
+    height: 40px;
+}
+
+.like-button-large svg {
+    width: 22px;
+    height: 22px;
+}
+
+.view-tab-count {
+    margin-left: 6px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.view-tab-count:empty {
+    display: none;
+}
+
+.likes-note {
+    margin: 0 0 var(--space-3);
+    font-size: 0.85rem;
+    color: var(--muted);
+}
+
+#likes-empty {
+    margin-top: var(--space-6);
+}

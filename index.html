@@ -87,6 +87,15 @@
       >
         사람
       </button>
+      <button
+        type="button"
+        class="view-tab"
+        data-mode="likes"
+        role="tab"
+        aria-selected="false"
+      >
+        좋아요<span class="view-tab-count" id="likes-tab-count"></span>
+      </button>
     </div>
 
   </div>
@@ -113,6 +122,39 @@
     </div>
 
     <div id="list-songs"></div>
+
+  </div>
+
+  <!-- 좋아요: 이 브라우저에서 하트를 누른 곡 -->
+  <div id="likes-view" style="display: none;">
+
+    <p class="likes-note" id="likes-storage-note"></p>
+
+    <div class="country-controls list-controls" id="likes-controls">
+      <label for="likes-sort">정렬</label>
+      <select id="likes-sort">
+        <option value="liked">최근 좋아요 순</option>
+        <option value="registered">등록 순</option>
+        <option value="title-asc">제목순</option>
+        <option value="title-desc">제목 역순</option>
+        <option value="year-asc">오래된 순</option>
+        <option value="year-desc">최신 순</option>
+      </select>
+
+      <label for="likes-group">묶기</label>
+      <select id="likes-group">
+        <option value="none">묶지 않음</option>
+        <option value="country">국가별</option>
+        <option value="language">언어별</option>
+      </select>
+    </div>
+
+    <div id="likes-empty" class="no-results" style="display: none;">
+      아직 좋아요한 곡이 없습니다.<br>
+      곡 카드의 ♥를 눌러 보세요.
+    </div>
+
+    <div id="likes-songs"></div>
 
   </div>
 
