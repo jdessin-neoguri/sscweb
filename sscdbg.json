@@ -1,5 +1,6 @@
 [
   {
+    "id": "dschinghis-khan-dschinghis-khan",
     "title": "Dschinghis Khan",
     "year": "1979",
     "artist": ["Dschinghis Khan"],
@@ -14,6 +15,7 @@
     "image": "covers/dschinghis-khan.jpg"
   },
   {
+    "id": "moskau-dschinghis-khan",
     "title": "Moskau",
     "year": "1979",
     "artist": ["Dschinghis Khan"],
@@ -28,6 +30,7 @@
     "image": "covers/dschinghis-khan.jpg"
   },
   {
+    "id": "machu-picchu-dschinghis-khan",
     "title": "Machu Picchu",
     "year": "1980",
     "artist": ["Dschinghis Khan"],
@@ -45,6 +48,7 @@
     "image": "covers/machu-picchu-dschinghis-khan.jpg"
   },
   {
+    "id": "pistolero-dschinghis-khan",
     "title": "Pistolero",
     "year": "1981",
     "artist": ["Dschinghis Khan"],
@@ -59,6 +63,7 @@
     "image": "covers/pistolero-dschinghis-khan.jpg"
   },
   {
+    "id": "nur-ein-wort-wir-sind-helden",
     "title": "Nur ein Wort",
     "year": "2005",
     "artist": ["Wir sind Helden"],
@@ -73,6 +78,7 @@
     "image": "covers/nur-ein-wort-wir-sind-helden.jpg"
   },
   {
+    "id": "the-girl-from-ipanema-astrud-gilberto",
     "title": "The Girl from Ipanema (Garota de Ipanema)",
     "year": "1964",
     "artist": ["Astrud Gilberto", "João Gilberto", "Stan Getz"],
@@ -91,6 +97,7 @@
     "image": "covers/the-girl-from-ipanema.jpg"
   },
   {
+    "id": "dragostea-din-tei-o-zone",
     "title": "Dragostea din tei",
     "year": "2003",
     "artist": ["O-Zone"],
@@ -109,6 +116,7 @@
     "image": "covers/dragostea-din-tei.jpg"
   },
   {
+    "id": "griechischer-wein-udo-jurgens",
     "title": "Griechischer Wein",
     "year": "1974",
     "artist": ["Udo Jürgens"],
@@ -123,6 +131,7 @@
     "image": "covers/griechischer-wein.jpg"
   },
   {
+    "id": "canopee-polo-pan",
     "title": "Canopée",
     "year": "2017",
     "artist": ["Polo&Pan", "Victoria Lafaurie"],
@@ -140,6 +149,7 @@
     "image": "covers/canopee-polo-pan.jpg"
   },
   {
+    "id": "ani-kuni-polo-pan",
     "title": "Ani Kuni",
     "year": "2021",
     "artist": ["Polo&Pan"],
@@ -154,6 +164,7 @@
     "image": "covers/ani-kuni-polo-pan.jpg"
   },
   {
+    "id": "comme-dhabitude-claude-francois",
     "title": "Comme d'habitude",
     "year": "1967",
     "artist": ["Claude François"],
@@ -168,6 +179,7 @@
     "image": "covers/comme-d-habitude-claude-françois.jpg"
   },
   {
+    "id": "drunten-im-unterland-traditional",
     "title": "Drunten im Unterland",
     "year": "1836",
     "artist": [],
@@ -186,6 +198,7 @@
     "image": "covers/germany.jpg"
   },
   {
+    "id": "aloha-oe-lili-uokalani",
     "title": "Aloha ʻOe",
     "year": "1878",
     "artist": [],
@@ -205,6 +218,7 @@
     "image": "covers/aloha.jpg"
   },
   {
+    "id": "pokarekare-ana-traditional",
     "title": "Pokarekare Ana",
     "year": "1914",
     "artist": [],
@@ -224,6 +238,7 @@
     "image": "covers/maori.jpg"
   },
   {
+    "id": "tama-ngakau-marie-traditional",
     "title": "Tama Ngākau Mārie",
     "year": "1914",
     "artist": [],
@@ -238,6 +253,7 @@
     "image": "covers/maori.jpg"
   },
   {
+    "id": "im-himmel-gibts-kein-bier-ralph-maria-siegel",
     "title": "Im Himmel Gibt's Kein Bier",
     "year": "1956",
     "artist": [],
@@ -253,6 +269,7 @@
     "image": "covers/germany.jpg"
   },
   {
+    "id": "yuryeongdokyo-ayase",
     "title": "幽霊東京 (유령도쿄)",
     "year": "2019",
     "artist": ["Ayase", "Hatsune Miku (初音ミク)"],
@@ -271,6 +288,7 @@
     "image": "covers/유령도쿄.jpg"
   },
   {
+    "id": "telrekaeseuteo-biboi-three",
     "title": "テレキャスタービーボーイ (텔레캐스터 비보이)",
     "year": "2019",
     "artist": ["Three (すりぃ)", "Kagamine Len (鏡音レン)"],
@@ -286,6 +304,7 @@
     "image": "covers/telecaster.jpg"
   },
   {
+    "id": "gruppa-krovi-kino",
     "title": "Группа крови (Gruppa Krovi)",
     "year": "1988",
     "artist": ["Kino (Кино)"],
@@ -303,6 +322,7 @@
     "image": "covers/gruppa-krovi.jpg"
   },
   {
+    "id": "konchitsya-leto-kino",
     "title": "Кончится лето (Konchitsya leto)",
     "year": "1990",
     "artist": ["Kino (Кино)"],
@@ -318,6 +338,7 @@
     "image": "covers/leto.jpg"
   },
   {
+    "id": "rain-sekai-no-owari",
     "title": "Rain",
     "year": "2017",
     "artist": ["SEKAI NO OWARI"],
@@ -333,6 +354,7 @@
     "image": "covers/rain-sekai-no-owari.jpg"
   },
   {
+    "id": "dangnyeonjeong-leslie-chung",
     "title": "當年情 (당년정)",
     "year": "1986",
     "artist": ["Leslie Chung (張國榮)"],
@@ -350,6 +372,7 @@
     "image": "covers/당년정.jpg"
   },
   {
+    "id": "bunhyangmiraeilja-leslie-chung",
     "title": "奔向未來日子 (분향미래일자)",
     "year": "1988",
     "artist": ["Leslie Chung (張國榮)"],
@@ -364,6 +387,7 @@
     "image": "covers/분향미래일자.jpg"
   },
   {
+    "id": "namadangjagang-george-lam",
     "title": "男兒當自強 (남아당자강)",
     "year": "1990",
     "artist": ["George Lam (林子祥)"],
@@ -379,6 +403,7 @@
     "image": "covers/남아당자강.jpg"
   },
   {
+    "id": "sogno-di-volare-christopher-tin",
     "title": "Sogno di Volare",
     "year": "2016",
     "artist": ["Christopher Tin"],
@@ -397,6 +422,7 @@
     "image": "covers/sogno-di-volare-christopher-tin.jpg"
   },
   {
+    "id": "tha-rtheis-san-astrapi-stamatis-spanoudakis",
     "title": "Θά 'ρθεις σαν αστραπή (Thá 'rtheis san astrapí)",
     "year": "1998",
     "artist": ["Stamatis Spanoudakis (Σταμάτης Σπανουδάκης)"],
@@ -415,6 +441,7 @@
     "image": "covers/marble-king-stamatis-spanoudakis.jpg"
   },
   {
+    "id": "norwegian-wood-the-beatles",
     "title": "Norwegian Wood (This Bird Has Flown)",
     "year": "1965",
     "artist": ["The Beatles"],
@@ -432,6 +459,7 @@
     "image": "covers/norwegian-wood-the-beatles.jpg"
   },
   {
+    "id": "hey-jude-the-beatles",
     "title": "Hey Jude",
     "year": "1968",
     "artist": ["The Beatles"],
@@ -448,6 +476,7 @@
     "image": "covers/hey-jude-the-beatles.jpg"
   },
   {
+    "id": "yellow-submarine-the-beatles",
     "title": "Yellow Submarine",
     "year": "1966",
     "artist": ["The Beatles"],
@@ -462,6 +491,7 @@
     "image": "covers/yellow-submarine-the-beatles.jpg"
   },
   {
+    "id": "here-comes-the-sun-the-beatles",
     "title": "Here Comes the Sun",
     "year": "1969",
     "artist": ["The Beatles"],
@@ -476,6 +506,7 @@
     "image": "covers/here-comes-the-sun-the-beatles.jpg"
   },
   {
+    "id": "let-it-be-the-beatles",
     "title": "Let It Be",
     "year": "1970",
     "artist": ["The Beatles"],
@@ -490,6 +521,7 @@
     "image": "covers/let-it-be-the-beatles.jpg"
   },
   {
+    "id": "ob-la-di-ob-la-da-the-beatles",
     "title": "Ob-La-Di, Ob-La-Da",
     "year": "1968",
     "artist": ["The Beatles"],
@@ -504,6 +536,7 @@
     "image": "covers/the-beatles-the-beatles.jpg"
   },
   {
+    "id": "cunroe-kenshi-yonezu",
     "title": "春雷 (춘뢰)",
     "year": "2017",
     "artist": ["Kenshi Yonezu (米津玄師)"],
@@ -521,6 +554,7 @@
     "image": "covers/bootleg-yonezu-kenshi.jpg"
   },
   {
+    "id": "fur-elise-ludwig-van-beethoven",
     "title": "엘리제를 위하여 (Für Elise)",
     "year": "1810",
     "artist": [],
@@ -536,6 +570,7 @@
     "image": "covers/beethoven.jpg"
   },
   {
+    "id": "sinfonie-nr-9-4-satz-ludwig-van-beethoven",
     "title": "교향곡 9번 4악장 (Sinfonie Nr.9 4.Satz)",
     "year": "1824?",
     "artist": [],
@@ -551,6 +586,7 @@
     "image": "covers/beethoven.jpg"
   },
   {
+    "id": "quasi-una-fantasia-ludwig-van-beethoven",
     "title": "피아노 소나타 14번 (Quasi una fantasia)",
     "year": "1802",
     "artist": [],
@@ -565,6 +601,7 @@
     "image": "covers/beethoven.jpg"
   },
   {
+    "id": "goesuyi-haengjingog-kenshi-yonezu",
     "title": "かいじゅうのマーチ (괴수의 행진곡)",
     "year": "2017",
     "artist": ["Kenshi Yonezu (米津玄師)"],
@@ -579,6 +616,7 @@
     "image": "covers/bootleg-yonezu-kenshi.jpg"
   },
   {
+    "id": "piseu-sain-kenshi-yonezu",
     "title": "ピースサイン (피스 사인)",
     "year": "2017",
     "artist": ["Kenshi Yonezu (米津玄師)"],
@@ -593,6 +631,7 @@
     "image": "covers/피스사인-yonezu-kenshi.jpg"
   },
   {
+    "id": "lemon-kenshi-yonezu",
     "title": "Lemon",
     "year": "2018",
     "artist": ["Kenshi Yonezu (米津玄師)"],
@@ -607,6 +646,7 @@
     "image": "covers/lemon-yonezu-kenshi.jpg"
   },
   {
+    "id": "kick-back-kenshi-yonezu",
     "title": "KICK BACK",
     "year": "2022",
     "artist": ["Kenshi Yonezu (米津玄師)"],
@@ -621,6 +661,7 @@
     "image": "covers/kick-back-yonezu-kenshi.jpg"
   },
   {
+    "id": "water-no-get-enemy-fela-kuti",
     "title": "Water No Get Enemy",
     "year": "1975",
     "artist": ["Fela Kuti"],
@@ -638,6 +679,7 @@
     "image": "covers/water-no-get-enemy-fela-kuti.jpg"
   },
   {
+    "id": "waterloo-abba",
     "title": "Waterloo",
     "year": "1974",
     "artist": ["ABBA"],
@@ -656,6 +698,7 @@
     "image": "covers/waterloo-abba.jpg"
   },
   {
+    "id": "dancing-queen-abba",
     "title": "Dancing Queen",
     "year": "1976",
     "artist": ["ABBA"],
@@ -672,6 +715,7 @@
     "image": "covers/dancing-queen-abba.jpg"
   },
   {
+    "id": "gimme-gimme-gimme-abba",
     "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
     "year": "1979",
     "artist": ["ABBA"],
@@ -686,6 +730,7 @@
     "image": "covers/gimme-gimme-gimme-a-man-after-midnight-abba.jpg"
   },
   {
+    "id": "mamma-mia-abba",
     "title": "Mamma Mia",
     "year": "1975",
     "artist": ["ABBA"],
@@ -701,6 +746,7 @@
     "image": "covers/mamma-mia-abba.jpg"
   },
   {
+    "id": "i-have-a-dream-abba",
     "title": "I Have a Dream",
     "year": "1979",
     "artist": ["ABBA"],
@@ -715,6 +761,7 @@
     "image": "covers/i-have-a-dream-abba.jpg"
   },
   {
+    "id": "bailando-enrique-iglesias",
     "title": "Bailando",
     "year": "2014",
     "artist": ["Enrique Iglesias", "Descemer Bueno", "Gente De Zona"],
@@ -732,6 +779,7 @@
     "image": "covers/bailando-enrique-iglesias.jpg"
   },
   {
+    "id": "subeme-la-radio-enrique-iglesias",
     "title": "Súbeme la Radio",
     "year": "2017",
     "artist": ["Enrique Iglesias", "Descemer Bueno", "Zion & Lennox"],
@@ -747,6 +795,7 @@
     "image": "covers/subeme-la-radio-enrique-iglesias.jpg"
   },
   {
+    "id": "satisfaction-the-rolling-stones",
     "title": "(I Can’t Get No) Satisfaction",
     "year": "1965",
     "artist": ["The Rolling Stones"],
@@ -761,6 +810,7 @@
     "image": "covers/i-can-t-get-no-satisfaction-the-rolling-stones.jpg"
   },
   {
+    "id": "kashmir-main-tu-kanyakumari-sunidhi-chauhan-arijit-singh",
     "title": "Kashmir Main Tu Kanyakumari (कश्मीर में तू कन्याकुमारी)",
     "year": 2013,
     "artist": ["Sunidhi Chauhan, Arijit Singh, Neeti Mohan"],
@@ -778,6 +828,7 @@
     "image": "covers/kashmir-main-tu-kanyakumari.jpg"
   },
   {
+    "id": "ievan-polkka-traditional",
     "title": "Ievan Polkka",
     "year": "19c?",
     "artist": [],
@@ -797,6 +848,7 @@
     "image": "covers/ievan-polkka.jpg"
   },
   {
+    "id": "sakkijarven-polkka-traditional",
     "title": "Säkkijärven Polkka",
     "year": "19c?",
     "artist": [],
@@ -813,6 +865,7 @@
     "image": "covers/winter-war.jpg"
   },
   {
+    "id": "njet-molotoff-matti-jurva",
     "title": "Njet Molotoff",
     "year": "1942",
     "artist": [],
@@ -828,6 +881,7 @@
     "image": "covers/winter-war.jpg"
   },
   {
+    "id": "nessun-dorma-giacomo-puccini",
     "title": "Nessun Dorma",
     "year": "1926",
     "artist": [],
@@ -846,6 +900,7 @@
     "image": "covers/puccini.jpg"
   },
   {
+    "id": "o-sole-mio-eduardo-di-capua",
     "title": "'O Sole Mio",
     "year": "1898",
     "artist": [],
@@ -861,6 +916,7 @@
     "image": "covers/o-sole-mio.jpg"
   },
   {
+    "id": "brindisi-giuseppe-verdi",
     "title": "Brindisi (Libiamo ne' lieti calici)",
     "year": "1853",
     "artist": [],
@@ -877,6 +933,7 @@
     "image": "covers/verdi.jpg"
   },
   {
+    "id": "la-donna-e-mobile-giuseppe-verdi",
     "title": "La donna è mobile (여자의 마음)",
     "year": "1851",
     "artist": [],
@@ -891,6 +948,7 @@
     "image": "covers/verdi.jpg"
   },
   {
+    "id": "marcia-trionfale-giuseppe-verdi",
     "title": "개선 행진곡 (Marcia Trionfale)",
     "year": 1871,
     "artist": [],
@@ -906,6 +964,7 @@
     "image": "covers/verdi.jpg"
   },
   {
+    "id": "battle-hymn-of-the-republic-julia-ward-howe",
     "title": "Battle Hymn of the Republic",
     "year": "1862",
     "artist": [],
@@ -923,6 +982,7 @@
     "image": "covers/america.jpg"
   },
   {
+    "id": "yankee-doodle-richard-shuckburgh",
     "title": "Yankee Doodle",
     "year": "1756?",
     "artist": [],
@@ -937,6 +997,7 @@
     "image": "covers/america.jpg"
   },
   {
+    "id": "marching-through-georgia-henry-clay-work",
     "title": "Marching Through Georgia",
     "year": "1856",
     "artist": [],
@@ -951,6 +1012,7 @@
     "image": "covers/america.jpg"
   },
   {
+    "id": "tamally-maak-amr-diab",
     "title": "تملي معاك (Tamally Maak)",
     "year": "2000",
     "artist": ["Amr Diab (عمرو دياب)"],
@@ -969,6 +1031,7 @@
     "image": "covers/tamally-maak.jpg"
   },
   {
+    "id": "nour-el-ein-amr-diab",
     "title": "نور العين (Nour El Ein)",
     "year": "1996",
     "artist": ["Amr Diab (عمرو دياب)"],
@@ -983,6 +1046,7 @@
     "image": "covers/nour-el-ein.jpg"
   },
   {
+    "id": "world-execute-mili",
     "title": "world.execute(me)",
     "year": "2016",
     "artist": ["Mili"],
@@ -1001,6 +1065,7 @@
     "image": "covers/miracle-milk-mili.jpg"
   },
   {
+    "id": "meatball-submarine-mili",
     "title": "Meatball Submarine",
     "year": "2016",
     "artist": ["Mili"],
@@ -1015,6 +1080,7 @@
     "image": "covers/miracle-milk-mili.jpg"
   },
   {
+    "id": "rtrt-mili",
     "title": "RTRT",
     "year": "2016",
     "artist": ["Mili"],
@@ -1030,6 +1096,7 @@
     "image": "covers/miracle-milk-mili.jpg"
   },
   {
+    "id": "mask-off-future",
     "title": "Mask Off",
     "year": "2017",
     "artist": ["Future"],
@@ -1044,6 +1111,7 @@
     "image": "covers/mask-off-future.jpg"
   },
   {
+    "id": "take-me-home-country-roads-john-denver",
     "title": "Take Me Home, Country Roads",
     "year": "1971",
     "artist": ["John Denver"],
@@ -1058,6 +1126,7 @@
     "image": "covers/take-me-home-country-roads-john-denver.jpg"
   },
   {
+    "id": "tennessee-whiskey-david-allan-coe",
     "title": "Tennessee Whiskey",
     "year": "1981",
     "artist": ["David Allan Coe"],
@@ -1077,6 +1146,7 @@
     "image": "covers/tennessee-whiskey-david-allan-coe.jpg"
   },
   {
+    "id": "for-evigt-volbeat",
     "title": "For Evigt",
     "year": "2016",
     "artist": ["Volbeat", "Johan Olsen"],
@@ -1095,6 +1165,7 @@
     "image": "covers/for-evigt-volbeat.jpg"
   },
   {
+    "id": "video-killed-the-radio-star-the-buggles",
     "title": "Video Killed The Radio Star",
     "year": "1979",
     "artist": ["The Buggles"],
@@ -1109,6 +1180,7 @@
     "image": "covers/video-killed-the-radio-star-the-buggles.jpg"
   },
   {
+    "id": "down-under-men-at-work",
     "title": "Down Under",
     "year": "1981",
     "artist": ["Men at Work"],
@@ -1124,6 +1196,7 @@
     "image": "covers/down-under-men-at-work.jpg"
   },
   {
+    "id": "go-west-village-people",
     "title": "Go West",
     "year": "1979",
     "artist": ["Village People"],
@@ -1139,6 +1212,7 @@
     "image": "covers/go-west-village-people.jpg"
   },
   {
+    "id": "weolryangdaepyoajeogsim-chen-fen-lan",
     "title": "月亮代表我的心 (월량대표아적심)",
     "year": "1973",
     "artist": ["Chen Fen-Lan (陳芬蘭)"],
@@ -1158,6 +1232,7 @@
     "image": "covers/월량대표아적심.jpg"
   },
   {
+    "id": "ceommilmil-teresa-teng",
     "title": "甜蜜蜜 (첨밀밀)",
     "year": "1979",
     "artist": ["Teresa Teng (鄧麗君)"],
@@ -1173,6 +1248,7 @@
     "image": "covers/첨밀밀.jpg"
   },
   {
+    "id": "rie-y-llora-celia-cruz",
     "title": "Ríe y Llora",
     "year": "2003",
     "artist": ["Celia Cruz"],
@@ -1191,6 +1267,7 @@
     "image": "covers/ríe-y-llora-celia-cruz.jpg"
   },
   {
+    "id": "uhaw-dilaw",
     "title": "Uhaw",
     "year": "2022",
     "artist": ["Dilaw"],
@@ -1209,6 +1286,7 @@
     "image": "covers/uhaw-dilaw.jpg"
   },
   {
+    "id": "raining-in-manila-lola-amour",
     "title": "Raining in Manila",
     "year": "2023",
     "artist": ["Lola Amour"],
@@ -1224,6 +1302,7 @@
     "image": "covers/raining-in-manila-lola-amour.jpg"
   },
   {
+    "id": "midnight-city-m83",
     "title": "Midnight City",
     "year": "2011",
     "artist": ["M83"],
@@ -1238,6 +1317,7 @@
     "image": "covers/midnight-city-m83.jpg"
   },
   {
+    "id": "vo-tu-anh-quan-idol",
     "title": "Vô Tư",
     "year": "2022",
     "artist": ["Anh Quân Idol"],
@@ -1256,6 +1336,7 @@
     "image": "covers/vô-tư-anh-quân-idol.jpg"
   },
   {
+    "id": "2-phut-hon-phao",
     "title": "2 Phút Hơn",
     "year": "2020",
     "artist": ["Pháo"],
@@ -1271,6 +1352,7 @@
     "image": "covers/2-phút-hơn-pháo.jpg"
   },
   {
+    "id": "kalinka-ivan-larionov",
     "title": "Калинка (Kalinka)",
     "year": "1860",
     "artist": [],
@@ -1286,6 +1368,7 @@
     "image": "covers/kalinka.jpg"
   },
   {
+    "id": "katyusha-matvey-blanter",
     "title": "Катюша (Katyusha)",
     "year": "1938",
     "artist": [],
@@ -1304,6 +1387,7 @@
     "image": "covers/ussr.jpg"
   },
   {
+    "id": "krasnaya-armiya-vsekh-silney-pavel-gorinshtein",
     "title": "Красная Армия всех сильней (Krasnaya Armiya vsekh sil'ney)",
     "year": "1920",
     "artist": [],
@@ -1318,6 +1402,7 @@
     "image": "covers/ussr.jpg"
   },
   {
+    "id": "jerusalema-master-kg",
     "title": "Jerusalema",
     "year": "2019",
     "artist": ["Master KG", "Nomcebo"],
@@ -1336,6 +1421,7 @@
     "image": "covers/jerusalema-master-kg.jpg"
   },
   {
+    "id": "hej-sokoly-traditional",
     "title": "Hej sokoły (Гей соколи)",
     "year": "19c?",
     "artist": [],
@@ -1354,6 +1440,7 @@
     "image": "covers/hej-sokoły-гей-соколи.jpg"
   },
   {
+    "id": "yikhav-kozak-za-dunai-semen-klymovskyi",
     "title": "Їхав козак за Дунай (Yikhav Kozak za Dunai)",
     "year": "1790",
     "artist": [],
@@ -1369,6 +1456,7 @@
     "image": "covers/їхав-козак-за-дунай-yikhav-kozak-za-dunai.jpg"
   },
   {
+    "id": "midusanga-traditional",
     "title": "山对山来崖对崖 (弥渡山歌, 미두산가)",
     "year": "?",
     "artist": [],
@@ -1384,6 +1472,7 @@
     "image": "covers/山对山来崖对崖-弥渡山歌-미두산가.jpg"
   },
   {
+    "id": "empire-state-of-mind-jay-z",
     "title": "Empire State of Mind",
     "year": "2009",
     "artist": ["Jay-Z", "Alicia Keys"],
@@ -1401,6 +1490,7 @@
     "image": "covers/empire-state-of-mind-jay-z.jpg"
   },
   {
+    "id": "the-7th-element-vitas",
     "title": "7 элемент (The 7th Element)",
     "year": "2001",
     "artist": ["Vitas (Витас)"],
@@ -1415,6 +1505,7 @@
     "image": "covers/7-элемент-the-7th-element-витас-vitas.jpg"
   },
   {
+    "id": "gdzie-jest-bialy-wegorz-cypis",
     "title": "Gdzie jest biały węgorz",
     "year": "2015",
     "artist": ["Cypis"],
@@ -1430,6 +1521,7 @@
     "image": "covers/gdzie-jest-biały-węgorz-cypis.jpg"
   },
   {
+    "id": "baba-yetu-christopher-tin",
     "title": "Baba Yetu",
     "year": "2005",
     "artist": ["Christopher Tin"],
@@ -1445,6 +1537,7 @@
     "image": "covers/baba-yetu-christopher-tin.jpg"
   },
   {
+    "id": "nunca-es-suficiente-natalia-lafourcade",
     "title": "Nunca Es Suficiente",
     "year": "2015",
     "artist": ["Natalia Lafourcade"],
@@ -1463,6 +1556,7 @@
     "image": "covers/nunca-es-suficiente-natalia-lafourcade.jpg"
   },
   {
+    "id": "lonely-at-the-top-asake",
     "title": "Lonely At The Top",
     "year": "2023",
     "artist": ["Asake"],
@@ -1482,6 +1576,7 @@
     "image": "covers/lonely-at-the-top-asake.jpg"
   },
   {
+    "id": "greensleeves-traditional",
     "title": "Greensleeves",
     "year": "16c?",
     "artist": [],
@@ -1498,6 +1593,7 @@
     "image": "covers/greensleeves.jpg"
   },
   {
+    "id": "time-to-rise-vannda",
     "title": "Time To Rise",
     "year": "2021",
     "artist": ["VannDa (វណ្ណដា)", "Master Kong Nay (គង់ ណៃ)"],
@@ -1512,6 +1608,7 @@
     "image": "covers/time-to-rise-vannda.jpg"
   },
   {
+    "id": "bameul-dalrida-yoasobi",
     "title": "夜に駆ける (밤을 달리다)",
     "year": "2019",
     "artist": ["YOASOBI"],
@@ -1527,6 +1624,7 @@
     "image": "covers/밤을달리다-yoasobi.jpg"
   },
   {
+    "id": "hoppipolla-sigur-ros",
     "title": "Hoppípolla",
     "year": "2005",
     "artist": ["Sigur Rós"],
@@ -1544,6 +1642,7 @@
     "image": "covers/hoppípolla-sigur-rós.jpg"
   },
   {
+    "id": "stille-nacht-heilige-nacht-franz-xaver-gruber",
     "title": "Stille Nacht, heilige Nacht",
     "year": "1818",
     "artist": [],
@@ -1562,6 +1661,7 @@
     "image": "covers/stille-nacht-heilige-nacht.jpg"
   },
   {
+    "id": "la-seine-vanessa-paradis",
     "title": "La Seine",
     "year": "2011",
     "artist": ["Vanessa Paradis", "-M-"],
@@ -1576,6 +1676,7 @@
     "image": "covers/la-seine-vanessa-paradis.jpg"
   },
   {
+    "id": "amour-plastique-videoclub",
     "title": "Amour plastique",
     "year": "2021",
     "artist": ["VIDEOCLUB"],
@@ -1590,6 +1691,7 @@
     "image": "covers/amour-plastique-videoclub.jpg"
   },
   {
+    "id": "vem-dancar-kuduro-lucenzo",
     "title": "Vem Dançar Kuduro",
     "year": "2010",
     "artist": ["Lucenzo", "Big Ali"],
@@ -1604,6 +1706,7 @@
     "image": "covers/vem-dançar-kuduro-lucenzo.jpg"
   },
   {
+    "id": "mi-equilibrio-espiritual-31-minutos",
     "title": "Mi Equilibrio Espiritual",
     "year": "2003",
     "artist": ["31 Minutos", "Freddy Turbina"],
@@ -1618,6 +1721,7 @@
     "image": "covers/mi-equilibrio-espiritual-31-minutos.jpg"
   },
   {
+    "id": "janhoghan-ceonsayi-teje-yoko-takahashi",
     "title": "残酷な天使のテーゼ (잔혹한 천사의 테제)",
     "year": "1995",
     "artist": ["Yoko Takahashi (高橋洋子)"],
@@ -1632,6 +1736,7 @@
     "image": "covers/잔천테.jpg"
   },
   {
+    "id": "waterloo-road-jason-crest",
     "title": "Waterloo Road",
     "year": "1968",
     "artist": ["Jason Crest"],
@@ -1647,6 +1752,7 @@
     "image": "covers/waterloo-road-jason-crest.jpg"
   },
   {
+    "id": "sara-perche-ti-amo-ricchi-e-poveri",
     "title": "Sarà perché ti amo",
     "year": "1981",
     "artist": ["Ricchi e Poveri"],
@@ -1662,6 +1768,7 @@
     "image": "covers/sarà-perché-ti-amo-ricchi-e-poveri.jpg"
   },
   {
+    "id": "gole-yakh-kourosh-yaghmaei",
     "title": "گل یخ (Gole Yakh)",
     "year": "1973",
     "artist": ["Kourosh Yaghmaei (کورش یغمایی)"],
@@ -1679,6 +1786,7 @@
     "image": "covers/gole-yakh.jpg"
   },
   {
+    "id": "yolele-papa-wemba",
     "title": "Yolele",
     "year": "1995",
     "artist": ["Papa Wemba"],
@@ -1697,6 +1805,7 @@
     "image": "covers/yolele-papa-wemba.jpg"
   },
   {
+    "id": "oh-asmara-kobo-kanaeru",
     "title": "Oh! Asmara",
     "year": "2023",
     "artist": ["Kobo Kanaeru"],
@@ -1714,6 +1823,7 @@
     "image": "covers/oh-asmara-kobo-kanaeru.jpg"
   },
   {
+    "id": "lacrimosa-wolfgang-amadeus-mozart",
     "title": "Lacrimosa",
     "year": "1791",
     "artist": [],
@@ -1732,6 +1842,7 @@
     "image": "covers/mozart.jpg"
   },
   {
+    "id": "eine-kleine-nachtmusik-i-allegro-wolfgang-amadeus-mozart",
     "title": "Eine Kleine Nachtmusik, I. Allegro",
     "year": "1787",
     "artist": [],
@@ -1746,6 +1857,7 @@
     "image": "covers/mozart.jpg"
   },
   {
+    "id": "plastic-love-mariya-takeuchi",
     "title": "プラスティック ラブ(Plastic Love)",
     "year": "1984",
     "artist": ["Mariya Takeuchi (竹内まりや)"],
@@ -1764,6 +1876,7 @@
     "image": "covers/plastic-love.jpg"
   },
   {
+    "id": "zhen-ye-zhong-nodoa-stay-with-me-miki-matsubara",
     "title": "真夜中のドア〜 Stay With Me",
     "year": "1979",
     "artist": ["Miki Matsubara (松原みき)"],
@@ -1779,6 +1892,7 @@
     "image": "covers/stay-with-me-miki.jpg"
   },
   {
+    "id": "bosanska-artiljerija-muhamed-brkic-hamo",
     "title": "Bosanska Artiljerija",
     "year": "1992",
     "artist": ["Muhamed Brkić Hamo"],
@@ -1797,6 +1911,7 @@
     "image": "covers/bosanska-artiljerija.jpg"
   },
   {
+    "id": "karadzicu-vodi-srbe-svoje-zeljko-grmusa",
     "title": "Караџићу, води Србе своје (Karadžiću, vodi Srbe svoje)",
     "year": "1993",
     "artist": ["Željko Grmuša (Жељко Грмуша)"],
@@ -1811,6 +1926,7 @@
     "image": "covers/serbia-strong.jpg"
   },
   {
+    "id": "bojna-cavoglave-marko-perkovic",
     "title": "Bojna Čavoglave",
     "year": "1992",
     "artist": ["Marko Perković"],
@@ -1825,6 +1941,7 @@
     "image": "covers/bojna-čavoglave-marko-perković.jpg"
   },
   {
+    "id": "jambo-bwana-them-mushrooms",
     "title": "Jambo Bwana",
     "year": "1982",
     "artist": ["Them Mushrooms"],
@@ -1843,6 +1960,7 @@
     "image": "covers/jambo-bwana-them-mushrooms.jpg"
   },
   {
+    "id": "no-woman-no-cry-bob-marley-and-the-wailers",
     "title": "No Woman No Cry",
     "year": "1974",
     "artist": ["Bob Marley and the Wailers"],
@@ -1861,6 +1979,7 @@
     "image": "covers/no-woman-no-cry-bob-marley-and-the-wailers.jpg"
   },
   {
+    "id": "janggunnim-cugjibeob-sseusinda-jeongryeol",
     "title": "장군님 축지법 쓰신다",
     "year": "1996",
     "artist": [],
@@ -1879,6 +1998,7 @@
     "image": "covers/장군님-축지법-쓰신다.jpg"
   },
   {
+    "id": "ceonrima-dalrinda-nameungson",
     "title": "천리마 달린다",
     "year": "1966",
     "artist": [],
@@ -1893,6 +2013,7 @@
     "image": "covers/천리마-달린다.jpg"
   },
   {
+    "id": "cest-la-vie-khaled",
     "title": "C'est la vie",
     "year": "2012",
     "artist": ["Khaled"],
@@ -1910,6 +2031,7 @@
     "image": "covers/c-est-la-vie-khaled.jpg"
   },
   {
+    "id": "kobe-nemesis",
     "title": "Kobe (কবে)",
     "year": "2011",
     "artist": ["Nemesis"],
@@ -1928,6 +2050,7 @@
     "image": "covers/kobe-nemesis.jpg"
   },
   {
+    "id": "por-una-cabeza-carlos-gardel",
     "title": "Por Una Cabeza",
     "year": "1935",
     "artist": ["Carlos Gardel"],
@@ -1945,6 +2068,7 @@
     "image": "covers/por-una-cabeza-carlos-gardel.jpg"
   },
   {
+    "id": "mo-ghile-mear-traditional",
     "title": "Mo Ghile Mear",
     "year": "1972",
     "artist": [],
@@ -1963,6 +2087,7 @@
     "image": "covers/mo-ghile-mear.jpg"
   },
   {
+    "id": "treaty-yothu-yindi",
     "title": "Treaty",
     "year": "1991",
     "artist": ["Yothu Yindi"],
@@ -1980,6 +2105,7 @@
     "image": "covers/treaty-yothu-yindi.jpg"
   },
   {
+    "id": "djarimirri-gurrumul",
     "title": "Djarimirri",
     "year": "2008?",
     "artist": ["Gurrumul"],
@@ -1995,6 +2121,7 @@
     "image": "covers/djarimirri-gurrumul.jpg"
   },
   {
+    "id": "sunglasses-folk9",
     "title": "แว่นกันแดด (Sunglasses)",
     "year": "2018",
     "artist": ["FOLK9"],
@@ -2012,6 +2139,7 @@
     "image": "covers/sunglasses-folk9.jpg"
   },
   {
+    "id": "europapa-joost-klein",
     "title": "Europapa",
     "year": "2024",
     "artist": ["Joost Klein"],
@@ -2030,6 +2158,7 @@
     "image": "covers/europapa-joost-klein.jpg"
   },
   {
+    "id": "adimiz-miskindir-bizim-mazhar-ve-fuat",
     "title": "Adımız miskindir bizim",
     "year": "1973",
     "artist": ["Mazhar ve Fuat"],
@@ -2048,6 +2177,7 @@
     "image": "covers/mazhar-ve-fuat.jpg"
   },
   {
+    "id": "sodade-armando-zeferino-soares",
     "title": "Sodade",
     "year": "1950s",
     "artist": [],
@@ -2066,6 +2196,7 @@
     "image": "covers/sodade.jpg"
   },
   {
+    "id": "gandagana-traditional",
     "title": "განდაგანა (Gandagana)",
     "year": "?",
     "artist": [],
@@ -2084,6 +2215,7 @@
     "image": "covers/gandagana.jpg"
   },
   {
+    "id": "yuve-yuve-yu-the-hu",
     "title": "Yuve Yuve Yu",
     "year": "2019",
     "artist": ["The HU"],
@@ -2101,6 +2233,7 @@
     "image": "covers/the-gereg.jpg"
   },
   {
+    "id": "wolf-totem-the-hu",
     "title": "Wolf Totem",
     "year": "2018",
     "artist": ["The HU"],
@@ -2115,6 +2248,7 @@
     "image": "covers/the-gereg.jpg"
   },
   {
+    "id": "clair-de-lune-claude-debussy",
     "title": "Clair de Lune (달빛)",
     "year": 1905,
     "artist": [],
@@ -2129,6 +2263,7 @@
     "image": "covers/debussy.jpg"
   },
   {
+    "id": "tous-les-memes-stromae",
     "title": "Tous Les Mêmes",
     "year": "2013",
     "artist": ["Stromae"],
@@ -2146,6 +2281,7 @@
     "image": "covers/tous-les-mêmes-stromae.jpg"
   },
   {
+    "id": "papaoutai-stromae",
     "title": "Papaoutai",
     "year": "2013",
     "artist": ["Stromae"],
@@ -2160,6 +2296,7 @@
     "image": "covers/papaoutai-stromae.jpg"
   },
   {
+    "id": "alors-on-danse-stromae",
     "title": "Alors on danse",
     "year": "2009",
     "artist": ["Stromae"],
@@ -2174,6 +2311,7 @@
     "image": "covers/alors-on-danse-stromae.jpg"
   },
   {
+    "id": "ma-meilleure-ennemie-stromae",
     "title": "Ma Meilleure Ennemie",
     "year": "2024",
     "artist": ["Stromae", "Pomme"],
@@ -2189,6 +2327,7 @@
     "image": "covers/ma-meilleure-ennemie-stromae.jpg"
   },
   {
+    "id": "donde-estan-los-ladrones-shakira",
     "title": "Dónde están los ladrones",
     "year": "1998",
     "artist": ["Shakira"],
@@ -2206,6 +2345,7 @@
     "image": "covers/dónde-están-los-ladrones-shakira.jpg"
   },
   {
+    "id": "ojos-asi-shakira",
     "title": "Ojos Así",
     "year": "1998",
     "artist": ["Shakira"],
@@ -2220,6 +2360,7 @@
     "image": "covers/dónde-están-los-ladrones-shakira.jpg"
   },
   {
+    "id": "ciega-sordomuda-shakira",
     "title": "Ciega, Sordomuda",
     "year": "1998",
     "artist": ["Shakira"],
@@ -2234,6 +2375,7 @@
     "image": "covers/dónde-están-los-ladrones-shakira.jpg"
   },
   {
+    "id": "waltz-no-2-dmitri-shostakovich",
     "title": "Waltz No.2 ",
     "year": "1956?",
     "artist": [],
@@ -2248,6 +2390,7 @@
     "image": "covers/shostakovich.jpg"
   },
   {
+    "id": "zangalewa-golden-sounds",
     "title": "Zangaléwa",
     "year": "1986",
     "artist": ["Golden Sounds"],
@@ -2263,6 +2406,7 @@
     "image": "covers/zangaléwa-golden-sounds.jpg"
   },
   {
+    "id": "wavin-flag-knaan",
     "title": "Wavin' Flag",
     "year": "2009",
     "artist": ["K'naan"],
@@ -2277,6 +2421,7 @@
     "image": "covers/wavin-flag-k-naan.jpg"
   },
   {
+    "id": "sastanaqqam-tinariwen",
     "title": "Sastanàqqàm",
     "year": "2017",
     "artist": ["Tinariwen"],
@@ -2294,6 +2439,7 @@
     "image": "covers/sastanàqqàm-tinariwen.jpg"
   },
   {
+    "id": "myeonacatago-isabelle-huang",
     "title": "免我蹉跎苦 (면아차타고)",
     "year": "2024",
     "artist": ["Isabelle Huang (黄龄)"],
@@ -2311,6 +2457,7 @@
     "image": "covers/免我蹉跎苦-면아차타고-isabelle-huang-黄龄.jpg"
   },
   {
+    "id": "rasputin-boney-m",
     "title": "Rasputin",
     "year": "1978",
     "artist": ["Boney M."],
@@ -2328,6 +2475,7 @@
     "image": "covers/rasputin-boney-m.jpg"
   },
   {
+    "id": "mahabbatym-moldanazar",
     "title": "Mahabbatym (Махаббатым)",
     "year": "2018",
     "artist": ["MOLDANAZAR"],
@@ -2346,6 +2494,7 @@
     "image": "covers/mahabbatym-махаббатым-moldanazar.jpg"
   },
   {
+    "id": "samiid-aednan-sverre-kjelsberg",
     "title": "Sámiid Ædnan",
     "year": "1980",
     "artist": ["Sverre Kjelsberg", "Mattis Hætta"],
@@ -2364,6 +2513,7 @@
     "image": "covers/sámiid-ædnan-sverre-kjelsberg.jpg"
   },
   {
+    "id": "take-on-me-a-ha",
     "title": "Take On Me",
     "year": "1984",
     "artist": ["a-ha"],
@@ -2378,6 +2528,7 @@
     "image": "covers/take-on-me-a-ha.jpg"
   },
   {
+    "id": "afirika-angelique-kidjo",
     "title": "Afirika",
     "year": "2002",
     "artist": ["Angélique Kidjo"],
@@ -2396,6 +2547,7 @@
     "image": "covers/afirika-angélique-kidjo.jpg"
   },
   {
+    "id": "rum-and-coca-cola-lord-invader",
     "title": "Rum and Coca-Cola",
     "year": "1943",
     "artist": ["Lord Invader"],
@@ -2414,6 +2566,7 @@
     "image": "covers/rum-and-coca-cola-lord-invader.jpg"
   },
   {
+    "id": "prisionero-miranda",
     "title": "Prisionero",
     "year": "2007",
     "artist": ["Miranda!"],
@@ -2432,6 +2585,7 @@
     "image": "covers/prisionero-miranda.jpg"
   },
   {
+    "id": "warni-warni-omar-souleyman",
     "title": "Warni Warni",
     "year": "2013",
     "artist": ["Omar Souleyman (عمر سليمان)"],
@@ -2449,6 +2603,7 @@
     "image": "covers/warni-warni-omar-souleyman-عمر-سليمان.jpg"
   },
   {
+    "id": "volevo-essere-un-duro-lucio-corsi",
     "title": "Volevo essere un duro",
     "year": "2025",
     "artist": ["Lucio Corsi"],
@@ -2468,6 +2623,7 @@
     "image": "covers/volevo-essere-un-duro-lucio-corsi.jpg"
   },
   {
+    "id": "kamlee-hadiqa-kiani",
     "title": "Kamlee (کملی)",
     "year": "2012",
     "artist": ["Hadiqa Kiani", "Rohail Hyatt"],
@@ -2485,6 +2641,7 @@
     "image": "covers/kamlee-کملی-hadiqa-kiani.jpg"
   },
   {
+    "id": "bibi-sanam-jaanam-traditional",
     "title": "Bibi Sanam Jaanam (بی‌بی صنم جانم)",
     "year": "?",
     "artist": [],
@@ -2500,6 +2657,7 @@
     "image": "covers/bibi-sanam-jaanam-بی-بی-صنم-جانم.jpg"
   },
   {
+    "id": "sudno-molchat-doma",
     "title": "Судно (Sudno)",
     "year": "2018",
     "artist": ["Molchat Doma (Молчат Дома)"],
@@ -2517,6 +2675,7 @@
     "image": "covers/molchat-doma-2.jpg"
   },
   {
+    "id": "na-dne-molchat-doma",
     "title": "На Дне (Na dne)",
     "year": "2018",
     "artist": ["Molchat Doma (Молчат Дома)"],
@@ -2531,6 +2690,7 @@
     "image": "covers/molchat-doma-2.jpg"
   },
   {
+    "id": "kletka-molchat-doma",
     "title": "Клетка (Kletka)",
     "year": "2018",
     "artist": ["Molchat Doma (Молчат Дома)"],
@@ -2545,6 +2705,7 @@
     "image": "covers/molchat-doma-2.jpg"
   },
   {
+    "id": "tantsevat-molchat-doma",
     "title": "Танцевать (Tantsevat')",
     "year": "2018",
     "artist": ["Molchat Doma (Молчат Дома)"],
@@ -2559,6 +2720,7 @@
     "image": "covers/molchat-doma-2.jpg"
   },
   {
+    "id": "sabre-dance-aram-khachaturian",
     "title": "Sabre Dance (Танец с саблями / Սուսերով պար)",
     "year": "1942",
     "artist": [],
@@ -2573,6 +2735,7 @@
     "image": "covers/khachaturian.jpg"
   },
   {
+    "id": "ich-hab-die-nacht-getraumet-traditional",
     "title": "Ich hab die Nacht geträumet",
     "year": "18c?",
     "artist": [],
@@ -2587,6 +2750,7 @@
     "image": "covers/ich-hab-die-nacht-geträumet.jpg"
   },
   {
+    "id": "ca-pik-un-peu-quand-meme-miki",
     "title": "Ça pik un peu quand même",
     "year": "2025",
     "artist": ["Miki"],
@@ -2601,6 +2765,7 @@
     "image": "covers/ca-pik-miki.jpg"
   },
   {
+    "id": "enjoy-enjaami-dhee",
     "title": "Enjoy Enjaami",
     "year": "2021",
     "artist": ["Dhee", "Arivu"],
@@ -2615,6 +2780,7 @@
     "image": "covers/enjoy-enjaami-dhee.jpg"
   },
   {
+    "id": "3-daqat-abu",
     "title": "3 Daqat (ثلاث دقات)",
     "year": "2017",
     "artist": ["Abu", "Yousra"],
@@ -2629,6 +2795,7 @@
     "image": "covers/3-daqat-ثلاث-دقات-abu.jpg"
   },
   {
+    "id": "bare-en-dreng-uro",
     "title": "Bare En Dreng",
     "year": "2024",
     "artist": ["URO"],
@@ -2643,6 +2810,7 @@
     "image": "covers/bare-en-dreng-uro.jpg"
   },
   {
+    "id": "boa-me-fuse-odg",
     "title": "Boa Me",
     "year": "2024",
     "artist": ["FUSE ODG", "Ed Sheeran", "Mugeez"],
@@ -2657,6 +2825,7 @@
     "image": "covers/boa-me-fuse-odg.jpg"
   },
   {
+    "id": "calm-down-rema",
     "title": "Calm Down",
     "year": "2022",
     "artist": ["Rema"],
@@ -2672,6 +2841,7 @@
     "image": "covers/calm-down-rema.jpg"
   },
   {
+    "id": "billie-jean-michael-jackson",
     "title": "Billie Jean",
     "year": "1982",
     "artist": ["Michael Jackson"],
@@ -2686,6 +2856,7 @@
     "image": "covers/thriller-michael-jackson.jpg"
   },
   {
+    "id": "beat-it-michael-jackson",
     "title": "Beat It",
     "year": "1982",
     "artist": ["Michael Jackson"],
@@ -2701,6 +2872,7 @@
     "image": "covers/thriller-michael-jackson.jpg"
   },
   {
+    "id": "thriller-michael-jackson",
     "title": "Thriller",
     "year": "1982",
     "artist": ["Michael Jackson"],
@@ -2716,6 +2888,7 @@
     "image": "covers/thriller-michael-jackson.jpg"
   },
   {
+    "id": "hava-nagila-traditional",
     "title": "Hava Nagila (הָבָה נָגִילָה)",
     "year": "1918",
     "artist": [],
@@ -2731,6 +2904,7 @@
     "image": "covers/hava-nagila-ה-ב-ה-נ-ג-יל-ה.jpg"
   },
   {
+    "id": "o-susanna-stephen-foster",
     "title": "O Susanna",
     "year": "1848",
     "artist": [],
@@ -2747,6 +2921,7 @@
     "image": "covers/o-susanna.jpg"
   },
   {
+    "id": "ghareeb-alay-elyanna",
     "title": "Ghareeb Alay (غريب عليّ)",
     "year": "2022",
     "artist": ["Elyanna (اليانا)", "Balti (بلصي)"],
@@ -2761,6 +2936,7 @@
     "image": "covers/ghareeb-alay-غريب-علي-elyanna-اليانا.jpg"
   },
   {
+    "id": "venceremos-quilapayun",
     "title": "Venceremos",
     "year": "1970",
     "artist": ["Quilapayún"],
@@ -2776,6 +2952,7 @@
     "image": "covers/venceremos-quilapayún.jpg"
   },
   {
+    "id": "no-volvere-manuel-esperon",
     "title": "No Volveré",
     "year": "1951?",
     "artist": [],
@@ -2792,6 +2969,7 @@
     "image": "covers/no-volveré.jpg"
   },
   {
+    "id": "vmeste-veselo-shagat-vladimir-shainsky",
     "title": "Вместе весело шагать",
     "year": "1978",
     "artist": [],
@@ -2806,6 +2984,7 @@
     "image": "covers/вместе-весело-шагать.jpg"
   },
   {
+    "id": "deus-patria-rei-jose-campos-e-sousa",
     "title": "Deus, Pátria, Rei",
     "year": "1970s?",
     "artist": [],
@@ -2820,6 +2999,7 @@
     "image": "covers/deus-pátria-rei.jpg"
   },
   {
+    "id": "negro-y-azul-los-cuates-de-sinaloa",
     "title": "Negro y Azul",
     "year": "2008",
     "artist": ["Los Cuates de Sinaloa"],
@@ -2834,6 +3014,7 @@
     "image": "covers/negro-y-azul-los-cuates-de-sinaloa.jpg"
   },
   {
+    "id": "khooneye-ma-marjan-farsad",
     "title": "Khooneye Ma (خونه ی ما)",
     "year": "2014",
     "artist": ["Marjan Farsad (مرجان فرساد)"],
@@ -2848,6 +3029,7 @@
     "image": "covers/khooneye-ma-خونه-ی-ما-marjan-farsad-مرجان-فرساد.jpg"
   },
   {
+    "id": "qaida-erke-esmahan",
     "title": "Қайда? (Qaida)",
     "year": "2017",
     "artist": ["Erke Esmahan (Ерке Есмахан)"],
@@ -2862,6 +3044,7 @@
     "image": "covers/қайда-qaida-erke-esmahan-ерке-есмахан.jpg"
   },
   {
+    "id": "cha-cha-cha-kaarija",
     "title": "Cha Cha Cha",
     "year": "2023",
     "artist": ["Käärijä"],
@@ -2877,6 +3060,7 @@
     "image": "covers/cha-cha-cha-käärijä.jpg"
   },
   {
+    "id": "espresso-macchiato-tommy-cash",
     "title": "Espresso Macchiato",
     "year": "2025",
     "artist": ["Tommy Cash"],
@@ -2892,6 +3076,7 @@
     "image": "covers/espresso-macchiato-tommy-cash.jpg"
   },
   {
+    "id": "oj-ruzice-rumena-traditional",
     "title": "Ој ружице румена (Oj Ružice Rumena)",
     "year": "?",
     "artist": [],
@@ -2906,6 +3091,7 @@
     "image": "covers/ој-ружице-румена-oj-ružice-rumena.jpg"
   },
   {
+    "id": "chingis-xaanii-magtaal-munkhbat-jamsranjav",
     "title": "Чингис Xааний Mагтаал (Chinggis khaanii Magtaal)",
     "year": "1994",
     "artist": [],
@@ -2921,6 +3107,7 @@
     "image": "covers/чингис-xааний-mагтаал-chinggis-khaanii-magtaal.jpg"
   },
   {
+    "id": "oseuteureilria-miami",
     "title": "Австралия (오스트레일리아)",
     "year": "1997",
     "artist": ["Miami (МАЙАМИ)"],
@@ -2936,6 +3123,7 @@
     "image": "covers/австралия-오스트레일리아-майами.jpg"
   },
   {
+    "id": "moves-like-jagger-maroon-5",
     "title": "Moves Like Jagger",
     "year": "2011",
     "artist": ["Maroon 5", "Christina Aguilera"],
@@ -2951,6 +3139,7 @@
     "image": "covers/moves-like-jagger.jpg"
   },
   {
+    "id": "linternationale-eugene-pottier",
     "title": "L'internationale (인터내셔널가)",
     "year": "1888",
     "artist": [],
@@ -2967,6 +3156,7 @@
     "image": "covers/communism.jpg"
   },
     {
+    "id": "der-heimliche-aufmarsch-erich-weinert",
     "title": "Der heimliche Aufmarsch",
     "year": "1929",
     "artist": [],
@@ -2982,6 +3172,7 @@
     "image": "covers/communism.jpg"
   },
   {
+    "id": "bella-ciao-traditional",
     "title": "Bella Ciao",
     "year": "1953",
     "artist": [],
@@ -2998,6 +3189,7 @@
     "image": "covers/bella-ciao.jpg"
   },
   {
+    "id": "bohemian-rhapsody-queen",
     "title": "Bohemian Rhapsody",
     "year": "1975",
     "artist": ["Queen"],
@@ -3013,6 +3205,7 @@
     "image": "covers/bohemian-rhapsody-queen.jpg"
   },
   {
+    "id": "goodbye-forever-freestyle",
     "title": "Прощай навеки, последняя любовь (Goodbye Forever)",
     "year": "1989",
     "artist": ["Freestyle (Фристайл)"],
@@ -3028,6 +3221,7 @@
     "image": "covers/прощай-навеки-последняя-любовь-фристайл.jpg"
   },
   {
+    "id": "come-out-ye-black-and-tans-traditional",
     "title": "Come Out, Ye Black and Tans",
     "year": "1960s",
     "artist": [],
@@ -3044,6 +3238,7 @@
     "image": "covers/come-out-ye-black-and-tans.jpg"
   },
   {
+    "id": "first-delphic-hymn-to-apollo-athenaeus",
     "title": "First Delphic Hymn to Apollo (Παιὰν εἰς Ἀπόλλωνα)",
     "year": "-2c?",
     "artist": [],
@@ -3059,6 +3254,7 @@
     "image": "covers/delphic-hymns.jpg"
   },
   {
+    "id": "daisy-bell-harry-dacre",
     "title": "Daisy Bell (Bicycle Built For Two)",
     "year": "1892",
     "artist": [],
@@ -3074,6 +3270,7 @@
     "image": "covers/daisy-bell-bicycle-built-for-two.jpg"
   },
   {
+    "id": "i-am-the-very-model-of-a-modern-major-arthur-sullivan",
     "title": "I Am the Very Model of a Modern Major-General (Major General's Song)",
     "year": "1879",
     "artist": [],
@@ -3089,6 +3286,7 @@
     "image": "covers/i-am-the-very-model-of-a-modern-major-general-major-general-.jpg"
   },
   {
+    "id": "la-cucaracha-traditional",
     "title": "La Cucaracha",
     "year": "19c?",
     "artist": [],
@@ -3103,6 +3301,7 @@
     "image": "covers/mexico.jpg"
   },
   {
+    "id": "la-bamba-traditional",
     "title": "La Bamba",
     "year": "17c?",
     "artist": [],
@@ -3118,6 +3317,7 @@
     "image": "covers/mexico.jpg"
   },
   {
+    "id": "el-jarabe-tapatio-jesus-gonzalez-rubio",
     "title": "El Jarabe Tapatío",
     "year": "19c",
     "artist": [],
@@ -3132,6 +3332,7 @@
     "image": "covers/mexico.jpg"
   },
   {
+    "id": "la-vie-en-rose-edith-piaf",
     "title": "La Vie en rose",
     "year": "1947",
     "artist": ["Édith Piaf"],
@@ -3147,6 +3348,7 @@
     "image": "covers/la-vie-en-rose-édith-piaf.jpg"
   },
   {
+    "id": "non-je-ne-regrette-rien-edith-piaf",
     "title": "Non, je ne regrette rien",
     "year": "1960",
     "artist": ["Édith Piaf"],
@@ -3161,6 +3363,7 @@
     "image": "covers/non-je-ne-regrette-rien-édith-piaf.jpg"
   },
   {
+    "id": "hymne-a-lamour-edith-piaf",
     "title": "Hymne à l'amour",
     "year": "1950",
     "artist": ["Édith Piaf"],
@@ -3176,6 +3379,7 @@
     "image": "covers/hymne-à-l-amour-édith-piaf.jpg"
   },
   {
+    "id": "con-te-partiro-andrea-bocelli",
     "title": "Con te partirò",
     "year": "1995",
     "artist": ["Andrea Bocelli"],
@@ -3191,6 +3395,7 @@
     "image": "covers/con-te-partirò-andrea-bocelli.jpg"
   },
   {
+    "id": "lifestyle-samry-majed-al-esa",
     "title": "لايف ستايل سامري (Lifestyle Samry)",
     "year": "2015",
     "artist": ["Majed Al Esa (ماجد العيسى)"],
@@ -3205,6 +3410,7 @@
     "image": "covers/لايف-ستايل-سامري-lifestyle-samry-majed-al-esa-ماجد-العيسى.jpg"
   },
   {
+    "id": "w-moim-ogrodecku-traditional",
     "title": "W moim ogródecku",
     "year": "?",
     "artist": [],
@@ -3219,6 +3425,7 @@
     "image": "covers/w-moim-ogródecku.jpg"
   },
   {
+    "id": "guantanamera-jose-marti",
     "title": "Guantanamera",
     "year": "1929",
     "artist": [],
@@ -3234,6 +3441,7 @@
     "image": "covers/guantanamera.jpg"
   },
   {
+    "id": "isa-lei-traditional",
     "title": "Isa Lei",
     "year": "1910s?",
     "artist": [],
@@ -3249,6 +3457,7 @@
     "image": "covers/isa-lei.jpg"
   },
   {
+    "id": "dtmf-bad-bunny",
     "title": "DTMF",
     "year": "2025",
     "artist": ["Bad Bunny"],
@@ -3263,6 +3472,7 @@
     "image": "covers/dtmf-bad-bunny.jpg"
   },
   {
+    "id": "lo-que-le-paso-a-hawaii-bad-bunny",
     "title": "Lo Que Le Pasó a Hawaii",
     "year": "2025",
     "artist": ["Bad Bunny"],
@@ -3277,6 +3487,7 @@
     "image": "covers/dtmf-bad-bunny.jpg"
   },
   {
+    "id": "imouha-etran-de-lair",
     "title": "Imouha",
     "year": "2024",
     "artist": ["Etran de L'Aïr"],
@@ -3291,6 +3502,7 @@
     "image": "covers/imouha-etran-de-l-aïr.jpg"
   },
   {
+    "id": "night-boat-to-cairo-madness",
     "title": "Night Boat to Cairo",
     "year": "1979",
     "artist": ["Madness"],
@@ -3305,6 +3517,7 @@
     "image": "covers/night-boat-to-cairo-madness.jpg"
   },
   {
+    "id": "khayal-kazdoura",
     "title": " Khayal (خيال)",
     "year": "2024",
     "artist": ["Kazdoura"],
@@ -3319,6 +3532,7 @@
     "image": "covers/khayal-خيال-kazdoura.jpg"
   },
   {
+    "id": "akakaw-renata-flores",
     "title": "Akakaw",
     "year": "2023",
     "artist": ["Renata Flores", "Los Mirlos"],
@@ -3336,6 +3550,7 @@
     "image": "covers/akakaw.jpg"
   },
   {
+    "id": "chicago-freestyle-drake",
     "title": "Chicago Freestyle",
     "year": "2020",
     "artist": ["Drake", "Giveon"],
@@ -3350,6 +3565,7 @@
     "image": "covers/chicago-freestyle.jpg"
   },
   {
+    "id": "muhyi-vaundy",
     "title": "踊り子 (무희)",
     "year": "2021",
     "artist": ["Vaundy"],
@@ -3364,6 +3580,7 @@
     "image": "covers/踊り子-무희-vaundy.jpg"
   },
   {
+    "id": "otsukaresummer-halcali",
     "title": "おつかれSUMMER (수고했어 여름)",
     "year": "2003",
     "artist": ["HALCALI"],
@@ -3379,6 +3596,7 @@
     "image": "covers/おつかれsummer-halcali.jpg"
   },
   {
+    "id": "we-are-number-one-lazytown",
     "title": "We are number one",
     "year": "2014",
     "artist": ["LazyTown"],
@@ -3393,6 +3611,7 @@
     "image": "covers/we-are-number-one-lazytown.jpg"
   },
   {
+    "id": "pata-pata-miriam-makeba",
     "title": "Pata Pata",
     "year": "1967",
     "artist": ["Miriam Makeba"],
@@ -3408,6 +3627,7 @@
     "image": "covers/pata-pata-miriam-makeba.jpg"
   },
   {
+    "id": "conga-gloria-estefan",
     "title": "Conga",
     "year": "1985",
     "artist": ["Gloria Estefan", "Miami Sound Machine"],
@@ -3423,6 +3643,7 @@
     "image": "covers/conga-gloria-estefan.jpg"
   },
   {
+    "id": "colombia-mi-encanto-carlos-vives",
     "title": "Colombia, Mi Encanto",
     "year": "2021",
     "artist": ["Carlos Vives"],
@@ -3438,6 +3659,7 @@
     "image": "covers/colombia-mi-encanto-carlos-vives.jpg"
   },
   {
+    "id": "real-in-rio-the-rio-singers",
     "title": "Real in Rio",
     "year": "2011",
     "artist": ["The Rio Singers", "Jesse Eisenberg", "Jamie Foxx", "Anne Hathaway", "George Lopez", "will.i.am"],
@@ -3453,6 +3675,7 @@
     "image": "covers/real-in-rio-the-rio-singers.jpg"
   },
   {
+    "id": "le-festin-camille",
     "title": "Le Festin",
     "year": "2007",
     "artist": ["Camille"],
@@ -3467,6 +3690,7 @@
     "image": "covers/le-festin-camille.jpg"
   },
   {
+    "id": "mas-que-nada-jorge-ben",
     "title": "Mas Que Nada",
     "year": "1963",
     "artist": ["Jorge Ben"],
@@ -3482,6 +3706,7 @@
     "image": "covers/mas-que-nada-jorge-ben.jpg"
   },
   {
+    "id": "three-little-birds-bob-marley-and-the-wailers",
     "title": "Three Little Birds",
     "year": "1974",
     "artist": ["Bob Marley and the Wailers"],
@@ -3496,6 +3721,7 @@
     "image": "covers/three-little-birds-bob-marley-and-the-wailers.jpg"
   },
   {
+    "id": "despacito-luis-fonsi",
     "title": "Despacito",
     "year": "2017",
     "artist": ["Luis Fonsi", "Daddy Yankee"],
@@ -3510,6 +3736,7 @@
     "image": "covers/despacito-luis-fonsi.jpg"
   },
   {
+    "id": "faded-alan-walker",
     "title": "Faded",
     "year": "2015",
     "artist": ["Alan Walker", "Iselin Solheim"],
@@ -3524,6 +3751,7 @@
     "image": "covers/faded-alan-walker.jpg"
   },
   {
+    "id": "lost-stars-adam-levine",
     "title": "Lost Stars",
     "year": "2014",
     "artist": ["Adam Levine"],
@@ -3539,6 +3767,7 @@
     "image": "covers/v-maroon-5.jpg"
   },
   {
+    "id": "sugar-maroon-5",
     "title": "Sugar",
     "year": "2014",
     "artist": ["Maroon 5"],
@@ -3554,6 +3783,7 @@
     "image": "covers/v-maroon-5.jpg"
   },
   {
+    "id": "maps-maroon-5",
     "title": "Maps",
     "year": "2014",
     "artist": ["Maroon 5"],
@@ -3568,6 +3798,7 @@
     "image": "covers/v-maroon-5.jpg"
   },
   {
+    "id": "apt-rose",
     "title": "APT.",
     "year": "2024",
     "artist": ["Rosé (로제)", "Bruno Mars"],
@@ -3582,6 +3813,7 @@
     "image": "covers/apt-rosé-로제.jpg"
   },
   {
+    "id": "big-dawgs-hanumankind",
     "title": "Big Dawgs",
     "year": "2024",
     "artist": ["Hanumankind", "Kalmi"],
@@ -3596,6 +3828,7 @@
     "image": "covers/big-dawgs-hanumankind.jpg"
   },
   {
+    "id": "caramelldansen-caramell",
     "title": "Caramelldansen",
     "year": "2001",
     "artist": ["Caramell"],
@@ -3611,6 +3844,7 @@
     "image": "covers/caramelldansen-caramell.jpg"
   },
   {
+    "id": "moy-marmeladny-katya-lel",
     "title": "Мой мармеладный (Moy marmeladny)",
     "year": "2004",
     "artist": ["Katya Lel (Катя Лель)"],
@@ -3626,6 +3860,7 @@
     "image": "covers/мой-мармеладный-katya-lel-катя-лель.jpg"
   },
   {
+    "id": "harder-better-faster-stronger-daft-punk",
     "title": "Harder, Better, Faster, Stronger",
     "year": "2001",
     "artist": ["Daft Punk"],
@@ -3641,6 +3876,7 @@
     "image": "covers/daft-punk-1.jpg"
   },
   {
+    "id": "one-more-time-daft-punk",
     "title": "One More Time",
     "year": "2000",
     "artist": ["Daft Punk"],
@@ -3655,6 +3891,7 @@
     "image": "covers/daft-punk-1.jpg"
   },
   {
+    "id": "veridis-quo-daft-punk",
     "title": "Veridis Quo",
     "year": "2001",
     "artist": ["Daft Punk"],
@@ -3669,6 +3906,7 @@
     "image": "covers/daft-punk-1.jpg"
   },
   {
+    "id": "uz-marsala-tita-vladimir-nazor",
     "title": "Uz Maršala Tita (Уз маршала Тита)",
     "year": "1943",
     "artist": [],
@@ -3683,6 +3921,7 @@
     "image": "covers/tito.jpg"
   },
   {
+    "id": "instant-crush-daft-punk",
     "title": "Instant Crush",
     "year": "2013",
     "artist": ["Daft Punk", "Julian Casablancas"],
@@ -3697,6 +3936,7 @@
     "image": "covers/daft-punk-2.jpg"
   },
   {
+    "id": "get-lucky-daft-punk",
     "title": "Get Lucky",
     "year": "2013",
     "artist": ["Daft Punk", "Pharrell Williams", "Nile Rodgers"],
@@ -3712,6 +3952,7 @@
     "image": "covers/daft-punk-2.jpg"
   },
   {
+    "id": "925-ardhito-pramono",
     "title": "925",
     "year": "2020",
     "artist": ["Ardhito Pramono"],
@@ -3726,6 +3967,7 @@
     "image": "covers/925-ardhito-pramono.jpg"
   },
   {
+    "id": "la-la-la-love-song-toshinobu-kubota",
     "title": "LA・LA・LA LOVE SONG",
     "year": "1996",
     "artist": ["Toshinobu Kubota (久保田利伸)"],
@@ -3740,6 +3982,7 @@
     "image": "covers/la-la-la-love-song-toshinobu-kubota-久保田利伸.jpg"
   },
   {
+    "id": "desert-rose-lolo-zouai",
     "title": "Desert Rose",
     "year": "2018",
     "artist": ["Lolo Zouaï"],
@@ -3754,6 +3997,7 @@
     "image": "covers/lolo-zouaï-1.jpg"
   },
   {
+    "id": "moi-lolo-zouai",
     "title": "Moi",
     "year": "2019",
     "artist": ["Lolo Zouaï"],
@@ -3768,6 +4012,7 @@
     "image": "covers/lolo-zouaï-1.jpg"
   },
   {
+    "id": "daejeonhongdo-skai-isyourgod",
     "title": "大展鴻圖 (대전홍도)",
     "year": "2024",
     "artist": ["SKAI ISYOURGOD (攬佬)"],
@@ -3782,6 +4027,7 @@
     "image": "covers/大展鴻圖.jpg"
   },
   {
+    "id": "santa-lucia-traditional",
     "title": "Santa Lucia",
     "year": "1849",
     "artist": [],
@@ -3797,6 +4043,7 @@
     "image": "covers/santa-lucia.jpg"
   },
   {
+    "id": "feliz-navidad-jose-feliciano",
     "title": "Feliz Navidad",
     "year": "1970",
     "artist": ["José Feliciano"],
@@ -3811,6 +4058,7 @@
     "image": "covers/feliz-navidad-josé-feliciano.jpg"
   },
   {
+    "id": "lover-boy-phum-viphurit",
     "title": "Lover Boy",
     "year": "2018",
     "artist": ["Phum Viphurit (วิภูริศ ศิริทิพย์)"],
@@ -3825,6 +4073,7 @@
     "image": "covers/lover-boy-phum-viphurit-ว-ภ-ร-ศ-ศ-ร-ท-พย.jpg"
   },
   {
+    "id": "try-everything-shakira",
     "title": "Try Everything",
     "year": "2016",
     "artist": ["Shakira"],
@@ -3839,6 +4088,7 @@
     "image": "covers/try-everything-shakira.jpg"
   },
   {
+    "id": "birds-of-a-feather-billie-eilish",
     "title": "Birds of a Feather",
     "year": "2024",
     "artist": ["Billie Eilish"],
@@ -3854,6 +4104,7 @@
     "image": "covers/birds-of-a-feather-billie-eilish.jpg"
   },
   {
+    "id": "llorando-se-fue-los-kjarkas",
     "title": "Llorando se fue",
     "year": "1981",
     "artist": ["Los Kjarkas"],
@@ -3869,6 +4120,7 @@
     "image": "covers/llorando-se-fue-los-kjarkas.jpg"
   },
   {
+    "id": "ma-non-tutta-la-vita-ricchi-e-poveri",
     "title": "Ma non tutta la vita",
     "year": "2024",
     "artist": ["Ricchi e Poveri"],
@@ -3884,6 +4136,7 @@
     "image": "covers/ma-non-tutta-la-vita-ricchi-e-poveri.jpg"
   },
   {
+    "id": "bre-petrunko-traditional",
     "title": "Бре Петрунько (Bre Petrunko)",
     "year": "?",
     "artist": [],
@@ -3899,6 +4152,7 @@
     "image": "covers/бре-петрунько-bre-petrunko.jpg"
   },
   {
+    "id": "oj-alija-aljo-koridor",
     "title": "Ој Алија Aљо (Oj Alija Aljo)",
     "year": "1993",
     "artist": ["Koridor (Коридор)"],
@@ -3914,6 +4168,7 @@
     "image": "covers/ој-алија-aљо-oj-alija-aljo-коридор-koridor.jpg"
   },
   {
+    "id": "mundian-to-bach-ke-panjabi-mc",
     "title": "Mundian To Bach Ke (ਮੁੰਡਿਆਂ ਤੋਂ ਬੱਚ ਕੇ)",
     "year": "2002",
     "artist": ["Panjabi MC"],
@@ -3929,6 +4184,7 @@
     "image": "covers/mundian-to-bach-ke.jpg"
   },
   {
+    "id": "tunak-tunak-tun-daler-mehndi",
     "title": "Tunak Tunak Tun (ਤੁਣਕ ਤੁਣਕ ਤੁਨ)",
     "year": "1998",
     "artist": ["Daler Mehndi"],
@@ -3943,6 +4199,7 @@
     "image": "covers/tunak-tunak-tun.jpg"
   },
   {
+    "id": "aal-izz-well-sonu-nigam",
     "title": "Aal Izz Well",
     "year": "2009",
     "artist": ["Sonu Nigam", "Swanand Kirkire", "Shaan"],
@@ -3957,6 +4214,7 @@
     "image": "covers/3-idiots.jpg"
   },
   {
+    "id": "give-me-some-sunshine-suraj-jagan",
     "title": "Give Me Some Sunshine",
     "year": "2009",
     "artist": ["Suraj Jagan", "Sharman Joshi"],
@@ -3971,6 +4229,7 @@
     "image": "covers/3-idiots.jpg"
   },
   {
+    "id": "malhaejweo-yorushika",
     "title": "言って。(말해줘.)",
     "year": "2017",
     "artist": ["Yorushika (ヨルシカ)"],
@@ -3985,6 +4244,7 @@
     "image": "covers/itte-yorushika.jpg"
   },
   {
+    "id": "endless-rain-x-japan",
     "title": "Endless Rain (エンドレス・レイン)",
     "year": "1989",
     "artist": ["X JAPAN"],
@@ -4000,6 +4260,7 @@
     "image": "covers/endless-rain.jpg"
   },
   {
+    "id": "the-spectre-alan-walker",
     "title": "The Spectre",
     "year": "2017",
     "artist": ["Alan Walker"],
@@ -4014,6 +4275,7 @@
     "image": "covers/the-spectre-alan-walker.jpg"
   },
   {
+    "id": "no-surprises-radiohead",
     "title": "No Surprises",
     "year": "1998",
     "artist": ["Radiohead"],
@@ -4028,6 +4290,7 @@
     "image": "covers/ok-computer-radiohead.jpg"
   },
   {
+    "id": "wahala-ckay",
     "title": "WAHALA",
     "year": "2024",
     "artist": ["Ckay", "Olamide"],
@@ -4043,6 +4306,7 @@
     "image": "covers/wahala-ckay.jpg"
   },
   {
+    "id": "macarena-los-del-rio",
     "title": "Macarena",
     "year": "1993",
     "artist": ["Los del Río"],
@@ -4058,6 +4322,7 @@
     "image": "covers/macarena-los-del-río.jpg"
   },
   {
+    "id": "dire-gelt-traditional",
     "title": "Dire-Gelt (דירה-געלט)",
     "year": "?",
     "artist": [],
@@ -4073,6 +4338,7 @@
     "image": "covers/dire-gelt-דירה-געלט.jpg"
   },
   {
+    "id": "salt-pepper-birds-and-the-thought-police-mili",
     "title": "Salt, Pepper, Birds, and the Thought Police",
     "year": "2021",
     "artist": ["Mili"],
@@ -4087,6 +4353,7 @@
     "image": "covers/salt-pepper-birds-and-the-thought-police-mili.jpg"
   },
   {
+    "id": "wish-you-were-here-pink-floyd",
     "title": "Wish You Were Here",
     "year": "1975",
     "artist": ["Pink Floyd"],
@@ -4102,6 +4369,7 @@
     "image": "covers/wish-you-were-here.jpg"
   },
   {
+    "id": "iron-lotus-mili",
     "title": "Iron Lotus",
     "year": "2021",
     "artist": ["Mili"],
@@ -4117,6 +4385,7 @@
     "image": "covers/iron-lotus-mili.jpg"
   },
   {
+    "id": "string-theocracy-mili",
     "title": "String Theocracy",
     "year": "2021",
     "artist": ["Mili"],
@@ -4132,6 +4401,7 @@
     "image": "covers/string-theocracy-mili.jpg"
   },
   {
+    "id": "another-one-bites-the-dust-queen",
     "title": "Another One Bites the Dust",
     "year": "1980",
     "artist": ["Queen"],
@@ -4147,6 +4417,7 @@
     "image": "covers/another-one-bites-the-dust-queen.jpg"
   },
   {
+    "id": "dont-stop-me-now-queen",
     "title": "Don't Stop Me Now",
     "year": "1978",
     "artist": ["Queen"],
@@ -4162,6 +4433,7 @@
     "image": "covers/don-t-stop-me-now-queen.jpg"
   },
   {
+    "id": "we-will-rock-you-queen",
     "title": "We Will Rock You",
     "year": "1977",
     "artist": ["Queen"],
@@ -4176,6 +4448,7 @@
     "image": "covers/news-of-the-world-queen.jpg"
   },
   {
+    "id": "we-are-the-champions-queen",
     "title": "We Are the Champions",
     "year": "1977",
     "artist": ["Queen"],
@@ -4191,6 +4464,7 @@
     "image": "covers/news-of-the-world-queen.jpg"
   },
   {
+    "id": "hidden-place-bjork",
     "title": "Hidden Place",
     "year": "2001",
     "artist": ["Björk"],
@@ -4205,6 +4479,7 @@
     "image": "covers/vespertine.jpg"
   },
   {
+    "id": "highway-to-hell-ac-dc",
     "title": "Highway to Hell",
     "year": "1979",
     "artist": ["AC/DC"],
@@ -4220,6 +4495,7 @@
     "image": "covers/highway-to-hell-ac-dc.jpg"
   },
   {
+    "id": "back-in-black-ac-dc",
     "title": "Back In Black",
     "year": "1980",
     "artist": ["AC/DC"],
@@ -4235,6 +4511,7 @@
     "image": "covers/back-in-black-ac-dc.jpg"
   },
   {
+    "id": "thunderstruck-ac-dc",
     "title": "Thunderstruck",
     "year": "1990",
     "artist": ["AC/DC"],
@@ -4250,6 +4527,7 @@
     "image": "covers/thunderstruck-ac-dc.jpg"
   },
   {
+    "id": "stairway-to-heaven-led-zeppelin",
     "title": "Stairway to Heaven",
     "year": "1990",
     "artist": ["Led Zeppelin"],
@@ -4265,6 +4543,7 @@
     "image": "covers/stairway-to-heaven-led-zeppelin.jpg"
   },
   {
+    "id": "high-and-dry-radiohead",
     "title": "High and Dry",
     "year": "1995",
     "artist": ["Radiohead"],
@@ -4280,6 +4559,7 @@
     "image": "covers/the-bends-radiohead.jpg"
   },
   {
+    "id": "fake-plastic-trees-radiohead",
     "title": "Fake Plastic Trees",
     "year": "1995",
     "artist": ["Radiohead"],
@@ -4294,6 +4574,7 @@
     "image": "covers/the-bends-radiohead.jpg"
   },
   {
+    "id": "creep-radiohead",
     "title": "Creep",
     "year": "1992",
     "artist": ["Radiohead"],
@@ -4309,6 +4590,7 @@
     "image": "covers/creep-radiohead.jpg"
   },
   {
+    "id": "smells-like-teen-spirit-nirvana",
     "title": "Smells Like Teen Spirit",
     "year": "1991",
     "artist": ["Nirvana"],
@@ -4323,6 +4605,7 @@
     "image": "covers/smells-like-teen-spirit-nirvana.jpg"
   },
   {
+    "id": "livin-on-a-prayer-bon-jovi",
     "title": "Livin' on a Prayer",
     "year": "1986",
     "artist": ["Bon Jovi"],
@@ -4337,6 +4620,7 @@
     "image": "covers/livin-on-a-prayer-bon-jovi.jpg"
   },
   {
+    "id": "eye-of-the-tiger-survivor",
     "title": "Eye of the Tiger",
     "year": "1986",
     "artist": ["Survivor"],
@@ -4351,6 +4635,7 @@
     "image": "covers/eye-of-the-tiger-survivor.jpg"
   },
   {
+    "id": "sweet-child-o-mine-guns-n-roses",
     "title": "Sweet Child O' Mine",
     "year": "1988",
     "artist": ["Guns N' Roses"],
@@ -4365,6 +4650,7 @@
     "image": "covers/sweet-child-o-mine-guns-n-roses.jpg"
   },
   {
+    "id": "under-pressure-queen",
     "title": "Under Pressure",
     "year": "1981",
     "artist": ["Queen", "David Bowie"],
@@ -4380,6 +4666,7 @@
     "image": "covers/under-pressure-queen.jpg"
   },
   {
+    "id": "smooth-criminal-michael-jackson",
     "title": "Smooth Criminal",
     "year": "1987",
     "artist": ["Michael Jackson"],
@@ -4395,6 +4682,7 @@
     "image": "covers/smooth-criminal-michael-jackson.jpg"
   },
   {
+    "id": "over-the-rainbow-judy-garland",
     "title": "Over the Rainbow",
     "year": "1939",
     "artist": ["Judy Garland"],
@@ -4409,6 +4697,7 @@
     "image": "covers/over-the-rainbow-judy-garland.jpg"
   },
   {
+    "id": "when-you-wish-upon-a-star-cliff-edwards",
     "title": "When You Wish Upon a Star",
     "year": "1940",
     "artist": ["Cliff Edwards"],
@@ -4425,6 +4714,7 @@
     "image": "covers/when-you-wish-upon-a-star-cliff-edwards.jpg"
   },
   {
+    "id": "still-d-r-e-dr-dre",
     "title": "Still D.R.E.",
     "year": "1999",
     "artist": ["Dr. Dre", "Snoop Dogg"],
@@ -4439,6 +4729,7 @@
     "image": "covers/still-d-r-e-dr-dre.jpg"
   },
   {
+    "id": "thunder-imagine-dragons",
     "title": "Thunder",
     "year": "2017",
     "artist": ["Imagine Dragons"],
@@ -4454,6 +4745,7 @@
     "image": "covers/evolve-imagine-dragons.jpg"
   },
   {
+    "id": "believer-imagine-dragons",
     "title": "Believer",
     "year": "2017",
     "artist": ["Imagine Dragons"],
@@ -4468,6 +4760,7 @@
     "image": "covers/evolve-imagine-dragons.jpg"
   },
   {
+    "id": "walking-the-wire-imagine-dragons",
     "title": "Walking the Wire",
     "year": "2017",
     "artist": ["Imagine Dragons"],
@@ -4482,6 +4775,7 @@
     "image": "covers/evolve-imagine-dragons.jpg"
   },
   {
+    "id": "whatever-it-takes-imagine-dragons",
     "title": "Whatever It Takes",
     "year": "2017",
     "artist": ["Imagine Dragons"],
@@ -4496,6 +4790,7 @@
     "image": "covers/evolve-imagine-dragons.jpg"
   },
   {
+    "id": "superstition-stevie-wonder",
     "title": "Superstition",
     "year": "1972",
     "artist": ["Stevie Wonder"],
@@ -4510,6 +4805,7 @@
     "image": "covers/talking-book-stevie-wonder.jpg"
   },
   {
+    "id": "chandelier-sia",
     "title": "Chandelier",
     "year": "2014",
     "artist": ["Sia"],
@@ -4525,6 +4821,7 @@
     "image": "covers/chandelier-sia.jpg"
   },
   {
+    "id": "sarangeul-jeonhago-sipdadeunga-aimyon",
     "title": "愛を伝えたいだとか (사랑을 전하고 싶다든가)",
     "year": "2017",
     "artist": ["aimyon (あいみょん)"],
@@ -4539,6 +4836,7 @@
     "image": "covers/愛を伝えたいだとか-사랑을-전하고-싶다든가-aimyon-あいみょん.jpg"
   },
   {
+    "id": "god-knows-aya-hirano",
     "title": "God Knows...",
     "year": "2006",
     "artist": ["Aya Hirano (平野綾)"],
@@ -4553,6 +4851,7 @@
     "image": "covers/god-knows-aya-hirano-平野綾.jpg"
   },
   {
+    "id": "rpg-sekai-no-owari",
     "title": "RPG",
     "year": "2013",
     "artist": ["SEKAI NO OWARI"],
@@ -4568,6 +4867,7 @@
     "image": "covers/rpg-sekai-no-owari.jpg"
   },
   {
+    "id": "daybreak-frontline-ia",
     "title": "DAYBREAK FRONTLINE",
     "year": "2016",
     "artist": ["IA"],
@@ -4582,6 +4882,7 @@
     "image": "covers/daybreak-frontline-ia.jpg"
   },
   {
+    "id": "rolring-geol-hatsune-miku",
     "title": "ローリンガール (롤링 걸)",
     "year": "2010",
     "artist": ["Hatsune Miku (初音ミク)"],
@@ -4596,6 +4897,7 @@
     "image": "covers/ローリンガール-롤링-걸-hatsune-miku-初音ミク.jpg"
   },
   {
+    "id": "felicita-al-bano-and-romina-power",
     "title": "Felicità",
     "year": "1982",
     "artist": ["Al Bano and Romina Power"],
@@ -4611,6 +4913,7 @@
     "image": "covers/felicità-al-bano-and-romina-power.jpg"
   },
   {
+    "id": "feel-good-inc-gorillaz",
     "title": "Feel Good Inc.",
     "year": "2005",
     "artist": ["Gorillaz"],
@@ -4625,6 +4928,7 @@
     "image": "covers/feel-good-inc-gorillaz.jpg"
   },
   {
+    "id": "on-melancholy-hill-gorillaz",
     "title": "On Melancholy Hill",
     "year": "2010",
     "artist": ["Gorillaz"],
@@ -4640,6 +4944,7 @@
     "image": "covers/on-melancholy-hill-gorillaz.jpg"
   },
   {
+    "id": "love-story-taylor-swift",
     "title": "Love Story",
     "year": "2008",
     "artist": ["Taylor Swift"],
@@ -4654,6 +4959,7 @@
     "image": "covers/love-story-taylor-swift.jpg"
   },
   {
+    "id": "izaura-stan-getz",
     "title": "Izaura",
     "year": "1976",
     "artist": ["Stan Getz", "João Gilberto", "Miúcha"],
@@ -4668,6 +4974,7 @@
     "image": "covers/izaura-stan-getz.jpg"
   },
   {
+    "id": "senegal-fast-food-amadou-mariam",
     "title": "Sénégal Fast Food",
     "year": "2005",
     "artist": ["Amadou & Mariam", "Manu Chao"],
@@ -4682,6 +4989,7 @@
     "image": "covers/sénégal-fast-food-amadou-mariam.jpg"
   },
   {
+    "id": "mbube-solomon-lindas-original",
     "title": "Mbube (The Lion Sleeps Tonight)",
     "year": "1939",
     "artist": ["Solomon Linda's Original Evening Birds"],
@@ -4698,6 +5006,7 @@
     "image": "covers/mbube-the-lion-sleeps-tonight-solomon-linda-s-original-eveni.jpg"
   },
   {
+    "id": "gonggunga-coeyongdeog",
     "title": "공군가",
     "year": "1951",
     "artist": [],
@@ -4712,6 +5021,7 @@
     "image": "covers/국군.jpg"
   },
   {
+    "id": "bbalgan-mahura-jyani-beuradeoseu",
     "title": "빨간 마후라",
     "year": "1964",
     "artist": ["쟈니 브라더스"],
@@ -4726,6 +5036,7 @@
     "image": "covers/국군.jpg"
   },
   {
+    "id": "badaro-gaja-sonweonil",
     "title": "바다로 가자",
     "year": "1946",
     "artist": [],
@@ -4740,6 +5051,7 @@
     "image": "covers/국군.jpg"
   },
   {
+    "id": "jeonseoneul-ganda-uyongsam",
     "title": "전선을 간다",
     "year": "1981",
     "artist": [],
@@ -4754,6 +5066,7 @@
     "image": "covers/국군.jpg"
   },
   {
+    "id": "pureun-sonamu-gimyongbeom",
     "title": "푸른 소나무",
     "year": "1997",
     "artist": [],
@@ -4768,6 +5081,7 @@
     "image": "covers/국군.jpg"
   },
   {
+    "id": "lucy-in-the-sky-with-diamonds-the-beatles",
     "title": "Lucy in the Sky with Diamonds",
     "year": "1967",
     "artist": ["The Beatles"],
@@ -4783,6 +5097,7 @@
     "image": "covers/sgt-pepper-beatles.jpg"
   },
   {
+    "id": "here-comes-your-man-pixies",
     "title": "Here Comes Your Man",
     "year": "1989",
     "artist": ["Pixies"],
@@ -4797,6 +5112,7 @@
     "image": "covers/doolittle-pixies.jpg"
   },
   {
+    "id": "sweden-c418",
     "title": "Sweden",
     "year": "2011",
     "artist": [],
@@ -4811,6 +5127,7 @@
     "image": "covers/minecraft.jpg"
   },
   {
+    "id": "minecraft-c418",
     "title": "Minecraft",
     "year": "2011",
     "artist": [],
@@ -4825,6 +5142,7 @@
     "image": "covers/minecraft.jpg"
   },
   {
+    "id": "luv-part-3-nujabes",
     "title": "Luv(sic) Part 3",
     "year": "2005",
     "artist": ["Nujabes", "Shing02"],
@@ -4839,6 +5157,7 @@
     "image": "covers/luvsic-nujabes.jpg"
   },
   {
+    "id": "erlkonig-franz-schubert",
     "title": "Erlkönig (마왕)",
     "year": "1815",
     "artist": [],
@@ -4853,6 +5172,7 @@
     "image": "covers/schubert.jpg"
   },
   {
+    "id": "re-ai-105degcde-ni-a-si",
     "title": "热爱105°C的你 (105°C를 사랑하는 너)",
     "year": "2019",
     "artist": ["A Si (阿肆)"],
@@ -4868,6 +5188,7 @@
     "image": "covers/super-idol.jpg"
   },
   {
+    "id": "rivers-of-babylon-the-melodians",
     "title": "Rivers of Babylon",
     "year": "1970",
     "artist": ["The Melodians"],
@@ -4883,6 +5204,7 @@
     "image": "covers/rivers-of-babylon-the-melodians.jpg"
   },
   {
+    "id": "legend-otyken",
     "title": "Legend",
     "year": "2022",
     "artist": ["Otyken"],
@@ -4897,6 +5219,7 @@
     "image": "covers/legend-otyken.jpg"
   },
   {
+    "id": "wellerman-traditional",
     "title": "Wellerman",
     "year": "19c?",
     "artist": [],
@@ -4912,6 +5235,7 @@
     "image": "covers/wellerman.jpg"
   },
   {
+    "id": "dixies-land-dan-emmett",
     "title": "Dixie's Land",
     "year": "1859",
     "artist": [],
@@ -4927,6 +5251,7 @@
     "image": "covers/dixie-s-land.jpg"
   },
   {
+    "id": "no-batidao-zxkai",
     "title": "NO BATIDÃO",
     "year": "2025",
     "artist": ["ZXKAI", "slxughter"],
@@ -4941,6 +5266,7 @@
     "image": "covers/no-batidão-zxkai.jpg"
   },
   {
+    "id": "ave-maria-de-lourdes-jean-gaignet",
     "title": "Ave Maria de Lourdes",
     "year": "1873",
     "artist": [],
@@ -4956,6 +5282,7 @@
     "image": "covers/ave-maria-de-lourdes.jpg"
   },
   {
+    "id": "lamour-toujours-gigi-dagostino",
     "title": "L'Amour toujours",
     "year": "1999",
     "artist": ["Gigi D'Agostino", "Ola Onabule"],
@@ -4970,6 +5297,7 @@
     "image": "covers/lamour-toujours.jpg"
   },
   {
+    "id": "bla-bla-bla-gigi-dagostino",
     "title": "Bla Bla Bla",
     "year": "1999",
     "artist": ["Gigi D'Agostino"],
@@ -4984,6 +5312,7 @@
     "image": "covers/lamour-toujours.jpg"
   },
   {
+    "id": "24k-magic-bruno-mars",
     "title": "24K Magic",
     "year": "2016",
     "artist": ["Bruno Mars"],
@@ -4998,6 +5327,7 @@
     "image": "covers/24k-magic-bruno-mars.jpg"
   },
   {
+    "id": "samurai-cairokee",
     "title": "Samurai",
     "year": "2021",
     "artist": ["Cairokee"],
@@ -5012,6 +5342,7 @@
     "image": "covers/samurai-cairokee.jpg"
   },
   {
+    "id": "grenade-bruno-mars",
     "title": "Grenade",
     "year": "2010",
     "artist": ["Bruno Mars"],
@@ -5026,6 +5357,7 @@
     "image": "covers/grenade-bruno-mars.jpg"
   },
   {
+    "id": "uptown-funk-mark-ronson",
     "title": "Uptown Funk",
     "year": "2014",
     "artist": ["Mark Ronson", "Bruno Mars"],
@@ -5040,6 +5372,7 @@
     "image": "covers/uptown-funk-mark-ronson.jpg"
   },
   {
+    "id": "i-like-it-cardi-b",
     "title": "I Like It",
     "year": "2018",
     "artist": ["Cardi B", "Bad Bunny", "J Balvin"],
@@ -5054,6 +5387,7 @@
     "image": "covers/i-like-it-cardi-b.jpg"
   },
   {
+    "id": "dna-kendrick-lamar",
     "title": "DNA.",
     "year": "2017",
     "artist": ["Kendrick Lamar"],
@@ -5069,6 +5403,7 @@
     "image": "covers/damn-kendrick-lamar.jpg"
   },
   {
+    "id": "humble-kendrick-lamar",
     "title": "HUMBLE",
     "year": "2017",
     "artist": ["Kendrick Lamar"],
@@ -5083,6 +5418,7 @@
     "image": "covers/damn-kendrick-lamar.jpg"
   },
   {
+    "id": "le-temps-des-cathedrales-bruno-pelletier",
     "title": "Le Temps des cathédrales",
     "year": "1998",
     "artist": ["Bruno Pelletier"],
@@ -5097,6 +5433,7 @@
     "image": "covers/notre-dame.jpg"
   },
   {
+    "id": "demons-imagine-dragons",
     "title": "Demons",
     "year": "2013",
     "artist": ["Imagine Dragons"],
@@ -5112,6 +5449,7 @@
     "image": "covers/demons-imagine-dragons.jpg"
   },
   {
+    "id": "baby-justin-bieber",
     "title": "Baby",
     "year": "2009",
     "artist": ["Justin Bieber", "Ludacris"],
@@ -5126,6 +5464,7 @@
     "image": "covers/baby-justin-bieber.jpg"
   },
   {
+    "id": "shape-of-you-ed-sheeran",
     "title": "Shape of You",
     "year": "2017",
     "artist": ["Ed Sheeran"],
@@ -5141,6 +5480,7 @@
     "image": "covers/divide-ed-sheeran.jpg"
   },
   {
+    "id": "perfect-ed-sheeran",
     "title": "Perfect",
     "year": "2017",
     "artist": ["Ed Sheeran"],
@@ -5157,6 +5497,7 @@
     "image": "covers/divide-ed-sheeran.jpg"
   },
   {
+    "id": "wake-me-up-avicii",
     "title": "Wake Me Up",
     "year": "2013",
     "artist": ["Avicii", "Aloe Blacc"],
@@ -5171,6 +5512,7 @@
     "image": "covers/wake-me-up-avicii.jpg"
   },
   {
+    "id": "magic-in-the-air-magic-system",
     "title": "Magic in the Air",
     "year": "2014",
     "artist": ["Magic System", "Chawki"],
@@ -5185,6 +5527,7 @@
     "image": "covers/magic-in-the-air-magic-system.jpg"
   },
   {
+    "id": "1er-gaou-magic-system",
     "title": "1er Gaou",
     "year": "2002",
     "artist": ["Magic System"],
@@ -5199,6 +5542,7 @@
     "image": "covers/1er-gaou-magic-system.jpg"
   },
   {
+    "id": "korobeiniki-traditional",
     "title": "Коробушка / Коробейники (Korobeiniki)",
     "year": "1898",
     "artist": [],
@@ -5214,6 +5558,7 @@
     "image": "covers/коробушка-коробейники-korobeiniki.jpg"
   },
   {
+    "id": "el-arreglito-sebastian-iradier",
     "title": "El Arreglito",
     "year": "1863",
     "artist": [],
@@ -5228,6 +5573,7 @@
     "image": "covers/el-arreglito.jpg"
   },
   {
+    "id": "prelude-georges-bizet",
     "title": "Prélude (Overture)",
     "year": "1875",
     "artist": [],
@@ -5242,6 +5588,7 @@
     "image": "covers/bizet.jpg"
   },
   {
+    "id": "habanera-georges-bizet",
     "title": "Habanera",
     "year": "1875",
     "artist": [],
@@ -5257,6 +5604,7 @@
     "image": "covers/bizet.jpg"
   },
   {
+    "id": "couplets-du-toreador-georges-bizet",
     "title": "Couplets du toréador (Votre toast, je peux vous le rendre)",
     "year": "1875",
     "artist": [],
@@ -5271,6 +5619,7 @@
     "image": "covers/bizet.jpg"
   },
   {
+    "id": "kare-nanhasi-hallelujah-chicken-run-band",
     "title": "Kare Nanhasi",
     "year": "1970s",
     "artist": ["Hallelujah Chicken Run Band"],
@@ -5285,6 +5634,7 @@
     "image": "covers/kare-nanhasi-hallelujah-chicken-run-band.jpg"
   },
   {
+    "id": "over-there-george-m-cohan",
     "title": "Over There",
     "year": "1917",
     "artist": [],
@@ -5299,6 +5649,7 @@
     "image": "covers/america.jpg"
   },
   {
+    "id": "nuestra-cancion-monsieur-perine",
     "title": "Nuestra Canción",
     "year": "2015",
     "artist": ["Monsieur Periné", "Vicente García"],
@@ -5313,6 +5664,7 @@
     "image": "covers/nuestra-cancion.jpg"
   },
   {
+    "id": "no-me-importa-lali",
     "title": "NO ME IMPORTA",
     "year": "2024",
     "artist": ["Lali"],
@@ -5327,6 +5679,7 @@
     "image": "covers/no-me-importa.jpg"
   },
   {
+    "id": "medzi-medzi-e-t-mensah",
     "title": "Medzi Medzi",
     "year": "1950s?",
     "artist": ["E.T.Mensah"],
@@ -5341,6 +5694,7 @@
     "image": "covers/medzi-medzi.jpg"
   },
   {
+    "id": "haessal-mujigae-jageun-baegma-wowkie-zhang",
     "title": "阳光彩虹小白马 (햇살, 무지개, 작은 백마)",
     "year": "2018",
     "artist": ["Wowkie Zhang (大张伟)"],
@@ -5355,6 +5709,7 @@
     "image": "covers/yangguangcaihong.jpg"
   },
   {
+    "id": "inferno-mrs-green-apple",
     "title": "Inferno",
     "year": "2019",
     "artist": ["Mrs. GREEN APPLE"],
@@ -5369,6 +5724,7 @@
     "image": "covers/inferno.jpg"
   },
   {
+    "id": "heavy-foot-mon-rovia",
     "title": "Heavy Foot",
     "year": "2025",
     "artist": ["Mon Rovîa"],
@@ -5383,6 +5739,7 @@
     "image": "covers/heavy-foot.jpg"
   },
   {
+    "id": "daydream-wallace-collection",
     "title": "Daydream",
     "year": "1969",
     "artist": ["Wallace Collection"],
@@ -5398,6 +5755,7 @@
     "image": "covers/daydream.jpg"
   },
   {
+    "id": "gut-genug-kitschkrieg",
     "title": "Gut Genug",
     "year": "2026",
     "artist": ["KITSCHKRIEG", "Blumengarten", "Shirin David"],
@@ -5412,6 +5770,7 @@
     "image": "covers/gut-genug.jpg"
   },
   {
+    "id": "jozin-z-bazin-banjo-band",
     "title": "Jožin z bažin",
     "year": "1977",
     "artist": ["Banjo Band"],
@@ -5427,6 +5786,7 @@
     "image": "covers/jozin-z-bazin.jpg"
   },
   {
+    "id": "nway-oo-kant-kaw-htoo-eain-thin",
     "title": "နွေဦးကံ့ကော် (Nway Oo Kant Kaw)",
     "year": "2003",
     "artist": ["Htoo Eain Thin (ထူးအိမ်သင်)"],
@@ -5441,6 +5801,7 @@
     "image": "covers/nway-oo-kant-kaw.jpg"
   },
   {
+    "id": "have-visa-no-have-rice-the-cambodian-space-project",
     "title": "Have Visa No Have Rice",
     "year": "2011",
     "artist": ["The Cambodian Space Project"],
@@ -5455,6 +5816,7 @@
     "image": "covers/have-visa-no-have-rice.jpg"
   },
   {
+    "id": "watany-al-kabir-ibrahim-hesnawi",
     "title": "Watany Al Kabir (وطني الكبير)",
     "year": "1990s",
     "artist": ["Ibrahim Hesnawi (إبراهيم حسناوي)"],
@@ -5469,6 +5831,7 @@
     "image": "covers/watany-al-kabir.jpg"
   },
     {
+    "id": "back-in-the-u-s-s-r-the-beatles",
     "title": "Back in the U.S.S.R.",
     "year": "1968",
     "artist": ["The Beatles"],
@@ -5483,6 +5846,7 @@
     "image": "covers/the-beatles-the-beatles.jpg"
   },
   {
+    "id": "sur-le-pont-davignon-traditional",
     "title": "Sur le pont d'Avignon",
     "year": "15c?",
     "artist": [],
@@ -5498,6 +5862,7 @@
     "image": "covers/sur-le-pont-d-avignon.jpg"
   },
   {
+    "id": "tu-vuo-fa-lamericano-renato-carosone",
     "title": "Tu vuò fà l'americano",
     "year": "1956",
     "artist": ["Renato Carosone"],
@@ -5513,6 +5878,7 @@
     "image": "covers/tu-vuò-fà-l'americano.jpg"
   },
   {
+    "id": "99-luftballons-nena",
     "title": "99 Luftballons",
     "year": "1983",
     "artist": ["Nena"],
@@ -5527,6 +5893,7 @@
     "image": "covers/99-luftballons.jpg"
   },
   {
+    "id": "the-final-countdown-europe",
     "title": "The Final Countdown",
     "year": "1986",
     "artist": ["Europe"],
@@ -5542,6 +5909,7 @@
     "image": "covers/final-countdown.jpg"
   },
   {
+    "id": "my-way-frank-sinatra",
     "title": "My Way",
     "year": "1969",
     "artist": ["Frank Sinatra"],
@@ -5556,6 +5924,7 @@
     "image": "covers/my-way.jpg"
   },
   {
+    "id": "les-champs-elysees-joe-dassin",
     "title": "Les Champs-Élysées",
     "year": "1969",
     "artist": ["Joe Dassin"],
@@ -5571,6 +5940,7 @@
     "image": "covers/les-champs-elysees.jpg"
   },
   {
+    "id": "vivir-mi-vida-marc-anthony",
     "title": "Vivir Mi Vida",
     "year": "2013",
     "artist": ["Marc Anthony"],
@@ -5585,6 +5955,7 @@
     "image": "covers/vivir-mi-vida.jpg"
   },
   {
+    "id": "waka-waka-shakira",
     "title": "Waka Waka (This Time for Africa)",
     "year": "2010",
     "artist": ["Shakira", "Freshlyground"],
@@ -5600,6 +5971,7 @@
     "image": "covers/waka-waka.jpg"
   },
   {
+    "id": "funiculi-funicula-luigi-denza",
     "title": "Funiculì, Funiculà",
     "year": "1880",
     "artist": [],
@@ -5615,6 +5987,7 @@
     "image": "covers/funiculi-funicula.jpg"
   },
   {
+    "id": "danza-kuduro-don-omar",
     "title": "Danza Kuduro",
     "year": "2010",
     "artist": ["Don Omar", "Lucenzo"],
@@ -5629,6 +6002,7 @@
     "image": "covers/danza-kuduro.jpg"
   },
   {
+    "id": "ere-mela-mela-mahmoud-ahmed",
     "title": "Erè Mèla Mèla(ኧረ መላ መላ)",
     "year": "1975",
     "artist": ["Mahmoud Ahmed (ማሕሙድ አሕመድ)"],
@@ -5643,6 +6017,7 @@
     "image": "covers/ere-mela-mela.jpg"
   },
   {
+    "id": "salvadorenas-los-hermanos-flores",
     "title": "Salvadoreñas",
     "year": "1984",
     "artist": ["Los Hermanos Flores"],
@@ -5657,6 +6032,7 @@
     "image": "covers/salvadorenas.jpg"
   },
   {
+    "id": "march-pyotr-tchaikovsky",
     "title": "행진 (Марш)",
     "year": "1892",
     "artist": [],
@@ -5671,6 +6047,7 @@
     "image": "covers/tchaikovsky.jpg"
   },
   {
+    "id": "trepak-pyotr-tchaikovsky",
     "title": "러시아 춤 (Трепак)",
     "year": "1892",
     "artist": [],
@@ -5686,6 +6063,7 @@
     "image": "covers/tchaikovsky.jpg"
   },
   {
+    "id": "reed-flutes-pyotr-tchaikovsky",
     "title": "갈잎피리의 춤 (Танец пастушков)",
     "year": "1892",
     "artist": [],
@@ -5702,6 +6080,7 @@
     "image": "covers/tchaikovsky.jpg"
   },
   {
+    "id": "flowers-pyotr-tchaikovsky",
     "title": "꽃의 왈츠 (Вальс цветов)",
     "year": "1892",
     "artist": [],
@@ -5717,6 +6096,7 @@
     "image": "covers/tchaikovsky.jpg"
   },
   {
+    "id": "sugar-fairy-pyotr-tchaikovsky",
     "title": "설탕 요정의 춤 (Танец Феи Драже)",
     "year": "1892",
     "artist": [],
@@ -5732,6 +6112,7 @@
     "image": "covers/tchaikovsky.jpg"
   },
   {
+    "id": "scene-pyotr-tchaikovsky",
     "title": "정경 (Сцена)",
     "year": "1892",
     "artist": [],
@@ -5746,6 +6127,7 @@
     "image": "covers/tchaikovsky.jpg"
   },
   {
+    "id": "bartfai-emlek-csardas-op-31-bela-keler",
     "title": "Bártfai Emlék Csárdás, Op.31",
     "year": 1858,
     "artist": [],
@@ -5760,6 +6142,7 @@
     "image": "covers/bela-keler.jpg"
   },
   {
+    "id": "ungarische-tanze-nr-5-johannes-brahms",
     "title": "헝가리 무곡 제5번 (Ungarische Tänze Nr.5)",
     "year": 1869,
     "artist": [],
@@ -5775,6 +6158,7 @@
     "image": "covers/brahms.jpg"
   },
   {
+    "id": "the-maidens-prayer-tekla-badarzewska",
     "title": "The Maiden's Prayer (Modlitwa dziewicy)",
     "year": 1856,
     "artist": [],
@@ -5791,6 +6175,7 @@
     "image": "covers/bądarzewska.jpg"
   },
   {
+    "id": "old-town-road-lil-nas-x",
     "title": "Old Town Road",
     "year": "2018",
     "artist": ["Lil Nas X"],
@@ -5806,6 +6191,7 @@
     "image": "covers/old-town-road.jpg"
   },
   {
+    "id": "as-it-was-harry-styles",
     "title": "As It Was",
     "year": 2022,
     "artist": ["Harry Styles"],
@@ -5820,6 +6206,7 @@
     "image": "covers/harrys-house.jpg"
   },
   {
+    "id": "bratet-dmam-oshana-sargon-gabriel",
     "title": "Bratet D'Mam Oshana (ܒܪܬܐ ܕܡܡ ܐܘܫܥܢܐ)",
     "year": 1982,
     "artist": ["Sargon Gabriel (ܣܪܓܘܢ ܓܒܪܐܝܠ)"],
@@ -5834,6 +6221,7 @@
     "image": "covers/sargon-gabriel.jpg"
   },
   {
+    "id": "come-and-get-your-love-redbone",
     "title": "Come and Get Your Love",
     "year": 1973,
     "artist": ["Redbone"],
@@ -5848,6 +6236,7 @@
     "image": "covers/come-and-get-your-love.jpg"
   },
   {
+    "id": "mentiras-los-amigos-invisibles",
     "title": "Mentiras",
     "year": 2009,
     "artist": ["Los Amigos Invisibles"],
@@ -5862,6 +6251,7 @@
     "image": "covers/mentiras.jpg"
   },
   {
+    "id": "makhelaw-magalou-manal",
     "title": "Makhelaw Magalou (ما خلاو ما قالو)",
     "year": 2022,
     "artist": ["Manal (منال)"],
@@ -5876,6 +6266,7 @@
     "image": "covers/makhelaw-magalou.jpg"
   },
   {
+    "id": "cambio-dolor-natalia-oreiro",
     "title": "Cambio Dolor",
     "year": 1988,
     "artist": ["Natalia Oreiro"],
@@ -5890,6 +6281,7 @@
     "image": "covers/cambio-dolor.jpg"
   },
   {
+    "id": "piffiit-nutaat-sume",
     "title": "Piffiit Nutaat",
     "year": 1973,
     "artist": ["Sumé"],
@@ -5904,6 +6296,7 @@
     "image": "covers/sumut-sume.jpg"
   },
   {
+    "id": "janona-g-aybulla-tursunov",
     "title": "Janona",
     "year": 1973,
     "artist": ["Gʻaybulla Tursunov"],
@@ -5918,6 +6311,7 @@
     "image": "covers/janona-tursunov.jpg"
   },
   {
+    "id": "shooting-star-sankomota",
     "title": "Shooting Star",
     "year": 1987,
     "artist": ["Sankomota"],
@@ -5932,6 +6326,7 @@
     "image": "covers/shooting-star-sankomota.jpg"
   },
   {
+    "id": "7-seconds-youssou-ndour",
     "title": "7 Seconds",
     "year": 1994,
     "artist": ["Youssou N'Dour", "Neneh Cherry"],
@@ -5946,6 +6341,7 @@
     "image": "covers/7-seconds.jpg"
   },
   {
+    "id": "simarik-tarkan",
     "title": "Şımarık (Kiss Kiss)",
     "year": 1997,
     "artist": ["Tarkan"],
@@ -5960,6 +6356,7 @@
     "image": "covers/simarik.jpg"
   },
   {
+    "id": "zorbas-dance-mikis-theodorakis",
     "title": "συρτάκι (Zorba's Dance)",
     "year": 1964,
     "artist": [],
@@ -5975,6 +6372,7 @@
     "image": "covers/zobra-the-greek.jpg"
   },
   {
+    "id": "erika-herms-niel",
     "title": "Erika",
     "year": 1938,
     "artist": [],
@@ -5989,6 +6387,7 @@
     "image": "covers/nazigermany.jpg"
   },
   {
+    "id": "edelweiss-herms-niel",
     "title": "Edelweiß",
     "year": 1939,
     "artist": [],
@@ -6003,6 +6402,7 @@
     "image": "covers/nazigermany.jpg"
   },
   {
+    "id": "auld-lang-syne-traditional",
     "title": "Auld Lang Syne",
     "year": "1788",
     "artist": [],
@@ -6018,6 +6418,7 @@
     "image": "covers/scotland.jpg"
   },
   {
+    "id": "scotland-the-brave-traditional",
     "title": "Scotland the Brave",
     "year": "1870s",
     "artist": [],
@@ -6033,6 +6434,7 @@
     "image": "covers/scotland.jpg"
   },
   {
+    "id": "malaso-regis-gizavo",
     "title": "Malaso",
     "year": "1995",
     "artist": ["Régis Gizavo"],
@@ -6048,6 +6450,7 @@
     "image": "covers/malaso.jpg"
   },
   {
+    "id": "kijiti-siti-binti-saad",
     "title": "Kijiti",
     "year": "1920s?",
     "artist": ["Siti binti Saad"],
@@ -6063,6 +6466,7 @@
     "image": "covers/siti-binti-saad.jpg"
   },
   {
+    "id": "build-me-up-buttercup-the-foundations",
     "title": "Build Me Up Buttercup",
     "year": "1968",
     "artist": ["The Foundations"],
@@ -6077,6 +6481,7 @@
     "image": "covers/build-me-up-buttercup.jpg"
   },
   {
+    "id": "derniere-danse-indila",
     "title": "Dernière Danse",
     "year": "2013",
     "artist": ["Indila"],
@@ -6092,6 +6497,7 @@
     "image": "covers/derniere-danse.jpg"
   },
   {
+    "id": "cant-help-falling-in-love-elvis-presley",
     "title": "Can't Help Falling in Love",
     "year": "1961",
     "artist": ["Elvis Presley"],
@@ -6106,6 +6512,7 @@
     "image": "covers/blue-hawaii.jpg"
   },
   {
+    "id": "plaisir-damour-jean-paul-egide-martini",
     "title": "Plaisir d'amour",
     "year": "1784",
     "artist": [],
@@ -6121,6 +6528,7 @@
     "image": "covers/jean-paul-egide-martini.jpg"
   },
   {
+    "id": "pedro-raffaella-carra",
     "title": "Pedro",
     "year": "1980",
     "artist": ["Raffaella Carrà"],
@@ -6136,6 +6544,7 @@
     "image": "covers/pedro.jpg"
   },
   {
+    "id": "cotton-eyed-joe-traditional",
     "title": "Cotton-Eyed Joe",
     "year": "19c?",
     "artist": [],
@@ -6153,6 +6562,7 @@
     "image": "covers/cotton-eyed-joe.jpg"
   },
   {
+    "id": "tian-guo-mrs-green-apple",
     "title": "天国",
     "year": "2025",
     "artist": ["Mrs. GREEN APPLE"],
@@ -6168,6 +6578,7 @@
     "image": "covers/天国-mrs-green-apple.jpg"
   },
   {
+    "id": "whatever-oasis",
     "title": "Whatever",
     "year": "1994",
     "artist": ["Oasis"],
@@ -6182,6 +6593,7 @@
     "image": "covers/whatever-oasis.jpg"
   },
   {
+    "id": "dont-look-back-in-anger-oasis",
     "title": "Don't Look Back in Anger",
     "year": "1996",
     "artist": ["Oasis"],
@@ -6196,6 +6608,7 @@
     "image": "covers/don-t-look-back-in-anger-oasis.jpg"
   },
   {
+    "id": "california-dreamin-the-mamas-papas",
     "title": "California Dreamin'",
     "year": "1965",
     "artist": ["The Mamas & Papas"],
@@ -6210,6 +6623,7 @@
     "image": "covers/california-dreamin-the-mamas-papas.jpg"
   },
   {
+    "id": "runaway-kanye-west",
     "title": "Runaway",
     "year": "2010",
     "artist": ["Kanye West", "Pusha T"],
@@ -6224,6 +6638,7 @@
     "image": "covers/my-beautiful-kanye-west.jpg"
   },
   {
+    "id": "all-of-the-lights-kanye-west",
     "title": "All Of The Lights",
     "year": "2010",
     "artist": ["Kanye West", "Rihanna", "Kid Cudi"],
@@ -6240,6 +6655,7 @@
     "image": "covers/my-beautiful-kanye-west.jpg"
   },
   {
+    "id": "blinding-lights-the-weeknd",
     "title": "Blinding Lights",
     "year": "2019",
     "artist": ["The Weeknd"],
@@ -6254,6 +6670,7 @@
     "image": "covers/after-hours-the-weeknd.jpg"
   },
   {
+    "id": "save-your-tears-the-weeknd",
     "title": "Save Your Tears",
     "year": "2020",
     "artist": ["The Weeknd"],
@@ -6269,6 +6686,7 @@
     "image": "covers/after-hours-the-weeknd.jpg"
   },
   {
+    "id": "in-your-eyes-the-weeknd",
     "title": "In Your Eyes",
     "year": "2020",
     "artist": ["The Weeknd"],
@@ -6285,6 +6703,7 @@
     "image": "covers/after-hours-the-weeknd.jpg"
   },
   {
+    "id": "thank-u-next-ariana-grande",
     "title": "thank u, next",
     "year": "2018",
     "artist": ["Ariana Grande"],
@@ -6299,6 +6718,7 @@
     "image": "covers/thank-u-next-ariana-grande.jpg"
   },
   {
+    "id": "jailhouse-rock-elvis-presley",
     "title": "Jailhouse Rock",
     "year": "1957",
     "artist": ["Elvis Presley"],
@@ -6313,6 +6733,7 @@
     "image": "covers/jailhouse-rock-elvis-presley.jpg"
   },
   {
+    "id": "buttercup-jack-stauber",
     "title": "Buttercup",
     "year": "2017",
     "artist": ["Jack Stauber"],
@@ -6328,6 +6749,7 @@
     "image": "covers/buttercup-jack-stauber.jpg"
   },
   {
+    "id": "i-will-survive-gloria-gaynor",
     "title": "I Will Survive",
     "year": "1978",
     "artist": ["Gloria Gaynor"],
@@ -6342,6 +6764,7 @@
     "image": "covers/i-will-survive-gloria-gaynor.jpg"
   },
   {
+    "id": "you-are-my-sunshine-jimmie-davis",
     "title": "You are my sunshine",
     "year": "1940",
     "artist": ["Jimmie Davis"],
@@ -6357,6 +6780,7 @@
     "image": "covers/you-are-my-sunshine-jimmie-davis.jpg"
   },
   {
+    "id": "ddaishaneun-jaemi-syungjwag1",
     "title": "따잇하는 재미",
     "year": "2025",
     "artist": [],
@@ -6371,6 +6795,7 @@
     "image": "covers/따잇.jpg"
   },
   {
+    "id": "me-gustas-tu-manu-chao",
     "title": "Me Gustas Tú",
     "year": "2001",
     "artist": ["Manu Chao"],
@@ -6385,6 +6810,7 @@
     "image": "covers/esperanza-manu-chao.jpg"
   },
   {
+    "id": "la-perla-sofia-kourtesis",
     "title": "La Perla",
     "year": "2021",
     "artist": ["Sofia Kourtesis"],
@@ -6399,6 +6825,7 @@
     "image": "covers/la-perla-sofia-kourtesis.jpg"
   },
   {
+    "id": "oxygene-part-iv-jean-michel-jarre",
     "title": "Oxygène Part IV",
     "year": "1977",
     "artist": ["Jean-Michel Jarre"],
@@ -6413,6 +6840,7 @@
     "image": "covers/oxygene-jean-michel-jarre.jpg"
   },
   {
+    "id": "circles-post-malone",
     "title": "Circles",
     "year": "2019",
     "artist": ["Post Malone"],
@@ -6427,6 +6855,7 @@
     "image": "covers/hollywoods-bleeding.jpg"
   },
   {
+    "id": "hollywoods-bleeding-post-malone",
     "title": "Hollywood's Bleeding",
     "year": "2019",
     "artist": ["Post Malone"],
@@ -6441,6 +6870,7 @@
     "image": "covers/hollywoods-bleeding.jpg"
   },
   {
+    "id": "dreamers-jeonggug",
     "title": "Dreamers",
     "year": "2022",
     "artist": ["정국", "Fahad Al Kubaisi (فهد الكبيسي)"],
@@ -6455,6 +6885,7 @@
     "image": "covers/dreamers-jungkook.jpg"
   },
   {
+    "id": "milosc-w-zakopanem-slawomir",
     "title": "Miłość w Zakopanem",
     "year": "2017",
     "artist": ["Sławomir"],
@@ -6470,6 +6901,7 @@
     "image": "covers/greatest-hits-slawomir.jpg"
   },
   {
+    "id": "jimyeongyeocungyo-mayday",
     "title": "志明與春嬌 (지명여춘교)",
     "year": "1999",
     "artist": ["Mayday (五月天)"],
@@ -6484,6 +6916,7 @@
     "image": "covers/지명여춘교.jpg"
   },
   {
+    "id": "viva-la-vida-coldplay",
     "title": "Viva la Vida",
     "year": "2008",
     "artist": ["Coldplay"],
@@ -6498,6 +6931,7 @@
     "image": "covers/viva-la-vida.jpg"
   },
   {
+    "id": "emerald-sword-rhapsody-of-fire",
     "title": "Emerald Sword",
     "year": "1998",
     "artist": ["Rhapsody of Fire"],
@@ -6512,6 +6946,7 @@
     "image": "covers/emerald-sword.jpg"
   },
   {
+    "id": "baeggeumdiseuko-yuka-iguchi",
     "title": "白金ディスコ (백금디스코)",
     "year": "2012",
     "artist": ["Yuka Iguchi (井口裕香)"],
@@ -6526,6 +6961,7 @@
     "image": "covers/monogatari.jpg"
   },
   {
+    "id": "yeonae-seokyulreisyeon-kana-hanazawa",
     "title": "恋愛サーキュレーション (연애 서큘레이션)",
     "year": "2010",
     "artist": ["Kana Hanazawa (花澤香菜)"],
@@ -6540,6 +6976,7 @@
     "image": "covers/monogatari.jpg"
   },
   {
+    "id": "dreams-the-cranberries",
     "title": "Dreams",
     "year": "1992",
     "artist": ["The Cranberries"],
@@ -6554,6 +6991,7 @@
     "image": "covers/dreams-the-cranberries.jpg"
   },
   {
+    "id": "mongjungin-faye-wong",
     "title": "夢中人 (몽중인)",
     "year": "1994",
     "artist": ["Faye Wong (王菲)"],
@@ -6568,6 +7006,7 @@
     "image": "covers/몽중인.jpg"
   },
   {
+    "id": "still-alive-ellen-mclain",
     "title": "Still Alive",
     "year": "2007",
     "artist": ["Ellen McLain"],
@@ -6582,6 +7021,7 @@
     "image": "covers/portal.jpg"
   },
   {
+    "id": "cara-mia-addio-ellen-mclain",
     "title": "Cara Mia Addio!",
     "year": "2011",
     "artist": ["Ellen McLain"],
@@ -6597,6 +7037,7 @@
     "image": "covers/portal.jpg"
   },
   {
+    "id": "przybiezeli-do-betlejem-traditional",
     "title": "Przybieżeli do Betlejem",
     "year": "17c",
     "artist": [],
@@ -6612,6 +7053,7 @@
     "image": "covers/przybiezeli-do-betlejem.jpg"
   },
   {
+    "id": "axel-f-harold-faltermeyer",
     "title": "Axel F",
     "year": "1984",
     "artist": ["Harold Faltermeyer"],
@@ -6626,6 +7068,7 @@
     "image": "covers/axel-f.jpg"
   },
   {
+    "id": "rain-ryuichi-sakamoto",
     "title": "Rain",
     "year": "1987",
     "artist": ["Ryuichi Sakamoto"],
@@ -6640,6 +7083,7 @@
     "image": "covers/ryuichi-sakamoto.jpg"
   },
   {
+    "id": "pretender-official-hige-dandism",
     "title": "Pretender",
     "year": "2019",
     "artist": ["Official Hige Dandism (Official髭男dism)"],
@@ -6654,6 +7098,7 @@
     "image": "covers/pretender-higedan.jpg"
   },
   {
+    "id": "lady-kenshi-yonezu",
     "title": "LADY",
     "year": "2023",
     "artist": ["Kenshi Yonezu (米津玄師)"],
@@ -6668,6 +7113,7 @@
     "image": "covers/lady-yonezu-kenshi.jpg"
   },
   {
+    "id": "levitating-dua-lipa",
     "title": "Levitating",
     "year": "2020",
     "artist": ["Dua Lipa", "DaBaby"],
@@ -6683,6 +7129,7 @@
     "image": "covers/levitating-dualipa.jpg"
   },
   {
+    "id": "sugar-sugar-the-archies",
     "title": "Sugar, Sugar",
     "year": "1969",
     "artist": ["The Archies"],
@@ -6698,6 +7145,7 @@
     "image": "covers/archies.jpg"
   },
   {
+    "id": "balumukeno-bonga",
     "title": "Balumukeno",
     "year": "1972",
     "artist": ["Bonga"],
@@ -6712,6 +7160,7 @@
     "image": "covers/angola7274.jpg"
   },
   {
+    "id": "marshi-i-uck-arif-vladi",
     "title": "Marshi I UÇK",
     "year": "1998",
     "artist": ["Arif Vladi"],
@@ -6726,6 +7175,7 @@
     "image": "covers/uck.jpg"
   },
   {
+    "id": "istanbul-the-four-lads",
     "title": "Istanbul (Not Constantinople)",
     "year": "1953",
     "artist": ["The Four Lads"],
@@ -6741,6 +7191,7 @@
     "image": "covers/four-lads.jpg"
   },
   {
+    "id": "nocturne-op-9-no-2-frederic-chopin",
     "title": "Nocturne Op.9 No.2",
     "year": "1832",
     "artist": [],
@@ -6755,6 +7206,7 @@
     "image": "covers/chopin.jpg"
   },
   {
+    "id": "fantaisie-impromptu-frederic-chopin",
     "title": "환상 즉흥곡 (Fantaisie-Impromptu)",
     "year": "1855",
     "artist": [],
@@ -6769,6 +7221,7 @@
     "image": "covers/chopin.jpg"
   },
   {
+    "id": "walkurenritt-richard-wagner",
     "title": "Walkürenritt (Ride of the Valkyries)",
     "year": "1856",
     "artist": [],
@@ -6784,6 +7237,7 @@
     "image": "covers/wagner.jpg"
   },
   {
+    "id": "dayung-sampan-traditional",
     "title": "Dayung Sampan",
     "year": "?",
     "artist": [],
@@ -6800,6 +7254,7 @@
     "image": "covers/dayung-sampan.jpg"
   },
   {
+    "id": "canta-canta-minha-gente-martinho-da-vila",
     "title": "Canta Canta, Minha Gente",
     "year": "1974",
     "artist": ["Martinho da Vila"],
@@ -6815,6 +7270,7 @@
     "image": "covers/canta-canta.jpg"
   },
   {
+    "id": "guten-morgen-sonnenschein-nana-mouskouri",
     "title": "Guten Morgen Sonnenschein",
     "year": "1977",
     "artist": ["Nana Mouskouri (Νάνα Μούσχουρη)"],
@@ -6830,6 +7286,7 @@
     "image": "covers/guten-morgen.jpg"
   },
   {
+    "id": "without-me-eminem",
     "title": "Without Me",
     "year": "2002",
     "artist": ["Eminem"],
@@ -6844,6 +7301,7 @@
     "image": "covers/without-me.jpg"
   },
   {
+    "id": "hotel-california-eagles",
     "title": "Hotel California",
     "year": "1977",
     "artist": ["Eagles"],
@@ -6859,6 +7317,7 @@
     "image": "covers/hotel-california.jpg"
   },
   {
+    "id": "industry-baby-lil-nas-x",
     "title": "INDUSTRY BABY",
     "year": "2021",
     "artist": ["Lil Nas X", "Jack Harlow"],
@@ -6873,6 +7332,7 @@
     "image": "covers/montero-lil-nas-x.jpg"
   },
   {
+    "id": "cake-by-the-ocean-dnce",
     "title": "Cake By The Ocean",
     "year": "2015",
     "artist": ["DNCE"],
@@ -6887,6 +7347,7 @@
     "image": "covers/swaay-dnce.jpg"
   },
   {
+    "id": "gangstas-paradise-coolio",
     "title": "Gangsta's Paradise",
     "year": "1995",
     "artist": ["Coolio", "L.V."],
@@ -6901,6 +7362,7 @@
     "image": "covers/gangstas-paradise.jpg"
   },
   {
+    "id": "qiu-qiu-young-drug",
     "title": "丘丘 (Qiu Qiu)",
     "year": "2022",
     "artist": ["Young Drug (回春丹)"],
@@ -6916,6 +7378,7 @@
     "image": "covers/butterfly-회춘단.jpg"
   },
   {
+    "id": "i-miss-u-joyce-chu",
     "title": "I Miss U (好想你)",
     "year": "2014",
     "artist": ["Joyce Chu (四叶草)"],
@@ -6931,6 +7394,7 @@
     "image": "covers/haoxiangni.jpg"
   },
   {
+    "id": "7-years-lukas-graham",
     "title": "7 years",
     "year": "2015",
     "artist": ["Lukas Graham"],
@@ -6945,6 +7409,7 @@
     "image": "covers/7years-lucas-graham.jpg"
   },
   {
+    "id": "skyfall-adele",
     "title": "Skyfall",
     "year": "2012",
     "artist": ["Adele"],
@@ -6959,6 +7424,7 @@
     "image": "covers/skyfall-adele.jpg"
   },
   {
+    "id": "sicko-mode-travis-scott",
     "title": "SICKO MODE",
     "year": "2018",
     "artist": ["Travis Scott", "Drake"],
@@ -6973,6 +7439,7 @@
     "image": "covers/astroworld-travis-scott.jpg"
   },
   {
+    "id": "titanium-david-guetta",
     "title": "Titanium",
     "year": "2011",
     "artist": ["David Guetta", "Sia"],
@@ -6987,6 +7454,7 @@
     "image": "covers/titanium.jpg"
   },
   {
+    "id": "young-dumb-broke-khalid",
     "title": "Young Dumb & Broke",
     "year": "2017",
     "artist": ["Khalid"],
@@ -7002,6 +7470,7 @@
     "image": "covers/american-teen-khalid.jpg"
   },
   {
+    "id": "500-miles-hedy-west",
     "title": "500 Miles",
     "year": "1961",
     "artist": ["Hedy West"],
@@ -7018,6 +7487,7 @@
     "image": "covers/hedy-west.jpg"
   },
   {
+    "id": "september-earth-wind-and-fire",
     "title": "September",
     "year": "1978",
     "artist": ["Earth, Wind and Fire"],
@@ -7032,6 +7502,7 @@
     "image": "covers/earth-wind-fire.jpg"
   },
   {
+    "id": "my-heart-will-go-on-celine-dion",
     "title": "My Heart Will Go On",
     "year": "1978",
     "artist": ["Céline Dion"],
@@ -7047,6 +7518,7 @@
     "image": "covers/titanic.jpg"
   },
   {
+    "id": "kan-endena-tahoun-sahar-el-laialy-fairuz",
     "title": "Kan Endena Tahoun / Sahar El Laialy (كان عندنا طاحون / سهر الليالي)",
     "year": "1974",
     "artist": ["Fairuz (فيروز)"],
@@ -7062,6 +7534,7 @@
     "image": "covers/fairuz.jpg"
   },
   {
+    "id": "bulikiraly-jolly",
     "title": "Bulikirály (Ciki Ciki Bam Bam)",
     "year": "2013",
     "artist": ["Jolly"],
@@ -7077,6 +7550,7 @@
     "image": "covers/ciki-ciki.jpg"
   },
   {
+    "id": "gipeun-bameul-nalaseo-imunse",
     "title": "깊은 밤을 날아서",
     "year": "1987",
     "artist": ["이문세"],
@@ -7091,6 +7565,7 @@
     "image": "covers/이문세4집.jpg"
   },
   {
+    "id": "gabriels-oboe-ennio-morricone",
     "title": "Gabriel's Oboe",
     "year": "1986",
     "artist": [],
@@ -7106,6 +7581,7 @@
     "image": "covers/ennio-morricone.jpg"
   },
   {
+    "id": "falling-slowly-glen-hansard",
     "title": "Falling Slowly",
     "year": "2006",
     "artist": ["Glen Hansard","Markéta Irglová"],
@@ -7120,6 +7596,7 @@
     "image": "covers/once.jpg"
   },
   {
+    "id": "let-her-go-passenger",
     "title": "Let Her Go",
     "year": "2012",
     "artist": ["Passenger"],
@@ -7135,6 +7612,7 @@
     "image": "covers/let-her-go.jpg"
   },
   {
+    "id": "mr-blue-sky-electric-light-orchestra",
     "title": "Mr. Blue Sky",
     "year": "1977",
     "artist": ["Electric Light Orchestra"],
@@ -7150,6 +7628,7 @@
     "image": "covers/out-of-the-blue-elo.jpg"
   },
   {
+    "id": "i-want-you-back-jackson-5",
     "title": "I Want You Back",
     "year": "1968",
     "artist": ["Jackson 5"],
@@ -7165,6 +7644,7 @@
     "image": "covers/jackson-5.jpg"
   },
   {
+    "id": "roki-kagamine-lin",
     "title": "ロキ (로키)",
     "year": "1968",
     "artist": ["Kagamine Lin (鏡音リン)","Mikito-P (みきとP)"],
@@ -7179,6 +7659,7 @@
     "image": "covers/roki-mikito-p.jpg"
   },
   {
+    "id": "piano-sonata-no-11-wolfgang-amadeus-mozart",
     "title": "터키 행진곡 (Piano Sonata No.11)",
     "year": "1785",
     "artist": [],
@@ -7194,6 +7675,7 @@
     "image": "covers/mozart.jpg"
   },
   {
+    "id": "home-on-the-range-brewster-m-higley",
     "title": "Home on the Range",
     "year": "1870s",
     "artist": [],
@@ -7209,6 +7691,7 @@
     "image": "covers/home-on-the-range.jpg"
   },
   {
+    "id": "theme-from-new-york-new-york-liza-minnelli",
     "title": "Theme from New York, New York",
     "year": "1977",
     "artist": ["Liza Minnelli"],
@@ -7224,6 +7707,7 @@
     "image": "covers/nyny.jpg"
   },
   {
+    "id": "drum-bun-stefan-nosievici",
     "title": "Drum Bun",
     "year": "1856",
     "artist": [],
@@ -7239,6 +7723,7 @@
     "image": "covers/romania.jpg"
   },
   {
+    "id": "allah-souriya-w-bashar-rami-kazour",
     "title": "Allah, Souriya, w Bashar(اللّٰه، سورِيا و بشار)",
     "year": "2012",
     "artist": [],
@@ -7254,6 +7739,7 @@
     "image": "covers/allah-syria.jpg"
   },
   {
+    "id": "serce-w-plecaku-michal-zielinski",
     "title": "Serce w plecaku",
     "year": "1933",
     "artist": [],
@@ -7269,6 +7755,7 @@
     "image": "covers/poland.jpg"
   },
   {
+    "id": "izmir-marsi",
     "title": "İzmir Marşı",
     "year": "1910s?",
     "artist": [],
@@ -7284,6 +7771,7 @@
     "image": "covers/ataturk.jpg"
   },
   {
+    "id": "radetzkymarsch-johann-strauss-i",
     "title": "라데츠키 행진곡 (Radetzkymarsch)",
     "year": "1848",
     "artist": [],
@@ -7298,6 +7786,7 @@
     "image": "covers/johann-strauss-i.jpg"
   },
   {
+    "id": "the-british-grenadiers",
     "title": "The British Grenadiers",
     "year": "17c?",
     "artist": [],
@@ -7312,6 +7801,7 @@
     "image": "covers/britain.jpg"
   },
   {
+    "id": "rule-britannia-james-thomson",
     "title": "Rule, Britannia!",
     "year": "18c",
     "artist": [],
@@ -7326,6 +7816,7 @@
     "image": "covers/britain.jpg"
   },
   {
+    "id": "quizas-quizas-quizas-bobby-capo",
     "title": "Quizás, Quizás, Quizás",
     "year": "1947",
     "artist": ["Bobby Capó","Osvaldo Farrés"],
@@ -7341,6 +7832,7 @@
     "image": "covers/osvaldo-farres.jpg"
   },
   {
+    "id": "staralfur-sigur-ros",
     "title": "Starálfur",
     "year": "1999",
     "artist": ["Sigur Rós"],
@@ -7355,6 +7847,7 @@
     "image": "covers/Ágætis-Byrjun.jpg"
   },
   {
+    "id": "tu-falta-de-querer-mon-lafarte",
     "title": "Tu Falta De Querer",
     "year": "2015",
     "artist": ["Mon Lafarte"],
@@ -7369,6 +7862,7 @@
     "image": "covers/mon-lafarte-1.jpg"
   },
   {
+    "id": "outer-wilds-andrew-prahlow",
     "title": "Outer Wilds",
     "year": "2019",
     "artist": [],
@@ -7383,6 +7877,7 @@
     "image": "covers/outer-wilds.jpg"
   },
   {
+    "id": "eight-concert-etudes-op-40-prelude-nikolai-kapustin",
     "title": "Eight Concert Etudes Op. 40 Prelude",
     "year": "2000",
     "artist": [],
@@ -7398,6 +7893,7 @@
     "image": "covers/kapustin.jpg"
   },
   {
+    "id": "the-entertainer-scott-joplin",
     "title": "The Entertainer",
     "year": "1902",
     "artist": [],
@@ -7413,6 +7909,7 @@
     "image": "covers/scott-joplin.jpg"
   },
   {
+    "id": "samba-de-janeiro-bellini",
     "title": "Samba de Janeiro",
     "year": "1997",
     "artist": ["Bellini"],
@@ -7427,6 +7924,7 @@
     "image": "covers/bellini.jpg"
   },
   {
+    "id": "sunflower-post-malone",
     "title": "Sunflower",
     "year": "2018",
     "artist": ["Post Malone","Swae Lee"],
@@ -7442,6 +7940,7 @@
     "image": "covers/spider-verse.jpg"
   },
   {
+    "id": "farewell-of-slavianka-vasily-agapkin",
     "title": "Прощание славянки (Farewell of Slavianka)",
     "year": "1912",
     "artist": [],
@@ -7457,6 +7956,7 @@
     "image": "covers/slavianka.jpg"
   },
   {
+    "id": "was-ist-des-deutschen-vaterland-ernst-moritz-arndt",
     "title": "Was ist des Deutschen Vaterland",
     "year": "1813",
     "artist": [],
@@ -7471,6 +7971,7 @@
     "image": "covers/great-germany.jpg"
   },
   {
+    "id": "pust-begut-neuklyuzhe-vladimir-ferapontov",
     "title": "Пусть бегут неуклюже (Pust' begut neuklyuzhe)",
     "year": "1971",
     "artist": ["Vladimir Ferapontov (Владимир Ферапонтов)"],
@@ -7486,6 +7987,7 @@
     "image": "covers/gena.jpg"
   },
   {
+    "id": "prince-ali-robin-williams",
     "title": "Prince Ali",
     "year": "1992",
     "artist": ["Robin Williams"],
@@ -7501,6 +8003,7 @@
     "image": "covers/aladdin.jpg"
   },
   {
+    "id": "plastinki-durnoy-vkus",
     "title": "Пластинки (Plastinki)",
     "year": "2018",
     "artist": ["Durnoy Vkus (Дурной Вкус)"],
@@ -7515,6 +8018,7 @@
     "image": "covers/plastinki.jpg"
   },
   {
+    "id": "supernatural-newjeans",
     "title": "Supernatural",
     "year": "2024",
     "artist": ["NewJeans"],
@@ -7529,6 +8033,7 @@
     "image": "covers/supernatural.jpg"
   },
   {
+    "id": "que-sera-sera-doris-day",
     "title": "Qué Será, Será (Whatever Will Be, Will Be)",
     "year": "1956",
     "artist": ["Doris Day"],
@@ -7543,6 +8048,7 @@
     "image": "covers/que-sera-sera.jpg"
   },
   {
+    "id": "heal-the-world-michael-jackson",
     "title": "Heal the World",
     "year": "1991",
     "artist": ["Michael Jackson"],
@@ -7557,6 +8063,7 @@
     "image": "covers/dangerous-mj.jpg"
   },
   {
+    "id": "hollywood-geomjeongcima",
     "title": "Hollywood",
     "year": "2015",
     "artist": ["검정치마"],
@@ -7572,6 +8079,7 @@
     "image": "covers/hollywood-blackskirts.jpg"
   },
   {
+    "id": "money-lisa",
     "title": "Money",
     "year": "2021",
     "artist": ["Lisa (ลิซ่า)"],
@@ -7586,6 +8094,7 @@
     "image": "covers/lalisa.jpg"
   },
   {
+    "id": "silence-marshmello",
     "title": "Silence",
     "year": "2017",
     "artist": ["Marshmello","Khalid"],
@@ -7600,6 +8109,7 @@
     "image": "covers/silence-marshmello.jpg"
   },
   {
+    "id": "snowman-sia",
     "title": "Snowman",
     "year": "2017",
     "artist": ["Sia"],
@@ -7614,6 +8124,7 @@
     "image": "covers/snowman-sia.jpg"
   },
   {
+    "id": "the-first-noel-traditional",
     "title": "The First Noel (The First Nowell)",
     "year": "?",
     "artist": [],
@@ -7629,6 +8140,7 @@
     "image": "covers/noel.jpg"
   },
   {
+    "id": "how-long-charlie-puth",
     "title": "How Long",
     "year": "2017",
     "artist": ["Charlie Puth"],
@@ -7643,6 +8155,7 @@
     "image": "covers/voicenotes-charlie-puth.jpg"
   },
   {
+    "id": "dancing-in-the-moonlight-boffalongo",
     "title": "Dancing in the Moonlight",
     "year": "1970",
     "artist": ["Boffalongo"],
@@ -7658,6 +8171,7 @@
     "image": "covers/dancing-in-the-moonlight.jpg"
   },
   {
+    "id": "alone-again-gilbert-osullivan",
     "title": "Alone Again (Naturally)",
     "year": "1972",
     "artist": ["Gilbert O'Sullivan"],
@@ -7673,6 +8187,7 @@
     "image": "covers/alone-again.jpg"
   },
   {
+    "id": "cant-take-my-eyes-off-you-frankie-valli",
     "title": "Can't Take My Eyes Off You",
     "year": "1967",
     "artist": ["Frankie Valli"],
@@ -7688,6 +8203,7 @@
     "image": "covers/cant-take-my-eyes.jpg"
   },
   {
+    "id": "yellow-coldplay",
     "title": "Yellow",
     "year": "2000",
     "artist": ["Coldplay"],
@@ -7702,6 +8218,7 @@
     "image": "covers/parachutes-coldplay.jpg"
   },
   {
+    "id": "misty-erroll-garner",
     "title": "Misty",
     "year": "1954",
     "artist": [],
@@ -7718,6 +8235,7 @@
     "image": "covers/erroll-garner.jpg"
   },
   {
+    "id": "what-a-wonderful-world-louis-armstrong",
     "title": "What a Wonderful World",
     "year": "1967",
     "artist": ["Louis Armstrong"],
@@ -7733,6 +8251,7 @@
     "image": "covers/what-a-wonderful-world.jpg"
   },
   {
+    "id": "isnt-she-lovely-stevie-wonder",
     "title": "Isn't She Lovely",
     "year": "1976",
     "artist": ["Stevie Wonder"],
@@ -7747,6 +8266,7 @@
     "image": "covers/isnt-she-lovely.jpg"
   },
   {
+    "id": "kung-fu-fighting-carl-douglas",
     "title": "Kung Fu Fighting",
     "year": "1974",
     "artist": ["Carl Douglas"],
@@ -7762,6 +8282,7 @@
     "image": "covers/kung-fu-fighting.jpg"
   },
   {
+    "id": "mi-bendicion-juan-luis-guerra-4-40",
     "title": "Mi Bendicion",
     "year": "2010",
     "artist": ["Juan Luis Guerra 4.40"],
@@ -7776,6 +8297,7 @@
     "image": "covers/mi-bendicion.jpg"
   },
   {
+    "id": "waltzing-matilda-banjo-paterson",
     "title": "Waltzing Matilda",
     "year": "1895",
     "artist": [],
@@ -7792,6 +8314,7 @@
     "image": "covers/waltzing-matilda.jpg"
   },
   {
+    "id": "happy-day-kostas-doxas",
     "title": "Το Τραγούδι Του Καιρού (Happy Day)",
     "year": "2016",
     "artist": ["Kostas Doxas (Κώστας Δόξας)"],
@@ -7806,6 +8329,7 @@
     "image": "covers/kalimera.jpg"
   },
   {
+    "id": "la-gozadera-gente-de-zona",
     "title": "La Gozadera",
     "year": "2015",
     "artist": ["Gente De Zona","Marc Anthony"],
@@ -7820,6 +8344,7 @@
     "image": "covers/la-gozadera.jpg"
   },
   {
+    "id": "a-thousand-years-christina-perri",
     "title": "A Thousand Years",
     "year": "2011",
     "artist": ["Christina Perri"],
@@ -7834,6 +8359,7 @@
     "image": "covers/a-thousand-years.jpg"
   },
   {
+    "id": "tunnista-tuntiin-ege-zulu",
     "title": "Tunnista tuntiin",
     "year": "2024",
     "artist": ["Ege Zulu","Behm"],
@@ -7848,6 +8374,7 @@
     "image": "covers/tunnista-tuntiin.jpg"
   },
   {
+    "id": "naro-beman-pallett",
     "title": "Naro, Beman (نرو٬ بمان)",
     "year": "2013",
     "artist": ["Pallett (پالت)"],
@@ -7862,6 +8389,7 @@
     "image": "covers/naro-beman.jpg"
   },
   {
+    "id": "resham-firiri-sunder-shrestha",
     "title": "Resham Firiri (रेशम फिरिरि)",
     "year": "1969",
     "artist": ["Sunder Shrestha","Dwarika Lal Joshi"],
@@ -7876,6 +8404,7 @@
     "image": "covers/nepal-folk.jpg"
   },
   {
+    "id": "virtual-love-tanin-jazz",
     "title": "ВИРТУАЛЬНАЯ ЛЮБОВЬ (VIRTUAL LOVE)",
     "year": "2008",
     "artist": ["Tanin Jazz"],
@@ -7890,6 +8419,7 @@
     "image": "covers/virtual-love.jpg"
   },
   {
+    "id": "city-of-stars-ryan-gosling",
     "title": "City of Stars",
     "year": "2016",
     "artist": ["Ryan Gosling","Emma Stone"],
@@ -7904,6 +8434,7 @@
     "image": "covers/la-la-land.jpg"
   },
   {
+    "id": "treasure-bruno-mars",
     "title": "Treasure",
     "year": "2012",
     "artist": ["Bruno Mars"],
@@ -7918,6 +8449,7 @@
     "image": "covers/unorthodox-bruno-mars.jpg"
   },
   {
+    "id": "handclap-fitz-and-the-tantrums",
     "title": "HandClap",
     "year": "2016",
     "artist": ["Fitz and The Tantrums"],
@@ -7932,6 +8464,7 @@
     "image": "covers/handclap.jpg"
   },
   {
+    "id": "3roos-elneel-alsarah-the-nubatones",
     "title": "3roos Elneel",
     "year": "2016",
     "artist": ["Alsarah & The Nubatones"],
@@ -7946,6 +8479,7 @@
     "image": "covers/3roos-elneel.jpg"
   },
   {
+    "id": "1-2-3-sofia-reyes",
     "title": "1, 2, 3",
     "year": "2018",
     "artist": ["Sofía Reyes","Jason Derulo","De La Ghetto"],
@@ -7960,6 +8494,7 @@
     "image": "covers/123.jpg"
   },
   {
+    "id": "warriors-imagine-dragons",
     "title": "Warriors",
     "year": "2014",
     "artist": ["Imagine Dragons"],
@@ -7975,6 +8510,7 @@
     "image": "covers/warriors.jpg"
   },
   {
+    "id": "gyongyhaju-lany-omega",
     "title": "Gyöngyhajú lány",
     "year": "1970",
     "artist": ["Omega"],
@@ -7990,6 +8526,7 @@
     "image": "covers/10000lepes.jpg"
   },
   {
+    "id": "the-sun-will-never-settle-kingfishr",
     "title": "The Sun Will Never Settle",
     "year": "2026",
     "artist": ["Kingfishr"],
@@ -8004,6 +8541,7 @@
     "image": "covers/the-sun-will.jpg"
   },
   {
+    "id": "i-just-called-to-say-i-love-you-stevie-wonder",
     "title": "I Just Called to Say I Love You",
     "year": "1984",
     "artist": ["Stevie Wonder"],
@@ -8018,6 +8556,7 @@
     "image": "covers/the-woman-in-red.jpg"
   },
   {
+    "id": "shape-of-my-heart-sting",
     "title": "Shape of My Heart",
     "year": "1993",
     "artist": ["Sting"],
@@ -8033,6 +8572,7 @@
     "image": "covers/ten-summoners-tales.jpg"
   },
   {
+    "id": "geumsaengyeon-chuan-zi",
     "title": "今生缘 (금생연)",
     "year": "2009",
     "artist": ["Chuan Zi (川子)"],
@@ -8048,6 +8588,7 @@
     "image": "covers/今生缘.jpg"
   },
   {
+    "id": "sakayume-king-gnu",
     "title": "逆夢 (Sakayume)",
     "year": "2023",
     "artist": ["King Gnu"],
@@ -8062,6 +8603,7 @@
     "image": "covers/the-greatest-unknown.jpg"
   },
   {
+    "id": "my-grandfathers-clock-henry-clay-work",
     "title": "My Grandfather's Clock",
     "year": "1876",
     "artist": [],
@@ -8078,6 +8620,7 @@
     "image": "covers/grandfathers-clock.jpg"
   },
   {
+    "id": "games-people-play-joe-south",
     "title": "Games People Play",
     "year": "1968",
     "artist": ["Joe South"],
@@ -8093,6 +8636,7 @@
     "image": "covers/games-people-play.jpg"
   },
     {
+    "id": "nerde-hani-mazhar-ve-fuat",
     "title": "Nerde Hani",
     "year": "1973",
     "artist": ["Mazhar ve Fuat"],
@@ -8108,6 +8652,7 @@
     "image": "covers/mazhar-ve-fuat.jpg"
   },
   {
+    "id": "soldat-5nizza",
     "title": "Солдат (Soldat)",
     "year": "2003",
     "artist": ["5'nizza"],
@@ -8122,6 +8667,7 @@
     "image": "covers/soldat-5nizza.jpg"
   },
   {
+    "id": "water-tyla",
     "title": "Water",
     "year": "2023",
     "artist": ["Tyla"],
@@ -8136,6 +8682,7 @@
     "image": "covers/water-tyla.jpg"
   },
   {
+    "id": "saranghagi-ddaemune-yujaeha",
     "title": "사랑하기 때문에",
     "year": "1987",
     "artist": ["유재하"],
@@ -8150,6 +8697,7 @@
     "image": "covers/사랑하기때문에-유재하.jpg"
   },
   {
+    "id": "piano-man-billy-joel",
     "title": "Piano Man",
     "year": "1973",
     "artist": ["Billy Joel"],
@@ -8164,6 +8712,7 @@
     "image": "covers/piano-man.jpg"
   },
   {
+    "id": "halala-siyanibongela-traditional",
     "title": "Halala Siyanibongela",
     "year": "?",
     "artist": [],
@@ -8179,6 +8728,7 @@
     "image": "covers/zulu.jpg"
   },
   {
+    "id": "banat-iskandaria-traditional",
     "title": "Banat Iskandaria (يا بنات اسكندرية)",
     "year": "?",
     "artist": [],
@@ -8195,6 +8745,7 @@
     "image": "covers/banat-iskandaria.jpg"
   },
   {
+    "id": "katibim-traditional",
     "title": "Kâtibim (Üsküdar'a Gider İken)",
     "year": "?",
     "artist": [],
@@ -8211,6 +8762,7 @@
     "image": "covers/katibim.jpg"
   },
   {
+    "id": "ti-ipermaho-traditional",
     "title": "Τη Υπερμάχω (Ti Ipermaho)",
     "year": "5c?",
     "artist": [],
@@ -8226,6 +8778,7 @@
     "image": "covers/greek-orthodox.jpg"
   },
   {
+    "id": "tezeta-mulatu-astatke",
     "title": "Tezeta (Nostalgia)",
     "year": "1969",
     "artist": ["Mulatu Astatke (ሙላቱ አስታጥቄ)"],
@@ -8240,6 +8793,7 @@
     "image": "covers/ethiopiques4.jpg"
   },
   {
+    "id": "seikilos-epitaph-seikilos",
     "title": "Seikilos Epitaph (Επιτάφιος του Σείκιλου)",
     "year": "1c?",
     "artist": [],
@@ -8256,6 +8810,7 @@
     "image": "covers/seikilos.jpg"
   },
   {
+    "id": "banaha-traditional",
     "title": "Banaha",
     "year": "?",
     "artist": [],
@@ -8272,6 +8827,7 @@
     "image": "covers/banaha.jpg"
   },
   {
+    "id": "sabry-aalil-sherine",
     "title": "Sabry Aalil (صبري قليل)",
     "year": "2003",
     "artist": ["Sherine (شيرين)"],
@@ -8286,6 +8842,7 @@
     "image": "covers/sabry-aalil.jpg"
   },
   {
+    "id": "por-el-amor-de-una-mujer-danny-daniel",
     "title": "Por el Amor de una Mujer",
     "year": "1974",
     "artist": ["Danny Daniel"],
@@ -8302,6 +8859,7 @@
     "image": "covers/por-el-amor-de-una-mujer.jpg"
   },
   {
+    "id": "shairebi-traditional",
     "title": "შაირები (Shairebi)",
     "year": "?",
     "artist": [],
@@ -8318,6 +8876,7 @@
     "image": "covers/shairebi.jpg"
   },
   {
+    "id": "jutti-meri-traditional",
     "title": "जुत्ती मेरी (Jutti Meri)",
     "year": "?",
     "artist": [],
@@ -8333,6 +8892,7 @@
     "image": "covers/jutti-meri.jpg"
   },
   {
+    "id": "whered-all-the-time-go-dr-dog",
     "title": "Where'd All the Time Go?",
     "year": "2010",
     "artist": ["Dr.Dog"],
@@ -8347,6 +8907,7 @@
     "image": "covers/drdog.jpg"
   },
   {
+    "id": "havana-camila-cabello",
     "title": "Havana",
     "year": "2017",
     "artist": ["Camila Cabello","Young Thug"],
@@ -8362,6 +8923,7 @@
     "image": "covers/camila.jpg"
   },
   {
+    "id": "aa-shuu-dekeyi-oo-traditional",
     "title": "Аа-шуу-декей-оо (Aa-shuu-dekeyi-oo)",
     "year": "?",
     "artist": [],
@@ -8377,6 +8939,7 @@
     "image": "covers/tuva.jpg"
   },
   {
+    "id": "we-didnt-start-the-fire-billy-joel",
     "title": "We Didn't Start the Fire",
     "year": "1989",
     "artist": ["Billy Joel"],
@@ -8391,6 +8954,7 @@
     "image": "covers/we-didnt-start-the-fire.jpg"
   },
   {
+    "id": "what-ive-done-linkin-park",
     "title": "What I've Done",
     "year": "2007",
     "artist": ["Linkin Park"],
@@ -8405,6 +8969,7 @@
     "image": "covers/what-ive-done.jpg"
   },
   {
+    "id": "ylivoimainen-kuumaa",
     "title": "Ylivoimainen",
     "year": "2023",
     "artist": ["KUUMAA"],
@@ -8419,6 +8984,7 @@
     "image": "covers/ylivoimainen.jpg"
   },
   {
+    "id": "i-will-always-love-you-dolly-parton",
     "title": "I Will Always Love You",
     "year": "1974",
     "artist": ["Dolly Parton"],
@@ -8434,6 +9000,7 @@
     "image": "covers/jolene-dolly-parton.jpg"
   },
   {
+    "id": "last-christmas-wham",
     "title": "Last Christmas",
     "year": "1984",
     "artist": ["Wham!"],
@@ -8448,6 +9015,7 @@
     "image": "covers/last-christmas.jpg"
   },
   {
+    "id": "the-nights-avicii",
     "title": "The Nights",
     "year": "2014",
     "artist": ["Avicii"],
@@ -8462,6 +9030,7 @@
     "image": "covers/the-nights-avicii.jpg"
   },
   {
+    "id": "hanadul-paenkeulreob-gumi",
     "title": "いーあるふぁんくらぶ (하나둘 팬클럽)",
     "year": "2012",
     "artist": ["GUMI","Kagamine Lin (鏡音リン)"],
@@ -8476,6 +9045,7 @@
     "image": "covers/12fanclub.jpg"
   },
   {
+    "id": "bad-apple-feat-nomico-nomico",
     "title": "Bad Apple!! feat. nomico",
     "year": "2007",
     "artist": ["nomico"],
@@ -8490,6 +9060,7 @@
     "image": "covers/badapple.jpg"
   },
   {
+    "id": "ripped-pants-tom-kenny",
     "title": "Ripped Pants",
     "year": "1999",
     "artist": ["Tom Kenny","Saltpeter"],
@@ -8505,6 +9076,7 @@
     "image": "covers/spongebob.jpg"
   },
   {
+    "id": "southern-cross-403",
     "title": "Southern Cross",
     "year": "2003",
     "artist": ["403"],
@@ -8519,6 +9091,7 @@
     "image": "covers/southern-cross.jpg"
   },
   {
+    "id": "binubangul-oseungweon",
     "title": "비누방울",
     "year": "1987",
     "artist": ["오승원","서울오디오 코러스"],
@@ -8533,6 +9106,7 @@
     "image": "covers/둘리.jpg"
   },
   {
+    "id": "eonjena-myeoc-beonirado-youmi-kimura",
     "title": "いつも何度でも (언제나 몇 번이라도)",
     "year": "2001",
     "artist": ["Youmi Kimura (木村弓)"],
@@ -8548,6 +9122,7 @@
     "image": "covers/spirited-away.jpg"
   },
   {
+    "id": "saebyeogyi-gil-kumiko-osugi",
     "title": "よあけのみち (새벽의 길)",
     "year": "1975",
     "artist": ["Kumiko Ōsugi (大杉久美子)","Antwerp Children Chorus"],
@@ -8563,6 +9138,7 @@
     "image": "covers/flanders.jpg"
   },
   {
+    "id": "e-leo-au-se-fufuluulo-mr-cowboy",
     "title": "E Le'o A'u Se Fufulu'ulo",
     "year": "2019",
     "artist": ["Mr Cowboy"],
@@ -8577,6 +9153,7 @@
     "image": "covers/eleo.jpg"
   },
   {
+    "id": "i-really-want-to-stay-at-your-house-rosa-walton",
     "title": "I Really Want to Stay at Your House",
     "year": "2020",
     "artist": ["Rosa Walton"],
@@ -8591,6 +9168,7 @@
     "image": "covers/cyberpunk.jpg"
   },
   {
+    "id": "jangnangi-gineung-kasane-teto",
     "title": "おちゃめ機能 (장난기 기능)",
     "year": "2010",
     "artist": ["Kasane Teto (重音テト)"],
@@ -8606,6 +9184,7 @@
     "image": "covers/장난기.jpg"
   },
   {
+    "id": "oh-lieb-so-lang-du-lieben-kannst-franz-liszt",
     "title": "Oh Lieb, so lang du lieben kannst (Liebesträume S.541 No.3)",
     "year": "1850",
     "artist": [],
@@ -8620,6 +9199,7 @@
     "image": "covers/liszt.jpg"
   },
   {
+    "id": "wind-garden-heng-tian-zhen-ren",
     "title": "Wind Garden (Gusty Garden Galaxy)",
     "year": "2007",
     "artist": [],
@@ -8634,6 +9214,7 @@
     "image": "covers/mario-galaxy.jpg"
   },
   {
+    "id": "this-is-me-keala-settle",
     "title": "This Is Me",
     "year": "2017",
     "artist": ["Keala Settle"],
@@ -8649,6 +9230,7 @@
     "image": "covers/the-greatest-showman.jpg"
   },
   {
+    "id": "close-to-you-the-carpenters",
     "title": "(They Long to Be) Close to You",
     "year": "1970",
     "artist": ["The Carpenters"],
@@ -8663,6 +9245,7 @@
     "image": "covers/close-to-you.jpg"
   },
   {
+    "id": "every-breath-you-take-the-police",
     "title": "Every Breath You Take",
     "year": "1983",
     "artist": ["The Police"],
@@ -8677,6 +9260,7 @@
     "image": "covers/every-breath.jpg"
   },
   {
+    "id": "youve-got-a-friend-in-me-randy-newman",
     "title": "You've Got a Friend in Me",
     "year": "1995",
     "artist": ["Randy Newman"],
@@ -8691,6 +9275,7 @@
     "image": "covers/toy-story.jpg"
   },
   {
+    "id": "pis-lullaby-bombay-jayashri",
     "title": "Pi's Lullaby",
     "year": "2012",
     "artist": ["Bombay Jayashri"],
@@ -8705,6 +9290,7 @@
     "image": "covers/life-of-pi.jpg"
   },
   {
+    "id": "im-not-the-only-one-sam-smith",
     "title": "I'm Not the Only One",
     "year": "2014",
     "artist": ["Sam Smith"],
@@ -8719,6 +9305,7 @@
     "image": "covers/lonely-hour.jpg"
   },
   {
+    "id": "galop-infernal-jacques-offenbach",
     "title": "Galop infernal (Can Can)",
     "year": "1858",
     "artist": [],
@@ -8733,6 +9320,7 @@
     "image": "covers/offenbach.jpg"
   },
   {
+    "id": "maniac-conan-gray",
     "title": "Maniac",
     "year": "2019",
     "artist": ["Conan Gray"],
@@ -8748,6 +9336,7 @@
     "image": "covers/kidkrow.jpg"
   },
   {
+    "id": "sign-of-the-times-harry-styles",
     "title": "Sign of the Times",
     "year": "2017",
     "artist": ["Harry Styles"],
@@ -8762,6 +9351,7 @@
     "image": "covers/harry-styles.jpg"
   },
   {
+    "id": "rock-with-you-michael-jackson",
     "title": "Rock With You",
     "year": "1979",
     "artist": ["Michael Jackson"],
@@ -8776,6 +9366,7 @@
     "image": "covers/off-the-wall.jpg"
   },
   {
+    "id": "englishman-in-new-york-sting",
     "title": "Englishman in New York",
     "year": "1988",
     "artist": ["Sting"],
@@ -8790,6 +9381,7 @@
     "image": "covers/nothing-like-the-sun.jpg"
   },
   {
+    "id": "starman-david-bowie",
     "title": "Starman",
     "year": "1972",
     "artist": ["David Bowie"],
@@ -8804,6 +9396,7 @@
     "image": "covers/starman.jpg"
   },
   {
+    "id": "top-of-the-world-the-carpenters",
     "title": "Top of the World",
     "year": "1972",
     "artist": ["The Carpenters"],
@@ -8820,6 +9413,7 @@
     "image": "covers/song-for-you.jpg"
   },
   {
+    "id": "sunday-morning-maroon-5",
     "title": "Sunday Morning",
     "year": "2002",
     "artist": ["Maroon 5"],
@@ -8834,6 +9428,7 @@
     "image": "covers/songs-about-jane.jpg"
   },
   {
+    "id": "deja-vu-dave-rodgers",
     "title": "Deja Vu",
     "year": "1999",
     "artist": ["Dave Rodgers"],
@@ -8848,6 +9443,7 @@
     "image": "covers/deja-vu.jpg"
   },
   {
+    "id": "its-my-life-bon-jovi",
     "title": "It's My Life",
     "year": "2000",
     "artist": ["Bon Jovi"],
@@ -8862,6 +9458,7 @@
     "image": "covers/crush-bon-jovi.jpg"
   },
   {
+    "id": "nothings-gonna-change-my-love-for-you-george-benson",
     "title": "Nothing's Gonna Change My Love for You",
     "year": "1985",
     "artist": ["George Benson"],
@@ -8876,6 +9473,7 @@
     "image": "covers/20-20.jpg"
   },
   {
+    "id": "l-o-v-e-nat-king-cole",
     "title": "L-O-V-E",
     "year": "1964",
     "artist": ["Nat King Cole"],
@@ -8892,6 +9490,7 @@
     "image": "covers/love.jpg"
   },
   {
+    "id": "lone-digger-carvan-place",
     "title": "Lone Digger",
     "year": "2015",
     "artist": ["Carvan Place"],
@@ -8906,6 +9505,7 @@
     "image": "covers/robot.jpg"
   },
   {
+    "id": "love-nwantiti-ckay",
     "title": "Love Nwantiti",
     "year": "2019",
     "artist": ["Ckay"],
@@ -8922,6 +9522,7 @@
     "image": "covers/love-nwantiti.jpg"
   },
   {
+    "id": "deixa-a-gira-gira-os-tincoas",
     "title": "Deixa A Gira Girá",
     "year": "1973",
     "artist": ["Os Tincoãs"],
@@ -8936,6 +9537,7 @@
     "image": "covers/os-tincoas.jpg"
   },
   {
+    "id": "supsogyi-jageun-reseutorang-aoi-teshima",
     "title": "森の小さなレストラン (숲속의 작은 레스토랑)",
     "year": "2023",
     "artist": ["Aoi Teshima (手嶌葵)"],
@@ -8950,6 +9552,7 @@
     "image": "covers/donguri.jpg"
   },
   {
+    "id": "just-the-two-of-us-grover-washington-jr",
     "title": "Just the Two of Us",
     "year": "1981",
     "artist": ["Grover Washington Jr.","Bill Withers"],
@@ -8964,6 +9567,7 @@
     "image": "covers/just-the-two-of-us.jpg"
   },
   {
+    "id": "spokoynaya-noch-kino",
     "title": "Спокойная ночь (Spokoynaya noch')",
     "year": "1986",
     "artist": ["Kino (Кино)"],
@@ -8978,6 +9582,7 @@
     "image": "covers/группа-крови.jpg"
   },
   {
+    "id": "khochu-peremen-kino",
     "title": "Хочу перемен (Khochu peremen)",
     "year": "1986",
     "artist": ["Kino (Кино)"],
@@ -8992,6 +9597,7 @@
     "image": "covers/posledniy-geroy.jpg"
   },
   {
+    "id": "eto-ne-lyubov-kino",
     "title": "Это не любовь (Eto ne lyubov)",
     "year": "1985",
     "artist": ["Kino (Кино)"],
@@ -9006,6 +9612,7 @@
     "image": "covers/eto-ne-lyubov.jpg"
   },
   {
+    "id": "bezos-i-bo-burnham",
     "title": "Bezos I",
     "year": "2021",
     "artist": ["Bo Burnham"],
@@ -9021,6 +9628,7 @@
     "image": "covers/bo-burnham.jpg"
   },
   {
+    "id": "vitality-mittsies",
     "title": "Vitality",
     "year": "2018",
     "artist": [],
@@ -9035,6 +9643,7 @@
     "image": "covers/helltaker.jpg"
   },
   {
+    "id": "toca-toca-fly-project",
     "title": "Toca Toca",
     "year": "2013",
     "artist": ["Fly Project"],
@@ -9049,6 +9658,7 @@
     "image": "covers/toca-toca.jpg"
   },
   {
+    "id": "symfonie-z-noveho-sveta-iv-veta-antonin-dvorak",
     "title": "교향곡 9번 '신세계로부터' 4악장 (Symfonie 'Z nového světa', IV. věta)",
     "year": "1893",
     "artist": [],
@@ -9064,6 +9674,7 @@
     "image": "covers/dvorak.jpg"
   },
   {
+    "id": "lascia-chio-pianga-georg-friedrich-handel",
     "title": "Lascia ch'io pianga (울게 하소서)",
     "year": "1711",
     "artist": [],
@@ -9079,6 +9690,7 @@
     "image": "covers/handel.jpg"
   },
   {
+    "id": "qalb-thane-saif-nabeel",
     "title": "قلب ثاني (Qalb Thane)",
     "year": "2019",
     "artist": ["Saif Nabeel (سيف نبيل)"],
@@ -9093,6 +9705,7 @@
     "image": "covers/qalb-thane.jpg"
   },
   {
+    "id": "pujaanku-masdo",
     "title": "Pujaanku",
     "year": "2023",
     "artist": ["MASDO","Aisyah Aziz"],
@@ -9107,6 +9720,7 @@
     "image": "covers/pujaanku.jpg"
   },
   {
+    "id": "ayokong-tumanda-the-itchyworms",
     "title": "Ayokong Tumanda",
     "year": "2013",
     "artist": ["The Itchyworms"],
@@ -9121,6 +9735,7 @@
     "image": "covers/ayokong-tumanda.jpg"
   },
   {
+    "id": "mashaer-sherine",
     "title": "Masha'er (مشاعر)",
     "year": "2013",
     "artist": ["Sherine (شيرين)"],
@@ -9135,6 +9750,7 @@
     "image": "covers/masha3er.jpg"
   },
   {
+    "id": "danbalmeori-joyongpil",
     "title": "단발머리",
     "year": "1980",
     "artist": ["조용필"],
@@ -9149,6 +9765,7 @@
     "image": "covers/단발머리.jpg"
   },
   {
+    "id": "bang-bang-jessie-j",
     "title": "Bang Bang",
     "year": "2014",
     "artist": ["Jessie J","Ariana Grande","Nicki Minaj"],
@@ -9163,6 +9780,7 @@
     "image": "covers/bang-bang.jpg"
   },
   {
+    "id": "doremipa-rondo-hatsune-miku",
     "title": "ドレミファロンド (도레미파 론도)",
     "year": "2012",
     "artist": ["Hatsune Miku (初音ミク)"],
@@ -9177,6 +9795,7 @@
     "image": "covers/doremifa-rondo.jpg"
   },
   {
+    "id": "installation-uni",
     "title": "Installation",
     "year": "2017",
     "artist": ["유니 (UNI)"],
@@ -9192,6 +9811,7 @@
     "image": "covers/uni.jpg"
   },
   {
+    "id": "o-tannenbaum-ernst-anschutz",
     "title": "O Tannenbaum",
     "year": "1824",
     "artist": [],
@@ -9206,6 +9826,7 @@
     "image": "covers/o-tannenbaum.jpg"
   },
   {
+    "id": "ah-vous-dirai-je-maman",
     "title": "Ah! Vous dirai-je, maman",
     "year": "1761",
     "artist": [],
@@ -9221,6 +9842,7 @@
     "image": "covers/ah-vous-dirai-je.jpg"
   },
   {
+    "id": "csikos-post-hermann-necke",
     "title": "Csikós Post (크시코스의 우편마차)",
     "year": "1895",
     "artist": [],
@@ -9236,6 +9858,7 @@
     "image": "covers/necke.jpg"
   },
   {
+    "id": "gavotte-francois-joseph-gossec",
     "title": "Gavotte",
     "year": "1786",
     "artist": [],
@@ -9251,6 +9874,7 @@
     "image": "covers/gossec.jpg"
   },
   {
+    "id": "hes-a-pirate-klaus-badelt",
     "title": "He's a Pirate",
     "year": "2003",
     "artist": [],
@@ -9265,6 +9889,7 @@
     "image": "covers/pirates.jpg"
   },
   {
+    "id": "i-dovregubbens-hall-edvard-grieg",
     "title": "I Dovregubbens hall (In the Hall of the Mountain King)",
     "year": "1875",
     "artist": [],
@@ -9279,6 +9904,7 @@
     "image": "covers/grieg.jpg"
   },
   {
+    "id": "the-real-slim-shady-eminem",
     "title": "The Real Slim Shady",
     "year": "2000",
     "artist": ["Eminem"],
@@ -9293,6 +9919,7 @@
     "image": "covers/marshall-mathers.jpg"
   },
   {
+    "id": "stay-the-kid-laroi",
     "title": "STAY",
     "year": "2021",
     "artist": ["The Kid Laroi","Justin Bieber"],
@@ -9307,6 +9934,7 @@
     "image": "covers/stay.jpg"
   },
   {
+    "id": "niggas-in-paris-kanye-west",
     "title": "Niggas in Paris",
     "year": "2011",
     "artist": ["Kanye West","Jay-Z"],
@@ -9321,6 +9949,7 @@
     "image": "covers/watch-the-throne.jpg"
   },
   {
+    "id": "babo-gati-takaya-kuroda",
     "title": "ばかみたい (바보 같이)",
     "year": "2012",
     "artist": ["Takaya Kuroda (黒く田崇矢)"],
@@ -9336,6 +9965,7 @@
     "image": "covers/bakamitai.jpg"
   },
   {
+    "id": "seven-nation-army-the-white-stripes",
     "title": "Seven Nation Army",
     "year": "2003",
     "artist": ["The White Stripes"],
@@ -9350,6 +9980,7 @@
     "image": "covers/7-nation.jpg"
   },
   {
+    "id": "sebelep-jax-02-14",
     "title": "Sebelep",
     "year": "2022",
     "artist": ["Jax 02.14"],
@@ -9364,6 +9995,7 @@
     "image": "covers/sebelep.jpg"
   },
   {
+    "id": "salom-shoxrux",
     "title": "Salom",
     "year": "2006",
     "artist": ["Shoxrux","Sarvar"],
@@ -9378,6 +10010,7 @@
     "image": "covers/salom.jpg"
   },
   {
+    "id": "a-la-volonte-du-peuple-claude-michel-schonberg",
     "title": "À la volonté du peuple",
     "year": "1980",
     "artist": [],
@@ -9394,6 +10027,7 @@
     "image": "covers/les-miserables.jpg"
   },
   {
+    "id": "ceddin-deden-ismail-hakki-bey",
     "title": "Ceddin Deden",
     "year": "1917",
     "artist": [],
@@ -9408,6 +10042,7 @@
     "image": "covers/ottoman.jpg"
   },
   {
+    "id": "nas-is-like-nas",
     "title": "Nas Is Like",
     "year": "1999",
     "artist": ["Nas"],
@@ -9423,6 +10058,7 @@
     "image": "covers/i-am-nas.jpg"
   },
   {
+    "id": "you-give-love-a-bad-name-bon-jovi",
     "title": "You Give Love a Bad Name",
     "year": "1986",
     "artist": ["Bon Jovi"],
@@ -9437,6 +10073,7 @@
     "image": "covers/slippery-bon-jovi.jpg"
   },
   {
+    "id": "dark-is-the-night-mark-bernes",
     "title": "Тёмная ночь (Dark is the Night)",
     "year": "1943",
     "artist": ["Mark Bernes (Марк Бернес)"],

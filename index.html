@@ -90,6 +90,15 @@
       <button
         type="button"
         class="view-tab"
+        data-mode="playlists"
+        role="tab"
+        aria-selected="false"
+      >
+        플리
+      </button>
+      <button
+        type="button"
+        class="view-tab"
         data-mode="likes"
         role="tab"
         aria-selected="false"
@@ -123,6 +132,12 @@
 
     <div id="list-songs"></div>
 
+  </div>
+
+  <!-- 플리: 운영자가 playlists.json에 묶어 둔 곡 목록 -->
+  <div id="playlists-view" style="display: none;">
+    <div id="playlists-list" class="playlists-list"></div>
+    <div id="playlist-detail" style="display: none;"></div>
   </div>
 
   <!-- 좋아요: 이 브라우저에서 하트를 누른 곡 -->

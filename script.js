@@ -2,6 +2,8 @@ let songs = [];
 let selectedCountry = null;
 let selectedTag = null;
 let selectedArtist = null; // artistKey() 값
+let selectedPlaylist = null; // 플리 id (플리 탭에서 하나를 열어 본 상태)
+let playlists = [];          // playlists.json을 곡 객체로 풀어 둔 것
 let isRestoringState = false;
 
 // 아티스트 색인 (artistKey -> { key, name, songs }) 과 직접 입력한 아티스트 설명 (artists.json)
@@ -9,10 +11,10 @@ let artistIndex = new Map();
 let artistProfiles = new Map();
 let aliasToArtist = new Map(); // 정규화한 이름 -> 아티스트 색인 key (별칭·작곡가명 포함)
 
-// 간략 카드 목록에서 곡 상세로 들어갔을 때 돌아갈 곳: { type: "country" | "tag" | "artist" | "list" | "likes", value?, scrollY? } | null
+// 간략 카드 목록에서 곡 상세로 들어갔을 때 돌아갈 곳: { type: "country" | "tag" | "artist" | "list" | "likes" | "playlist", value?, scrollY? } | null
 let compactListReturnTo = null;
 
-// "home"(홈, 기본: 사이트 제목을 누르면 나옴) / "list"(목록) / "map"(지도) / "tags"(태그) / "artists"(사람) / "likes"(좋아요)
+// "home"(홈, 기본: 사이트 제목을 누르면 나옴) / "list"(목록) / "map"(지도) / "tags"(태그) / "artists"(사람) / "playlists"(플리) / "likes"(좋아요)
 let viewMode = "home";
 const songList = document.getElementById("song-list");
 const tagSearch = document.getElementById("tag-search");
@@ -31,6 +33,9 @@ const artistSort = document.getElementById("artist-sort");
 const artistFilter = document.getElementById("artist-filter");
 const artistCount = document.getElementById("artist-count");
 const artistInfo = document.getElementById("artist-info");
+const playlistsView = document.getElementById("playlists-view");
+const playlistsList = document.getElementById("playlists-list");
+const playlistDetail = document.getElementById("playlist-detail");
 const likesView = document.getElementById("likes-view");
 const likesSongs = document.getElementById("likes-songs");
 const likesSort = document.getElementById("likes-sort");
@@ -61,6 +66,7 @@ function showBrowseUI() {
   mapView.style.display = viewMode === "map" ? "block" : "none";
   tagsView.style.display = viewMode === "tags" ? "block" : "none";
   artistsView.style.display = viewMode === "artists" ? "block" : "none";
+  playlistsView.style.display = viewMode === "playlists" ? "block" : "none";
   likesView.style.display = viewMode === "likes" ? "block" : "none";
   homeView.style.display = viewMode === "home" ? "block" : "none";
   artistInfo.style.display = "none";
@@ -71,6 +77,7 @@ function showSongsUI() {
   mapView.style.display = "none";
   tagsView.style.display = "none";
   artistsView.style.display = "none";
+  playlistsView.style.display = "none";
   likesView.style.display = "none";
   homeView.style.display = "none";
   artistInfo.style.display = "none";
@@ -94,6 +101,7 @@ function goToBrowseView(mode) {
   selectedCountry = null;
   selectedTag = null;
   selectedArtist = null;
+  selectedPlaylist = null;
   compactListReturnTo = null;
 
   tagSearch.value = "";
@@ -115,6 +123,8 @@ function renderBrowseView() {
     renderTagsList();
   } else if (viewMode === "artists") {
     renderArtistsList();
+  } else if (viewMode === "playlists") {
+    renderPlaylistsView();
   } else if (viewMode === "likes") {
     renderLikesView();
   }
@@ -236,6 +246,10 @@ function updateURLState(addHistoryEntry = false) {
     params.set("artist", artistIndex.get(selectedArtist).name);
   }
 
+  if (viewMode === "playlists" && selectedPlaylist && !selectedCountry && !selectedTag && !selectedArtist) {
+    params.set("playlist", selectedPlaylist);
+  }
+
   // 검색어
   const keyword = tagSearch.value.trim();
 
@@ -270,8 +284,9 @@ function restoreStateFromURL() {
   const tag = params.get("tag");
   const artist = params.get("artist");
   const keyword = params.get("q");
+  const playlistParam = params.get("playlist");
 
-  const validModes = ["list", "map", "tags", "artists", "likes", "home"];
+  const validModes = ["list", "map", "tags", "artists", "playlists", "likes", "home"];
   // 예전 주소: ?view=countries, ?view=timeline은 목록으로, ?view=about은 홈으로
   viewMode = validModes.includes(view)
     ? view
@@ -281,6 +296,10 @@ function restoreStateFromURL() {
   selectedCountry = null;
   selectedTag = null;
   selectedArtist = null;
+  selectedPlaylist =
+    viewMode === "playlists" && playlists.some(p => p.id === playlistParam)
+      ? playlistParam
+      : null;
   compactListReturnTo = null;
   tagSearch.value = "";
 
@@ -331,11 +350,19 @@ function loadArtistProfiles() {
     .catch(() => ({}));
 }
 
+// 플리(playlists.json)도 선택 사항: 없거나 잘못돼도 사이트는 정상 동작
+function loadPlaylistData() {
+  return fetch(`playlists.json?v=${Date.now()}`)
+    .then(response => (response.ok ? response.json() : []))
+    .catch(() => []);
+}
+
 Promise.all([
   fetch(`sscdbg.json?v=${Date.now()}`).then(response => response.json()),
   loadArtistProfiles(),
+  loadPlaylistData(),
 ])
-  .then(([data, profiles]) => {
+  .then(([data, profiles, playlistData]) => {
 
     songs = data.map(song => ({
       ...song,
@@ -359,6 +386,7 @@ Promise.all([
     }));
 
     assignSongIds();
+    buildPlaylists(playlistData);
     loadLikes();
     updateLikesTabCount();
 
@@ -743,6 +771,151 @@ listSort?.addEventListener("change", renderSongListView);
 listGroup?.addEventListener("change", renderSongListView);
 
 // -------------------------------------
+// 플리 (운영자가 playlists.json에 묶어 둔 곡 목록)
+// -------------------------------------
+//
+// playlists.json 형식:
+//   [ { "id": "주소에 쓰는 이름", "title": "제목", "description": "설명",
+//       "songs": ["곡id", { "id": "곡id", "note": "곡 아래에 보일 한마디" }, ...] } ]
+// 곡 id는 sscdbg.json의 "id"입니다. 없는 id는 건너뛰고 콘솔에 알립니다.
+
+function buildPlaylists(raw) {
+  const byId = new Map(songs.map(song => [song.id, song]));
+
+  playlists = (Array.isArray(raw) ? raw : [])
+    .filter(item => item && typeof item === "object")
+    .map((item, index) => {
+      const title = String(item.title ?? "").trim() || `플리 ${index + 1}`;
+      const id = String(item.id ?? "").trim() || `p${index + 1}`;
+      const entries = [];
+
+      (Array.isArray(item.songs) ? item.songs : []).forEach(entry => {
+        const songId = typeof entry === "string" ? entry : entry?.id;
+        const song = byId.get(songId);
+        if (!song) {
+          console.warn(`플리 "${title}"에 없는 곡 ID가 있습니다: ${JSON.stringify(songId)}`);
+          return;
+        }
+        const note = typeof entry === "object" && entry.note ? String(entry.note) : "";
+        entries.push({ song, note });
+      });
+
+      return {
+        id,
+        title,
+        description: String(item.description ?? "").trim(),
+        entries,
+      };
+    });
+
+  const seen = new Set();
+  playlists.forEach(playlist => {
+    if (seen.has(playlist.id)) {
+      console.warn(`플리 id가 겹칩니다: "${playlist.id}"`);
+    }
+    seen.add(playlist.id);
+  });
+
+  const tab = document.querySelector('.view-tab[data-mode="playlists"]');
+  if (tab) tab.style.display = playlists.length ? "" : "none";
+}
+
+function selectPlaylist(id) {
+  selectedPlaylist = id;
+  viewMode = "playlists";
+  compactListReturnTo = null;
+  setActiveViewTab();
+  renderBrowseView();
+  updateURLState(true);
+  window.scrollTo(0, 0);
+}
+
+function renderPlaylistsView() {
+  const playlist = playlists.find(p => p.id === selectedPlaylist);
+
+  if (!playlist) {
+    selectedPlaylist = null;
+    playlistDetail.style.display = "none";
+    playlistsList.style.display = "";
+    renderPlaylistCards();
+    return;
+  }
+
+  playlistsList.style.display = "none";
+  playlistDetail.style.display = "block";
+  renderPlaylistDetail(playlist);
+}
+
+function renderPlaylistCards() {
+  playlistsList.innerHTML = "";
+
+  if (!playlists.length) {
+    playlistsList.innerHTML = `<div class="no-results">아직 플리가 없습니다.</div>`;
+    return;
+  }
+
+  playlists.forEach(playlist => {
+    const card = document.createElement("button");
+    card.type = "button";
+    card.className = "playlist-card";
+
+    card.innerHTML = `
+      <div class="playlist-cover" aria-hidden="true"></div>
+      <div class="playlist-card-text">
+        <div class="playlist-card-title">${escapeHTML(playlist.title)}</div>
+        ${playlist.description ? `<div class="playlist-card-desc">${escapeHTML(playlist.description)}</div>` : ""}
+        <div class="playlist-card-count">${playlist.entries.length}곡</div>
+      </div>
+    `;
+
+    // 표지는 앞쪽 곡 네 개의 앨범 아트를 2×2로 붙임
+    const cover = card.querySelector(".playlist-cover");
+    playlist.entries.slice(0, 4).forEach(({ song }) => {
+      const tile = document.createElement("div");
+      tile.className = "song-artwork playlist-cover-tile";
+      cover.appendChild(tile);
+      if (typeof loadArtworkInto === "function") loadArtworkInto(tile, song);
+    });
+
+    card.addEventListener("click", () => selectPlaylist(playlist.id));
+    playlistsList.appendChild(card);
+  });
+}
+
+function renderPlaylistDetail(playlist) {
+  playlistDetail.innerHTML = `
+    <button type="button" class="back-button playlist-back">← 플리 목록</button>
+    <div class="playlist-header">
+      <h2>${escapeHTML(playlist.title)}</h2>
+      ${playlist.description ? `<p class="playlist-description">${escapeHTML(playlist.description)}</p>` : ""}
+      <div class="playlist-count">${playlist.entries.length}곡</div>
+    </div>
+    <div class="song-list-compact" id="playlist-songs"></div>
+  `;
+
+  playlistDetail.querySelector(".playlist-back").addEventListener("click", () => {
+    selectedPlaylist = null;
+    renderBrowseView();
+    updateURLState(true);
+    window.scrollTo(0, 0);
+  });
+
+  const notes = new Map();
+  playlist.entries.forEach(({ song, note }) => {
+    if (note && !notes.has(song)) notes.set(song, note);
+  });
+
+  renderCompactSongGrid(
+    playlistDetail.querySelector("#playlist-songs"),
+    playlist.entries.map(entry => entry.song),
+    {
+      returnTo: { type: "playlist", value: playlist.id },
+      captionFor: song => notes.get(song) || "",
+    }
+  );
+}
+
+// -------------------------------------
 // 좋아요 (이 브라우저의 localStorage에만 저장)
 // -------------------------------------
 //
@@ -763,17 +936,33 @@ function normalizeIdPart(value) {
     .replace(/\s+/g, " ");
 }
 
+// 곡 ID는 sscdbg.json의 "id"를 그대로 씀 (tools/add-song-ids.py로 한 번 기록).
+// "id"가 없는 곡은 "제목|가수(없으면 작곡가)"로 임시 ID를 만들고, 같은 ID가 겹치면 "#2", "#3"을 붙임.
+// legacyId는 예전 버전이 만들던 자동 ID로, 이미 눌러 둔 좋아요를 새 ID로 옮길 때만 씀.
 function assignSongIds() {
-  const used = new Map();
+  const legacyCounts = new Map();
+  const used = new Set();
 
   songs.forEach(song => {
     const people = song.artist.length ? song.artist : song.songwriters;
     const base = `${normalizeIdPart(song.title)}|${people.map(normalizeIdPart).join(",")}`;
 
-    const n = (used.get(base) || 0) + 1;
-    used.set(base, n);
+    const n = (legacyCounts.get(base) || 0) + 1;
+    legacyCounts.set(base, n);
+    song.legacyId = n === 1 ? base : `${base}#${n}`;
 
-    song.id = n === 1 ? base : `${base}#${n}`;
+    const own = typeof song.id === "string" ? song.id.trim() : "";
+    let id = own || song.legacyId;
+
+    if (used.has(id)) {
+      console.warn(`곡 ID가 겹칩니다: "${id}" (곡: ${song.title}) — sscdbg.json에서 id를 고쳐 주세요.`);
+      let k = 2;
+      while (used.has(`${id}#${k}`)) k++;
+      id = `${id}#${k}`;
+    }
+
+    used.add(id);
+    song.id = id;
   });
 }
 
@@ -785,6 +974,17 @@ function loadLikes() {
       ? [...new Set(parsed.filter(id => typeof id === "string"))]
       : [];
     likesPersistent = true;
+
+    // 예전 자동 ID로 저장된 좋아요를 곡의 고정 ID로 옮김
+    const currentIds = new Set(songs.map(song => song.id));
+    const legacyToId = new Map(songs.map(song => [song.legacyId, song.id]));
+    let migrated = false;
+    likedIds = [...new Set(likedIds.map(id => {
+      const next = !currentIds.has(id) && legacyToId.get(id);
+      if (next) migrated = true;
+      return next || id;
+    }))];
+    if (migrated) saveLikes();
   } catch (error) {
     // 저장소를 쓸 수 없으면(시크릿 모드 등) 이 페이지를 열어 둔 동안만 기억
     likesPersistent = false;
@@ -1077,6 +1277,12 @@ backButton.addEventListener("click", () => {
       selectTag(returnTo.value);
     } else if (returnTo.type === "artist") {
       selectArtist(returnTo.value);
+    } else if (returnTo.type === "playlist") {
+      viewMode = "playlists";
+      selectedPlaylist = returnTo.value;
+      setActiveViewTab();
+      renderBrowseView();
+      updateURLState();
     } else if (returnTo.type === "list" || returnTo.type === "likes") {
       viewMode = returnTo.type;
       setActiveViewTab();

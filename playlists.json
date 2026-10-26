@@ -1,0 +1,30 @@
+[
+  {
+    "id": "example-christmas",
+    "title": "크리스마스 캐롤",
+    "description": "(예시) 크리스마스에 듣는 노래들입니다.",
+    "songs": [
+      "stille-nacht-heilige-nacht-franz-xaver-gruber",
+      "o-tannenbaum-ernst-anschutz",
+      "the-first-noel-traditional",
+      "przybiezeli-do-betlejem-traditional",
+      "feliz-navidad-jose-feliciano",
+      "last-christmas-wham",
+      "snowman-sia",
+      { "id": "flowers-pyotr-tchaikovsky", "note": "곡마다 설명을 붙일 수도 있습니다 (예시)" }
+    ]
+  },
+  {
+    "id": "example-memes",
+    "title": "밈이 된 노래들",
+    "description": "(예시) 인터넷 밈으로 사용되는 곡들입니다.",
+    "songs": [
+      "moskau-dschinghis-khan",
+      "rasputin-boney-m",
+      "the-7th-element-vitas",
+      "gdzie-jest-bialy-wegorz-cypis",
+      "2-phut-hon-phao",
+      "amour-plastique-videoclub"
+    ]
+  }
+]
