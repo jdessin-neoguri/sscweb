@@ -78,21 +78,21 @@
     "image": "covers/nur-ein-wort-wir-sind-helden.jpg"
   },
   {
-    "id": "the-girl-from-ipanema-astrud-gilberto",
-    "title": "The Girl from Ipanema (Garota de Ipanema)",
-    "year": "1964",
-    "artist": ["Astrud Gilberto", "João Gilberto", "Stan Getz"],
+    "id": "the-girl-from-ipanema-joao-gilberto",
+    "title": "Garota de Ipanema",
+    "year": "1962",
+    "artist": ["Antônio Carlos Jobim", "Vinícius de Moraes", "João Gilberto"],
     "songwriters": ["Antônio Carlos Jobim", "Vinícius de Moraes"],
-    "language": ["포르투갈어", "영어"],
-    "countries": ["BR", "US"],
+    "language": ["포르투갈어"],
+    "countries": ["BR"],
     "tags": ["보사노바","재즈","리우데자네이루"],
-    "memo": "보사노바의 전설 조빙의 대표곡. 1962년 작곡되었으나 1964년 Getz/Gilberto 음반으로 세계적으로 알려졌다.",
+    "memo": "보사노바의 전설 조빙의 대표곡. 1964년 Getz/Gilberto 음반에서 Astrud Gilberto가 부른 영어 버전으로 세계적으로 알려졌다.",
     "links": [
       {"title": "블로그 해설", "url": "https://jdessin.tistory.com/25"}
     ],
     "youtube": [
-      {"title": "영어 버전 음원 (Getz/Gilberto, 1964)", "url": "https://www.youtube.com/watch?v=N-TKOh0zsvU"},
-      {"title": "초기 포르투갈어 버전 (Pery Ribeiro, 1962)", "url": "https://www.youtube.com/watch?v=jc6nMjX9pNU"}
+      {"title": "초기 포르투갈어 버전 (인트로 포함, 1962)", "url": "https://www.youtube.com/watch?v=ioO5ufVSL-U"},
+      {"title": "영어 버전 음원 (Getz/Gilberto, 1964)", "url": "https://www.youtube.com/watch?v=N-TKOh0zsvU"}
     ],
     "image": "covers/the-girl-from-ipanema.jpg"
   },
@@ -955,7 +955,7 @@
     "songwriters": ["Giuseppe Verdi"],
     "language": ["이탈리아어"],
     "countries": ["IT"],
-    "tags": ["클래식", "오페라", "이집트", "아이다"],
+    "tags": ["클래식", "오페라", "이집트", "아이다", "행진곡"],
     "memo": "오페라 <아이다> 2막, 이집트군의 개선 행진곡(Triumphal March).",
     "youtube": [
       {"title": "Wiener Philharmoniker(?)", "url": "https://www.youtube.com/watch?v=JXMdei-UTfw"},
@@ -1004,7 +1004,7 @@
     "songwriters": ["Henry Clay Work"],
     "language": ["영어"],
     "countries": ["US"],
-    "tags": ["군가", "전쟁", "남북전쟁", "조지아(미국)"],
+    "tags": ["군가", "전쟁", "남북전쟁", "조지아(미국)", "행진곡"],
     "memo": "남북전쟁 막바지, 윌리엄 테쿰세 셔먼의 진군을 기념하는 북군의 행진곡. 세계적으로 인기를 얻었으며, 한국에서는 개사하여 독립군가로 사용했다.",
     "youtube": [
       {"title": "가사", "url": "https://www.youtube.com/watch?v=H-jtYT5COvU"}
@@ -1071,7 +1071,7 @@
     "artist": ["Mili"],
     "songwriters": ["Yamato Kasai", "momocashew"],
     "language": ["영어"],
-    "countries": ["CA", "JP"],
+    "countries": ["JP","CA"],
     "tags": ["인디", "아트팝"],
     "memo": "미트볼 서브마린(샌드위치)를 소재로 한, 연인을 찾아가는 노래.",
     "youtube": [
@@ -1086,7 +1086,7 @@
     "artist": ["Mili"],
     "songwriters": ["Yamato Kasai", "momocashew"],
     "language": ["영어", "중국어"],
-    "countries": ["CA", "JP"],
+    "countries": ["JP","CA"],
     "tags": ["인디", "일렉트로닉"],
     "memo": "'레토르트'. 이 얼 싼 쓰 우 리우 치",
     "youtube": [
@@ -1394,7 +1394,7 @@
     "songwriters": ["Pavel Gorinshtein","Samuel Pokrass"],
     "language": ["러시아어"],
     "countries": ["RU"],
-    "tags": ["군가", "전쟁", "적백내전"],
+    "tags": ["군가", "전쟁", "적백내전", "행진곡"],
     "memo": "'붉은 군대는 가장 강력하다'. 적백내전 시기 쓰여진 행진곡.",
     "youtube": [
       {"title": "가사 (영어 자막)", "url": "https://www.youtube.com/watch?v=vA-W_MPg9ec"}
@@ -2661,7 +2661,7 @@
     "title": "Судно (Sudno)",
     "year": "2018",
     "artist": ["Molchat Doma (Молчат Дома)"],
-    "songwriters": ["Raman Kamahortsau", "Yahor Shkutko", "Boris Ryzhy"],
+    "songwriters": ["Roman Komogortsev", "Egor Shkutko", "Boris Ryzhy"],
     "language": ["러시아어"],
     "countries": ["BY"],
     "tags": ["두머", "포스트펑크"],
@@ -2679,7 +2679,7 @@
     "title": "На Дне (Na dne)",
     "year": "2018",
     "artist": ["Molchat Doma (Молчат Дома)"],
-    "songwriters": ["Raman Kamahortsau", "Yahor Shkutko"],
+    "songwriters": ["Roman Komogortsev", "Egor Shkutko"],
     "language": ["러시아어"],
     "countries": ["BY"],
     "tags": ["두머", "포스트펑크"],
@@ -2694,7 +2694,7 @@
     "title": "Клетка (Kletka)",
     "year": "2018",
     "artist": ["Molchat Doma (Молчат Дома)"],
-    "songwriters": ["Raman Kamahortsau", "Yahor Shkutko", "Pavel Kazlou"],
+    "songwriters": ["Roman Komogortsev", "Egor Shkutko", "Pavel Kozlov"],
     "language": ["러시아어"],
     "countries": ["BY"],
     "tags": ["두머", "포스트펑크"],
@@ -2709,7 +2709,7 @@
     "title": "Танцевать (Tantsevat')",
     "year": "2018",
     "artist": ["Molchat Doma (Молчат Дома)"],
-    "songwriters": ["Raman Kamahortsau", "Yahor Shkutko"],
+    "songwriters": ["Roman Komogortsev", "Egor Shkutko"],
     "language": ["러시아어"],
     "countries": ["BY"],
     "tags": ["두머", "포스트펑크"],
@@ -3372,6 +3372,7 @@
     "countries": ["FR"],
     "tags": ["샹송"],
     "memo": "'사랑의 찬가'. 에디트 피아프 곡 중 개인적으로 가장 좋아한다.",
+    "links" : [{"title":"블로그 해설", "url":"https://jdessin.tistory.com/174"}],
     "youtube": [
       {"title": "음원", "url": "https://www.youtube.com/watch?v=sgBldNsK-xw"},
       {"title": "캐나다 가수 Céline Dion, 2024 올림픽", "url": "https://www.youtube.com/watch?v=9wQ-GYnKPYM"}
@@ -4344,7 +4345,7 @@
     "artist": ["Mili"],
     "songwriters": ["Yamato Kasai", "momocashew"],
     "language": ["영어"],
-    "countries": ["CA", "JP"],
+    "countries": ["JP","CA"],
     "tags": ["재즈", "게임음악"],
     "memo": "시인 윤동주에게 바치는 헌정곡, 게임 <Library of Ruina> 수록곡. '소금과 후추와 새와 사상경찰'",
     "youtube": [
@@ -4375,7 +4376,7 @@
     "artist": ["Mili"],
     "songwriters": ["Yamato Kasai", "momocashew"],
     "language": ["영어"],
-    "countries": ["CA", "JP"],
+    "countries": ["JP","CA"],
     "tags": ["인디", "게임음악", "꽃"],
     "memo": "'강철 연꽃', 게임 <Library of Ruina> 테마곡. 중국풍 음악과 무협스러운 가사가 인상적이다.",
     "youtube": [
@@ -4391,7 +4392,7 @@
     "artist": ["Mili"],
     "songwriters": ["Yamato Kasai", "momocashew"],
     "language": ["영어"],
-    "countries": ["CA", "JP"],
+    "countries": ["JP","CA"],
     "tags": ["게임음악", "재즈"],
     "memo": "'실의 신권 정치', 게임 <Library of Ruina> 테마곡, 해석은 게임을 해야 이해가 될 듯 하다(아님말고).",
     "youtube": [
@@ -7119,7 +7120,7 @@
     "artist": ["Dua Lipa", "DaBaby"],
     "songwriters": ["Dua Lipa", "Clarence Coffee Jr.", "Sarah Hudson", "Stephen Kozmeniuk", "DaBaby"],
     "language": ["영어"],
-    "countries": ["GB", "US"],
+    "countries": ["GB", "AL", "US"],
     "tags": ["팝", "디스코", "펑크"],
     "memo": "두아리파의 대표곡 중 하나. 떠다니는 기분.",
     "youtube": [
@@ -7518,8 +7519,8 @@
     "image": "covers/titanic.jpg"
   },
   {
-    "id": "kan-endena-tahoun-sahar-el-laialy-fairuz",
-    "title": "Kan Endena Tahoun / Sahar El Laialy (كان عندنا طاحون / سهر الليالي)",
+    "id": "kan-enna-tahoun-sahar-el-laialy-fairuz",
+    "title": "Kan Enna Tahoun / Sahar El Laialy (كان عندنا طاحون / سهر الليالي)",
     "year": "1974",
     "artist": ["Fairuz (فيروز)"],
     "songwriters": ["Elias Rahbani"],
@@ -7527,6 +7528,7 @@
     "countries": ["LB"],
     "tags": ["아랍팝","뮤지컬"],
     "memo": "'밤을 지새우며', 토속적인 가사의 레바논 곡. 1974년 뮤지컬 <Loulou>에 사용되었다.",
+    "links" : [{"title":"블로그 해설", "url": "https://jdessin.tistory.com/172"}],
     "youtube": [
       {"title": "음원", "url": "https://www.youtube.com/watch?v=-0BI9-CdrMk"},
       {"title": "공연 영상", "url": "https://www.youtube.com/watch?v=dsc06bcHpZE"}
@@ -7714,7 +7716,7 @@
     "songwriters": ["Ștefan Nosievici"],
     "language": ["루마니아어"],
     "countries": ["RO"],
-    "tags": ["군가", "이별","전쟁","1차대전"],
+    "tags": ["군가", "이별","전쟁","1차대전","행진곡"],
     "memo": "'작별'. 루마니아 독립 전쟁과 1차대전기 불려진 단순하고 중독성 있는 행진곡.",
     "youtube": [
       {"title": "가사", "url": "https://www.youtube.com/watch?v=lfXpvBJzAMY"},
@@ -7762,7 +7764,7 @@
     "songwriters": ["?"],
     "language": ["튀르키예어"],
     "countries": ["TR"],
-    "tags": ["군가","선전가요","전쟁","이즈미르"],
+    "tags": ["군가","선전가요","전쟁","이즈미르","행진곡"],
     "memo": "튀르키예 독립 전쟁에서의 아타튀르크의 이즈미르(스미르나) 탈환을 기념하는 '이즈미르 행진곡'. 원래 캅카스 전선을 위해 작곡되었다는 설도 있다. 정확한 기원은 불명.",
     "youtube": [
       {"title": "음악", "url": "https://www.youtube.com/watch?v=6ws7DSi1VPs"},
@@ -7778,7 +7780,7 @@
     "songwriters": ["Johann Strauss I"],
     "language": [],
     "countries": ["AT"],
-    "tags": ["군가","오스트리아","클래식","나폴레옹전쟁"],
+    "tags": ["군가","오스트리아","클래식","나폴레옹전쟁","행진곡"],
     "memo": "오스트리아 제국의 장군 요제프 라데츠키에게 헌정된 곡. Radetzky March",
     "youtube": [
       {"title": "Vienna Philharmonic", "url": "https://www.youtube.com/watch?v=xhEGMSOIptw"}
@@ -8306,6 +8308,7 @@
     "countries": ["AU"],
     "tags": ["민요","부시발라드","호주"],
     "memo": "호주를 대표하는 곡 중 하나. 선율은 스코틀랜드 민요에서 따 왔다.",
+    "links" : [{"title":"블로그 해설", "url":"https://jdessin.tistory.com/171"}],
     "youtube": [
       {"title": "Slim Dusty 버전", "url": "https://youtu.be/FqtttbbYfSM?si=MATUDlUTK9F7po4T"},
       {"title": "합창 버전", "url": "https://www.youtube.com/watch?v=WZ52jOcXlfc"},
@@ -10086,5 +10089,241 @@
       {"title": "영화", "url": "https://www.youtube.com/watch?v=Q2CPZw995dY"}
     ],
     "image": "covers/dva-voyna.jpg"
+  },
+  {
+    "id": "take-me-to-church-hozier",
+    "title": "Take Me to Church",
+    "year": "2013",
+    "artist": ["Hozier"],
+    "songwriters": ["Andrew Hozier-Byrne"],
+    "language": ["영어"],
+    "countries": ["IE"],
+    "tags": ["얼터너티브록","블루스록","소울","팝"],
+    "memo": "가톨릭 교회의 위선을 소재로, 연인을 종교에 비유한 곡.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=MYSVMgRr6pw"}
+    ],
+    "image": "covers/hozier-hozier.jpg"
+  },
+  {
+    "id": "freed-from-desire-gala",
+    "title": "Freed from Desire",
+    "year": "1996",
+    "artist": ["Gala"],
+    "songwriters": ["Maurizio Molella","Filippo Andrea Carmeni","Gala Rizzatto"],
+    "language": ["영어"],
+    "countries": ["IT"],
+    "tags": ["댄스"],
+    "memo": "유럽 전역에서 히트한 이탈리아의 유로댄스 곡.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/p3l7fgvrEKM?si=2PCLhHrzIEbYcVZQ"}
+    ],
+    "image": "covers/freed-from-desire-gala.jpg"
+  },
+  {
+    "id": "robot-rock-daft-punk",
+    "title": "Robot Rock",
+    "year": "2005",
+    "artist": ["Daft Punk"],
+    "songwriters": ["Thomas Bangalter","Guy Manuel De Homem-Christo","Kae Williams Jr."],
+    "language": ["영어"],
+    "countries": ["FR"],
+    "tags": ["일렉트로닉","록"],
+    "memo": "신디사이저 리프가 멋진 곡. rock, robot rock",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=sFZjqVnWBhc"}
+    ],
+    "image": "covers/daft-punk-3.jpg"
+  },
+  {
+    "id": "evidencias-chitaozinho-xoxoro",
+    "title": "Evidências",
+    "year": "1990",
+    "artist": ["Chitãozinho & Xororó"],
+    "songwriters": ["José Augusto","Paulo Sérgio Valle"],
+    "language": ["포르투갈어"],
+    "countries": ["BR"],
+    "tags": ["포크"],
+    "memo": "브라질의 국민 노래. 너를 사랑한다는 '증거들'",
+    "youtube": [
+      {"title": "1991년 무대", "url": "https://www.youtube.com/watch?v=YwViC3GD_p0"},
+      {"title": "공연 영상", "url": "https://www.youtube.com/watch?v=sFZjqVnWBhc"}
+    ],
+    "image": "covers/cowboy-do-asfalto.jpg"
+  },
+  {
+    "id": "muzikalnaya-chayhana-yalla",
+    "title": "Музыкальная чайхана (Muzykal'naya chaykhana)",
+    "year": "1988",
+    "artist": ["Yalla (Ялла)"],
+    "songwriters": ["Farrukh Zokirov","Evgeny Berezikov"],
+    "language": ["러시아어"],
+    "countries": ["UZ"],
+    "tags": ["소련","포크팝"],
+    "memo": "'음악 찻집', 소련 전역에서 인기를 끈 우즈벡 밴드의 곡.",
+    "youtube": [
+      {"title": "무대영상", "url": "https://www.youtube.com/watch?v=8ecVrcYj6DQ"}
+    ],
+    "image": "covers/musical-teahouse.jpg"
+  },
+  {
+    "id": "colonel-bogey-march",
+    "title": "Colonel Bogey March",
+    "year": "1914",
+    "artist": [],
+    "songwriters": ["Kenneth J. Alford"],
+    "language": [],
+    "countries": ["GB"],
+    "tags": ["행진곡","군가"],
+    "memo": "영화 등에서 자주 사용되어 익숙해진 영국군 행진곡. 2차대전기에는 히틀러를 까는 내용으로 가사가 붙어 널리 불렸다.",
+    "youtube": [
+      {"title": "원곡(?)", "url": "https://youtu.be/QuVYS4uw0as?si=4HMazp_50pFl4YPG"},
+      {"title": "Hitler has only got one ball", "url": "https://www.youtube.com/watch?v=yMl7QvkzQSI"},
+      {"title": "영화 <콰이 강의 다리> 버전", "url": "https://youtu.be/4k4NEAIk3PU?si=ehHC5ifeDPF_LKGB"}
+    ],
+    "image": "covers/britain.jpg"
+  },
+  {
+    "id": "ive-been-everywhere-geoff-mack",
+    "title": "I've Been Everywhere",
+    "year": "1959",
+    "artist": ["Geoff Mack"],
+    "songwriters": ["Geoff Mack"],
+    "language": ["영어"],
+    "countries": ["AU"],
+    "tags": ["코미디","컨트리","호주"],
+    "memo": "진짜 어디든 다 가봤다고 노래하는 곡. 호주 지명을 죄다 나열한다. 1962년 캐나다 가수 Hank Snow가 아메리카 버전으로 개사한 버전으로 더 유명하다.",
+    "youtube": [
+      {"title": "원곡", "url": "https://www.youtube.com/watch?v=1OZWi-mTkNU"},
+      {"title": "Hank Snow 버전", "url": "https://www.youtube.com/watch?v=jet7Ue743Do"},
+      {"title": "Johnny Cash 버전. Hank Snow 버전의 가사와 같음", "url": "https://www.youtube.com/watch?v=ov4epAJRPMw"}
+    ],
+    "image": "covers/geoff-mack.jpg"
+  },
+  {
+    "id": "loch-lomond",
+    "title": "The Bonnie Banks o' Loch Lomond",
+    "year": "18c?",
+    "artist": [],
+    "songwriters": ["Traditional"],
+    "language": ["스코트어"],
+    "countries": ["GB"],
+    "tags": ["스코틀랜드","민요"],
+    "memo": "'로몬드 호수의 아름다운 호숫가', 스코틀랜드군 포로의 노래. 스코틀랜드를 대표하는 노래 중 하나",
+    "youtube": [
+      {"title": "The Corries", "url": "https://www.youtube.com/watch?v=GXGVFJqSqqg"},
+      {"title": "Ella Roberts", "url": "https://www.youtube.com/watch?v=gb8AGuD2uOI"}
+    ],
+    "image": "covers/scotland.jpg"
+  },
+  {
+    "id": "go-down-moses",
+    "title": "Go Down Moses",
+    "year": "19c",
+    "artist": [],
+    "songwriters": ["Traditional"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["종교음악"],
+    "memo": "출애굽기의 내용을 바탕으로 한 흑인 영가.",
+    "youtube": [
+      {"title": "Louis Armstrong 버전", "url": "https://www.youtube.com/watch?v=vf6jBP4YXwo"},
+      {"title": "Harlem Gospel Singers", "url": "https://www.youtube.com/watch?v=Uz0sQDhx1rE"}
+    ],
+    "image": "covers/exodus.jpg"
+  },
+  {
+    "id": "besame-mucho",
+    "title": "Bésame Mucho",
+    "year": "1940",
+    "artist": ["Consuelo Velázquez"],
+    "songwriters": ["Consuelo Velázquez"],
+    "language": ["스페인어"],
+    "countries": ["MX"],
+    "tags": ["볼레로","팝","재즈"],
+    "memo": "'더 많이 키스해 주세요', 라틴 음악사에서 가장 중요한 곡 중 하나.",
+    "youtube": [
+      {"title": "Lisa Ono 버전", "url": "https://www.youtube.com/watch?v=MY0fuEfBmD4"},
+      {"title": "Trio Los Panchos 버전", "url": "https://www.youtube.com/watch?v=pwRiKDcrjz0"},
+      {"title": "Zoé 버전", "url": "https://www.youtube.com/watch?v=CSELNSslBVk"}
+    ],
+    "image": "covers/consuelo-velazquez.jpg"
+  },
+  {
+    "id": "becane-yame",
+    "title": "Bécane",
+    "year": "2023",
+    "artist": ["Yamê"],
+    "songwriters": ["Emmanuel Sow"],
+    "language": ["프랑스어"],
+    "countries": ["FR","CM"],
+    "tags": ["힙합","소울"],
+    "memo": "'오토바이'를 타고 질주하며. 독특한 후렴구로 유명하다.",
+    "youtube": [
+      {"title": "mV", "url": "https://youtu.be/XDPn2Ko6z2A?si=7Wkmn0TxHntMUOCY"}
+    ],
+    "image": "covers/elowi-yame.jpg"
+  },
+  {
+    "id": "da-coconut-nut",
+    "title": "Da Coconut Nut",
+    "year": "1991",
+    "artist": ["Smokey Mountain"],
+    "songwriters": ["Ryan Cayabyab"],
+    "language": ["영어"],
+    "countries": ["PH"],
+    "tags": ["코미디","팝"],
+    "memo": "코코넛은 넛이 아니라는 거 알고 있나요?",
+    "youtube": [
+      {"title": "Smokey Mountains", "url": "https://youtu.be/kdX8GTKLcTk?si=9VIMeZqy_pGhb1_O"},
+      {"title": "이상한 애니메이션 MV", "url": "https://youtu.be/PKQPey6L42M?si=58Z2QNFrc_kQUU2K"}
+    ],
+    "image": "covers/coconut.jpg"
+  },
+  {
+    "id": "training-season-dua-lipa",
+    "title": "Training Season",
+    "year": "2024",
+    "artist": ["Dua Lipa"],
+    "songwriters": ["Kevin Parker","Danny L Harle","Nicholas Gale","Martina Sorbara","Shaun Frank","Yaakov Gruzman","Steve Mastroianni","Dua Lipa","Caroline Ailin","Tobias Jesso Jr."],
+    "language": ["영어"],
+    "countries": ["GB","AL"],
+    "tags": ["디스코","팝"],
+    "memo": "미숙한 상대방에게, 훈련 시간은 끝났으니까.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=ZjBZ8MUnB0E"}
+    ],
+    "image": "covers/radical-optimism-dua-lipa.jpg"
+  },
+  {
+    "id": "circle-of-life",
+    "title": "Circle of Life",
+    "year": "1994",
+    "artist": ["Carmen Twillie","Lebo M"],
+    "songwriters": ["Elton John","Hans Zimmer","Tim Rice"],
+    "language": ["줄루어","영어"],
+    "countries": ["US","ZA"],
+    "tags": ["영화음악","애니메이션","디즈니","라이온킹"],
+    "memo": "애니메이션 영화 <라이온 킹> 주제가.",
+    "youtube": [
+      {"title": "영화", "url": "https://youtu.be/GibiNy4d4gc?si=DunJCXZnvKpT5p7E"},
+      {"title": "Lebo M, HAVASI Symphonic Concert Show", "url": "https://www.youtube.com/watch?v=pSwBHh6KoHY"}
+    ],
+    "image": "covers/lion-king.jpg"
+  },
+  {
+    "id": "stronger-kanye-west",
+    "title": "Stronger",
+    "year": "2007",
+    "artist": ["Kanye West"],
+    "songwriters": ["Kanye West","Mike Dean","Thomas Bangalter","Guy Manuel De Homem-Christo","Edwin Birdsong"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["힙합","일렉트로닉"],
+    "memo": "다프트 펑크의 'Harder, Better, Faster, Stronger'를 샘플링한 곡.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=PsO6ZnUZI0g"}
+    ],
+    "image": "covers/graduation-kanye-west.jpg"
   }
 ]
