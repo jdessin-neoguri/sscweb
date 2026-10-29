@@ -208,7 +208,6 @@ body {
     background: var(--header-bg);
     border-radius: 24px;
 
-    box-shadow: 0 8px 24px var(--shadow-sm);
 }
 
 .site-title-box {
@@ -323,7 +322,6 @@ body {
     outline-offset: 2px;
 }
 
-
 /* ========================================
    검색 + 레이아웃 모드 전환
 ======================================== */
@@ -345,9 +343,6 @@ body {
 
     background: var(--surface);
     border-radius: 999px;
-
-    box-shadow:
-        0 2px 12px var(--shadow-sm);
 
     width: fit-content;
     flex-shrink: 0;
@@ -456,7 +451,6 @@ body {
     color: var(--muted);
 }
 
-
 /* ========================================
    태그 (많이 쓰인 순으로 정렬)
 ======================================== */
@@ -498,11 +492,9 @@ body {
     border-color: var(--accent);
 }
 
-
 .country-card:active {
     background: var(--accent-soft-2);
 }
-
 
 .country-card:focus-visible {
     outline: 3px solid var(--focus-ring);
@@ -549,8 +541,7 @@ body {
 
 .flag-strip-item:hover {
     transform: scale(1.25);
-    box-shadow:
-        0 2px 6px var(--shadow-lg);
+
 }
 
 .flag-strip-item:focus-visible {
@@ -619,7 +610,6 @@ body {
     color: var(--muted);
 }
 
-
 /* ========================================
    국가 선택 후 화면
 ======================================== */
@@ -663,7 +653,6 @@ body {
     }
 }
 
-
 .country-title-count {
     display: inline-block;
 
@@ -682,9 +671,7 @@ body {
     border-radius: 999px;
 }
 
-
-#back-to-countries,
-.playlist-back {
+#back-to-countries {
     grid-column: 1;
     justify-self: start;
 
@@ -707,12 +694,10 @@ body {
         border-color 0.2s;
 }
 
-#back-to-countries:hover,
-.playlist-back:hover {
+#back-to-countries:hover {
     background: var(--hover);
     border-color: var(--line-strong);
 }
-
 
 /* ========================================
    검색
@@ -747,14 +732,11 @@ body {
 
     border-color: var(--accent);
 
-    box-shadow:
-        0 0 0 3px var(--focus-ring-soft);
 }
 
 .search-bar input::placeholder {
     color: var(--muted);
 }
-
 
 /* ========================================
    곡 카드
@@ -768,9 +750,6 @@ body {
     padding: var(--space-5);
     margin-bottom: var(--space-5);
 
-    box-shadow:
-        0 3px 12px var(--shadow-sm);
-
     transition:
         transform 0.2s,
         box-shadow 0.2s;
@@ -779,8 +758,6 @@ body {
 #song-list > div:hover {
     transform: translateY(-2px);
 
-    box-shadow:
-        0 8px 20px var(--shadow-lg);
 }
 
 #song-list h2 {
@@ -805,7 +782,6 @@ body {
 
     align-items: start;
 }
-
 
 /* 왼쪽: 기본 정보 */
 
@@ -869,7 +845,6 @@ body {
     color: var(--faint);
 }
 
-
 /* ---------- 국가 선택 시 1차 화면: 간략 카드 ---------- */
 
 .song-list-compact {
@@ -883,7 +858,6 @@ body {
 .song-card-compact {
     background: var(--surface);
     border-radius: 16px;
-    box-shadow: 0 3px 12px var(--shadow-sm);
 
     transition:
         transform 0.2s,
@@ -902,7 +876,7 @@ body {
 
 .song-card-compact:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px var(--shadow-lg);
+
 }
 
 .song-card-compact {
@@ -1024,7 +998,6 @@ body {
     gap: var(--space-1);
 }
 
-
 /* 오른쪽: 설명 + 링크 */
 
 .song-details {
@@ -1055,7 +1028,6 @@ strong {
     color: var(--ink-2);
 }
 
-
 /* ========================================
    같은 아티스트의 다른 곡
 ======================================== */
@@ -1075,9 +1047,8 @@ strong {
 }
 
 #song-list > div > .related-songs .song-card-compact {
-    box-shadow: 0 1px 6px var(--shadow-sm);
-}
 
+}
 
 /* ========================================
    링크
@@ -1102,7 +1073,6 @@ a:hover {
 .youtube-link {
     color: var(--link);
 }
-
 
 /* ========================================
    태그
@@ -1206,7 +1176,6 @@ button.tag:focus-visible,
     border-left: 5px solid var(--c1);
     border-radius: 0 14px 14px 0;
 
-    box-shadow: 0 3px 12px var(--shadow-sm);
 }
 
 .artist-info-text {
@@ -1216,7 +1185,6 @@ button.tag:focus-visible,
     line-height: 1.8;
     white-space: pre-line;
 }
-
 
 /* ========================================
    모바일
@@ -1425,12 +1393,9 @@ button.tag:focus-visible,
     }
 }
 
-
 .hidden {
     display: none !important;
 }
-
-
 
 /* ========================================
    홈 (사이트 제목을 누르면 나옴)
@@ -1444,9 +1409,6 @@ button.tag:focus-visible,
     border-radius: 16px;
 
     padding: var(--space-6);
-
-    box-shadow:
-        0 3px 12px var(--shadow-sm);
 
     line-height: 1.8;
 
@@ -1571,7 +1533,6 @@ button.tag:focus-visible,
     cursor: pointer;
 }
 
-
 /* ========================================
    지도 뷰
 ======================================== */
@@ -1694,9 +1655,6 @@ button.tag:focus-visible,
 
     color: var(--ink-2);
 
-    box-shadow:
-        0 2px 8px var(--shadow-sm);
-
     transition:
         background 0.2s,
         border-color 0.2s;
@@ -1728,9 +1686,6 @@ button.tag:focus-visible,
 
     color: var(--muted);
 
-    box-shadow:
-        0 2px 8px var(--shadow-sm);
-
     transition:
         background 0.2s,
         border-color 0.2s;
@@ -1746,12 +1701,12 @@ button.tag:focus-visible,
 ======================================== */
 
 .view-tab.active {
-    box-shadow: 0 3px 10px var(--shadow-sm);
+
 }
 
 .view-mode-tabs,
 .search-bar input {
-    box-shadow: 0 4px 16px var(--shadow-sm);
+
 }
 
 .country-title-count {
@@ -1811,8 +1766,6 @@ button.tag:focus-visible,
    연표
 ======================================== */
 
-
-
 /* ========================================
    간략 카드 (윗선 + 커버 없는 곡의 자리표시 색)
 ======================================== */
@@ -1821,19 +1774,19 @@ button.tag:focus-visible,
     padding-top: calc(var(--space-3) + 6px);
 }
 
-.song-card-compact:nth-child(6n+1) { box-shadow: inset 0 6px 0 var(--c1), 0 3px 12px var(--shadow-sm); }
-.song-card-compact:nth-child(6n+2) { box-shadow: inset 0 6px 0 var(--c2), 0 3px 12px var(--shadow-sm); }
-.song-card-compact:nth-child(6n+3) { box-shadow: inset 0 6px 0 var(--c3), 0 3px 12px var(--shadow-sm); }
-.song-card-compact:nth-child(6n+4) { box-shadow: inset 0 6px 0 var(--c4), 0 3px 12px var(--shadow-sm); }
-.song-card-compact:nth-child(6n+5) { box-shadow: inset 0 6px 0 var(--c5), 0 3px 12px var(--shadow-sm); }
-.song-card-compact:nth-child(6n+6) { box-shadow: inset 0 6px 0 var(--c6), 0 3px 12px var(--shadow-sm); }
+.song-card-compact:nth-child(6n+1) { box-shadow: inset 0 6px 0 var(--c1); }
+.song-card-compact:nth-child(6n+2) { box-shadow: inset 0 6px 0 var(--c2); }
+.song-card-compact:nth-child(6n+3) { box-shadow: inset 0 6px 0 var(--c3); }
+.song-card-compact:nth-child(6n+4) { box-shadow: inset 0 6px 0 var(--c4); }
+.song-card-compact:nth-child(6n+5) { box-shadow: inset 0 6px 0 var(--c5); }
+.song-card-compact:nth-child(6n+6) { box-shadow: inset 0 6px 0 var(--c6); }
 
-.song-card-compact:nth-child(6n+1):hover { box-shadow: inset 0 6px 0 var(--c1), 0 8px 20px var(--shadow-lg); }
-.song-card-compact:nth-child(6n+2):hover { box-shadow: inset 0 6px 0 var(--c2), 0 8px 20px var(--shadow-lg); }
-.song-card-compact:nth-child(6n+3):hover { box-shadow: inset 0 6px 0 var(--c3), 0 8px 20px var(--shadow-lg); }
-.song-card-compact:nth-child(6n+4):hover { box-shadow: inset 0 6px 0 var(--c4), 0 8px 20px var(--shadow-lg); }
-.song-card-compact:nth-child(6n+5):hover { box-shadow: inset 0 6px 0 var(--c5), 0 8px 20px var(--shadow-lg); }
-.song-card-compact:nth-child(6n+6):hover { box-shadow: inset 0 6px 0 var(--c6), 0 8px 20px var(--shadow-lg); }
+.song-card-compact:nth-child(6n+1):hover { box-shadow: inset 0 6px 0 var(--c1); }
+.song-card-compact:nth-child(6n+2):hover { box-shadow: inset 0 6px 0 var(--c2); }
+.song-card-compact:nth-child(6n+3):hover { box-shadow: inset 0 6px 0 var(--c3); }
+.song-card-compact:nth-child(6n+4):hover { box-shadow: inset 0 6px 0 var(--c4); }
+.song-card-compact:nth-child(6n+5):hover { box-shadow: inset 0 6px 0 var(--c5); }
+.song-card-compact:nth-child(6n+6):hover { box-shadow: inset 0 6px 0 var(--c6); }
 
 .song-card-compact:nth-child(6n+1) .song-artwork.no-artwork { background: color-mix(in srgb, var(--c1) 34%, var(--surface)); }
 .song-card-compact:nth-child(6n+2) .song-artwork.no-artwork { background: color-mix(in srgb, var(--c2) 34%, var(--surface)); }
@@ -1909,7 +1862,6 @@ button.tag:focus-visible,
 .home-rule:nth-child(6n+5) { background: color-mix(in srgb, var(--c5) 14%, var(--surface)); border-left: 5px solid var(--c5); }
 .home-rule:nth-child(6n+6) { background: color-mix(in srgb, var(--c6) 14%, var(--surface)); border-left: 5px solid var(--c6); }
 
-
 /* ========================================
    좋아요
 ======================================== */
@@ -1933,7 +1885,6 @@ button.tag:focus-visible,
 
     background: var(--surface);
     color: var(--muted);
-    box-shadow: 0 1px 6px var(--shadow-sm);
 
     cursor: pointer;
     flex-shrink: 0;
@@ -2021,146 +1972,6 @@ button.tag:focus-visible,
 
 #likes-empty {
     margin-top: var(--space-6);
-}
-
-
-/* ========================================
-   플리
-======================================== */
-
-.playlists-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: var(--space-4);
-}
-
-.playlist-card {
-    appearance: none;
-    border: none;
-    font: inherit;
-    text-align: left;
-    color: inherit;
-
-    display: flex;
-    align-items: stretch;
-    gap: var(--space-3);
-
-    padding: var(--space-3);
-
-    background: var(--surface);
-    border-radius: 16px;
-    border-top: 6px solid var(--c1);
-    box-shadow: 0 3px 12px var(--shadow-sm);
-
-    cursor: pointer;
-    min-width: 0;
-
-    transition:
-        transform 0.2s,
-        box-shadow 0.2s;
-}
-
-.playlist-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 18px var(--shadow-sm);
-}
-
-.playlist-card:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
-}
-
-.playlist-card:nth-child(6n+2) { border-top-color: var(--c2); }
-.playlist-card:nth-child(6n+3) { border-top-color: var(--c3); }
-.playlist-card:nth-child(6n+4) { border-top-color: var(--c4); }
-.playlist-card:nth-child(6n+5) { border-top-color: var(--c5); }
-.playlist-card:nth-child(6n+6) { border-top-color: var(--c6); }
-
-.playlist-cover {
-    flex-shrink: 0;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3px;
-
-    width: 96px;
-    height: 96px;
-
-    border-radius: 12px;
-    overflow: hidden;
-    background: var(--surface-2);
-}
-
-.playlist-cover-tile {
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-}
-
-.playlist-cover-tile.no-artwork::before {
-    font-size: 0.9rem;
-}
-
-.playlist-card-text {
-    min-width: 0;
-
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-1);
-}
-
-.playlist-card-title {
-    font-weight: 700;
-    color: var(--heading);
-    overflow-wrap: anywhere;
-}
-
-.playlist-card-desc {
-    font-size: 0.85rem;
-    color: var(--muted);
-
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
-
-.playlist-card-count {
-    margin-top: auto;
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--muted);
-}
-
-.playlist-back {
-    margin-bottom: var(--space-4);
-}
-
-.playlist-header {
-    margin-bottom: var(--space-5);
-}
-
-.playlist-header h2 {
-    margin: 0 0 var(--space-2);
-    color: var(--heading);
-}
-
-.playlist-description {
-    margin: 0 0 var(--space-2);
-    color: var(--ink-2);
-    line-height: 1.6;
-}
-
-.playlist-count {
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--muted);
-}
-
-@media (max-width: 750px) {
-    .playlists-list {
-        grid-template-columns: 1fr;
-    }
 }
 
 @media (max-width: 750px) {
