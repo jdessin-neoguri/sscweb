@@ -3621,6 +3621,7 @@
     "countries": ["ZA"],
     "tags": ["팝", "아프로팝", "댄스"],
     "memo": "미리암 마케바의 대표곡 중 하나. 1950년대부터 유행한 남아공 춤 스타일을 의미",
+    "links" : {"title":"블로그 해설", "url":"https://jdessin.tistory.com/148"},
     "youtube": [
       {"title": "음원", "url": "https://www.youtube.com/watch?v=JBJVVhn7iuo"},
       {"title": "MV(?)", "url": "https://www.youtube.com/watch?v=B9vgipLTYJQ"}
@@ -6714,7 +6715,7 @@
     "tags": ["팝", "R&B"],
     "memo": "전 남자친구들에게.",
     "youtube": [
-      {"title": "Lyric Video", "url": "http://youtube.com/watch?v=EEhZAHZQyf4"}
+      {"title": "Lyric Video", "url": "https://youtube.com/watch?v=EEhZAHZQyf4"}
     ],
     "image": "covers/thank-u-next-ariana-grande.jpg"
   },
@@ -7520,7 +7521,7 @@
   },
   {
     "id": "kan-enna-tahoun-sahar-el-laialy-fairuz",
-    "title": "Kan Enna Tahoun / Sahar El Laialy (كان عندنا طاحون / سهر الليالي)",
+    "title": "Kan Ena Tahoun (كان عندنا طاحون)",
     "year": "1974",
     "artist": ["Fairuz (فيروز)"],
     "songwriters": ["Elias Rahbani"],
@@ -10325,5 +10326,115 @@
       {"title": "MV", "url": "https://www.youtube.com/watch?v=PsO6ZnUZI0g"}
     ],
     "image": "covers/graduation-kanye-west.jpg"
+  },
+  {
+    "id": "rasa-sayang",
+    "title": "Rasa Sayang",
+    "year": "?",
+    "artist": [],
+    "songwriters": ["Traditional"],
+    "language": ["마인어"],
+    "countries": ["ID","MY","SG"],
+    "tags": ["민요","어린이"],
+    "memo": "말레이 제도 민요. '사랑하는 마음'",
+    "links": [
+      {"title": "블로그 해설", "url": "https://jdessin.tistory.com/175"}
+    ],
+    "youtube": [
+      {"title": "말레이시아 동요", "url": "https://www.youtube.com/watch?v=MQnSM7_kssM"},
+      {"title": "인도네시아 영화 <Darah dan Doa> 중", "url": "https://www.youtube.com/watch?v=6VDG3f6PMhY"},
+      {"title": "재즈 버전", "url": "https://www.youtube.com/watch?v=PUwNcskeVpI"}
+    ],
+    "image": "covers/maluku.jpg"
+  },
+  {
+    "id": "passionfruit",
+    "title": "Passionfruit",
+    "year": "2017",
+    "artist": ["Drake"],
+    "songwriters": ["Aubery Graham","Nana Rogues"],
+    "language": ["영어"],
+    "countries": ["CA"],
+    "tags": ["R&B","팝","하우스","댄스홀"],
+    "memo": "열정에 관해. 드레이크의 잔잔한 곡",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=COz9lDCFHjw"}
+    ],
+    "image": "covers/morelife-drake.jpg"
+  },
+  {
+    "id": "voc",
+    "title": "VOC",
+    "year": "2008",
+    "artist": ["Marieke Lustenhouwer"],
+    "songwriters": ["Majel Lustenhouwer","Marian van Gog"],
+    "language": ["네덜란드어"],
+    "countries": ["NL"],
+    "tags": ["어린이","무역","밈"],
+    "memo": "네덜란드 동인도회사에 관한 역사교육용 노래.",
+    "youtube": [
+      {"title": "가사(영어, 인도네시아어 번역)", "url": "https://www.youtube.com/watch?v=4XZJ2xJlei0"}
+    ],
+    "image": "covers/dutch-history.jpg"
+  },
+  {
+    "id": "fiesta-pagana",
+    "title": "Fiesta Pagana",
+    "year": "2000",
+    "artist": ["Mägo de Oz"],
+    "songwriters": ["Txus di Fellatio"],
+    "language": ["스페인어"],
+    "countries": ["ES"],
+    "tags": ["포크메탈"],
+    "memo": "'이교도들의 축제', 신나는 포크메탈 곡.",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=zZPvME8H2Oo"}
+    ],
+    "image": "covers/fiesta-pagana.jpg"
+  },
+  {
+    "id": "magalenha",
+    "title": "Magalenha",
+    "year": "1992",
+    "artist": ["Carlinhos Brown"],
+    "songwriters": ["Carlinhos Brown","Sergio Mendes"],
+    "language": ["포르투갈어"],
+    "countries": ["BR"],
+    "tags": ["삼바"],
+    "memo": "브라질에서 가장 유명한 삼바(바투카다) 곡 중 하나.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=uoblz9g13NA"}
+    ],
+    "image": "covers/brasileiro.jpg"
+  },
+  {
+    "id": "ignite",
+    "title": "Ignite",
+    "year": "2016",
+    "artist": ["Zedd","Tim James"],
+    "songwriters": ["Zedd","Antonia Armato","Tim James","TAS"],
+    "language": ["영어"],
+    "countries": ["DE","US"],
+    "tags": ["일렉트로닉","하우스","댄스"],
+    "memo": "LOL 2016 월즈 테마곡.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/Zasx9hjo4WY?si=2J_8KAD1mOFHBhCZ"}
+    ],
+    "image": "covers/ignite-zedd.jpg"
+  },
+  {
+    "id": "el-jardinero",
+    "title": "El Jadinero",
+    "year": "1984",
+    "artist": ["Wilfrido Vargas"],
+    "songwriters": ["Wilfrido Vargas","Frank Moya","Trivedi Dassi"],
+    "language": ["스페인어","영어"],
+    "countries": ["DO"],
+    "tags": ["메렝게","꽃"],
+    "memo": "'정원사', 도미니카공화국 메렝게",
+    "youtube": [
+      {"title": "무대영상(?)", "url": "https://www.youtube.com/watch?v=kBKyK62wAtM"}
+    ],
+    "image": "covers/el-jardinero-wilfrido-vargas.jpg"
   }
 ]
