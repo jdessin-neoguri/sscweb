@@ -5259,7 +5259,7 @@
     "artist": ["ZXKAI", "slxughter"],
     "songwriters": ["ZXKAI", "slxughter"],
     "language": ["포르투갈어"],
-    "countries": ["BR"],
+    "countries": ["XX"],
     "tags": ["브라질리언펑크", "펑크", "밈"],
     "memo": "호불호가 갈리는 강렬한 브라질리언 펑크 곡. 진짜 브라질 노래인지는 조금 의문",
     "youtube": [
@@ -8276,7 +8276,7 @@
     "songwriters": ["Carl Douglas"],
     "language": ["영어"],
     "countries": ["JM","GB"],
-    "tags": ["디스코"],
+    "tags": ["디스코","차이나타운"],
     "memo": "한창 중국무술이 인기를 끌 때 만들어진, 약간은 차별적이지만 신나는 곡.",
     "youtube": [
       {"title": "음원", "url": "https://www.youtube.com/watch?v=bjnFXgdyyLw"},
@@ -9041,7 +9041,7 @@
     "songwriters": ["Mikito-P"],
     "language": ["일본어"],
     "countries": ["JP"],
-    "tags": ["보컬로이드"],
+    "tags": ["보컬로이드","차이나타운"],
     "memo": "중국어를 배우는 노래.",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=oBgADhsOoog"}
@@ -9583,7 +9583,7 @@
     "youtube": [
       {"title": "음원", "url": "https://www.youtube.com/watch?v=-vdfEZwPd3M"}
     ],
-    "image": "covers/группа-крови.jpg"
+    "image": "covers/gruppa-krovi.jpg"
   },
   {
     "id": "khochu-peremen-kino",
@@ -10436,5 +10436,128 @@
       {"title": "무대영상(?)", "url": "https://www.youtube.com/watch?v=kBKyK62wAtM"}
     ],
     "image": "covers/el-jardinero-wilfrido-vargas.jpg"
+  },
+  {
+    "id": "fly-day-chinatown",
+    "title": "Fly-Day Chinatown (フライディ・チャイナタウン)",
+    "year": "1981",
+    "artist": ["Yasuha (泰葉)"],
+    "songwriters": ["海老名泰葉","荒木とよひさ"],
+    "language": ["영어","일본어"],
+    "countries": ["JP"],
+    "tags": ["시티팝","차이나타운"],
+    "memo": "차이나타운의 네온사인.",
+    "youtube": [
+      {"title": "Lyric Video", "url": "https://www.youtube.com/watch?v=g0p_jI6T2WQ"}
+    ],
+    "image": "covers/flyday-chinatown.jpg"
+  },
+  {
+    "id": "mente-ma",
+    "title": "MENTE MÁ",
+    "year": "2025",
+    "artist": ["Nakama","Mc Staff"],
+    "songwriters": ["Nakama","Mc Staff"],
+    "language": ["포르투갈어"],
+    "countries": ["XX"],
+    "tags": ["브라질리언펑크"],
+    "memo": "바이 또마 또마 또마",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=q1b_cRmB1T8"}
+    ],
+    "image": "covers/mente-ma.jpg"
+  },
+  {
+    "id": "sabroso-palo-de-mayo",
+    "title": "Sabroso Palo de Mayo",
+    "year": "2023",
+    "artist": ["Dimension Costeña"],
+    "songwriters": ["Luis Cassells"],
+    "language": ["스페인어"],
+    "countries": ["NI"],
+    "tags": ["라틴팝"],
+    "memo": "'흥겨운 팔로 데 마요(5월의 카리브 전통 축제)'.",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=tZM8X7CCK6M"}
+    ],
+    "image": "covers/palo-de-mayo.jpg"
+  },
+  {
+    "id": "who-let-the-dogs-out",
+    "title": "Who Let the Dogs Out",
+    "year": "2000",
+    "artist": ["Baha Men"],
+    "songwriters": ["Anslem Douglas"],
+    "language": ["영어"],
+    "countries": ["BS"],
+    "tags": ["칼립소","소카","힙합"],
+    "memo": "보기와 다르게 페미니즘적 주제를 담은 곡. 원곡은 트리니다드 토바고 뮤지션 Anslem Douglas의 'Doggie'",
+    "youtube": [
+      {"title": "원곡 (1998)", "url": "https://www.youtube.com/watch?v=O27fagObxaM"},
+      {"title": "바하 멘 버전 MV", "url": "https://youtu.be/ojULkWEUsPs?si=ld0OX41lPy8u9qA0"}
+    ],
+    "image": "covers/wldg.jpg"
+  },
+  {
+    "id": "el-sistema-solar",
+    "title": "El Sistema Solar",
+    "year": "2014",
+    "artist": ["Kchiporros"],
+    "songwriters": ["Roberto Ruiz Díaz Arevalo"],
+    "language": ["스페인어"],
+    "countries": ["PY"],
+    "tags": ["라틴팝","록","얼터너티브록"],
+    "memo": "'태양계',",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=Q1Ir76Eq4C0"},
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=LhLuS5yy0eg"}
+    ],
+    "image": "covers/sistema-solar-kchiporros.jpg"
+  },
+  {
+    "id": "whats-up",
+    "title": "What's Up?",
+    "year": "1993",
+    "artist": ["4 Non Blondes"],
+    "songwriters": ["Linda Perry"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["얼터너티브록","팝록","밈"],
+    "memo": "헤이예이예이예이예",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=6NXnxTNIWkc"},
+      {"title": "히맨", "url": "https://www.youtube.com/watch?v=NjVugzSR7HA"}
+    ],
+    "image": "covers/whatsup-4nonblondes.jpg"
+  },
+  {
+    "id": "ai-to-highball",
+    "title": "偽愛とハイボール (가짜 사랑과 하이볼)",
+    "year": "2024",
+    "artist": ["LET ME KNOW"],
+    "songwriters": ["Matty"],
+    "language": ["일본어"],
+    "countries": ["JP"],
+    "tags": ["드라마","JPOP","얼터너티브록"],
+    "memo": "드라마 <スナック女子にハイボールを>의 주제가.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=Pu7meBa8R5w"}
+    ],
+    "image": "covers/ai-to-highball.jpg"
+  },
+  {
+    "id": "virtual-insanity",
+    "title": "Virtual Insanity",
+    "year": "1996",
+    "artist": ["Jamiroquai"],
+    "songwriters": ["Jay Kay","Toby Smith"],
+    "language": ["영어"],
+    "countries": ["GB"],
+    "tags": ["재즈","펑크","얼터너티브록"],
+    "memo": "독특한 뮤비가 돋보이는 명곡.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=6Cq5sgMG8LE"}
+    ],
+    "image": "covers/traveling-jamiroquai.jpg"
   }
 ]
