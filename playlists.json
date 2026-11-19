@@ -33,18 +33,48 @@
     ]
   },
   {
-    "id": "christmas",
-    "title": "크리스마스",
-    "description": "연말에 듣는 노래들.",
+    "id": "american-folk",
+    "title": "미국 민요",
+    "description": "미국 대륙의 민요, 혹은 민요가 된 곡들을 찾아서.",
     "songs": [
-      "stille-nacht-heilige-nacht-franz-xaver-gruber",
-      "o-tannenbaum-ernst-anschutz",
-      "the-first-noel",
-      "przybiezeli-do-betlejem",
-      "feliz-navidad-jose-feliciano",
-      "last-christmas-wham",
-      "snowman-sia",
-      "jingle-bells"
+      "battle-hymn-of-the-republic-julia-ward-howe",
+      "cotton-eyed-joe",
+      "maggie",
+      "yankee-doodle-richard-shuckburgh",
+      "home-on-the-range-brewster-m-higley",
+      "o-susanna-stephen-foster",
+      "dixies-land-dan-emmett"
+    ]
+  },
+  {
+    "id": "russian",
+    "title": "러시아어",
+    "description": "러시아어 음악 컬렉션.",
+    "songs": [
+      "korobeiniki",
+      "kalinka-ivan-larionov",
+      "farewell-of-slavianka-vasily-agapkin",
+      "katyusha-matvey-blanter",
+      "dark-is-the-night-mark-bernes",
+      "krasnaya-armiya-vsekh-silney-pavel-gorinshtein",
+      "vmeste-veselo-shagat-vladimir-shainsky",
+      "pust-begut-neuklyuzhe-vladimir-ferapontov",
+      "gruppa-krovi-kino",
+      "konchitsya-leto-kino",
+      "eto-ne-lyubov-kino",
+      "spokoynaya-noch-kino",
+      "khochu-peremen-kino",
+      "goodbye-forever-freestyle",
+      "soldat-5nizza",
+      "moy-marmeladny-katya-lel",
+      "oseuteureilria-miami",
+      "the-7th-element-vitas",
+      "virtual-love-tanin-jazz",
+      "plastinki-durnoy-vkus",
+      "sudno-molchat-doma",
+      "na-dne-molchat-doma",
+      "kletka-molchat-doma",
+      "tantsevat-molchat-doma"
     ]
   }
 ]

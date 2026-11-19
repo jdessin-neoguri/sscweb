@@ -269,7 +269,7 @@
     "image": "covers/germany.jpg"
   },
   {
-    "id": "yuryeongdokyo-ayase",
+    "id": "ghost-tokyo-ayase",
     "title": "幽霊東京 (유령도쿄)",
     "year": "2019",
     "artist": ["Ayase", "Hatsune Miku (初音ミク)"],
@@ -288,7 +288,7 @@
     "image": "covers/유령도쿄.jpg"
   },
   {
-    "id": "telrekaeseuteo-biboi-three",
+    "id": "telecaster-bboy-three",
     "title": "テレキャスタービーボーイ (텔레캐스터 비보이)",
     "year": "2019",
     "artist": ["Three (すりぃ)", "Kagamine Len (鏡音レン)"],
@@ -543,7 +543,7 @@
     "songwriters": ["米津玄師"],
     "language": ["일본어"],
     "countries": ["JP"],
-    "tags": ["JPOP", "신스팝", "번개"],
+    "tags": ["JPOP", "신스팝", "번개", "봄"],
     "memo": "요네즈 켄시 4집 <BOOTLEG> 수록곡. '봄의 우레'",
     "links": [
       {"title": "블로그 해설", "url": "https://jdessin.tistory.com/39"}
@@ -836,7 +836,7 @@
     "language": ["핀란드어"],
     "countries": ["FI"],
     "tags": ["민요", "폴카", "보컬로이드"],
-    "memo": "중독성 있는 핀한드 사보(Savo) 지역 노래. 하츠네 미쿠의 '파돌리기송'으로도 잘 알려져 있다.",
+    "memo": "중독성 있는 핀란드 사보(Savo) 지역 노래. 하츠네 미쿠의 '파돌리기송'으로도 잘 알려져 있다.",
     "links": [
       {"title": "블로그 해설", "url": "https://jdessin.tistory.com/47"}
     ],
@@ -9541,7 +9541,7 @@
     "image": "covers/os-tincoas.jpg"
   },
   {
-    "id": "supsogyi-jageun-reseutorang-aoi-teshima",
+    "id": "morino_chiisana_restaurant",
     "title": "森の小さなレストラン (숲속의 작은 레스토랑)",
     "year": "2023",
     "artist": ["Aoi Teshima (手嶌葵)"],
@@ -9953,7 +9953,7 @@
     "image": "covers/watch-the-throne.jpg"
   },
   {
-    "id": "babo-gati-takaya-kuroda",
+    "id": "bakamitai",
     "title": "ばかみたい (바보 같이)",
     "year": "2012",
     "artist": ["Takaya Kuroda (黒田崇矢)"],
@@ -10909,7 +10909,7 @@
     "id": "demain",
     "title": "Demain",
     "year": "1980",
-    "artist": [""],
+    "artist": [],
     "songwriters": ["Claude-Michel Schönberg"],
     "language": ["프랑스어"],
     "countries": ["FR"],
