@@ -1,30 +1,50 @@
 [
   {
     "id": "christmas",
-    "title": "(예시) 크리스마스",
-    "description": "크리스마스 캐롤들",
+    "title": "크리스마스",
+    "description": "연말에 듣는 노래들.",
     "songs": [
       "stille-nacht-heilige-nacht-franz-xaver-gruber",
       "o-tannenbaum-ernst-anschutz",
-      "the-first-noel-traditional",
-      "przybiezeli-do-betlejem-traditional",
+      "the-first-noel",
+      "przybiezeli-do-betlejem",
       "feliz-navidad-jose-feliciano",
       "last-christmas-wham",
-      "snowman-sia"
+      "snowman-sia",
+      "jingle-bells"
     ]
   },
   {
-    "id": "example-french",
-    "title": "(예시) 프랑스어로 듣는 노래",
-    "description": "오래된 샹송부터 최근 곡까지.",
+    "id": "translated",
+    "title": "익숙한 번안곡들",
+    "description": "한국어 가사로 들어봤을 법한 곡들.",
     "songs": [
-      { "id": "comme-dhabitude-claude-francois", "note": "프랭크 시나트라 'My Way'의 원곡" },
-      "la-seine-vanessa-paradis",
-      "alors-on-danse-stromae",
-      "papaoutai-stromae",
-      "tous-les-memes-stromae",
-      "cest-la-vie-khaled",
-      "amour-plastique-videoclub"
+      { "id": "pokarekare-ana", "note": "연가" },
+      { "id": "auld-lang-syne", "note": "작별/애국가(~1940)" },
+      { "id": "the-first-noel", "note": "저 들 밖에 한밤중에" },
+      { "id": "ah-vous-dirai-je-maman", "note": "반짝반짝 작은 별" },
+      { "id": "ripped-pants-tom-kenny", "note": "그런 짓은 하지 말아야 했는데" },
+      { "id": "drunten-im-unterland", "note": "옹달샘" },
+      { "id": "stille-nacht-heilige-nacht-franz-xaver-gruber", "note": "고요한 밤 거룩한 밤" },
+      { "id": "my-grandfathers-clock-henry-clay-workr", "note": "할아버지의 시계" },
+      { "id": "maggie", "note": "메기의 추억" },
+      { "id": "marching-through-georgia-henry-clay-work", "note": "독립군가" },
+      { "id": "danse-mot-var", "note": "10월의 어느 멋진 날에" }
+    ]
+  },
+  {
+    "id": "christmas",
+    "title": "크리스마스",
+    "description": "연말에 듣는 노래들.",
+    "songs": [
+      "stille-nacht-heilige-nacht-franz-xaver-gruber",
+      "o-tannenbaum-ernst-anschutz",
+      "the-first-noel",
+      "przybiezeli-do-betlejem",
+      "feliz-navidad-jose-feliciano",
+      "last-christmas-wham",
+      "snowman-sia",
+      "jingle-bells"
     ]
   }
 ]

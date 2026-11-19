@@ -179,7 +179,7 @@
     "image": "covers/comme-d-habitude-claude-françois.jpg"
   },
   {
-    "id": "drunten-im-unterland-traditional",
+    "id": "drunten-im-unterland",
     "title": "Drunten im Unterland",
     "year": "1836",
     "artist": [],
@@ -218,7 +218,7 @@
     "image": "covers/aloha.jpg"
   },
   {
-    "id": "pokarekare-ana-traditional",
+    "id": "pokarekare-ana",
     "title": "Pokarekare Ana",
     "year": "1914",
     "artist": [],
@@ -238,7 +238,7 @@
     "image": "covers/maori.jpg"
   },
   {
-    "id": "tama-ngakau-marie-traditional",
+    "id": "tama-ngakau-marie",
     "title": "Tama Ngākau Mārie",
     "year": "1914",
     "artist": [],
@@ -828,7 +828,7 @@
     "image": "covers/kashmir-main-tu-kanyakumari.jpg"
   },
   {
-    "id": "ievan-polkka-traditional",
+    "id": "ievan-polkka",
     "title": "Ievan Polkka",
     "year": "19c?",
     "artist": [],
@@ -848,7 +848,7 @@
     "image": "covers/ievan-polkka.jpg"
   },
   {
-    "id": "sakkijarven-polkka-traditional",
+    "id": "sakkijarven-polkka",
     "title": "Säkkijärven Polkka",
     "year": "19c?",
     "artist": [],
@@ -1421,7 +1421,7 @@
     "image": "covers/jerusalema-master-kg.jpg"
   },
   {
-    "id": "hej-sokoly-traditional",
+    "id": "hej-sokoly",
     "title": "Hej sokoły (Гей соколи)",
     "year": "19c?",
     "artist": [],
@@ -1456,7 +1456,7 @@
     "image": "covers/їхав-козак-за-дунай-yikhav-kozak-za-dunai.jpg"
   },
   {
-    "id": "midusanga-traditional",
+    "id": "midusanga",
     "title": "山对山来崖对崖 (弥渡山歌, 미두산가)",
     "year": "?",
     "artist": [],
@@ -1576,7 +1576,7 @@
     "image": "covers/lonely-at-the-top-asake.jpg"
   },
   {
-    "id": "greensleeves-traditional",
+    "id": "greensleeves",
     "title": "Greensleeves",
     "year": "16c?",
     "artist": [],
@@ -2068,7 +2068,7 @@
     "image": "covers/por-una-cabeza-carlos-gardel.jpg"
   },
   {
-    "id": "mo-ghile-mear-traditional",
+    "id": "mo-ghile-mear",
     "title": "Mo Ghile Mear",
     "year": "1972",
     "artist": [],
@@ -2196,7 +2196,7 @@
     "image": "covers/sodade.jpg"
   },
   {
-    "id": "gandagana-traditional",
+    "id": "gandagana",
     "title": "განდაგანა (Gandagana)",
     "year": "?",
     "artist": [],
@@ -2641,7 +2641,7 @@
     "image": "covers/kamlee-کملی-hadiqa-kiani.jpg"
   },
   {
-    "id": "bibi-sanam-jaanam-traditional",
+    "id": "bibi-sanam-jaanam",
     "title": "Bibi Sanam Jaanam (بی‌بی صنم جانم)",
     "year": "?",
     "artist": [],
@@ -2735,7 +2735,7 @@
     "image": "covers/khachaturian.jpg"
   },
   {
-    "id": "ich-hab-die-nacht-getraumet-traditional",
+    "id": "ich-hab-die-nacht-getraumet",
     "title": "Ich hab die Nacht geträumet",
     "year": "18c?",
     "artist": [],
@@ -2888,7 +2888,7 @@
     "image": "covers/thriller-michael-jackson.jpg"
   },
   {
-    "id": "hava-nagila-traditional",
+    "id": "hava-nagila",
     "title": "Hava Nagila (הָבָה נָגִילָה)",
     "year": "1918",
     "artist": [],
@@ -3076,14 +3076,14 @@
     "image": "covers/espresso-macchiato-tommy-cash.jpg"
   },
   {
-    "id": "oj-ruzice-rumena-traditional",
+    "id": "oj-ruzice-rumena",
     "title": "Ој ружице румена (Oj Ružice Rumena)",
     "year": "?",
     "artist": [],
     "songwriters": ["Traditional"],
     "language": ["세르보크로아트어"],
     "countries": ["RS"],
-    "tags": ["민요", "꽃"],
+    "tags": ["민요", "꽃", "장미"],
     "memo": "'오, 붉은 장미여', 세르비아 민요. 멀리 떠난 남편을 그리워하는 노래.",
     "youtube": [
       {"title": "가사 (영어 자막)", "url": "https://www.youtube.com/watch?v=a3UocEFUjbU"}
@@ -3172,7 +3172,7 @@
     "image": "covers/communism.jpg"
   },
   {
-    "id": "bella-ciao-traditional",
+    "id": "bella-ciao",
     "title": "Bella Ciao",
     "year": "1953",
     "artist": [],
@@ -3221,7 +3221,7 @@
     "image": "covers/прощай-навеки-последняя-любовь-фристайл.jpg"
   },
   {
-    "id": "come-out-ye-black-and-tans-traditional",
+    "id": "come-out-ye-black-and-tans",
     "title": "Come Out, Ye Black and Tans",
     "year": "1960s",
     "artist": [],
@@ -3286,7 +3286,7 @@
     "image": "covers/i-am-the-very-model-of-a-modern-major-general-major-general-.jpg"
   },
   {
-    "id": "la-cucaracha-traditional",
+    "id": "la-cucaracha",
     "title": "La Cucaracha",
     "year": "19c?",
     "artist": [],
@@ -3301,7 +3301,7 @@
     "image": "covers/mexico.jpg"
   },
   {
-    "id": "la-bamba-traditional",
+    "id": "la-bamba",
     "title": "La Bamba",
     "year": "17c?",
     "artist": [],
@@ -3339,7 +3339,7 @@
     "songwriters": ["Louiguy", "Édith Piaf"],
     "language": ["프랑스어"],
     "countries": ["FR"],
-    "tags": ["샹송", "꽃"],
+    "tags": ["샹송", "꽃", "장미"],
     "memo": "'장밋빛 인생', 에디트 피아프의 대표곡 중 하나.",
     "youtube": [
       {"title": "라이브 1954", "url": "https://www.youtube.com/watch?v=rzeLynj1GYM"},
@@ -3411,7 +3411,7 @@
     "image": "covers/لايف-ستايل-سامري-lifestyle-samry-majed-al-esa-ماجد-العيسى.jpg"
   },
   {
-    "id": "w-moim-ogrodecku-traditional",
+    "id": "w-moim-ogrodecku",
     "title": "W moim ogródecku",
     "year": "?",
     "artist": [],
@@ -3442,7 +3442,7 @@
     "image": "covers/guantanamera.jpg"
   },
   {
-    "id": "isa-lei-traditional",
+    "id": "isa-lei",
     "title": "Isa Lei",
     "year": "1910s?",
     "artist": [],
@@ -3558,7 +3558,7 @@
     "songwriters": ["Aubrey Graham", "Giveon Evans", "Rupert Thomas Jr.", "Noel Cadastre", "Marshall Mathers", "Jeff Bass", "Steve King"],
     "language": ["영어"],
     "countries": ["CA", "US"],
-    "tags": ["힙합", "R&B"],
+    "tags": ["힙합", "R&B", "시카고"],
     "memo": "몽환적인 분위기의 트랩 소울",
     "youtube": [
       {"title": "음원", "url": "https://www.youtube.com/watch?v=p9pf5EyOgcs"}
@@ -4029,7 +4029,7 @@
     "image": "covers/大展鴻圖.jpg"
   },
   {
-    "id": "santa-lucia-traditional",
+    "id": "santa-lucia",
     "title": "Santa Lucia",
     "year": "1849",
     "artist": [],
@@ -4138,7 +4138,7 @@
     "image": "covers/ma-non-tutta-la-vita-ricchi-e-poveri.jpg"
   },
   {
-    "id": "bre-petrunko-traditional",
+    "id": "bre-petrunko",
     "title": "Бре Петрунько (Bre Petrunko)",
     "year": "?",
     "artist": [],
@@ -4324,7 +4324,7 @@
     "image": "covers/macarena-los-del-río.jpg"
   },
   {
-    "id": "dire-gelt-traditional",
+    "id": "dire-gelt",
     "title": "Dire-Gelt (דירה-געלט)",
     "year": "?",
     "artist": [],
@@ -5166,7 +5166,7 @@
     "songwriters": ["Franz Schubert", "Johann Wolfgang von Goethe"],
     "language": ["독일어"],
     "countries": ["AT", "DE"],
-    "tags": ["클래식", "문학"],
+    "tags": ["클래식", "문학", "가곡"],
     "memo": "괴테의 시 '마왕'을 바탕으로 한 가곡.",
     "youtube": [
       {"title": "Oxfordsong 영상 버전 (Daniel Norman, Sholto Kynoch)", "url": "https://www.youtube.com/watch?v=JS91p-vmSf0"}
@@ -5221,7 +5221,7 @@
     "image": "covers/legend-otyken.jpg"
   },
   {
-    "id": "wellerman-traditional",
+    "id": "wellerman",
     "title": "Wellerman",
     "year": "19c?",
     "artist": [],
@@ -5544,7 +5544,7 @@
     "image": "covers/1er-gaou-magic-system.jpg"
   },
   {
-    "id": "korobeiniki-traditional",
+    "id": "korobeiniki",
     "title": "Коробушка / Коробейники (Korobeiniki)",
     "year": "1898",
     "artist": [],
@@ -5848,7 +5848,7 @@
     "image": "covers/the-beatles-the-beatles.jpg"
   },
   {
-    "id": "sur-le-pont-davignon-traditional",
+    "id": "sur-le-pont-davignon",
     "title": "Sur le pont d'Avignon",
     "year": "15c?",
     "artist": [],
@@ -6381,7 +6381,7 @@
     "songwriters": ["Herms Niel"],
     "language": ["독일어"],
     "countries": ["DE"],
-    "tags": ["군가", "전쟁", "2차대전", "밈", "꽃"],
+    "tags": ["군가", "전쟁", "2차대전", "밈", "꽃", "장미"],
     "memo": "2차대전 기간 독일군 군가. 나치 독일을 상징하는 곡처럼 자리잡았다.",
     "youtube": [
       {"title": "음원 (영상이 자주 잘려서 주기적으로 링크 교체 필요)", "url": "https://youtu.be/VClI7NywlYA?si=3wIaiI8oTz70V447"}
@@ -6390,28 +6390,28 @@
   },
   {
     "id": "edelweiss-herms-niel",
-    "title": "Edelweiß",
+    "title": "Es war ein Edelweiß",
     "year": 1939,
     "artist": [],
     "songwriters": ["Herms Niel"],
     "language": ["독일어"],
     "countries": ["DE"],
-    "tags": ["군가", "전쟁", "2차대전","꽃"],
-    "memo": "원조 에델바이스. 독일군 산악부대의 군가",
+    "tags": ["군가", "전쟁", "2차대전","꽃","에델바이스"],
+    "memo": "원조(?) 에델바이스. 독일군 산악부대의 군가",
     "youtube": [
       {"title": "음원", "url": "https://www.youtube.com/watch?v=JW21xAYLy7I"}
     ],
     "image": "covers/nazigermany.jpg"
   },
   {
-    "id": "auld-lang-syne-traditional",
+    "id": "auld-lang-syne",
     "title": "Auld Lang Syne",
     "year": "1788",
     "artist": [],
     "songwriters": ["Traditional", "Robert Burns"],
     "language": ["스코트어"],
     "countries": ["GB"],
-    "tags": ["스코틀랜드", "이별", "문학"],
+    "tags": ["스코틀랜드", "이별", "문학", "가곡"],
     "memo": "'작별', 전통 민요에 Robert Burns의 시를 가사로 붙인 곡. '오랫동안 사귀었던-' 으로 시작하는 한국어 번안곡도 잘 알려져 있다.",
     "youtube": [
       {"title": "스코트어 버전", "url": "https://www.youtube.com/watch?v=i4pN0zn16jk"},
@@ -6420,7 +6420,7 @@
     "image": "covers/scotland.jpg"
   },
   {
-    "id": "scotland-the-brave-traditional",
+    "id": "scotland-the-brave",
     "title": "Scotland the Brave",
     "year": "1870s",
     "artist": [],
@@ -6546,7 +6546,7 @@
     "image": "covers/pedro.jpg"
   },
   {
-    "id": "cotton-eyed-joe-traditional",
+    "id": "cotton-eyed-joe",
     "title": "Cotton-Eyed Joe",
     "year": "19c?",
     "artist": [],
@@ -6607,7 +6607,7 @@
     "youtube": [
       {"title": "MV", "url": "https://youtu.be/cmpRLQZkTb8?si=16nIMzllSB00neVV"}
     ],
-    "image": "covers/don-t-look-back-in-anger-oasis.jpg"
+    "image": "covers/morning-glory-oasis.jpg"
   },
   {
     "id": "california-dreamin-the-mamas-papas",
@@ -7039,7 +7039,7 @@
     "image": "covers/portal.jpg"
   },
   {
-    "id": "przybiezeli-do-betlejem-traditional",
+    "id": "przybiezeli-do-betlejem",
     "title": "Przybieżeli do Betlejem",
     "year": "17c",
     "artist": [],
@@ -7239,7 +7239,7 @@
     "image": "covers/wagner.jpg"
   },
   {
-    "id": "dayung-sampan-traditional",
+    "id": "dayung-sampan",
     "title": "Dayung Sampan",
     "year": "?",
     "artist": [],
@@ -8127,7 +8127,7 @@
     "image": "covers/snowman-sia.jpg"
   },
   {
-    "id": "the-first-noel-traditional",
+    "id": "the-first-noel",
     "title": "The First Noel (The First Nowell)",
     "year": "?",
     "artist": [],
@@ -8716,7 +8716,7 @@
     "image": "covers/piano-man.jpg"
   },
   {
-    "id": "halala-siyanibongela-traditional",
+    "id": "halala-siyanibongela",
     "title": "Halala Siyanibongela",
     "year": "?",
     "artist": [],
@@ -8732,7 +8732,7 @@
     "image": "covers/zulu.jpg"
   },
   {
-    "id": "banat-iskandaria-traditional",
+    "id": "banat-iskandaria",
     "title": "Banat Iskandaria (يا بنات اسكندرية)",
     "year": "?",
     "artist": [],
@@ -8749,7 +8749,7 @@
     "image": "covers/banat-iskandaria.jpg"
   },
   {
-    "id": "katibim-traditional",
+    "id": "katibim",
     "title": "Kâtibim (Üsküdar'a Gider İken)",
     "year": "?",
     "artist": [],
@@ -8766,7 +8766,7 @@
     "image": "covers/katibim.jpg"
   },
   {
-    "id": "ti-ipermaho-traditional",
+    "id": "ti-ipermaho",
     "title": "Τη Υπερμάχω (Ti Ipermaho)",
     "year": "5c?",
     "artist": [],
@@ -8797,7 +8797,7 @@
     "image": "covers/ethiopiques4.jpg"
   },
   {
-    "id": "seikilos-epitaph-seikilos",
+    "id": "seikilos-epitaph",
     "title": "Seikilos Epitaph (Επιτάφιος του Σείκιλου)",
     "year": "1c?",
     "artist": [],
@@ -8814,7 +8814,7 @@
     "image": "covers/seikilos.jpg"
   },
   {
-    "id": "banaha-traditional",
+    "id": "banaha",
     "title": "Banaha",
     "year": "?",
     "artist": [],
@@ -8863,7 +8863,7 @@
     "image": "covers/por-el-amor-de-una-mujer.jpg"
   },
   {
-    "id": "shairebi-traditional",
+    "id": "shairebi",
     "title": "შაირები (Shairebi)",
     "year": "?",
     "artist": [],
@@ -8880,7 +8880,7 @@
     "image": "covers/shairebi.jpg"
   },
   {
-    "id": "jutti-meri-traditional",
+    "id": "jutti-meri",
     "title": "जुत्ती मेरी (Jutti Meri)",
     "year": "?",
     "artist": [],
@@ -8927,7 +8927,7 @@
     "image": "covers/camila.jpg"
   },
   {
-    "id": "aa-shuu-dekeyi-oo-traditional",
+    "id": "aa-shuu-dekeyi-oo",
     "title": "Аа-шуу-декей-оо (Aa-shuu-dekeyi-oo)",
     "year": "?",
     "artist": [],
@@ -9956,7 +9956,7 @@
     "id": "babo-gati-takaya-kuroda",
     "title": "ばかみたい (바보 같이)",
     "year": "2012",
-    "artist": ["Takaya Kuroda (黒く田崇矢)"],
+    "artist": ["Takaya Kuroda (黒田崇矢)"],
     "songwriters": ["堀井亮佑","福山光晴"],
     "language": ["일본어"],
     "countries": ["JP"],
@@ -10450,7 +10450,7 @@
     "youtube": [
       {"title": "Lyric Video", "url": "https://www.youtube.com/watch?v=g0p_jI6T2WQ"}
     ],
-    "image": "covers/flyday-chinatown.jpg"
+    "image": "covers/fly-day-chinatown.jpg"
   },
   {
     "id": "mente-ma",
@@ -10559,5 +10559,488 @@
       {"title": "MV", "url": "https://www.youtube.com/watch?v=6Cq5sgMG8LE"}
     ],
     "image": "covers/traveling-jamiroquai.jpg"
+  },
+  {
+    "id": "biwa-dangshin",
+    "title": "비와 당신",
+    "year": "2006",
+    "artist": ["박중훈"],
+    "songwriters": ["방준석"],
+    "language": ["한국어"],
+    "countries": ["KR"],
+    "tags": ["영화음악","록발라드","록"],
+    "memo": "영화 <라디오 스타> OST. 이젠 괜찮은데 사랑따윈 저버렸는데",
+    "youtube": [
+      {"title": "원곡", "url": "https://www.youtube.com/watch?v=ZRTlJO2j9dE"},
+      {"title": "노브레인 버전", "url": "https://www.youtube.com/watch?v=hKCC86slEsA"},
+      {"title": "럼블피쉬 버전", "url": "https://www.youtube.com/watch?v=RiziS5qadd4"}
+    ],
+    "image": "covers/radiostar.jpg"
+  },
+  {
+    "id": "candy-hot",
+    "title": "Candy (캔디)",
+    "year": "1996",
+    "artist": ["H.O.T."],
+    "songwriters": ["장용진"],
+    "language": ["한국어"],
+    "countries": ["KR"],
+    "tags": ["KPOP","댄스"],
+    "memo": "H.O.T.의 대표곡 중 하나. 단지 널 사랑해 이렇게 말했지",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=GMsc7wGghy8"}
+    ],
+    "image": "covers/candy-캔디-h-o-t.jpg"
+  },
+  {
+    "id": "cheek-to-cheek",
+    "title": "Cheek to Cheek",
+    "year": "1935",
+    "artist": ["Fred Astaire"],
+    "songwriters": ["Irving Berlin"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["뮤지컬","재즈"],
+    "memo": "뮤지컬 <Top Hat> 삽입곡.",
+    "youtube": [
+      {"title": "Fred Astaire", "url": "https://www.youtube.com/watch?v=P1u2G16fq_Y"},
+      {"title": "Ella Fitzgerald, Louis Armstrong", "url": "https://www.youtube.com/watch?v=20iOlPwz0J0"}
+    ],
+    "image": "covers/tophat.jpg"
+  },
+  {
+    "id": "pungmuneuro",
+    "title": "풍문으로 들었소",
+    "year": "1980",
+    "artist": ["함중아와 양키스"],
+    "songwriters": ["장경수","함정필"],
+    "language": ["한국어"],
+    "countries": ["KR"],
+    "tags": ["록"],
+    "memo": "우우우우 풍문으로 들었소",
+    "youtube": [
+      {"title": "원곡", "url": "https://www.youtube.com/watch?v=1qjzwQbhjT0"},
+      {"title": "장기하와 아이들 버전 (영화 <범죄와의 전쟁> OST)", "url": "https://www.youtube.com/watch?v=KcjjTWn8AVQ"}
+    ],
+    "image": "covers/풍문으로-들었소-함중아와-양키스.jpg"
+  },
+  {
+    "id": "aoi-sangoshou",
+    "title": "青い珊瑚礁 (푸른 산호초)",
+    "year": "1980",
+    "artist": ["Matsuda Seiko (松田聖子)"],
+    "songwriters": ["三浦徳子","小田裕一郎"],
+    "language": ["일본어"],
+    "countries": ["JP"],
+    "tags": ["JPOP"],
+    "memo": "청량하고 서정적인, 일본 최대 히트곡 중 하나.",
+    "youtube": [
+      {"title": "영상", "url": "https://www.youtube.com/watch?v=mrgApjHbRLw"},
+      {"title": "음원", "url": "https://youtu.be/nxG7Mw6X3nU?si=fJ9wzxsmLPpzb1vs"}
+    ],
+    "image": "covers/aoi-sangoshou.jpg"
+  },
+  {
+    "id": "love-on-top-beyonce",
+    "title": "Love On Top",
+    "year": "2011",
+    "artist": ["Beyoncé"],
+    "songwriters": ["Beyoncé Knowles","Terius Nash","Shea Taylor"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["R&B"],
+    "memo": "비욘세의 대표곡 중 하나.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=Ob7vObnFUJc"}
+    ],
+    "image": "covers/love-on-top-beyoncé.jpg"
+  },
+  {
+    "id": "die-forelle-schubert",
+    "title": "Die Forelle (송어)",
+    "year": "1817",
+    "artist": [],
+    "songwriters": ["Franz Schubert","Christian Friedrich Daniel Schubart"],
+    "language": ["독일어"],
+    "countries": ["AT"],
+    "tags": ["클래식","피아노","가곡","문학"],
+    "memo": "시를 바탕으로 한 슈베르트의 가곡. 숭어 아니고 송어",
+    "youtube": [
+      {"title": "Fischer-Dieskau", "url": "https://www.youtube.com/watch?v=NF9DrUXowBo"}
+    ],
+    "image": "covers/schubert.jpg"
+  },
+  {
+    "id": "future-boy-conan",
+    "title": "미래소년 코난",
+    "year": "1982",
+    "artist": ["이혜민","민경옥"],
+    "songwriters": ["박준영","금수레"],
+    "language": ["한국어"],
+    "countries": ["KR"],
+    "tags": ["애니메이션"],
+    "memo": "애니메이션 <미래소년 코난> 한국판 오리지널 오프닝 테마.",
+    "youtube": [
+      {"title": "가사", "url": "https://www.youtube.com/watch?v=RM1t_uu1s34"}
+    ],
+    "image": "covers/future-boy-conan.jpg"
+  },
+  {
+    "id": "visions-black-vulcanite",
+    "title": "Visions",
+    "year": "2013",
+    "artist": ["Black Vulcanite","Sandra Amarie","Tanya Daringo"],
+    "songwriters": ["Mark Mushiva","Allain Villet","Niko Tjongarero"],
+    "language": ["영어"],
+    "countries": ["NA","CA"],
+    "tags": ["힙합"],
+    "memo": "나미비아의 아픈 역사와 사회적 부패에 맞서는 힙합 곡.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=mOKIfcMwEV4"},
+      {"title": "음원(Tanya Daringo 파트 포함)", "url": "https://www.youtube.com/watch?v=wqsbdqss2-o"}
+    ],
+    "image": "covers/black_vulcanite_1.jpg"
+  },
+  {
+    "id": "maggie",
+    "title": "When You and I Were Young, Maggie",
+    "year": "1866",
+    "artist": [],
+    "songwriters": ["George W. Johnson","James Austin Butterfield"],
+    "language": ["영어"],
+    "countries": ["CA","US"],
+    "tags": ["민요"],
+    "memo": "'메기의 추억'으로 알려져 있는 미국/캐나다 민요.",
+    "youtube": [
+      {"title": "Tom Roush", "url": "https://www.youtube.com/watch?v=RiVFBqfTKK0"},
+      {"title": "Ann Breen", "url": "https://www.youtube.com/watch?v=pebkREff1oo  "},
+      {"title": "아일랜드 듀오 Foster & Allen", "url": "https://www.youtube.com/watch?v=jqB8W1KquTY"}
+    ],
+    "image": "covers/maggie.jpg"
+  },
+  {
+    "id": "jingle-bells",
+    "title": "Jingle Bells (The One Horse Open Sleigh)",
+    "year": "1857",
+    "artist": [],
+    "songwriters": ["James Lord Pierpont"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["크리스마스"],
+    "memo": "처음 만들어질 때부터 캐롤은 아니었던, 대표적인 크리스마스 캐롤.",
+    "youtube": [
+      {"title": "원곡 (The Robert De Cormier Singers and Ensemble)", "url": "https://www.youtube.com/watch?v=QKiBwIDt2A8"},
+      {"title": "Glenn Miller Orchestra (1941)", "url": "https://www.youtube.com/watch?v=oZwQZjpVwNw"},
+      {"title": "Frank Sinatra", "url": "https://www.youtube.com/watch?v=hLf0-lro8X8"},
+      {"title": "Bing Crosby, The Andrews Sisters", "url": "https://www.youtube.com/watch?v=Gn_ANKbax74"}
+    ],
+    "image": "covers/jingle-bells.jpg"
+  },
+  {
+    "id": "sakuranbo",
+    "title": "さくらんぼ (Sakuranbo)",
+    "year": "2003",
+    "artist": ["Ootsuka Ai (大塚愛)"],
+    "songwriters": ["大塚愛"],
+    "language": ["일본어"],
+    "countries": ["JP"],
+    "tags": ["JPOP","팝록"],
+    "memo": "사쿠란보, '버찌'. 오오츠카 아이의 히트곡.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/upODO6OuOOk?si=TxxWBEDe3eYL8fS6"}
+    ],
+    "image": "covers/sakuranbo.jpg"
+  },
+  {
+    "id": "do-re-mi-sound-of-music",
+    "title": "Do-Re-Mi",
+    "year": "1959",
+    "artist": [],
+    "songwriters": ["Richard Rodgers","Oscar Hammerstein II"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["뮤지컬"],
+    "memo": "뮤지컬 <사운드 오브 뮤직>에서의 도레미송.",
+    "youtube": [
+      {"title": "Julie Andrews, 영화 <사운드 오브 뮤직> (1965)", "url": "https://www.youtube.com/watch?v=drnBMAEA3AM"}
+    ],
+    "image": "covers/sound-of-music.jpg"
+  },
+  {
+    "id": "edelweiss-sound-of-music",
+    "title": "Edelweiss",
+    "year": "1959",
+    "artist": [],
+    "songwriters": ["Richard Rodgers","Oscar Hammerstein II"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["꽃","에델바이스","뮤지컬"],
+    "memo": "뮤지컬 <사운드 오브 뮤직> 중, 알프스의 에델바이스 꽃에 대한 곡. 오스트리아 민요는 아니다.",
+    "youtube": [
+      {"title": "영화 <사운드 오브 뮤직> (1965) 中", "url": "https://www.youtube.com/watch?v=8bL2BCiFkTk"}
+    ],
+    "image": "covers/sound-of-music.jpg"
+  },
+  {
+    "id": "the-lonely-goatherd-sound-of-music",
+    "title": "The Lonely Goatherd",
+    "year": "1959",
+    "artist": [],
+    "songwriters": ["Richard Rodgers","Oscar Hammerstein II"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["뮤지컬","요들"],
+    "memo": "뮤지컬 <사운드 오브 뮤직>에서의 요들송.",
+    "youtube": [
+      {"title": "영화 <사운드 오브 뮤직> (1965) 中", "url": "https://www.youtube.com/watch?v=UmmOJx_Hxto"}
+    ],
+    "image": "covers/sound-of-music.jpg"
+  },
+  {
+    "id": "we-both-reached-for-the-gun-chicago",
+    "title": "We Both Reached for the Gun",
+    "year": "1975",
+    "artist": [],
+    "songwriters": ["John Kander","Fred Ebb"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["뮤지컬","시카고","재즈"],
+    "memo": "복화술 파트로 유명한 뮤지컬 <시카고>의 넘버.",
+    "youtube": [
+      {"title": "영화 <시카고> (2002) 中", "url": "https://www.youtube.com/watch?v=z5EZNPUJYXc"},
+      {"title": "한국어 버전 (민경아, 최재림)", "url": "https://www.youtube.com/watch?v=G0ZuPjha-c8"}
+    ],
+    "image": "covers/chicago.jpg"
+  },
+  {
+    "id": "i-dont-wanna-live-forever-zayn-taylor-swift",
+    "title": "I Don't Wanna Live Forever",
+    "year": "2016",
+    "artist": ["Zayn","Taylor Swift"],
+    "songwriters": ["Taylor Swift","Sam Dew","Jack Antonoff"],
+    "language": ["영어"],
+    "countries": ["GB","US"],
+    "tags": ["R&B","영화음악","일렉트로팝"],
+    "memo": "영화 <50가지 그림자: 심연> 삽입곡.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=AY9blLYMKnI"}
+    ],
+    "image": "covers/i-don-t-wanna-live-forever-zayn.jpg"
+  },
+  {
+    "id": "young-and-beautiful-lana-del-rey",
+    "title": "Young and Beautiful",
+    "year": "2013",
+    "artist": ["Lana Del Rey"],
+    "songwriters": ["Lana Del Rey","Rick Nowels"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["오케스트럴팝","영화음악"],
+    "memo": "영화 <위대한 개츠비> 삽입곡.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=o_1aF54DO60"}
+    ],
+    "image": "covers/young-and-beautiful-lana-del-rey.jpg"
+  },
+  {
+    "id": "love-theme-from-the-godfather",
+    "title": "Love Theme from The Godfather",
+    "year": "1972",
+    "artist": [],
+    "songwriters": ["Nino Rota"],
+    "language": [],
+    "countries": ["IT"],
+    "tags": ["영화음악"],
+    "memo": "영화 <대부> OST. 영어 등의 가사가 붙기도 한다.",
+    "youtube": [
+      {"title": "음악", "url": "https://www.youtube.com/watch?v=Flb01Ni3p3M"},
+      {"title": "Andy Williams의 영어 버전 'Speak Sotfly, Love'", "url": "https://www.youtube.com/watch?v=PQBW6G0hSrs"},
+      {"title": "<대부 3>에서의 시칠리아어 버전 'Brucia la terra'", "url": "https://www.youtube.com/watch?v=mwMOvx8kvSc"}
+    ],
+    "image": "covers/godfather.jpg"
+  },
+  {
+    "id": "the-great-escape-theme",
+    "title": "Main Title (The Great Escape Theme)",
+    "year": "1963",
+    "artist": [],
+    "songwriters": ["Elmer Bernstein"],
+    "language": [],
+    "countries": ["US"],
+    "tags": ["영화음악","행진곡"],
+    "memo": "1963년 영화 <대탈주>의 메인 OST.",
+    "youtube": [
+      {"title": "음악", "url": "https://www.youtube.com/watch?v=pdQC33r0zP8"}
+    ],
+    "image": "covers/the-great-escape.jpg"
+  },
+  {
+    "id": "dongmakgol",
+    "title": "A Waltz Of Sleigh",
+    "year": "2005",
+    "artist": [],
+    "songwriters": ["Hisaishi Joe"],
+    "language": [],
+    "countries": ["JP"],
+    "tags": ["영화음악","왈츠"],
+    "memo": "영화 <웰컴투 동막골> OST.",
+    "youtube": [
+      {"title": "음악", "url": "https://www.youtube.com/watch?v=6q3tR5nMcWs"}
+    ],
+    "image": "covers/dongmakgol.jpg"
+  },
+  {
+    "id": "pomp-and-circumstance",
+    "title": "Pomp and Circumstance March No. 1 (위풍당당 행진곡)",
+    "year": "1901",
+    "artist": [],
+    "songwriters": ["Edward Elgar"],
+    "language": [],
+    "countries": ["GB"],
+    "tags": ["클래식","행진곡"],
+    "memo": "엘가의 위풍당당 행진곡 1번. 가사가 붙은 'Land of Hope and Glory'는 영국에서 준국가 수준 취급을 받는다.",
+    "youtube": [
+      {"title": "음악", "url": "https://www.youtube.com/watch?v=Q0PHWKRFgZ0"},
+      {"title": "Land of Hope and Glory, BBC Proms 2014", "url": "https://www.youtube.com/watch?v=R2-43p3GVTQ"}
+    ],
+    "image": "covers/elgar.jpg"
+  },
+  {
+    "id": "demain",
+    "title": "Demain",
+    "year": "1980",
+    "artist": [""],
+    "songwriters": ["Claude-Michel Schönberg"],
+    "language": ["프랑스어"],
+    "countries": ["FR"],
+    "tags": ["뮤지컬"],
+    "memo": "'내일', 영어 제목 'One day More'. 뮤지컬 <레미제라블> 삽입곡.",
+    "youtube": [
+      {"title": "프랑스어 원곡", "url": "https://www.youtube.com/watch?v=MCLQlnw1pu0"},
+      {"title": "영어 버전 'One day More'", "url": "https://www.youtube.com/watch?v=wNNBrg4u9d0"},
+      {"title": "영어 버전, 2012년 뮤지컬 영화 <레미제라블> 中", "url": "https://www.youtube.com/watch?v=wNNBrg4u9d0"}
+    ],
+    "image": "covers/les-miserables.jpg"
+  },
+  {
+    "id": "onara",
+    "title": "오나라",
+    "year": "2003",
+    "artist": ["김슬기","김지현","백보현"],
+    "songwriters": ["임세현"],
+    "language": ["중세국어"],
+    "countries": ["KR"],
+    "tags": ["드라마","국악"],
+    "memo": "드라마 <대장금> OST.",
+    "youtube": [
+      {"title": "음악", "url": "https://www.youtube.com/watch?v=zNe2fVqqY8Q"}
+    ],
+    "image": "covers/대장금.jpg"
+  },
+  {
+    "id": "danse-mot-var",
+    "title": "Danse mot vår",
+    "year": "1992",
+    "artist": ["Elisabeth Andreassen"],
+    "songwriters": ["Rolf Løvland","Britt Viberg"],
+    "language": ["노르웨이어"],
+    "countries": ["NO"],
+    "tags": ["가곡","발라드","봄"],
+    "memo": "'봄을 향한 춤', 한국어 번안곡은 '10월의 어느 멋진 날에'.",
+    "youtube": [
+      {"title": "원곡", "url": "https://www.youtube.com/watch?v=-BK54LV2h4Q"},
+      {"title": "김동규, 10월의 어느 멋진 날에 (2000)", "url": "https://www.youtube.com/watch?v=eCeuIuoS5pA"}
+    ],
+    "image": "covers/danse-mot-var.jpg"
+  },
+  {
+    "id": "molihua",
+    "title": "茉莉花 (모리화)",
+    "year": "18c?",
+    "artist": [],
+    "songwriters": ["Traditional"],
+    "language": ["중국어"],
+    "countries": ["CN"],
+    "tags": ["민요","장쑤성","꽃"],
+    "memo": "중국 장쑤성(강남) 유래의, 중국을 대표하는 민요. 모리화(말리화)/재스민 꽃",
+    "youtube": [
+      {"title": "펑리위안(彭丽媛)", "url": "https://www.youtube.com/watch?v=aZ_yOV1XMa8"}
+    ],
+    "image": "covers/molihua.jpg"
+  },
+  {
+    "id": "champagne-supernova-oasis",
+    "title": "Champagne Supernova",
+    "year": "1996",
+    "artist": ["Oasis"],
+    "songwriters": ["Noel Gallagher"],
+    "language": ["영어"],
+    "countries": ["GB"],
+    "tags": ["사이키델릭록","록","술"],
+    "memo": "난해한(막 쓴) 가사의 오아시스 노래.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=tI-5uv4wryI"}
+    ],
+    "image": "covers/morning-glory-oasis.jpg"
+  },
+  {
+    "id": "obaa-shimoji-isamu",
+    "title": "おばぁ (할머니)",
+    "year": "2002",
+    "artist": ["Shimoji Isamu (下地イサム)"],
+    "songwriters": ["下地勇"],
+    "language": ["류큐어"],
+    "countries": ["JP"],
+    "tags": ["포크","발라드","오키나와"],
+    "memo": "미야코 제도의 미야코어(류큐어의 일종)로 쓰인 곡.",
+    "youtube": [
+      {"title": "영상", "url": "https://www.youtube.com/watch?v=0Rjl0XOfhPM"}
+    ],
+    "image": "covers/tin-shimoji-isamu.jpg"
+  },
+  {
+    "id": "uchiagehanabi",
+    "title": "打上花火 (타상연화)",
+    "year": "2017",
+    "artist": ["DAOKO","Kenshi Yonezu (米津玄師)"],
+    "songwriters": ["米津玄師"],
+    "language": ["일본어"],
+    "countries": ["JP"],
+    "tags": ["JPOP","신스팝","영화음악","애니메이션"],
+    "memo": "'쏘아올린 불꽃'. 영화 <쏘아올린 불꽃, 밑에서 볼까? 옆에서 볼까?> 주제가.",
+    "youtube": [
+      {"title": "MV", "url": "https://youtu.be/-tKVN2mAKRI?si=bW7yJkfmhUZg2Waw"}
+    ],
+    "image": "covers/thank-you-blue-daoko.jpg"
+  },
+  {
+    "id": "vogel-im-kafig-attack-on-titan",
+    "title": "Vogel im Käfig",
+    "year": "2013",
+    "artist": ["Cyua"],
+    "songwriters": ["Rie"],
+    "language": ["독일어"],
+    "countries": ["JP"],
+    "tags": ["애니메이션"],
+    "memo": "'새장 속의 새', 애니메이션 <진격의 거인> OST.",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=H76_uW1Fnso"}
+    ],
+    "image": "covers/attack-on-titan.jpg"
+  },
+  {
+    "id": "welcome-to-the-black-parade",
+    "title": "Welcome to the Black Parade",
+    "year": "2006",
+    "artist": ["My Chemical Romance"],
+    "songwriters": ["Bob Bryar","Frank Iero","Ray Toro","Gerard Way","Mikey Way"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["록","펑크","팝"],
+    "memo": "너의 죽음 뒤에도 우린 이어나갈 거야.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=RRKJiM9Njr8"}
+    ],
+    "image": "covers/welcome-to-the-black-parade-my-chemical-romance.jpg"
   }
 ]

@@ -228,6 +228,24 @@
   .loading-text {
     color: #888;
   }
+
+  /* 저장 중에는 클릭을 막아 중복 저장·건너뛰기를 방지 */
+  body.saving .candidate-card,
+  body.saving #manual-url-btn,
+  body.saving #skip-btn {
+    pointer-events: none;
+    opacity: 0.55;
+  }
+
+  .done-note {
+    color: #555;
+    background: #fff7e6;
+    border: 1px solid #f3d9a4;
+    border-radius: 10px;
+    padding: var(--space-3);
+    margin-top: var(--space-3);
+    font-size: 0.92rem;
+  }
 </style>
 </head>
 <body>
@@ -239,6 +257,7 @@
     곡마다 iTunes에서 후보 이미지를 찾아 보여주면, 직접 눈으로 확인하고 고른 이미지만
     <code>covers/</code> 폴더에 저장하고 <code>sscdbg.json</code>의 <code>image</code> 필드에 반영합니다.
     한 번 저장된 곡은 다음에 다시 열어도 건너뜁니다.
+    <code>sscdbg.json</code>은 기존 서식을 그대로 두고 <code>image</code> 한 줄만 추가합니다.
     <br><br>
     Chrome 또는 Edge 데스크톱에서 열면 프로젝트 폴더를 선택해 자동으로 저장할 수 있고,
     다른 브라우저에서는 파일을 하나씩 다운로드하는 방식으로 대신 동작합니다.
@@ -297,14 +316,16 @@
 const ITUNES_MIN_INTERVAL_MS = 3200;
 let itunesQueue = [];
 let itunesQueueRunning = false;
+let lastItunesRequestAt = 0;
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function enqueueItunesRequest(task) {
+// isStale: 요청 차례가 왔을 때 이미 다른 곡으로 넘어갔으면 요청을 건너뜀
+function enqueueItunesRequest(task, isStale) {
   return new Promise(resolve => {
-    itunesQueue.push({ task, resolve });
+    itunesQueue.push({ task, resolve, isStale });
     runItunesQueue();
   });
 }
@@ -314,7 +335,25 @@ async function runItunesQueue() {
   itunesQueueRunning = true;
 
   while (itunesQueue.length > 0) {
-    const { task, resolve } = itunesQueue.shift();
+    const { task, resolve, isStale } = itunesQueue.shift();
+    const skipStale = () => resolve({ ok: true, candidates: [], stale: true });
+
+    if (isStale && isStale()) {
+      skipStale();
+      continue;
+    }
+
+    // 직전 요청과의 간격을 항상 지킴 (곡을 빠르게 넘겨도 분당 요청 수 제한을 넘지 않도록)
+    const wait = lastItunesRequestAt + ITUNES_MIN_INTERVAL_MS - Date.now();
+    if (wait > 0) {
+      await sleep(wait);
+      if (isStale && isStale()) {
+        skipStale();
+        continue;
+      }
+    }
+
+    lastItunesRequestAt = Date.now();
 
     let result;
     try {
@@ -326,10 +365,6 @@ async function runItunesQueue() {
     }
 
     resolve(result);
-
-    if (itunesQueue.length > 0) {
-      await sleep(ITUNES_MIN_INTERVAL_MS);
-    }
   }
 
   itunesQueueRunning = false;
@@ -362,6 +397,16 @@ function upscaleArtworkUrl(url) {
   );
 }
 
+// 이름을 정할 때 건너뛸 범용 표기 (사이트의 GENERIC_CREDIT_KEYS와 같은 취지)
+const GENERIC_CREDITS = new Set(["traditional", "anonymous", "unknown", "작자미상", "미상", "?", "？"]);
+
+// 가수가 있으면 가수, 없으면 작곡가(범용 표기 제외)의 첫 이름
+function primaryPerson(song) {
+  const pick = names =>
+    (names || []).find(name => name && !GENERIC_CREDITS.has(String(name).trim().toLowerCase()));
+  return pick(song.artist) || pick(song.songwriters) || "";
+}
+
 // 제목에 붙은 한글 번역 괄호(예: "Dragostea din tei (보리수나무 아래에서의 사랑)")는
 // iTunes 검색을 방해하므로 제거하고 검색어를 만듦
 function buildSearchQuery(song) {
@@ -369,10 +414,10 @@ function buildSearchQuery(song) {
     .replace(/\([^)]*[\uac00-\ud7a3][^)]*\)/g, "")
     .trim();
 
-  return [cleanTitle, song.artist?.[0]].filter(Boolean).join(" ");
+  return [cleanTitle, primaryPerson(song)].filter(Boolean).join(" ");
 }
 
-async function fetchCandidates(song) {
+async function fetchCandidates(song, isStale) {
   const query = buildSearchQuery(song);
 
   const url =
@@ -396,7 +441,7 @@ async function fetchCandidates(song) {
         trackViewUrl: result.trackViewUrl,
       }))
       .filter(candidate => candidate.artwork);
-  });
+  }, isStale);
 }
 
 // -------------------------------------
@@ -413,10 +458,41 @@ function slugify(text) {
     .slice(0, 60) || "cover";
 }
 
-function coverFileName(song, index) {
-  const slug = slugify(`${song.title}-${song.artist?.[0] || ""}`);
-  const paddedIndex = String(index).padStart(3, "0");
-  return `${paddedIndex}-${slug}.jpg`;
+function coverBaseName(song) {
+  return slugify(`${song.title}-${primaryPerson(song)}`);
+}
+
+// 이미 쓰인 파일 이름(소문자)들: sscdbg.json의 image 경로 + 이번 세션에서 저장한 파일
+let takenFileNames = new Set();
+
+function collectTakenFileNames() {
+  takenFileNames = new Set(
+    songsData
+      .map(song => String(song.image || "").split("/").pop().toLowerCase())
+      .filter(Boolean)
+  );
+}
+
+async function fileExistsInCovers(name) {
+  try {
+    await coversDirHandle.getFileHandle(name);
+    return true;
+  } catch (error) {
+    if (error.name === "NotFoundError") return false;
+    throw error;
+  }
+}
+
+// 다른 곡이 쓰는(또는 covers/에 이미 있는) 이름과 겹치면 -2, -3을 붙여 덮어쓰기를 막음
+async function pickFileName(song) {
+  const base = coverBaseName(song);
+
+  for (let n = 1; ; n++) {
+    const name = n === 1 ? `${base}.jpg` : `${base}-${n}.jpg`;
+    if (takenFileNames.has(name.toLowerCase())) continue;
+    if (coversDirHandle && (await fileExistsInCovers(name))) continue;
+    return name;
+  }
 }
 
 // -------------------------------------
@@ -431,6 +507,15 @@ let reviewQueue = [];
 let currentIndex = -1;
 let totalToReview = 0;
 let sessionSavedCount = 0;
+
+// sscdbg.json 원문과 곡 객체 위치. 저장할 때 서식을 건드리지 않고 image 줄만 끼워 넣기 위해 보관
+let songsText = "";
+let songSpans = null;          // [{ start, end }] 곡마다 '{'와 '}' 위치. 위치를 못 찾으면 null
+let lastKnownText = "";        // 이 도구가 마지막으로 읽거나 쓴 파일 내용
+const imageEdits = new Map();  // 곡 번호 -> 새 image 경로
+let formatFallbackUsed = false;
+let isSaving = false;
+let reviewToken = 0;
 
 // -------------------------------------
 // 폴더 선택 (File System Access API)
@@ -482,7 +567,7 @@ document.getElementById("pick-folder-btn").addEventListener("click", async () =>
     songsFileHandle = await projectDirHandle.getFileHandle("sscdbg.json");
 
     const file = await songsFileHandle.getFile();
-    songsData = JSON.parse(await file.text());
+    loadSongsText(await file.text());
 
     coversDirHandle = await projectDirHandle.getDirectoryHandle("covers", {
       create: true,
@@ -503,13 +588,195 @@ document.getElementById("file-input").addEventListener("change", async event => 
   const file = event.target.files[0];
   if (!file) return;
 
-  songsData = JSON.parse(await file.text());
+  loadSongsText(await file.text());
   projectDirHandle = null;
   coversDirHandle = null;
   songsFileHandle = null;
 
   startReview();
 });
+
+// -------------------------------------
+// sscdbg.json 저장: 서식은 그대로 두고 image 줄만 추가
+// -------------------------------------
+
+function loadSongsText(text) {
+  songsText = text;
+  lastKnownText = text;
+  songsData = JSON.parse(text);
+  imageEdits.clear();
+  formatFallbackUsed = false;
+
+  songSpans = findSongObjectSpans(text);
+  if (songSpans.length !== songsData.length) songSpans = null;
+
+  collectTakenFileNames();
+}
+
+// 최상위 배열 안 각 곡 객체의 '{' '}' 위치 (문자열 안의 괄호는 무시)
+function findSongObjectSpans(text) {
+  const spans = [];
+  let depth = 0, inString = false, escaped = false, start = -1;
+
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+
+    if (inString) {
+      if (escaped) escaped = false;
+      else if (ch === "\\") escaped = true;
+      else if (ch === '"') inString = false;
+      continue;
+    }
+
+    if (ch === '"') {
+      inString = true;
+    } else if (ch === "[" || ch === "{") {
+      if (ch === "{" && depth === 1) start = i;
+      depth++;
+    } else if (ch === "]" || ch === "}") {
+      depth--;
+      if (ch === "}" && depth === 1) spans.push({ start, end: i });
+    }
+  }
+
+  return spans;
+}
+
+// text[start]에서 시작하는 JSON 값의 끝(마지막 글자 다음 위치)
+function jsonValueEnd(text, start) {
+  const first = text[start];
+
+  if (first === '"') {
+    let i = start + 1;
+    while (i < text.length && text[i] !== '"') i += text[i] === "\\" ? 2 : 1;
+    return i + 1;
+  }
+
+  if (first === "[" || first === "{") {
+    let depth = 0, inString = false, escaped = false;
+    for (let i = start; i < text.length; i++) {
+      const ch = text[i];
+      if (inString) {
+        if (escaped) escaped = false;
+        else if (ch === "\\") escaped = true;
+        else if (ch === '"') inString = false;
+        continue;
+      }
+      if (ch === '"') inString = true;
+      else if (ch === "[" || ch === "{") depth++;
+      else if (ch === "]" || ch === "}") {
+        depth--;
+        if (depth === 0) return i + 1;
+      }
+    }
+  }
+
+  let i = start;
+  while (i < text.length && !/[,}\]\s]/.test(text[i])) i++;
+  return i;
+}
+
+// 곡 객체 안에서 최상위 키의 값 위치. 없으면 null
+function findTopLevelKey(text, span, keyName) {
+  let depth = 0, inString = false, escaped = false;
+
+  for (let i = span.start; i <= span.end; i++) {
+    const ch = text[i];
+
+    if (inString) {
+      if (escaped) escaped = false;
+      else if (ch === "\\") escaped = true;
+      else if (ch === '"') inString = false;
+      continue;
+    }
+
+    if (ch === '"') {
+      if (depth === 1) {
+        const stringEnd = jsonValueEnd(text, i);
+        let k = stringEnd;
+        while (/\s/.test(text[k])) k++;
+
+        if (text[k] === ":" && JSON.parse(text.slice(i, stringEnd)) === keyName) {
+          let v = k + 1;
+          while (/\s/.test(text[v])) v++;
+          return { valueStart: v, valueEnd: jsonValueEnd(text, v) };
+        }
+
+        i = stringEnd - 1;
+        continue;
+      }
+      inString = true;
+    } else if (ch === "[" || ch === "{") {
+      depth++;
+    } else if (ch === "]" || ch === "}") {
+      depth--;
+    }
+  }
+
+  return null;
+}
+
+// 원문에 image 변경분만 적용한 텍스트
+function buildSongsText() {
+  if (!songSpans) throw new Error("곡 객체 위치를 찾지 못했습니다");
+
+  const newline = songsText.includes("\r\n") ? "\r\n" : "\n";
+  let text = songsText;
+
+  // 뒤쪽 곡부터 고쳐야 앞쪽 곡의 위치가 밀리지 않음
+  const indices = [...imageEdits.keys()].sort((a, b) => b - a);
+
+  for (const index of indices) {
+    const span = songSpans[index];
+    const value = JSON.stringify(imageEdits.get(index));
+    const existing = findTopLevelKey(songsText, span, "image");
+
+    if (existing) {
+      // image 키는 있는데 비어 있는 경우: 값만 바꿈
+      text = text.slice(0, existing.valueStart) + value + text.slice(existing.valueEnd);
+      continue;
+    }
+
+    // image 키가 없는 경우: 마지막 항목 뒤에 한 줄 추가
+    let q = span.end;
+    while (q > span.start && /\s/.test(songsText[q - 1])) q--;
+
+    const comma = songsText[q - 1] === "{" ? "" : ",";
+    const multiline = songsText.slice(q, span.end).includes("\n");
+    let insert;
+
+    if (multiline) {
+      const m = songsText.slice(span.start).match(/\n([ \t]*)\S/);
+      const indent = m ? m[1] : "    ";
+      insert = `${comma}${newline}${indent}"image": ${value}`;
+    } else {
+      insert = `${comma} "image": ${value}`;
+    }
+
+    text = text.slice(0, q) + insert + text.slice(q);
+  }
+
+  return text;
+}
+
+// 서식 보존 저장을 시도하고, 결과가 예상과 다르면 전체를 다시 쓰는 방식으로 대신함
+function serializeSongs() {
+  try {
+    const text = buildSongsText();
+    const parsed = JSON.parse(text);
+
+    const same =
+      parsed.length === songsData.length &&
+      parsed.every((song, i) => JSON.stringify(song) === JSON.stringify(songsData[i]));
+
+    if (!same) throw new Error("저장 결과가 메모리의 데이터와 다릅니다");
+    return text;
+  } catch (error) {
+    console.warn("서식을 유지한 저장에 실패해 전체를 다시 씁니다:", error);
+    formatFallbackUsed = true;
+    return JSON.stringify(songsData, null, 2);
+  }
+}
 
 // -------------------------------------
 // 검토 흐름
@@ -542,12 +809,16 @@ async function nextSong() {
 
   currentIndex = reviewQueue.shift();
   const song = songsData[currentIndex];
+  const token = ++reviewToken;
 
   renderProgress();
   renderSongInfo(song);
   renderLoadingCandidates();
 
-  const result = await fetchCandidates(song);
+  const result = await fetchCandidates(song, () => token !== reviewToken);
+
+  // 기다리는 사이 다른 곡으로 넘어갔다면 이전 곡의 후보를 그리지 않음
+  if (token !== reviewToken) return;
   renderCandidates(song, result);
 }
 
@@ -607,20 +878,32 @@ function renderCandidates(song, result) {
 }
 
 document.getElementById("manual-url-btn").addEventListener("click", () => {
+  if (isSaving) return;
   const url = document.getElementById("manual-url").value.trim();
   if (!url) return;
   acceptImage(songsData[currentIndex], url);
 });
 
 document.getElementById("skip-btn").addEventListener("click", () => {
+  if (isSaving) return;
   nextSong();
 });
 
 async function acceptImage(song, imageUrl) {
-  const fileName = coverFileName(song, currentIndex);
-  const relativePath = `covers/${fileName}`;
+  if (isSaving) return;
+  isSaving = true;
+  document.body.classList.add("saving");
+
+  const index = songsData.indexOf(song);
+  const hadImageKey = Object.prototype.hasOwnProperty.call(song, "image");
+  const previousImage = song.image;
+  let committed = false;
+  let saved = false;
 
   try {
+    const fileName = await pickFileName(song);
+    const relativePath = `covers/${fileName}`;
+
     const response = await fetch(imageUrl);
     if (!response.ok) throw new Error("이미지를 받아오지 못했습니다 (" + response.status + ")");
     const blob = await response.blob();
@@ -632,29 +915,55 @@ async function acceptImage(song, imageUrl) {
       const writable = await fileHandle.createWritable();
       await writable.write(blob);
       await writable.close();
-
-      song.image = relativePath;
-      sessionSavedCount++;
-
-      await persistSongsData();
     } else {
       downloadBlob(blob, fileName);
-      song.image = relativePath;
-      sessionSavedCount++;
     }
+
+    song.image = relativePath;
+    imageEdits.set(index, relativePath);
+    takenFileNames.add(fileName.toLowerCase());
+    committed = true;
+
+    await persistSongsData();
+
+    sessionSavedCount++;
+    saved = true;
   } catch (error) {
+    if (committed) {
+      // 파일 저장에는 성공했지만 sscdbg.json을 쓰지 못한 경우: 메모리 상태를 되돌림
+      imageEdits.delete(index);
+      if (hadImageKey) song.image = previousImage;
+      else delete song.image;
+    }
     alert("이미지를 저장하는 중 문제가 발생했습니다:\n" + error.message);
-    return;
+  } finally {
+    isSaving = false;
+    document.body.classList.remove("saving");
   }
 
-  nextSong();
+  if (saved) nextSong();
 }
 
 async function persistSongsData() {
   if (!songsFileHandle) return;
+
+  // 도구를 연 뒤 sscdbg.json이 다른 곳(에디터 등)에서 바뀌었다면 덮어쓰지 않고 멈춤
+  const current = await (await songsFileHandle.getFile()).text();
+  if (current !== lastKnownText) {
+    throw new Error(
+      "도구를 연 뒤에 sscdbg.json이 다른 곳에서 수정되어 저장하지 않았습니다. " +
+        "이 페이지를 새로고침해서 처음부터 다시 시작해주세요. " +
+        "(방금 받은 이미지 파일은 covers/ 폴더에 남아 있습니다)"
+    );
+  }
+
+  const text = serializeSongs();
+
   const writable = await songsFileHandle.createWritable();
-  await writable.write(JSON.stringify(songsData, null, 2));
+  await writable.write(text);
   await writable.close();
+
+  lastKnownText = text;
 }
 
 function finishReview() {
@@ -668,6 +977,7 @@ function finishReview() {
       `이번 세션에서 ${sessionSavedCount}곡의 이미지가 covers/ 폴더에 저장되고 ` +
       `sscdbg.json이 자동으로 갱신되었습니다. git status로 변경사항을 확인해보세요.`;
     document.getElementById("done").appendChild(summary);
+    appendDoneNotes();
   } else {
     summary.textContent =
       `이번 세션에서 ${sessionSavedCount}곡의 이미지를 다운로드했습니다. ` +
@@ -675,9 +985,10 @@ function finishReview() {
       `갱신된 sscdbg.json도 받아서 기존 파일을 덮어써주세요.`;
     document.getElementById("done").appendChild(summary);
 
-    const blob = new Blob([JSON.stringify(songsData, null, 2)], {
+    const blob = new Blob([serializeSongs()], {
       type: "application/json",
     });
+    appendDoneNotes();
     const url = URL.createObjectURL(blob);
 
     const link = document.createElement("a");
@@ -686,6 +997,32 @@ function finishReview() {
     link.textContent = "갱신된 sscdbg.json 다운로드";
 
     document.getElementById("fallback-downloads").appendChild(link);
+  }
+}
+
+// 마무리 안내: id가 없는 곡, 서식 보존 실패
+function appendDoneNotes() {
+  const done = document.getElementById("done");
+  const addNote = text => {
+    const note = document.createElement("p");
+    note.className = "done-note";
+    note.textContent = text;
+    done.appendChild(note);
+  };
+
+  const withoutId = songsData.filter(song => !song.id).length;
+  if (withoutId > 0) {
+    addNote(
+      `id가 없는 곡이 ${withoutId}곡 있습니다. 저장소 폴더에서 ` +
+        `python3 tools/add-song-ids.py 를 한 번 실행해 id를 붙여주세요.`
+    );
+  }
+
+  if (formatFallbackUsed) {
+    addNote(
+      "sscdbg.json의 기존 서식을 유지하지 못해 전체를 다시 썼습니다. " +
+        "내용은 같지만 줄 모양이 바뀌었을 수 있으니 git diff를 확인해주세요."
+    );
   }
 }
 
