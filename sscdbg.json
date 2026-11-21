@@ -45,7 +45,7 @@
     "youtube": [
       {"title": "인트로 포함 풀버전", "url": "https://www.youtube.com/watch?v=HFvKe-8eYvU"}
     ],
-    "image": "covers/machu-picchu-dschinghis-khan.jpg"
+    "image": "covers/rom-dschinghis-khan.jpg"
   },
   {
     "id": "pistolero-dschinghis-khan",
@@ -768,7 +768,7 @@
     "songwriters": ["Enrique Iglesias", "Descemer Bueno", "Alexander Delgado", "Randy Malcom"],
     "language": ["스페인어"],
     "countries": ["ES", "CU"],
-    "tags": ["라틴팝", "댄스"],
+    "tags": ["팝","라틴", "댄스"],
     "memo": "라틴팝을 대표하는 곡 중 하나. '춤추며'",
     "links": [
       {"title": "블로그 해설", "url": "https://jdessin.tistory.com/42"}
@@ -786,7 +786,7 @@
     "songwriters": ["Enrique Iglesias", "Descemer Bueno", "Carlos Ortiz", "Félix Ortiz", "Gabriel Pizarro", "Juan Rivera", "Luis Ortiz"],
     "language": ["스페인어"],
     "countries": ["ES", "CU", "PR"],
-    "tags": ["라틴팝", "레게톤", "라디오"],
+    "tags": ["팝", "라틴", "레게톤", "라디오"],
     "memo": "엔리케 이글레시아스의 대표곡. '라디오 볼륨을 키워 줘'",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=9sg-A-eS6Ig"},
@@ -1019,7 +1019,7 @@
     "songwriters": ["Sherif Tag", "Ahmed Ali Moussa"],
     "language": ["아랍어"],
     "countries": ["EG"],
-    "tags": ["팝", "아랍팝"],
+    "tags": ["팝", "아랍"],
     "memo": "언젠가부터 알게 된 이집트를 가요. '언제나 당신과 함께'",
     "links": [
       {"title": "블로그 해설", "url": "https://jdessin.tistory.com/50"}
@@ -1038,7 +1038,7 @@
     "songwriters": ["Nasser El Mezdawy", "Ahmed Sheta"],
     "language": ["아랍어"],
     "countries": ["EG"],
-    "tags": ["팝", "아랍팝"],
+    "tags": ["팝", "아랍"],
     "memo": "아므르 디압의 대표곡 중 하나. '눈빛'",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=KLJA-srM_yM"}
@@ -1255,7 +1255,7 @@
     "songwriters": ["Sergio George", "Fernando Osorio"],
     "language": ["스페인어"],
     "countries": ["CU", "US"],
-    "tags": ["라틴팝", "살사"],
+    "tags": ["팝","라틴", "살사"],
     "memo": "어릴 적 처음 들은 살사 곡. '웃고 울고'",
     "links": [
       {"title": "블로그 해설", "url": "https://jdessin.tistory.com/59"}
@@ -2334,7 +2334,7 @@
     "songwriters": ["Luis Fernando Ochoa", "Shakira"],
     "language": ["스페인어"],
     "countries": ["CO"],
-    "tags": ["라틴팝", "팝록"],
+    "tags": ["팝","라틴", "팝록"],
     "memo": "샤키라의 초기 곡 중 하나. '도둑들은 어디에?'",
     "links": [
       {"title": "블로그 해설", "url": "https://jdessin.tistory.com/115"}
@@ -2367,7 +2367,7 @@
     "songwriters": ["Shakira", "Estéfano"],
     "language": ["스페인어"],
     "countries": ["CO"],
-    "tags": ["팝록", "댄스팝", "라틴팝"],
+    "tags": ["팝","팝록", "댄스팝", "라틴"],
     "memo": "'장님, 귀머거리, 벙어리'. 사랑에 빠져 아무것도 하지 못하는 상태를 노래한다.",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=B3gbisdtJnA"}
@@ -2787,7 +2787,7 @@
     "songwriters": ["Abu", "Tamer Habib"],
     "language": ["아랍어"],
     "countries": ["EG"],
-    "tags": ["아랍팝", "발라드"],
+    "tags": ["아랍", "발라드"],
     "memo": "'3번의 심장박동'. 잔잔한 이집트산 사랑노래.",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=ejvpVhvKesM"}
@@ -2928,7 +2928,7 @@
     "songwriters": ["Nasari Atweh", "Sari Abboud", "Martin Sinote", "Elian Marjiya", "Feras Marjiya", "Mohamad Salah Balti"],
     "language": ["아랍어"],
     "countries": ["PS", "CL", "TN"],
-    "tags": ["아랍팝", "힙합"],
+    "tags": ["아랍", "힙합"],
     "memo": "'네가 낯설어', 멀어져 낯설어진 관계를 노래한다. 칠레-팔레스타인 가수 Elyanna와 튀니지 래퍼 Balti의 합작.",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=oRC1K7uUBZ8"}
@@ -2959,7 +2959,7 @@
     "songwriters": ["Manuel Esperón", "Ernesto Cortázar"],
     "language": ["스페인어"],
     "countries": ["MX"],
-    "tags": ["란체라", "라틴팝", "영화음악"],
+    "tags": ["란체라", "라틴", "영화음악"],
     "memo": "'돌아오지 않을 거야', 끝난 사랑에 미련을 갖지 않겠다는 결심. 멕시코를 대표하는 음악 중 하나.",
     "youtube": [
       {"title": "Pedro Infante (1955? 영화)", "url": "https://www.youtube.com/watch?v=uLw2MKPYIU8"},
@@ -3298,7 +3298,7 @@
     "youtube": [
       {"title": "The Mariachis", "url": "https://www.youtube.com/watch?v=SHYUkAthMN0"}
     ],
-    "image": "covers/mexico.jpg"
+    "image": "covers/la-cucaracha.jpg"
   },
   {
     "id": "la-bamba",
@@ -3636,7 +3636,7 @@
     "songwriters": ["Enrique E. Garcia"],
     "language": ["영어"],
     "countries": ["US"],
-    "tags": ["라틴팝", "살사"],
+    "tags": ["팝","라틴", "살사"],
     "memo": "쿠바 출신 가수 Gloria Estefan의 대표곡.",
     "youtube": [
       {"title": "음원", "url": "https://www.youtube.com/watch?v=5SXX-pWzOY8"},
@@ -3730,7 +3730,7 @@
     "songwriters": ["Luis Fonsi", "Erika Ender", "Daddy Yankee"],
     "language": ["스페인어"],
     "countries": ["PR"],
-    "tags": ["레게톤", "라틴팝"],
+    "tags": ["레게톤", "라틴","팝"],
     "memo": "유튜브 최고 조회수의 그 곡. '천천히'",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=kJQP7kiw5Fk"}
@@ -4052,7 +4052,7 @@
     "songwriters": ["José Feliciano"],
     "language": ["스페인어", "영어"],
     "countries": ["PR"],
-    "tags": ["크리스마스", "라틴팝"],
+    "tags": ["크리스마스", "라틴"],
     "memo": "너무나도 유명한 크리스마스 캐롤.",
     "youtube": [
       {"title": "음원", "url": "https://www.youtube.com/watch?v=N8NcQzMQN_U"}
@@ -5658,7 +5658,7 @@
     "songwriters": ["Vicente García", "Catalina García", "Santiago Prieto", "Miguel Guerra"],
     "language": ["스페인어"],
     "countries": ["CO"],
-    "tags": ["재즈", "라틴팝", "인디"],
+    "tags": ["재즈", "라틴", "인디"],
     "memo": "'우리의 노래', 2021년 틱톡을 통해 널리 퍼진 곡.",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=KY6-Svb0xtM"}
@@ -5949,7 +5949,7 @@
     "songwriters": ["Khaled", "RedOne", "Alex P", "Bilal Hajji", "Björn Djupström"],
     "language": ["스페인어"],
     "countries": ["US"],
-    "tags": ["댄스", "번안", "살사", "라틴팝"],
+    "tags": ["댄스", "번안", "살사", "라틴"],
     "memo": "C'est la vie의 스페인어 번안곡. 푸에르토리코계 가수 Marc Anthony의 대표 히트곡.",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=YXnjy5YlDwk"}
@@ -5996,7 +5996,7 @@
     "songwriters": ["Lucenzo", "William Landrón", "Faouze Barkati", "Fabrice Toigo"],
     "language": ["포르투갈어", "스페인어"],
     "countries": ["PR", "PT", "FR"],
-    "tags": ["댄스", "라틴팝", "쿠두루"],
+    "tags": ["댄스", "라틴", "쿠두루"],
     "memo": "푸에르토리코의 Don Omar와 함께한, 'Vem dançar kuduro'의 스페인어 버전.",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=7zp1TbLFPp8"}
@@ -6026,7 +6026,7 @@
     "songwriters": ["Los Hermanos Flores"],
     "language": ["스페인어"],
     "countries": ["SV"],
-    "tags": ["쿰비아","라틴팝"],
+    "tags": ["쿰비아","라틴"],
     "memo": "'엘살바도르 여자들'의 아름다움에 대한 쿰비아 곡.",
     "youtube": [
       {"title": "음원", "url": "https://www.youtube.com/watch?v=yt7I2lNBeyw"}
@@ -6260,7 +6260,7 @@
     "songwriters": ["Manal", "Blaise Batisse", "Mounir Maarouf", "NYZK"],
     "language": ["아랍어"],
     "countries": ["MA"],
-    "tags": ["아랍팝"],
+    "tags": ["팝","아랍"],
     "memo": "'걔네들은 하지 않은 말이 없어'.",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=07gpeX2-pIE"}
@@ -6275,7 +6275,7 @@
     "songwriters": ["Pablo Durand", "Fernando López Rossi"],
     "language": ["스페인어"],
     "countries": ["UY"],
-    "tags": ["라틴팝", "드라마"],
+    "tags": ["팝","라틴", "드라마"],
     "memo": "'고통을 맞바꿔', 아르헨티나 TV시리즈 <Muñeca Brava> 테마곡으로도 유명하다.",
     "youtube": [
       {"title": "MV", "url": "https://youtu.be/G6OYDUomYwI?si=VWDl9dOgpiHn7O6m"}
@@ -6804,7 +6804,7 @@
     "songwriters": ["Manu Chao"],
     "language": ["스페인어"],
     "countries": ["ES", "FR"],
-    "tags": ["레게", "라틴팝"],
+    "tags": ["레게", "라틴", "인디"],
     "memo": "'널 좋아해'. 반복적이고 중독성 있는 곡",
     "youtube": [
       {"title": "음원", "url": "https://www.youtube.com/watch?v=rs6Y4kZ8qtw"}
@@ -7121,7 +7121,7 @@
     "artist": ["Dua Lipa", "DaBaby"],
     "songwriters": ["Dua Lipa", "Clarence Coffee Jr.", "Sarah Hudson", "Stephen Kozmeniuk", "DaBaby"],
     "language": ["영어"],
-    "countries": ["GB", "AL", "US"],
+    "countries": ["GB", "US"],
     "tags": ["팝", "디스코", "펑크"],
     "memo": "두아리파의 대표곡 중 하나. 떠다니는 기분.",
     "youtube": [
@@ -7527,7 +7527,7 @@
     "songwriters": ["Elias Rahbani"],
     "language": ["아랍어"],
     "countries": ["LB"],
-    "tags": ["아랍팝","뮤지컬"],
+    "tags": ["팝","아랍","뮤지컬"],
     "memo": "'밤을 지새우며', 토속적인 가사의 레바논 곡. 1974년 뮤지컬 <Loulou>에 사용되었다.",
     "links" : [{"title":"블로그 해설", "url": "https://jdessin.tistory.com/172"}],
     "youtube": [
@@ -7857,7 +7857,7 @@
     "songwriters": ["Mon Laferte","Anthony López"],
     "language": ["스페인어"],
     "countries": ["CL","MX"],
-    "tags": ["팝록","발라드","얼터너티브팝"],
+    "tags": ["팝록","발라드","얼터너티브팝","라틴"],
     "memo": "'너의 사랑이 부족해도', 애절한 라틴 발라드.",
     "youtube": [
       {"title": "MV", "url": "https://youtu.be/WT-VE9OyAJk?si=8tPsY__DNcRjn-uB"}
@@ -8292,7 +8292,7 @@
     "songwriters": ["Juan Luis Guerra 4.40"],
     "language": ["스페인어"],
     "countries": ["DO"],
-    "tags": ["라틴팝","바차타"],
+    "tags": ["라틴","바차타"],
     "memo": "잔잔한 도미니카 음악. '나의 축복'",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=LakJahiBl2Y"}
@@ -8340,7 +8340,7 @@
     "songwriters": ["Alexander Delgado","Randy Malcom","Arbise González"],
     "language": ["스페인어"],
     "countries": ["CU","US"],
-    "tags": ["라틴팝","레게톤"],
+    "tags": ["라틴","레게톤","팝"],
     "memo": "신나는 파티 레게톤.",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=VMp55KH_3wo"}
@@ -8490,7 +8490,7 @@
     "songwriters": ["Sofía Reyes","Jason Derulo","De La Ghetto","Nicole Zignago","Ricardo Montaner","Jon Leone","Charlie Guerrero"],
     "language": ["스페인어","영어"],
     "countries": ["MX","US"],
-    "tags": ["레게톤","라틴팝"],
+    "tags": ["레게톤","라틴","팝"],
     "memo": "소피아 레예스의 대표곡.",
     "youtube": [
       {"title": "MV", "url": "https://youtu.be/p03TIGqEc8o?si=iNhgafkCO6sC7kZd"}
@@ -8838,7 +8838,7 @@
     "songwriters": ["Mohamed Rahim","Ikram Alassi"],
     "language": ["아랍어"],
     "countries": ["EG"],
-    "tags": ["팝","아랍팝"],
+    "tags": ["팝","아랍"],
     "memo": "'내 인내심이 바닥나고 있어요'. 이집트 팝",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=8CnpqLtzqQY"}
@@ -8853,7 +8853,7 @@
     "songwriters": ["Danny Daniel","Jesús González López"],
     "language": ["스페인어"],
     "countries": ["ES"],
-    "tags": ["발라드","라틴팝"],
+    "tags": ["발라드","라틴","팝"],
     "memo": "'한 여자의 사랑을 위해서', 사랑의 아픔과 극복에 관한 잔잔한 로맨틱 발라드",
     "youtube": [
       {"title": "Danny Daniel 원곡", "url": "https://www.youtube.com/watch?v=HXHkDPIOQkA"},
@@ -8918,7 +8918,7 @@
     "songwriters": ["Camila Cabello","Jeffery Williams","Brittany Hazzard","Pharrell Williams","Adam Feeney","Brian Lee","Ali Tamposi","Andrew Watt","Louis Bell","Kaan Gunesberk"],
     "language": ["영어"],
     "countries": ["CU","MX","US"],
-    "tags": ["팝","라틴팝","아바나"],
+    "tags": ["팝","라틴","아바나"],
     "memo": "카밀라 카베요의 싱글 히트.",
     "youtube": [
       {"title": "음원", "url": "https://youtu.be/HCjNJDNzw8Y?si=CYG0n6YXcxbCQ0_5"},
@@ -9022,7 +9022,7 @@
     "id": "the-nights-avicii",
     "title": "The Nights",
     "year": "2014",
-    "artist": ["Avicii"],
+    "artist": ["Avicii","Nicholas Furlong"],
     "songwriters": ["Tim Bergling","Nicholas Furlong","Gabriel Benjamin","Jordan Suecof","John Feldmann"],
     "language": ["영어"],
     "countries": ["SE"],
@@ -9210,7 +9210,7 @@
     "songwriters": ["横田真人"],
     "language": [],
     "countries": ["JP"],
-    "tags": ["게임음악","클래식","현대음악"],
+    "tags": ["게임음악","클래식","현대음악","마리오"],
     "memo": "게임 <슈퍼 마리오 갤럭시> 삽입곡, 마리오 최고의 곡 중 하나.",
     "youtube": [
       {"title": "음악", "url": "https://youtu.be/1bvDHAUv2ak?si=6a-RdH-6E_QZad1Z"}
@@ -9701,7 +9701,7 @@
     "songwriters": ["Saif Nabeel","Mohamed Al Jabbouri"],
     "language": ["아랍어"],
     "countries": ["IQ"],
-    "tags": ["팝","아랍팝"],
+    "tags": ["팝","아랍"],
     "memo": "'두 번째 심장', 한 사람을 향한 무조건적인 헌신과 깊은 사랑애 관해.",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=Oa1hGuEAFkE"}
@@ -9746,7 +9746,7 @@
     "songwriters": ["Ahmed Marzouk","Mohamed Rahim"],
     "language": ["아랍어"],
     "countries": ["EG"],
-    "tags": ["팝","아랍팝","드라마"],
+    "tags": ["팝","아랍","드라마"],
     "memo": "'감정들', Sherine의 대표곡이자 드라마 <حكاية حياة>의 OST.",
     "youtube": [
       {"title": "음원", "url": "https://www.youtube.com/watch?v=vEfW9sm70tg"}
@@ -10241,7 +10241,7 @@
     "songwriters": ["Consuelo Velázquez"],
     "language": ["스페인어"],
     "countries": ["MX"],
-    "tags": ["볼레로","팝","재즈"],
+    "tags": ["볼레로","팝","재즈","라틴"],
     "memo": "'더 많이 키스해 주세요', 라틴 음악사에서 가장 중요한 곡 중 하나.",
     "youtube": [
       {"title": "Lisa Ono 버전", "url": "https://www.youtube.com/watch?v=MY0fuEfBmD4"},
@@ -10288,7 +10288,7 @@
     "artist": ["Dua Lipa"],
     "songwriters": ["Kevin Parker","Danny L Harle","Nicholas Gale","Martina Sorbara","Shaun Frank","Yaakov Gruzman","Steve Mastroianni","Dua Lipa","Caroline Ailin","Tobias Jesso Jr."],
     "language": ["영어"],
-    "countries": ["GB","AL"],
+    "countries": ["GB"],
     "tags": ["디스코","팝"],
     "memo": "미숙한 상대방에게, 훈련 시간은 끝났으니까.",
     "youtube": [
@@ -10475,7 +10475,7 @@
     "songwriters": ["Luis Cassells"],
     "language": ["스페인어"],
     "countries": ["NI"],
-    "tags": ["라틴팝"],
+    "tags": ["라틴","팝"],
     "memo": "'흥겨운 팔로 데 마요(5월의 카리브 전통 축제)'.",
     "youtube": [
       {"title": "음원", "url": "https://www.youtube.com/watch?v=tZM8X7CCK6M"}
@@ -10506,8 +10506,8 @@
     "songwriters": ["Roberto Ruiz Díaz Arevalo"],
     "language": ["스페인어"],
     "countries": ["PY"],
-    "tags": ["라틴팝","록","얼터너티브록"],
-    "memo": "'태양계',",
+    "tags": ["팝","라틴","록","얼터너티브록"],
+    "memo": "'태양계'.",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=Q1Ir76Eq4C0"},
       {"title": "음원", "url": "https://www.youtube.com/watch?v=LhLuS5yy0eg"}
@@ -11072,5 +11072,111 @@
       {"title": "Gimnazija Kranj Symphony Orchestra", "url": "https://www.youtube.com/watch?v=l6kqu2mk-Kw"}
     ],
     "image": "covers/smetana.jpg"
+  },
+  {
+    "id": "omar-dschinghis-khan",
+    "title": "Hadschi Halef Omar",
+    "year": "1979",
+    "artist": ["Dschinghis Khan"],
+    "songwriters": ["Ralph Siegel", "Bernd Meinunger"],
+    "language": ["독일어"],
+    "countries": ["DE","HU","NL","ZA"],
+    "tags": ["디스코", "문학"],
+    "memo": "Karl May의 소설에 등장하는 베두인 하치 할레프 오마르를 주제로 한 곡.",
+    "youtube": [
+      {"title": "Die Pyramide 1980", "url": "https://www.youtube.com/watch?v=vl5LOT_0Qto"}
+    ],
+    "image": "covers/rom-dschinghis-khan.jpg"
+  },
+  {
+    "id": "doraemon-3",
+    "title": "夢をかなえてドラえもん (꿈을 이루어줘 도라에몽)",
+    "year": "2007",
+    "artist": ["mao"],
+    "songwriters": ["黒須克彦", "大久保薫"],
+    "language": ["일본어"],
+    "countries": ["JP"],
+    "tags": ["애니메이션"],
+    "memo": "애니메이션 <도라에몽>의 세 번째 오프닝 곡(2007~).",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=BSdqL2YS61A"}
+    ],
+    "image": "covers/doraemon-3.jpg"
+  },
+  {
+    "id": "jump-up-super-star",
+    "title": "Jump Up, Super Star! (～オデッセイでっせい～)",
+    "year": "2017",
+    "artist": ["Kate Higgins","Aimi Mukohara (向原愛海)"],
+    "songwriters": ["久保直人","Rob Tunstall","鈴木伸嘉"],
+    "language": ["영어","일본어"],
+    "countries": ["JP","US"],
+    "tags": ["마리오","게임음악","스윙","재즈"],
+    "memo": "게임 <슈퍼 마리오 오디세이> 중 폴린의 노래. 영어 및 일본어 버전으로 발표되었다.",
+    "youtube": [
+      {"title": "영어 버전 (케이트 히긴스)", "url": "https://youtu.be/e9r5hx47kxM?si=rTkDtzCJjLyFQN-I"},
+      {"title": "일본어 버전 (무코하라 아이미)", "url": "https://www.youtube.com/watch?v=NbMC-5oH-H0"}
+    ],
+    "image": "covers/mario-odyssey.jpg"
+  },
+  {
+    "id": "symphony-clean-bandit",
+    "title": "Symphony",
+    "year": "2017",
+    "artist": ["Clean Bandit","Zara Larsson"],
+    "songwriters": ["Jack Patterson","Ammar Malik","Ina Wroldsen","Steve Mac"],
+    "language": ["영어"],
+    "countries": ["GB","SE"],
+    "tags": ["오케스트럴팝","댄스","팝"],
+    "memo": "네 교향곡의 일부가 되고 싶어.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=aatr_2MstrI"}
+    ],
+    "image": "covers/symphony-clean-bandit.jpg"
+  },
+  {
+    "id": "counting-stars-onerepublic",
+    "title": "Counting Stars",
+    "year": "2013",
+    "artist": ["OneRepublic"],
+    "songwriters": ["Ryan Tedder"],
+    "language": ["영어"],
+    "countries": ["US"],
+    "tags": ["팝록","포크록","팝"],
+    "memo": "달러 대신 별을 셀 거야.",
+    "youtube": [
+      {"title": "MV", "url": "https://www.youtube.com/watch?v=hT_nvWreIhg"}
+    ],
+    "image": "covers/native-onerepublic.jpg"
+  },
+  {
+    "id": "battotai",
+    "title": "抜刀隊 (발도대)",
+    "year": "1885?",
+    "artist": [],
+    "songwriters": ["Charles Leroux","外山正一"],
+    "language": ["일본어"],
+    "countries": ["JP"],
+    "tags": ["군가","전쟁"],
+    "memo": "세이난 전쟁에서의 발도대(검술 부대)를 소재로 한 최초의 일본군가 중 하나.",
+    "youtube": [
+      {"title": "가사 (한국어 자막)", "url": "https://www.youtube.com/watch?v=Wwk1n52DMjM"}
+    ],
+    "image": "covers/battotai.jpg"
+  },
+  {
+    "id": "al-watan-al-akbar",
+    "title": "الوطن الأكبر (Al Watan Al Akbar)",
+    "year": "1960",
+    "artist": ["Abdel Halim Hafez (عبد الحليم حافظ)","Sabah (صباح)","Fayza Kamel (فايزه كامل)","Shadia (شاديه)","Warda (وردۀ)","Nagat El Sagheera (نجاة الصغيرة)"],
+    "songwriters": ["Mohammed Abdel Wahab","Ali Ismael","Ahmed Shafik Kamel"],
+    "language": ["아랍어"],
+    "countries": ["EG","LB","DZ"],
+    "tags": ["아랍","아랍연합공화국"],
+    "memo": "'가장 위대한 조국', 범아랍주의를 지지하는 곡.",
+    "youtube": [
+      {"title": "가사 (영어 번역)", "url": "https://www.youtube.com/watch?v=vTrr34licGQ"}
+    ],
+    "image": "covers/pan-arab.jpg"
   }
 ]
