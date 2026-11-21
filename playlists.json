@@ -17,7 +17,7 @@
   {
     "id": "translated",
     "title": "익숙한 번안곡들",
-    "description": "한국어 가사로 들어봤을 법한 곡들.",
+    "description": "한국어 가사로 들어봤을 법한 외국 곡들.",
     "songs": [
       { "id": "pokarekare-ana", "note": "연가" },
       { "id": "auld-lang-syne", "note": "작별/애국가(~1940)" },

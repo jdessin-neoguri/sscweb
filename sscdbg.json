@@ -329,7 +329,7 @@
     "songwriters": ["Victor Tsoi"],
     "language": ["러시아어"],
     "countries": ["RU"],
-    "tags": ["소련", "록", "포스트펑크", "뉴웨이브"],
+    "tags": ["소련", "록", "포스트펑크", "뉴웨이브", "여름"],
     "memo": "'여름이 끝나간다', 키노의 마지막 앨범 <Чёрный альбом>수록곡",
     "youtube": [
       {"title": "음원", "url": "https://www.youtube.com/watch?v=8L9twaOEYhY"},
@@ -410,7 +410,7 @@
     "songwriters": ["Christopher Tin", "Leonardo da Vinci (text source)"],
     "language": ["이탈리아어"],
     "countries": ["US"],
-    "tags": ["게임음악", "클래식", "문명", "과학"],
+    "tags": ["게임음악", "클래식", "문명", "과학","현대음악"],
     "memo": "'하늘을 나는 꿈', 게임 <문명 6> 주제가. 레오나르도 다빈치의(것으로 알려진) 노트를 바탕으로 하여, 인류의 비행에 대한 꿈을 표현했다.",
     "links": [
       {"title": "블로그 해설", "url": "https://jdessin.tistory.com/32"}
@@ -429,7 +429,7 @@
     "songwriters": ["Stamatis Spanoudakis"],
     "language": ["그리스어"],
     "countries": ["GR"],
-    "tags": ["비잔틴", "이스탄불", "클래식", "전설", "번개"],
+    "tags": ["비잔틴", "이스탄불", "클래식", "전설", "번개", "현대음악"],
     "memo": "콘스탄티노폴리스 함락과 동로마 제국의 멸망, 그리고 콘스탄티노스 11세에 관한 전설. '당신은 번개처럼 오시리라'",
     "links": [
       {"title": "블로그 해설", "url": "https://jdessin.tistory.com/36"}
@@ -561,7 +561,7 @@
     "songwriters": ["Ludwig van Beethoven"],
     "language": [],
     "countries": ["DE"],
-    "tags": ["클래식", "피아노"],
+    "tags": ["클래식", "피아노", "고전주의"],
     "memo": "베토벤의 대표곡 중 하나.",
     "youtube": [
       {"title": "Rousseau", "url": "https://www.youtube.com/watch?v=wfF0zHeU3Zs"},
@@ -577,7 +577,7 @@
     "songwriters": ["Ludwig van Beethoven", "Friedrich Schiller"],
     "language": ["독일어"],
     "countries": ["DE"],
-    "tags": ["클래식", "유럽", "문학"],
+    "tags": ["클래식", "유럽", "문학", "고전주의"],
     "memo": "베토벤 최고의 교향곡. 합창 부분 '환희의 송가(Ode an die Freude/Ode to Joy)'는 프리드리히 실러의 시를 바탕으로 하여 쓰여졌으며, 유럽연합 찬가로 사용된다.",
     "youtube": [
       {"title": "Deutsche Kammerphilharmonie Bremen", "url": "https://www.youtube.com/watch?v=cep8Ru4TL4k"},
@@ -593,7 +593,7 @@
     "songwriters": ["Ludwig van Beethoven"],
     "language": [],
     "countries": ["DE"],
-    "tags": ["클래식", "피아노","달"],
+    "tags": ["클래식", "피아노","달", "고전주의"],
     "memo": "일명 '월광 소나타(Mondscheinsonate/Moonlight Sonata)'.",
     "youtube": [
       {"title": "음악", "url": "https://www.youtube.com/watch?v=4Tr0otuiQuU"}
@@ -888,7 +888,7 @@
     "songwriters": ["Giacomo Puccini", "Giuseppe Adami", "Renato Simoni"],
     "language": ["이탈리아어"],
     "countries": ["IT"],
-    "tags": ["오페라", "클래식"],
+    "tags": ["오페라", "클래식", "낭만주의"],
     "memo": "푸치니의 오페라 <투란도트> 3막 아리아. '아무도 잠들지 말라'",
     "links": [
       {"title": "블로그 해설", "url": "https://jdessin.tistory.com/48"}
@@ -923,7 +923,7 @@
     "songwriters": ["Giuseppe Verdi", "Francesco Maria Piave"],
     "language": ["이탈리아어"],
     "countries": ["IT"],
-    "tags": ["오페라", "클래식", "권주가"],
+    "tags": ["오페라", "클래식", "권주가", "낭만주의"],
     "memo": "베르디의 오페라, <라 트라비아타> 1막의 '축배의 노래'.",
     "youtube": [
       {"title": "The Three Tenors, 1994년 LA 콘서트", "url": "https://www.youtube.com/watch?v=l7eHO_PEWLk"},
@@ -940,7 +940,7 @@
     "songwriters": ["Giuseppe Verdi", "Francesco Maria Piave"],
     "language": ["이탈리아어"],
     "countries": ["IT"],
-    "tags": ["오페라", "클래식"],
+    "tags": ["오페라", "클래식", "낭만주의"],
     "memo": "베르디의 오페라, <리골레토> 3막의 '여자의 마음'.",
     "youtube": [
       {"title": "Luciano Pavarotti, 영화 <리골레토>(1983)", "url": "https://www.youtube.com/watch?v=xCFEk6Y8TmM"}
@@ -955,7 +955,7 @@
     "songwriters": ["Giuseppe Verdi"],
     "language": ["이탈리아어"],
     "countries": ["IT"],
-    "tags": ["클래식", "오페라", "이집트", "아이다", "행진곡"],
+    "tags": ["클래식", "오페라", "이집트", "아이다", "행진곡", "낭만주의"],
     "memo": "오페라 <아이다> 2막, 이집트군의 개선 행진곡(Triumphal March).",
     "youtube": [
       {"title": "Wiener Philharmoniker(?)", "url": "https://www.youtube.com/watch?v=JXMdei-UTfw"},
@@ -1830,7 +1830,7 @@
     "songwriters": ["Wolfgang Amadeus Mozart", "Franz Xaver Süssmayr"],
     "language": ["라틴어"],
     "countries": ["AT"],
-    "tags": ["종교음악", "클래식", "밈"],
+    "tags": ["종교음악", "클래식", "밈", "고전주의"],
     "memo": "모차르트의 레퀴엠 D단조 K.626 부속가(Sequentia) 중 Lacrimosa. 모차르트는 미완성 상태로 사망했고, 남은 부분은 쥐스마이어가 완성함.",
     "links": [
       {"title": "블로그 해설", "url": "https://jdessin.tistory.com/70"}
@@ -1849,7 +1849,7 @@
     "songwriters": ["Wolfgang Amadeus Mozart"],
     "language": [],
     "countries": ["AT"],
-    "tags": ["클래식"],
+    "tags": ["클래식", "고전주의"],
     "memo": "Serenade No. 13 in G major, '아이네 클라이네 나흐트무지크' 1악장. 현악 사중주",
     "youtube": [
       {"title": "Academy of St Martin in the Fields", "url": "https://www.youtube.com/watch?v=UhPBT0dA_oA"}
@@ -2255,7 +2255,7 @@
     "songwriters": ["Claude Debussy"],
     "language": [],
     "countries": ["FR"],
-    "tags": ["클래식", "달"],
+    "tags": ["클래식", "달", "인상주의"],
     "memo": "드뷔시의 <베르가마스크 모음곡> 중 '달빛'.",
     "youtube": [
       {"title": "Menahem Pressler", "url": "https://www.youtube.com/watch?v=-Bxpm0EmOMU"}
@@ -2382,7 +2382,7 @@
     "songwriters": ["Dmitri Shostakovich", "Levon Atovmyan"],
     "language": [],
     "countries": ["RU"],
-    "tags": ["클래식", "왈츠", "소련"],
+    "tags": ["클래식", "왈츠", "소련", "현대음악"],
     "memo": "바리에테 관현악단을 위한 모음곡 1번 제7악장. 재즈 오케스트라 모음곡(1938)으로 잘못 알려져 있다.",
     "youtube": [
       {"title": "음악", "url": "https://www.youtube.com/watch?v=mmCnQDUSO4I"}
@@ -2727,7 +2727,7 @@
     "songwriters": ["Aram Khachaturian"],
     "language": [],
     "countries": ["AM"],
-    "tags": ["클래식", "소련", "발레", "무곡"],
+    "tags": ["클래식", "소련", "발레", "무곡", "현대음악"],
     "memo": "가야네 모음곡 No.3 중 '칼의 춤', 색소폰과 아르메니아 전통 음악 요소의 결합. 미국에서도 크게 흥행했다.",
     "youtube": [
       {"title": "Berliner Philharmoniker", "url": "https://www.youtube.com/watch?v=mUQHGpxrz-8"}
@@ -3588,7 +3588,7 @@
     "songwriters": ["Tomoyuki Tanaka", "Masayuki Kumahara"],
     "language": ["일본어"],
     "countries": ["JP"],
-    "tags": ["팝랩", "JPOP"],
+    "tags": ["팝랩", "JPOP","여름"],
     "memo": "카맛테 카맛테 와타시니 카맛테",
     "youtube": [
       {"title": "MV", "url": "https://www.youtube.com/watch?v=ViFHruS6oO8"},
@@ -5166,7 +5166,7 @@
     "songwriters": ["Franz Schubert", "Johann Wolfgang von Goethe"],
     "language": ["독일어"],
     "countries": ["AT", "DE"],
-    "tags": ["클래식", "문학", "가곡"],
+    "tags": ["클래식", "문학", "가곡", "낭만주의"],
     "memo": "괴테의 시 '마왕'을 바탕으로 한 가곡.",
     "youtube": [
       {"title": "Oxfordsong 영상 버전 (Daniel Norman, Sholto Kynoch)", "url": "https://www.youtube.com/watch?v=JS91p-vmSf0"}
@@ -5582,7 +5582,7 @@
     "songwriters": ["Georges Bizet"],
     "language": [],
     "countries": ["FR"],
-    "tags": ["오페라", "클래식"],
+    "tags": ["오페라", "클래식", "낭만주의"],
     "memo": "비제의 오페라 <카르멘> 서곡.",
     "youtube": [
       {"title": "Orchestre philharmonique de Strasbourg", "url": "https://www.youtube.com/watch?v=b4C_c7hf0ac"}
@@ -5597,7 +5597,7 @@
     "songwriters": ["Georges Bizet", "Sebastián Iradier"],
     "language": ["프랑스어"],
     "countries": ["FR"],
-    "tags": ["오페라", "클래식", "번안"],
+    "tags": ["오페라", "클래식", "번안", "낭만주의"],
     "memo": "스페인 무곡 El Arreglito의 멜로디를 차용한, 비제의 오페라 <카르멘> 속 아리아.",
     "youtube": [
       {"title": "Angela Gheorghiu (프랑스어 자막)", "url": "https://www.youtube.com/watch?v=tSsNFPk2vNA"},
@@ -5613,7 +5613,7 @@
     "songwriters": ["Georges Bizet", "Henri Meilhac", "Ludovic Halévy"],
     "language": ["프랑스어"],
     "countries": ["FR"],
-    "tags": ["오페라", "클래식"],
+    "tags": ["오페라", "클래식", "낭만주의"],
     "memo": "비제의 오페라 <카르멘>의 대표곡. '투우사의 노래'",
     "youtube": [
       {"title": "Andrei Kymach, Beethoven Orchester Bonn", "url": "https://www.youtube.com/watch?v=g2ULycjl_g0"}
@@ -5795,7 +5795,7 @@
     "songwriters": ["Htoo Eain Thin"],
     "language": ["미얀마어"],
     "countries": ["MM"],
-    "tags": ["발라드", "꽃"],
+    "tags": ["발라드", "꽃", "여름"],
     "memo": "'초여름의 Kant Kaw 꽃'. 지금까지도 사랑받는 미얀마의 대표 발라드 곡 중 하나.",
     "youtube": [
       {"title": "Lyric Video", "url": "https://www.youtube.com/watch?v=CE7vu-JF_r0"}
@@ -6041,8 +6041,8 @@
     "songwriters": ["Pyotr Tchaikovsky"],
     "language": [],
     "countries": ["RU"],
-    "tags": ["클래식","호두까기인형","발레"],
-    "memo": "호두까기 인형(Щелкунчик/The Nutcracker, Op. 71) 중 행진(March). ",
+    "tags": ["클래식","호두까기인형", "발레", "낭만주의"],
+    "memo": "호두까기 인형(Щелкунчик/The Nutcracker, Op. 71) 중 행진(March).",
     "youtube": [
       {"title": "George Balanchine", "url": "https://www.youtube.com/watch?v=Xph2vDRWbv4"}
     ],
@@ -6056,7 +6056,7 @@
     "songwriters": ["Pyotr Tchaikovsky"],
     "language": [],
     "countries": ["RU"],
-    "tags": ["클래식", "호두까기인형", "발레","크리스마스"],
+    "tags": ["클래식", "호두까기인형", "발레", "크리스마스", "낭만주의"],
     "memo": "호두까기 인형(Щелкунчик/The Nutcracker, Op. 71) 중 러시아의 춤(Trepak). 러시아 특유의 강렬하고 화려한 곡.",
     "youtube": [
       {"title": "볼쇼이 극장 공연", "url": "https://www.youtube.com/watch?v=kZyx1t7-9wk"},
@@ -6072,7 +6072,7 @@
     "songwriters": ["Pyotr Tchaikovsky"],
     "language": [],
     "countries": ["RU"],
-    "tags": ["클래식", "호두까기인형", "발레","크리스마스"],
+    "tags": ["클래식", "호두까기인형", "발레", "낭만주의"],
     "memo": "호두까기 인형(Щелкунчик/The Nutcracker, Op. 71) 중 갈잎피리의 춤(Dance of the Reed Flutes).",
     "youtube": [
       {"title": "Les Ballets de Monte-Carlo", "url": "https://www.youtube.com/watch?v=DUduztWty6A"},
@@ -6089,7 +6089,7 @@
     "songwriters": ["Pyotr Tchaikovsky"],
     "language": [],
     "countries": ["RU"],
-    "tags": ["클래식","왈츠","호두까기인형","발레","크리스마스"],
+    "tags": ["클래식","왈츠","호두까기인형","발레","낭만주의"],
     "memo": "호두까기 인형(Щелкунчик/The Nutcracker, Op. 71) 중 꽃의 왈츠(Waltz of the Flowers). 호두까기 인형에서 가장 유명한 곡",
     "youtube": [
       {"title": "London Festival Orchestra", "url": "https://www.youtube.com/watch?v=QxHkLdQy5f0"},
@@ -6105,7 +6105,7 @@
     "songwriters": ["Pyotr Tchaikovsky"],
     "language": [],
     "countries": ["RU"],
-    "tags": ["클래식","호두까기인형","발레","크리스마스"],
+    "tags": ["클래식","호두까기인형","발레","낭만주의"],
     "memo": "호두까기 인형(Щелкунчик/The Nutcracker, Op. 71) 중 설탕 요정의 춤. Dance of the Sugar-Plum Fairy",
     "youtube": [
       {"title": "London Symphony Orchestra", "url": "https://www.youtube.com/watch?v=4rTjJUcJNAw"},
@@ -6121,7 +6121,7 @@
     "songwriters": ["Pyotr Tchaikovsky"],
     "language": [],
     "countries": ["RU"],
-    "tags": ["클래식","발레","크리스마스"],
+    "tags": ["클래식","발레", "낭만주의"],
     "memo": "백조의 호수(Лебединое озеро/Swan Lake, Op.20) 중 정경(Scene). 백조의 호수의 메인 테마",
     "youtube": [
       {"title": "음악", "url": "https://www.youtube.com/watch?v=9cNQFB0TDfY"}
@@ -6136,7 +6136,7 @@
     "songwriters": ["Béla Kéler"],
     "language": [],
     "countries": ["HU"],
-    "tags": ["클래식", "무곡", "집시"],
+    "tags": ["클래식", "무곡", "집시", "낭만주의"],
     "memo": "'바르트퍼의 추억'. 브람스가 민요로 착각하여 재구성해 헝가리 무곡 제5번이 되었다.",
     "youtube": [
       {"title": "Bártfai Emlék Csárdás, Op.31 (Erinnerung an Bartfeld)", "url": "https://www.youtube.com/watch?v=tmHmlqU_FKA"}
@@ -6151,7 +6151,7 @@
     "songwriters": ["Johannes Brahms"],
     "language": [],
     "countries": ["DE"],
-    "tags": ["클래식", "무곡", "헝가리"],
+    "tags": ["클래식", "무곡", "헝가리", "낭만주의"],
     "memo": "헝가리 음악가 Béla Kéler의 곡 'Bártfai Emlék'을 편곡한 곡, 인지도는 훨씬 좋다. 민요로 착각했다는 듯",
     "youtube": [
       {"title": "Hungarian Symphony Orchestra Budapest", "url": "https://www.youtube.com/watch?v=Nzo3atXtm54"},
@@ -6167,8 +6167,8 @@
     "songwriters": ["Tekla Bądarzewska"],
     "language": [],
     "countries": ["PL"],
-    "tags": ["클래식", "피아노"],
-    "memo": "'소녀의 기도', 바다르체프스카의 짧은 피아노 곡. 미국에서 컨트리 곡으로 녹음되기도 함.",
+    "tags": ["클래식", "피아노", "낭만주의"],
+    "memo": "'소녀의 기도', 봉다제프스카의 짧은 피아노 곡. 미국에서 컨트리 곡으로 녹음되기도 함.",
     "youtube": [
       {"title": "Lang Lang", "url": "https://www.youtube.com/watch?v=rubmFnMBwq8"},
       {"title": "Marek & Vacek", "url": "https://www.youtube.com/watch?v=sLToioGXP9g"},
@@ -7077,7 +7077,7 @@
     "songwriters": ["Ryuichi Sakamoto"],
     "language": [],
     "countries": ["JP"],
-    "tags": ["클래식", "뉴에이지", "영화음악", "비"],
+    "tags": ["클래식", "뉴에이지", "영화음악", "비", "현대음악"],
     "memo": "영화 <마지막 황제> 삽입곡.",
     "youtube": [
       {"title": "음원 (Brussells Philharmonic)", "url": "https://www.youtube.com/watch?v=0Wdblp8g61s"}
@@ -7200,7 +7200,7 @@
     "songwriters": ["Frédéric Chopin"],
     "language": [],
     "countries": ["PL"],
-    "tags": ["클래식","피아노"],
+    "tags": ["클래식","피아노","낭만주의"],
     "memo": "쇼팽의 녹턴 Op.9 2번, 가장 유명한 녹턴 곡.",
     "youtube": [
       {"title": "음악", "url": "https://www.youtube.com/watch?v=9E6b3swbnWg"}
@@ -7215,7 +7215,7 @@
     "songwriters": ["Frédéric Chopin"],
     "language": [],
     "countries": ["PL"],
-    "tags": ["클래식","피아노"],
+    "tags": ["클래식","피아노","낭만주의"],
     "memo": "1834년 작곡되었으나 쇼팽 사후에 출판된 곡. 쇼팽의 대표작 중 하나",
     "youtube": [
       {"title": "Dmitry Shishkin", "url": "https://www.youtube.com/watch?v=H4v4Ipl_UJI"}
@@ -7230,7 +7230,7 @@
     "songwriters": ["Richard Wagner"],
     "language": [],
     "countries": ["DE"],
-    "tags": ["클래식", "오페라"],
+    "tags": ["클래식", "오페라","낭만주의"],
     "memo": "'발퀴레의 기행'. 오페라 <니벨룽의 반지> 3막 서곡",
     "youtube": [
       {"title": "음악", "url": "https://www.youtube.com/watch?v=GGU1P6lBW6Q"},
@@ -7669,7 +7669,7 @@
     "songwriters": ["Wolfgang Amadeus Mozart"],
     "language": [],
     "countries": ["AT"],
-    "tags": ["클래식", "오스만", "피아노"],
+    "tags": ["클래식","오스만","피아노","고전주의"],
     "memo": "Rondo Alla Turca, 사실 행진곡은 아니다.",
     "youtube": [
       {"title": "Yundi", "url": "https://www.youtube.com/watch?v=n2Tru4Qa3pc"},
@@ -7781,7 +7781,7 @@
     "songwriters": ["Johann Strauss I"],
     "language": [],
     "countries": ["AT"],
-    "tags": ["군가","오스트리아","클래식","나폴레옹전쟁","행진곡"],
+    "tags": ["군가","오스트리아","클래식","나폴레옹전쟁","행진곡","낭만주의"],
     "memo": "오스트리아 제국의 장군 요제프 라데츠키에게 헌정된 곡. Radetzky March",
     "youtube": [
       {"title": "Vienna Philharmonic", "url": "https://www.youtube.com/watch?v=xhEGMSOIptw"}
@@ -7887,7 +7887,7 @@
     "songwriters": ["Nikolai Kapustin"],
     "language": [],
     "countries": ["RU"],
-    "tags": ["클래식","재즈","피아노"],
+    "tags": ["클래식","재즈","피아노","현대음악"],
     "memo": "세소찾더보기에 최초로 들어온 추천곡. 재즈풍의 피아노",
     "youtube": [
       {"title": "음원", "url": "https://youtu.be/A-_RzCevOaY?si=r2vf8rQAKaSJpD33"},
@@ -9195,7 +9195,7 @@
     "songwriters": ["Franz Liszt"],
     "language": [],
     "countries": ["HU"],
-    "tags": ["클래식","피아노"],
+    "tags": ["클래식","피아노","낭만주의"],
     "memo": "리스트의 '사랑의 꿈' 중 3번째 곡. '사랑할 수 있는 한 사랑하라'",
     "youtube": [
       {"title": "Daniel Barenboim", "url": "https://www.youtube.com/watch?v=5U3PwQY2b5E"}
@@ -9210,7 +9210,7 @@
     "songwriters": ["横田真人"],
     "language": [],
     "countries": ["JP"],
-    "tags": ["게임음악","클래식"],
+    "tags": ["게임음악","클래식","현대음악"],
     "memo": "게임 <슈퍼 마리오 갤럭시> 삽입곡, 마리오 최고의 곡 중 하나.",
     "youtube": [
       {"title": "음악", "url": "https://youtu.be/1bvDHAUv2ak?si=6a-RdH-6E_QZad1Z"}
@@ -9316,7 +9316,7 @@
     "songwriters": ["Jacques Offenbach"],
     "language": [],
     "countries": ["FR","DE"],
-    "tags": ["클래식","오페라"],
+    "tags": ["클래식","오페라","낭만주의"],
     "memo": "오페레타 <지옥의 오르페> 중 '지옥의 갤럽'. '캉캉'으로 널리 알려져 있는 곡.",
     "youtube": [
       {"title": "음악", "url": "https://www.youtube.com/watch?v=4Diu2N8TGKA"}
@@ -9669,7 +9669,7 @@
     "songwriters": ["Antonín Dvořák"],
     "language": [],
     "countries": ["CZ"],
-    "tags": ["클래식"],
+    "tags": ["클래식","국민악파"],
     "memo": "드보르작의 교향곡 9번 'From the New World': IV. Allegro con fuoco. 강렬한 도입부의 가장 유명한 악장",
     "youtube": [
       {"title": "Wiener Philharmoniker", "url": "https://www.youtube.com/watch?v=32_O-NwzFM0"},
@@ -9685,7 +9685,7 @@
     "songwriters": ["Georg Friedrich Händel"],
     "language": ["이탈리아어"],
     "countries": ["DE","GB"],
-    "tags": ["클래식"],
+    "tags": ["클래식","바로크"],
     "memo": "헨델의 소프라노 아리아. 원제는 Lascia la spina, cogli la rosa",
     "youtube": [
       {"title": "Kirsten Blaise, Voices of Music", "url": "https://www.youtube.com/watch?v=EKo_EmfEPWs"},
@@ -9837,7 +9837,7 @@
     "songwriters": ["?"],
     "language": ["프랑스어"],
     "countries": ["FR"],
-    "tags": ["어린이","클래식"],
+    "tags": ["어린이","클래식","고전주의"],
     "memo": "'아! 말해드릴게요, 엄마', 프랑스 동요. 모차르트 '작은별'의 원곡.",
     "youtube": [
       {"title": "Comptines et chansons", "url": "https://www.youtube.com/watch?v=VMdCHNh7If0"},
@@ -9853,7 +9853,7 @@
     "songwriters": ["Hermann Necke"],
     "language": [],
     "countries": ["DE"],
-    "tags": ["클래식","피아노"],
+    "tags": ["클래식","피아노","낭만주의"],
     "memo": "BGM으로 자주 사용되는, 헝가리 집시 전통 멜로디를 차용한 곡. Csikós(치코스)는 헝가리어로 마부라는 뜻",
     "youtube": [
       {"title": "Yuki Kondo", "url": "https://www.youtube.com/watch?v=5Fn7atSfW0A"},
@@ -9869,7 +9869,7 @@
     "songwriters": ["François-Joseph Gossec"],
     "language": [],
     "countries": ["FR"],
-    "tags": ["오페라","클래식"],
+    "tags": ["오페라","클래식","고전주의"],
     "memo": "오페라 <Rosine, ou L'épouse abandonnée>에 등장하는 곡. 가보트는 프랑스 전통 춤의 이름",
     "youtube": [
       {"title": "Mischa Elman, Joseph Sieger", "url": "https://www.youtube.com/watch?v=QdWQcjyF-cA"},
@@ -9900,7 +9900,7 @@
     "songwriters": ["Edvard Grieg"],
     "language": [],
     "countries": ["NO"],
-    "tags": ["클래식"],
+    "tags": ["클래식","국민악파"],
     "memo": "헨리크 입센의 운문극 <페르 귄트(Peer Gynt)>를 바탕으로 한 모음곡 중 '산왕의 궁전에서'.",
     "youtube": [
       {"title": "음악", "url": "https://www.youtube.com/watch?v=xrIYT-MrVaI"}
@@ -10663,7 +10663,7 @@
     "songwriters": ["Franz Schubert","Christian Friedrich Daniel Schubart"],
     "language": ["독일어"],
     "countries": ["AT"],
-    "tags": ["클래식","피아노","가곡","문학"],
+    "tags": ["클래식","피아노","가곡","문학","낭만주의"],
     "memo": "시를 바탕으로 한 슈베르트의 가곡. 숭어 아니고 송어",
     "youtube": [
       {"title": "Fischer-Dieskau", "url": "https://www.youtube.com/watch?v=NF9DrUXowBo"}
@@ -10897,7 +10897,7 @@
     "songwriters": ["Edward Elgar"],
     "language": [],
     "countries": ["GB"],
-    "tags": ["클래식","행진곡"],
+    "tags": ["클래식","행진곡","낭만주의"],
     "memo": "엘가의 위풍당당 행진곡 1번. 가사가 붙은 'Land of Hope and Glory'는 영국에서 준국가 수준 취급을 받는다.",
     "youtube": [
       {"title": "음악", "url": "https://www.youtube.com/watch?v=Q0PHWKRFgZ0"},
@@ -11042,5 +11042,35 @@
       {"title": "MV", "url": "https://www.youtube.com/watch?v=RRKJiM9Njr8"}
     ],
     "image": "covers/welcome-to-the-black-parade-my-chemical-romance.jpg"
+  },
+  {
+    "id": "lalala-yoon",
+    "title": "라라라",
+    "year": "1972",
+    "artist": ["윤형주"],
+    "songwriters": ["윤형주"],
+    "language": ["한국어"],
+    "countries": ["KR"],
+    "tags": ["포크","여름"],
+    "memo": "'조개 껍질 묶어', 대천해수욕장에서 만들었다고 알려져 있다.",
+    "youtube": [
+      {"title": "음원", "url": "https://www.youtube.com/watch?v=ZT_--Vi1y3U"}
+    ],
+    "image": "covers/lalala-yoon.jpg"
+  },
+  {
+    "id": "vltava-smetana",
+    "title": "Vltava (The Moldau)",
+    "year": "1874",
+    "artist": [],
+    "songwriters": ["Bedřich Smetana"],
+    "language": [],
+    "countries": ["CZ"],
+    "tags": ["클래식","국민악파"],
+    "memo": "스메타나의 교향시 '나의 조국(Má vlast)' 2악장.",
+    "youtube": [
+      {"title": "Gimnazija Kranj Symphony Orchestra", "url": "https://www.youtube.com/watch?v=l6kqu2mk-Kw"}
+    ],
+    "image": "covers/smetana.jpg"
   }
 ]
